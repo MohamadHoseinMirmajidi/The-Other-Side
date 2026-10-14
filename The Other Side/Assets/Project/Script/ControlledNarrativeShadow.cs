@@ -10,6 +10,10 @@ public class ControlledNarrativeShadow : MonoBehaviour
     [SerializeField] private SpriteMask clipMask;
     [SerializeField] private SpriteRenderer shadowRenderer;
 
+    [Header("Optional Attached Visual")]
+    [SerializeField] private SpriteRenderer attachedSourceRenderer;
+    [SerializeField] private SpriteRenderer attachedShadowRenderer;
+
     [Header("Controlled Projection")]
     [SerializeField] private Vector2 sourceOrigin;
     [SerializeField] private Vector2 receiverOffset;
@@ -44,6 +48,7 @@ public class ControlledNarrativeShadow : MonoBehaviour
         if (!canShow || sourceRenderer == null || sourceRenderer.sprite == null)
         {
             shadowRenderer.enabled = false;
+            SetAttachedShadowVisible(false);
             return;
         }
 
@@ -74,9 +79,10 @@ public class ControlledNarrativeShadow : MonoBehaviour
             finalScale = Vector2.Scale(finalScale, unclearScale);
         }
 
+        float lightScale = 1f;
         if (lightSource != null)
         {
-            float lightScale = 1f + Mathf.Abs(lightDelta.x) * lightScaleInfluence;
+            lightScale += Mathf.Abs(lightDelta.x) * lightScaleInfluence;
             finalScale *= lightScale;
         }
 
@@ -84,5 +90,45 @@ public class ControlledNarrativeShadow : MonoBehaviour
             finalScale.x,
             finalScale.y,
             1f);
+
+        UpdateAttachedShadow(lightScale);
+    }
+
+    private void UpdateAttachedShadow(float lightScale)
+    {
+        if (attachedSourceRenderer == null || attachedShadowRenderer == null)
+            return;
+
+        bool shouldShow = attachedSourceRenderer.gameObject.activeInHierarchy &&
+                          attachedSourceRenderer.sprite != null;
+        SetAttachedShadowVisible(shouldShow);
+
+        if (!shouldShow)
+            return;
+
+        attachedShadowRenderer.sprite = attachedSourceRenderer.sprite;
+        attachedShadowRenderer.flipX = attachedSourceRenderer.flipX ^
+                                       attachedSourceRenderer.transform.lossyScale.x < 0f;
+        attachedShadowRenderer.flipY = attachedSourceRenderer.flipY;
+
+        Vector2 sourceOffset =
+            attachedSourceRenderer.transform.position - sourceRenderer.transform.position;
+        Vector2 projectedOffset = Vector2.Scale(sourceOffset, scaleMultiplier);
+
+        attachedShadowRenderer.transform.position =
+            shadowRenderer.transform.position +
+            new Vector3(projectedOffset.x, projectedOffset.y, -0.01f);
+
+        Vector3 attachedScale = attachedSourceRenderer.transform.lossyScale;
+        attachedShadowRenderer.transform.localScale = new Vector3(
+            Mathf.Abs(attachedScale.x) * scaleMultiplier.x * lightScale,
+            Mathf.Abs(attachedScale.y) * scaleMultiplier.y * lightScale,
+            1f);
+    }
+
+    private void SetAttachedShadowVisible(bool value)
+    {
+        if (attachedShadowRenderer != null)
+            attachedShadowRenderer.enabled = value;
     }
 }

@@ -7174,9 +7174,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2137131085}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b134e0dc5a93ca2449925291f38ce59f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c5f9b2cda7e4b89a1f63c0e7d2a4b51, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ProgressInteractable
+  m_EditorClassIdentifier: Assembly-CSharp::LightPanelInteractable
   isAvailable: 1
   interactionDuration: 0
   promptAnchor: {fileID: 0}
@@ -7184,8 +7184,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   gameProgress: {fileID: 1144533248}
-  progressEvent: 5
-  hideOnComplete: []
+  routeLights: []
+  targetIntensity: 0.55
+  fadeDuration: 0.65
+  routeLightPosition: {x: 43.2, y: 0.2, z: 0}
+  routeLightInnerRadius: 2.5
+  routeLightOuterRadius: 7
+  panelIndicators: []
+  offIndicatorColor: {r: 0.2, g: 0.23, b: 0.23, a: 1}
+  onIndicatorColor: {r: 0.95, g: 0.78, b: 0.3, a: 1}
+  clickAudio: {fileID: 0}
+  humAudio: {fileID: 0}
 --- !u!1 &2140898561
 GameObject:
   m_ObjectHideFlags: 0

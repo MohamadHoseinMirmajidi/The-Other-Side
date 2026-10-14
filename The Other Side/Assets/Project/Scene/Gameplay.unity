@@ -192,7 +192,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29627798}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b134e0dc5a93ca2449925291f38ce59f, type: 3}
   m_Name: 
@@ -308,10 +308,10 @@ MonoBehaviour:
   scaleMultiplier: {x: 1.25, y: 1.35}
   lightScaleInfluence: 0.08
   requiresProgressEvent: 1
-  requiredEvent: 6
-  clarifyAfterProgressEvent: 0
-  clarifyEvent: 8
-  unclearScale: {x: 1, y: 1}
+  requiredEvent: 15
+  clarifyAfterProgressEvent: 1
+  clarifyEvent: 5
+  unclearScale: {x: 1.45, y: 0.72}
 --- !u!1 &130398862
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,7 +409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &169004389
 Transform:
   m_ObjectHideFlags: 0
@@ -1372,7 +1372,7 @@ Transform:
   m_GameObject: {fileID: 417015946}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8, y: -2.3, z: 0}
+  m_LocalPosition: {x: 9.6, y: -2.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1630,7 +1630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 474724830}
   m_Layer: 0
-  m_Name: 04 - Curtain and Exit
+  m_Name: 04 - Bag and Main Curtain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1775,7 +1775,7 @@ Transform:
   m_GameObject: {fileID: 537261255}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.2, y: -1.8, z: 0}
+  m_LocalPosition: {x: 12.8, y: -1.8, z: 0}
   m_LocalScale: {x: 3.4, y: 5.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2289,7 +2289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 672937062}
   m_Layer: 0
-  m_Name: 02 - Cart
+  m_Name: 02 - Shadow and Box Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2443,7 +2443,7 @@ Transform:
   m_GameObject: {fileID: 948569218}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5, y: 1.8, z: 0}
+  m_LocalPosition: {x: 8.1, y: 1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3298,6 +3298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1144533249}
   - component: {fileID: 1144533248}
+  - component: {fileID: 1144533250}
   m_Layer: 0
   m_Name: Game Progress
   m_TagString: Untagged
@@ -3317,6 +3318,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c8a9448526ad414184fb469e4affe49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameProgress
+--- !u!114 &1144533250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144533247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8a71c6d2b94f45aa983c21d07e65b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StoryRouteController
+  gameProgress: {fileID: 1144533248}
+  player: {fileID: 1656151959}
+  playerMovement: {fileID: 1656151962}
+  globalLight: {fileID: 439846099}
+  stageReturnLimitX: -2.7
+  forkTransitionX: 8.5
+  backstageEndLimitX: 43.5
+  courtyardSpawnPosition: {x: 47, y: -2.6, z: 0}
+  courtyardLeftLimitX: 45.3
+  fadeDuration: 0.35
+  brightIntensity: 1.15
 --- !u!4 &1144533249
 Transform:
   m_ObjectHideFlags: 0
@@ -3493,7 +3517,7 @@ Transform:
   m_GameObject: {fileID: 1162963986}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.5, z: 0}
+  m_LocalPosition: {x: 18, y: -2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3523,8 +3547,8 @@ MonoBehaviour:
   - {fileID: 538554512}
   branchShadow: {fileID: 0}
   rollingAudio: {fileID: 1162963989}
-  railMinX: 18
-  railMaxX: 22
+  railMinX: 36
+  railMaxX: 40
   moveSpeed: 0.75
   handleDistance: 2.1
   wheelRadius: 0.33
@@ -3653,7 +3677,7 @@ Transform:
   m_GameObject: {fileID: 1198437619}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.7, y: -3.1, z: 0}
+  m_LocalPosition: {x: 17.5, y: -3.1, z: 0}
   m_LocalScale: {x: 1.2, y: 1.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4017,7 +4041,7 @@ Transform:
   m_GameObject: {fileID: 1280604942}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1999998, y: -2.45, z: 0}
+  m_LocalPosition: {x: 14, y: -2.45, z: 0}
   m_LocalScale: {x: 0.55, y: 0.32, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4561,7 +4585,7 @@ Transform:
   m_GameObject: {fileID: 1337708096}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.2, y: -1.8, z: 0}
+  m_LocalPosition: {x: 12.8, y: -1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4747,7 +4771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1440190873}
   m_Layer: 0
-  m_Name: 03 - Bag and Light Panel
+  m_Name: 03 - Cart Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4939,7 +4963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1497795842}
   m_Layer: 0
-  m_Name: 01 - Entrance
+  m_Name: 01 - Stage Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5065,7 +5089,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577908703}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -5111,7 +5135,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577908703}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 93b0a71d5ce4494b9ccf1a360c84c7d2, type: 3}
   m_Name: 
@@ -5774,7 +5798,7 @@ Transform:
   m_GameObject: {fileID: 1766469589}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1999998, y: -0.95000005, z: 0}
+  m_LocalPosition: {x: 14, y: -0.95000005, z: 0}
   m_LocalScale: {x: 0.55, y: 0.32, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5857,7 +5881,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1788496370
 Transform:
   m_ObjectHideFlags: 0
@@ -6363,7 +6387,7 @@ Transform:
   m_GameObject: {fileID: 1966061173}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1999998, y: -1.7, z: 0}
+  m_LocalPosition: {x: 14, y: -1.7, z: 0}
   m_LocalScale: {x: 0.55, y: 0.32, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7060,7 +7084,7 @@ Transform:
   m_GameObject: {fileID: 2137131085}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1999998, y: -1.7, z: 0}
+  m_LocalPosition: {x: 14, y: -1.7, z: 0}
   m_LocalScale: {x: 1.4, y: 2.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7194,7 +7218,7 @@ MonoBehaviour:
   routeLights: []
   targetIntensity: 0.55
   fadeDuration: 0.65
-  routeLightPosition: {x: 43.2, y: 0.2, z: 0}
+  routeLightPosition: {x: 54.3, y: 0.2, z: 0}
   routeLightInnerRadius: 2.5
   routeLightOuterRadius: 7
   panelIndicators: []

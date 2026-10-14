@@ -24,7 +24,6 @@ public class GreyboxFlowController : MonoBehaviour
         creditsPanel.SetActive(false);
         objectiveText.gameObject.SetActive(false);
         SetPlayerControl(false);
-
         progressClip = CreateProgressClip();
     }
 
@@ -71,26 +70,38 @@ public class GreyboxFlowController : MonoBehaviour
 
     private void UpdateObjective()
     {
-        if (!gameProgress.HasCompleted(GameProgressEvent.EnteredBackstage))
-            objectiveText.text = "Enter backstage";
+        if (!gameProgress.HasCompleted(GameProgressEvent.FirstDoorOpened))
+            objectiveText.text = "Open the first door";
+        else if (!gameProgress.HasCompleted(GameProgressEvent.EnteredBackstage))
+            objectiveText.text = "Press E again to enter";
         else if (!gameProgress.HasCompleted(GameProgressEvent.ShadowSeen))
-            objectiveText.text = "Look at the shadow";
+            objectiveText.text = "Look at the unexplained shadow";
+        else if (!gameProgress.HasCompleted(GameProgressEvent.BoxPlaced))
+            objectiveText.text = "Push the box under the high door handle";
+        else if (!gameProgress.HasCompleted(GameProgressEvent.HighDoorOpened))
+            objectiveText.text = "Use the box to reach the handle";
+        else if (!gameProgress.HasCompleted(GameProgressEvent.EnteredCartRoom))
+            objectiveText.text = "Press E again to enter";
         else if (!gameProgress.HasCompleted(GameProgressEvent.CartBrakeReleased))
-            objectiveText.text = "Release the cart brake";
+            objectiveText.text = "A door is hidden behind the cart";
         else if (!gameProgress.HasCompleted(GameProgressEvent.CartMovedAway))
-            objectiveText.text = "Move the cart away";
+            objectiveText.text = "Move the cart away from the door";
+        else if (!gameProgress.HasCompleted(GameProgressEvent.CartDoorOpened))
+            objectiveText.text = "Open the door behind the cart";
+        else if (!gameProgress.HasCompleted(GameProgressEvent.EnteredBagRoom))
+            objectiveText.text = "Press E again to enter";
         else if (!gameProgress.HasCompleted(GameProgressEvent.BagCollected))
             objectiveText.text = "Collect the bag";
         else if (!gameProgress.HasCompleted(GameProgressEvent.HallwayLightSelected))
-            objectiveText.text = "Use the light panel";
-        else if (!gameProgress.HasCompleted(GameProgressEvent.CurtainRetracted))
-            objectiveText.text = "Retract the curtain";
-        else if (!gameProgress.HasCompleted(GameProgressEvent.LampMoved))
-            objectiveText.text = "Move the lamp";
-        else if (!gameProgress.HasCompleted(GameProgressEvent.RevealCompleted))
-            objectiveText.text = "Approach the revealed shadow";
+            objectiveText.text = "Turn on the light beside the curtain";
+        else if (!gameProgress.HasCompleted(GameProgressEvent.StageDoorChecked))
+            objectiveText.text = "Check the door leading to the stage";
+        else if (!gameProgress.HasCompleted(GameProgressEvent.ReturnedToFirstRoom))
+            objectiveText.text = "Return through the rooms";
+        else if (!gameProgress.HasCompleted(GameProgressEvent.EnteredCourtyard))
+            objectiveText.text = "Choose the courtyard door";
         else
-            objectiveText.text = "Open the exit door";
+            objectiveText.text = "Press E again to leave";
     }
 
     private void SetPlayerControl(bool enabled)

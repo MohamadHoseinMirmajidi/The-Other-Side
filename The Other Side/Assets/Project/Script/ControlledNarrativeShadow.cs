@@ -77,6 +77,11 @@ public class ControlledNarrativeShadow : MonoBehaviour
             !gameProgress.HasCompleted(clarifyEvent))
         {
             finalScale = Vector2.Scale(finalScale, unclearScale);
+            shadowRenderer.color = new Color(0.04f, 0.04f, 0.06f, 0.8f);
+        }
+        else if (clarifyAfterProgressEvent)
+        {
+            shadowRenderer.color = new Color(0.38f, 0.4f, 0.46f, 0.35f);
         }
 
         float lightScale = 1f;

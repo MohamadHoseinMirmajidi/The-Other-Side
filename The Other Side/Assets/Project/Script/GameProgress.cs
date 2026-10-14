@@ -15,7 +15,16 @@ public enum GameProgressEvent
     CurtainRetracted,
     LampMoved,
     RevealCompleted,
-    ExitOpened
+    ExitOpened,
+    FirstDoorOpened,
+    BoxPlaced,
+    HighDoorOpened,
+    EnteredCartRoom,
+    CartDoorOpened,
+    EnteredBagRoom,
+    StageDoorChecked,
+    ReturnedToFirstRoom,
+    EnteredCourtyard
 }
 
 public class GameProgress : MonoBehaviour
@@ -37,35 +46,38 @@ public class GameProgress : MonoBehaviour
 
         switch (progressEvent)
         {
-            case GameProgressEvent.EnteredBackstage:
+            case GameProgressEvent.FirstDoorOpened:
                 return true;
-
+            case GameProgressEvent.EnteredBackstage:
+                return HasCompleted(GameProgressEvent.FirstDoorOpened);
             case GameProgressEvent.ShadowSeen:
                 return HasCompleted(GameProgressEvent.EnteredBackstage);
-
-            case GameProgressEvent.CartBrakeReleased:
+            case GameProgressEvent.BoxPlaced:
                 return HasCompleted(GameProgressEvent.ShadowSeen);
-
+            case GameProgressEvent.HighDoorOpened:
+                return HasCompleted(GameProgressEvent.BoxPlaced);
+            case GameProgressEvent.EnteredCartRoom:
+                return HasCompleted(GameProgressEvent.HighDoorOpened);
+            case GameProgressEvent.CartBrakeReleased:
+                return HasCompleted(GameProgressEvent.EnteredCartRoom);
             case GameProgressEvent.CartMovedAway:
                 return HasCompleted(GameProgressEvent.CartBrakeReleased);
-
-            case GameProgressEvent.BagCollected:
-            case GameProgressEvent.HallwayLightSelected:
+            case GameProgressEvent.CartDoorOpened:
                 return HasCompleted(GameProgressEvent.CartMovedAway);
-
-            case GameProgressEvent.CurtainRetracted:
+            case GameProgressEvent.EnteredBagRoom:
+                return HasCompleted(GameProgressEvent.CartDoorOpened);
+            case GameProgressEvent.BagCollected:
+                return HasCompleted(GameProgressEvent.EnteredBagRoom);
+            case GameProgressEvent.HallwayLightSelected:
+                return HasCompleted(GameProgressEvent.BagCollected);
+            case GameProgressEvent.StageDoorChecked:
                 return HasCompleted(GameProgressEvent.HallwayLightSelected);
-
-            case GameProgressEvent.LampMoved:
-                return HasCompleted(GameProgressEvent.CurtainRetracted);
-
-            case GameProgressEvent.RevealCompleted:
-                return HasCompleted(GameProgressEvent.LampMoved);
-
+            case GameProgressEvent.ReturnedToFirstRoom:
+                return HasCompleted(GameProgressEvent.StageDoorChecked);
+            case GameProgressEvent.EnteredCourtyard:
+                return HasCompleted(GameProgressEvent.ReturnedToFirstRoom);
             case GameProgressEvent.ExitOpened:
-                return HasCompleted(GameProgressEvent.BagCollected) &&
-                       HasCompleted(GameProgressEvent.RevealCompleted);
-
+                return HasCompleted(GameProgressEvent.EnteredCourtyard);
             default:
                 return false;
         }
@@ -78,11 +90,10 @@ public class GameProgress : MonoBehaviour
 
         completedEvents.Add(progressEvent);
         ProgressChanged?.Invoke(progressEvent);
-
         Debug.Log($"Progress completed: {progressEvent}", this);
 
         if (progressEvent == GameProgressEvent.ExitOpened)
-            Debug.Log("Placeholder flow completed. Credits can start here.", this);
+            Debug.Log("Gameplay flow completed.", this);
 
         return true;
     }

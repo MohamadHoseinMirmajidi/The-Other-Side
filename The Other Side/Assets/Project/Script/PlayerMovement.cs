@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     // Also flip by scale.x (more reliable if Animator overrides flipX)
     [SerializeField] private bool flipByScale = true;
 
-    private Rigidbody2D rb;
+    [SerializeField] private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
 
     private float moveInput;
@@ -39,7 +39,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
+        if (rb == null)
+        {
+            rb = GetComponent<Rigidbody2D>();
+        }
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
         rb.gravityScale = 0f;

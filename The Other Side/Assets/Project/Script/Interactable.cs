@@ -18,7 +18,7 @@ public class Interactable : MonoBehaviour
         ? promptAnchor
         : transform;
 
-    public bool CanInteract =>
+    public virtual bool CanInteract =>
         isAvailable &&
         isActiveAndEnabled &&
         gameObject.activeInHierarchy;

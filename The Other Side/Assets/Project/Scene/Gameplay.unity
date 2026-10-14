@@ -308,7 +308,7 @@ MonoBehaviour:
   scaleMultiplier: {x: 1.25, y: 1.35}
   lightScaleInfluence: 0.08
   requiresProgressEvent: 1
-  requiredEvent: 7
+  requiredEvent: 6
   clarifyAfterProgressEvent: 0
   clarifyEvent: 8
   unclearScale: {x: 1, y: 1}
@@ -2984,9 +2984,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1083150508}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b134e0dc5a93ca2449925291f38ce59f, type: 3}
+  m_Script: {fileID: 11500000, guid: c17e2d3b8a2b4d48a64f7c15e930b6a1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ProgressInteractable
+  m_EditorClassIdentifier: Assembly-CSharp::LampMoveInteractable
   isAvailable: 1
   interactionDuration: 0
   promptAnchor: {fileID: 0}
@@ -2994,9 +2994,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   gameProgress: {fileID: 1144533248}
-  progressEvent: 7
-  hideOnComplete:
-  - {fileID: 1083150508}
+  lamp: {fileID: 1083150509}
+  targetLocalPosition: {x: -0.7, y: 0.2, z: 0}
+  moveDuration: 1.2
+  playerMovement: {fileID: 1656151962}
+  playerVisual: {fileID: 1149360860}
+  pushPoseAngle: -6
 --- !u!1 &1094808280
 GameObject:
   m_ObjectHideFlags: 0
@@ -5110,9 +5113,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1577908703}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b134e0dc5a93ca2449925291f38ce59f, type: 3}
+  m_Script: {fileID: 11500000, guid: 93b0a71d5ce4494b9ccf1a360c84c7d2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ProgressInteractable
+  m_EditorClassIdentifier: Assembly-CSharp::CurtainRevealInteractable
   isAvailable: 1
   interactionDuration: 0
   promptAnchor: {fileID: 0}
@@ -5120,9 +5123,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   gameProgress: {fileID: 1144533248}
-  progressEvent: 6
-  hideOnComplete:
-  - {fileID: 1577908703}
+  curtainVisual: {fileID: 1577908704}
+  shadowMask: {fileID: 537261257}
+  retractDuration: 0.9
+  retractedOffset: {x: -1.7, y: 0, z: 0}
+  retractedWidth: 0.55
+  retractedMaskWidth: 0.35
+  playerMovement: {fileID: 1656151962}
 --- !u!1 &1583663535
 GameObject:
   m_ObjectHideFlags: 0

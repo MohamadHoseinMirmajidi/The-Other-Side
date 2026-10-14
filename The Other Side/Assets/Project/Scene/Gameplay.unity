@@ -1217,6 +1217,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1149360860}
   - component: {fileID: 1149360861}
+  - component: {fileID: 1149360863}
+  - component: {fileID: 1149360862}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -1299,6 +1301,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &1149360862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149360859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86da5094b5b95b24c97d1cbd8cfda3a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimator
+  movement: {fileID: 1656151962}
+  speedParam: Speed
+  facingParam: FacingDirection
+  isMovingParam: IsMoving
+--- !u!95 &1149360863
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149360859}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1198437619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2213,6 +2253,7 @@ GameObject:
   - component: {fileID: 1656151959}
   - component: {fileID: 1656151961}
   - component: {fileID: 1656151960}
+  - component: {fileID: 1656151962}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2310,6 +2351,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &1656151962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656151958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77059d7799165844dbcbb031b0d25d8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  walkSpeed: 3.5
+  runSpeed: 5.5
+  acceleration: 18
+  deceleration: 22
+  flipSprite: 1
 --- !u!1 &1671344139
 GameObject:
   m_ObjectHideFlags: 0

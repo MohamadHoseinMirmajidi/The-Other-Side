@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 /// <summary>
 /// Side-scroller movement: left/right only, smooth accel/decel, frame-rate independent.
 /// Uses the NEW Input System (Keyboard.current).
+/// Faces right by default; flips left when moving left.
 /// Requires Rigidbody2D (freeze Y, no gravity) + CapsuleCollider2D.
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
@@ -16,14 +17,21 @@ public class PlayerMovement : MonoBehaviour
     [Header("Feel")]
     [SerializeField] private float acceleration = 18f;
     [SerializeField] private float deceleration = 22f;
+
+    [Header("Facing")]
+    // Flip the sprite when direction changes
     [SerializeField] private bool flipSprite = true;
+    // Also flip by scale.x (more reliable if Animator overrides flipX)
+    [SerializeField] private bool flipByScale = true;
 
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
 
     private float moveInput;
     private bool isRunning;
-    private int facingDirection = 1; // 1 = right, -1 = left
+
+    // 1 = faces right (default), -1 = faces left
+    private int facingDirection = 1;
 
     public float CurrentSpeed => Mathf.Abs(rb.linearVelocity.x);
     public int FacingDirection => facingDirection;
@@ -32,13 +40,16 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
         rb.gravityScale = 0f;
         rb.constraints = RigidbodyConstraints2D.FreezePositionY
                        | RigidbodyConstraints2D.FreezeRotation;
         rb.interpolation = RigidbodyInterpolation2D.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+
+        // Default = looking right
+        ApplyFacing();
     }
 
     private void Update()
@@ -55,15 +66,12 @@ public class PlayerMovement : MonoBehaviour
         if (keyboard == null)
             return;
 
-        // A / Left Arrow = left
         if (keyboard.aKey.isPressed || keyboard.leftArrowKey.isPressed)
             moveInput -= 1f;
 
-        // D / Right Arrow = right
         if (keyboard.dKey.isPressed || keyboard.rightArrowKey.isPressed)
             moveInput += 1f;
 
-        // Shift = run
         isRunning = keyboard.leftShiftKey.isPressed
                  || keyboard.rightShiftKey.isPressed;
     }
@@ -73,27 +81,50 @@ public class PlayerMovement : MonoBehaviour
         float targetSpeed = moveInput * (isRunning ? runSpeed : walkSpeed);
         float currentX = rb.linearVelocity.x;
 
-        // Speed up when holding a key, slow down when idle
         float rate = Mathf.Abs(moveInput) > 0.01f ? acceleration : deceleration;
         float newX = Mathf.MoveTowards(currentX, targetSpeed, rate * Time.fixedDeltaTime);
 
         rb.linearVelocity = new Vector2(newX, 0f);
+
+        // Update facing whenever we have input
         UpdateFacing();
     }
 
     private void UpdateFacing()
     {
+        // No input -> keep the current face direction
         if (Mathf.Abs(moveInput) < 0.01f)
             return;
 
-        int newDirection = moveInput > 0f ? 1 : -1;
+        // Moving right -> 1, moving left -> -1
+        int newDirection = 1;
+        if (moveInput < 0f)
+            newDirection = -1;
+
+        // Direction did not change
         if (newDirection == facingDirection)
             return;
 
         facingDirection = newDirection;
+        ApplyFacing();
+    }
 
-        if (flipSprite && spriteRenderer != null)
-            spriteRenderer.flipX = facingDirection < 0;
+    // Actually flip the character visual
+    private void ApplyFacing()
+    {
+        if (spriteRenderer != null && flipSprite)
+        {
+            // flipX = true means "draw the sprite mirrored" = looking left
+            spriteRenderer.flipX = (facingDirection < 0);
+        }
+
+        if (flipByScale)
+        {
+            // Positive scale.x = right, negative = left
+            Vector3 scale = transform.localScale;
+            scale.x = Mathf.Abs(scale.x) * facingDirection;
+            transform.localScale = scale;
+        }
     }
 
     /// <summary>

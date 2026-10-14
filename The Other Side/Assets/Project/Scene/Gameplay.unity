@@ -1238,7 +1238,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.85, y: 1.8, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1455397578}
   m_Father: {fileID: 1656151959}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1149360861
@@ -1317,6 +1318,7 @@ MonoBehaviour:
   speedParam: Speed
   facingParam: FacingDirection
   isMovingParam: IsMoving
+  animator: {fileID: 0}
 --- !u!95 &1149360863
 Animator:
   serializedVersion: 7
@@ -1327,7 +1329,7 @@ Animator:
   m_GameObject: {fileID: 1149360859}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7aa65f15ad2f3fe48b131b2b3e079e93, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2049,11 +2051,11 @@ Transform:
   m_GameObject: {fileID: 1455397577}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.37, y: 0.25, z: 0}
-  m_LocalScale: {x: 0.18, y: 0.18, z: 1}
+  m_LocalPosition: {x: 0.43529394, y: 0.1388889, z: 0}
+  m_LocalScale: {x: 0.21176471, y: 0.10000001, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1656151959}
+  m_Father: {fileID: 1149360860}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1455397579
 SpriteRenderer:
@@ -2275,7 +2277,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1149360860}
-  - {fileID: 1455397578}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1656151960
@@ -2368,6 +2369,7 @@ MonoBehaviour:
   acceleration: 18
   deceleration: 22
   flipSprite: 1
+  flipByScale: 1
 --- !u!1 &1671344139
 GameObject:
   m_ObjectHideFlags: 0

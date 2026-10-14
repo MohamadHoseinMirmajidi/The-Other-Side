@@ -15,14 +15,17 @@ public class PlayerAnimator : MonoBehaviour
     [SerializeField] private string facingParam = "FacingDirection";
     [SerializeField] private string isMovingParam = "IsMoving";
 
-    private Animator animator;
+    [SerializeField] private Animator animator;
     private int speedHash;
     private int facingHash;
     private int isMovingHash;
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+        }
 
         if (movement == null)
             movement = GetComponentInParent<PlayerMovement>();

@@ -135,7 +135,12 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     public void ResetMotion()
     {
-        rb.linearVelocity = Vector2.zero;
+        if (rb == null)
+            rb = GetComponent<Rigidbody2D>();
+
+        if (rb != null)
+            rb.linearVelocity = Vector2.zero;
+
         moveInput = 0f;
         isRunning = false;
     }

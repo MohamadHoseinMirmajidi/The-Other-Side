@@ -29,29 +29,12 @@ public enum GameProgressEvent
 
 public class GameProgress : MonoBehaviour
 {
-    [Header("Pause")]
-    [SerializeField] private GameObject pausePanel;
-    [SerializeField] private PlayerMovement playerMovement;
+    private static bool startGameplayAfterReload;
 
     private readonly HashSet<GameProgressEvent> completedEvents =
         new HashSet<GameProgressEvent>();
 
-    private bool isPaused;
-
     public event Action<GameProgressEvent> ProgressChanged;
-
-    private void Awake()
-    {
-        if (playerMovement == null)
-            playerMovement = FindAnyObjectByType<PlayerMovement>();
-
-        if (pausePanel == null)
-            pausePanel = FindPausePanel();
-
-        SetPausePanel(false);
-        Time.timeScale = 1f;
-        AudioListener.pause = false;
-    }
 
     public bool HasCompleted(GameProgressEvent progressEvent)
     {
@@ -119,6 +102,25 @@ public class GameProgress : MonoBehaviour
 
     public void RestartGame()
     {
+        startGameplayAfterReload = true;
+        ReloadCurrentScene();
+    }
+
+    public void ReturnToMainMenu()
+    {
+        startGameplayAfterReload = false;
+        ReloadCurrentScene();
+    }
+
+    public static bool ConsumeStartGameplayAfterReload()
+    {
+        bool shouldStartGameplay = startGameplayAfterReload;
+        startGameplayAfterReload = false;
+        return shouldStartGameplay;
+    }
+
+    private static void ReloadCurrentScene()
+    {
         Time.timeScale = 1f;
         AudioListener.pause = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -129,68 +131,7 @@ public class GameProgress : MonoBehaviour
         if (Keyboard.current == null)
             return;
 
-        if (Keyboard.current.escapeKey.wasPressedThisFrame)
-        {
-            if (isPaused)
-                ResumeGame();
-            else
-                PauseGame();
-        }
-
         if (Keyboard.current.rKey.wasPressedThisFrame)
             RestartGame();
-    }
-
-    public void PauseGame()
-    {
-        if (isPaused)
-            return;
-
-        isPaused = true;
-        SetPlayerControl(false);
-        SetPausePanel(true);
-        Time.timeScale = 0f;
-        AudioListener.pause = true;
-    }
-
-    public void ResumeGame()
-    {
-        if (!isPaused)
-            return;
-
-        isPaused = false;
-        Time.timeScale = 1f;
-        AudioListener.pause = false;
-        SetPausePanel(false);
-        SetPlayerControl(true);
-    }
-
-    private void SetPlayerControl(bool enabled)
-    {
-        if (playerMovement == null)
-            return;
-
-        playerMovement.ResetMotion();
-        playerMovement.enabled = enabled;
-    }
-
-    private void SetPausePanel(bool active)
-    {
-        if (pausePanel != null)
-            pausePanel.SetActive(active);
-    }
-
-    private static GameObject FindPausePanel()
-    {
-        RectTransform[] panels = FindObjectsByType<RectTransform>(
-            FindObjectsInactive.Include);
-
-        foreach (RectTransform panel in panels)
-        {
-            if (panel.name == "Pause Panel")
-                return panel.gameObject;
-        }
-
-        return null;
     }
 }

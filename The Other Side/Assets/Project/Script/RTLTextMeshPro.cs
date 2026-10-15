@@ -5,12 +5,18 @@ using UnityEngine;
     [RequireComponent(typeof(CanvasRenderer))]
     public sealed class RTLTextMeshPro : TextMeshProUGUI
     {
+        // protected override void Awake()
+        // {
+        //     base.Awake();
+        //     isRightToLeftText = false;
+        // }
+        
         protected override void Awake()
         {
             base.Awake();
             isRightToLeftText = false;
         }
-
+        
 #if UNITY_EDITOR
         protected override void OnValidate()
         {

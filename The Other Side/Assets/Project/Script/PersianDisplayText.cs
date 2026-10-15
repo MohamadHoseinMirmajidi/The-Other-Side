@@ -25,6 +25,7 @@ using TMPro;
 
         private static readonly Dictionary<char, Forms> Glyphs = new Dictionary<char, Forms>
         {
+            ['آ'] = new Forms('\ufe81', '\ufe82', '\ufe81', '\ufe82', false),
             ['ا'] = new Forms('\ufe8d', '\ufe8e', '\ufe8d', '\ufe8e', false), ['ب'] = new Forms('\ufe8f', '\ufe90', '\ufe91', '\ufe92'),
             ['پ'] = new Forms('\ufb56', '\ufb57', '\ufb58', '\ufb59'), ['ت'] = new Forms('\ufe95', '\ufe96', '\ufe97', '\ufe98'),
             ['ث'] = new Forms('\ufe99', '\ufe9a', '\ufe9b', '\ufe9c'), ['ج'] = new Forms('\ufe9d', '\ufe9e', '\ufe9f', '\ufea0'),
@@ -45,7 +46,9 @@ using TMPro;
 
         public static string Prepare(string value)
         {
-            if (string.IsNullOrEmpty(value) || ContainsPersian(value) == false) return value ?? string.Empty;
+            if (string.IsNullOrEmpty(value)) return value ?? string.Empty;
+            value = NormalizeCharacters(value);
+            if (ContainsPersian(value) == false) return value;
             var lines = value.Replace("\r\n", "\n").Split('\n');
             for (var index = 0; index < lines.Length; index++) lines[index] = ShapeAndReverse(lines[index]);
             return string.Join("\n", lines);
@@ -74,6 +77,15 @@ using TMPro;
         }
 
         private static bool CanJoinNext(char character) => Glyphs.TryGetValue(character, out var forms) && forms.JoinsNext;
+
+        private static string NormalizeCharacters(string value)
+        {
+            return value
+                .Replace('ي', 'ی')
+                .Replace('ى', 'ی')
+                .Replace('ك', 'ک');
+        }
+
         private static bool ContainsPersian(string value)
         {
             foreach (var character in value) if (Glyphs.ContainsKey(character)) return true;

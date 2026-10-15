@@ -1,0 +1,1781 @@
+fileFormatVersion: 2
+guid: 31880841ee3b8e4409e9d88c9d137680
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 187689188643706325
+    second: PROP-03-cardboard-branch-scenery-kit_0
+  - first:
+      213: -3862905842103580438
+    second: PROP-03-cardboard-branch-scenery-kit_1
+  - first:
+      213: -5110041529626914594
+    second: PROP-03-cardboard-branch-scenery-kit_2
+  - first:
+      213: 4680964963702727040
+    second: PROP-03-cardboard-branch-scenery-kit_3
+  - first:
+      213: 127184707371559807
+    second: PROP-03-cardboard-branch-scenery-kit_4
+  - first:
+      213: 2828477718324769869
+    second: PROP-03-cardboard-branch-scenery-kit_5
+  - first:
+      213: 756498203325392344
+    second: PROP-03-cardboard-branch-scenery-kit_6
+  - first:
+      213: 6666216722790861102
+    second: PROP-03-cardboard-branch-scenery-kit_7
+  - first:
+      213: 8108894095510956222
+    second: PROP-03-cardboard-branch-scenery-kit_8
+  - first:
+      213: 8809994901286160095
+    second: PROP-03-cardboard-branch-scenery-kit_9
+  - first:
+      213: -5957229675332537367
+    second: PROP-03-cardboard-branch-scenery-kit_10
+  - first:
+      213: -4373530248836393566
+    second: PROP-03-cardboard-branch-scenery-kit_11
+  - first:
+      213: -6541705661952114227
+    second: PROP-03-cardboard-branch-scenery-kit_12
+  - first:
+      213: 4572396473364099031
+    second: PROP-03-cardboard-branch-scenery-kit_13
+  - first:
+      213: -3759392488277703097
+    second: PROP-03-cardboard-branch-scenery-kit_14
+  - first:
+      213: 2079792034088751936
+    second: PROP-03-cardboard-branch-scenery-kit_15
+  - first:
+      213: -5990863582257135179
+    second: PROP-03-cardboard-branch-scenery-kit_16
+  - first:
+      213: -974120030395516013
+    second: PROP-03-cardboard-branch-scenery-kit_17
+  - first:
+      213: 5212483364252083164
+    second: PROP-03-cardboard-branch-scenery-kit_18
+  - first:
+      213: -5225142479007697132
+    second: PROP-03-cardboard-branch-scenery-kit_19
+  - first:
+      213: -5931377489835231398
+    second: PROP-03-cardboard-branch-scenery-kit_20
+  - first:
+      213: 6313856404686981468
+    second: PROP-03-cardboard-branch-scenery-kit_21
+  - first:
+      213: 1636815127027293599
+    second: PROP-03-cardboard-branch-scenery-kit_22
+  - first:
+      213: -961217768920471816
+    second: PROP-03-cardboard-branch-scenery-kit_23
+  - first:
+      213: -1623319586697117107
+    second: PROP-03-cardboard-branch-scenery-kit_24
+  - first:
+      213: 5665034798503792247
+    second: PROP-03-cardboard-branch-scenery-kit_25
+  - first:
+      213: 377487723965539175
+    second: PROP-03-cardboard-branch-scenery-kit_26
+  - first:
+      213: 2479819957950108604
+    second: PROP-03-cardboard-branch-scenery-kit_27
+  - first:
+      213: -5149517518705088722
+    second: PROP-03-cardboard-branch-scenery-kit_28
+  - first:
+      213: -6818733662486995186
+    second: PROP-03-cardboard-branch-scenery-kit_29
+  - first:
+      213: 8317108739986420195
+    second: PROP-03-cardboard-branch-scenery-kit_30
+  - first:
+      213: 5748259995078719771
+    second: PROP-03-cardboard-branch-scenery-kit_31
+  - first:
+      213: -7000864556130979979
+    second: PROP-03-cardboard-branch-scenery-kit_32
+  - first:
+      213: 8971698597830466646
+    second: PROP-03-cardboard-branch-scenery-kit_33
+  - first:
+      213: 7133186505046196530
+    second: PROP-03-cardboard-branch-scenery-kit_34
+  - first:
+      213: -7438069618590210224
+    second: PROP-03-cardboard-branch-scenery-kit_35
+  - first:
+      213: -7287213985880748823
+    second: PROP-03-cardboard-branch-scenery-kit_36
+  - first:
+      213: -7561540061713730625
+    second: PROP-03-cardboard-branch-scenery-kit_37
+  - first:
+      213: -4837357214754266557
+    second: PROP-03-cardboard-branch-scenery-kit_38
+  - first:
+      213: 4715997186673899051
+    second: PROP-03-cardboard-branch-scenery-kit_39
+  - first:
+      213: 3952291417735055090
+    second: PROP-03-cardboard-branch-scenery-kit_40
+  - first:
+      213: -906814861290887430
+    second: PROP-03-cardboard-branch-scenery-kit_41
+  - first:
+      213: -8032150012590992801
+    second: PROP-03-cardboard-branch-scenery-kit_42
+  - first:
+      213: -3076123665125927183
+    second: PROP-03-cardboard-branch-scenery-kit_43
+  - first:
+      213: -6517410257900766613
+    second: PROP-03-cardboard-branch-scenery-kit_44
+  - first:
+      213: 4436636713463518398
+    second: PROP-03-cardboard-branch-scenery-kit_45
+  - first:
+      213: -3695829945626538831
+    second: PROP-03-cardboard-branch-scenery-kit_46
+  - first:
+      213: -3522849192926947098
+    second: PROP-03-cardboard-branch-scenery-kit_47
+  - first:
+      213: -7771090941517607463
+    second: PROP-03-cardboard-branch-scenery-kit_48
+  - first:
+      213: 1546074432988492208
+    second: PROP-03-cardboard-branch-scenery-kit_49
+  - first:
+      213: -7485365721533565691
+    second: PROP-03-cardboard-branch-scenery-kit_50
+  - first:
+      213: 599436327195095015
+    second: PROP-03-cardboard-branch-scenery-kit_51
+  - first:
+      213: -2725795517812706168
+    second: PROP-03-cardboard-branch-scenery-kit_52
+  - first:
+      213: 3960943461941726546
+    second: PROP-03-cardboard-branch-scenery-kit_53
+  - first:
+      213: -6584891124841224642
+    second: PROP-03-cardboard-branch-scenery-kit_54
+  - first:
+      213: -9035758530830937021
+    second: PROP-03-cardboard-branch-scenery-kit_55
+  - first:
+      213: 9203589051012973773
+    second: PROP-03-cardboard-branch-scenery-kit_56
+  - first:
+      213: -4032398759628747904
+    second: PROP-03-cardboard-branch-scenery-kit_57
+  - first:
+      213: -2191926973273272560
+    second: PROP-03-cardboard-branch-scenery-kit_58
+  - first:
+      213: 7691132685373429262
+    second: PROP-03-cardboard-branch-scenery-kit_59
+  - first:
+      213: 1823244954427469284
+    second: PROP-03-cardboard-branch-scenery-kit_60
+  - first:
+      213: 5310268003797098141
+    second: PROP-03-cardboard-branch-scenery-kit_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_0
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 580
+        width: 542
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d51a49925eca9200800000000000000
+      internalID: 187689188643706325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_1
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1398
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae882a86a93346ac0800000000000000
+      internalID: -3862905842103580438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_2
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 596
+        width: 338
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0181f8d4c7519b0800000000000000
+      internalID: -5110041529626914594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_3
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1362
+        width: 55
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081ec8b65d026f040800000000000000
+      internalID: 4680964963702727040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_4
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1394
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b6eb741d9d3c100800000000000000
+      internalID: 127184707371559807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_5
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 1313
+        width: 97
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44fad7bf75c04720800000000000000
+      internalID: 2828477718324769869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_6
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1344
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d56e6a9b1f9f7a00800000000000000
+      internalID: 756498203325392344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_7
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1337
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29c7bd4ac8238c50800000000000000
+      internalID: 6666216722790861102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_8
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 1349
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb861349734988070800000000000000
+      internalID: 8108894095510956222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_9
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1338
+        width: 106
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd60a247fa3634a70800000000000000
+      internalID: 8809994901286160095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_10
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 1265
+        width: 65
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3736c4c2ba35da0800000000000000
+      internalID: -5957229675332537367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_11
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 1346
+        width: 132
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a55eaf19691e43c0800000000000000
+      internalID: -4373530248836393566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_12
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 1308
+        width: 162
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1ce222c513735a0800000000000000
+      internalID: -6541705661952114227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_13
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 1294
+        width: 247
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfad1fed5a647f30800000000000000
+      internalID: 4572396473364099031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_14
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 856
+        width: 302
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7468fe43374f3dbc0800000000000000
+      internalID: -3759392488277703097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_15
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1276
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0431c86f5d7ecdc10800000000000000
+      internalID: 2079792034088751936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_16
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 1092
+        width: 159
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b14db9105d2cdca0800000000000000
+      internalID: -5990863582257135179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_17
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1255
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bbea35efa3b72f0800000000000000
+      internalID: -974120030395516013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_18
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 935
+        width: 226
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3e0ebb006765840800000000000000
+      internalID: 5212483364252083164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_19
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 1249
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41731fd69909c77b0800000000000000
+      internalID: -5225142479007697132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_20
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 608
+        width: 192
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a577f9949938fada0800000000000000
+      internalID: -5931377489835231398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_21
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 1223
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c594134a2f25f9750800000000000000
+      internalID: 6313856404686981468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_22
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 1191
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d92719fa227b610800000000000000
+      internalID: 1636815127027293599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_23
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 1181
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6a3bb288119a2f0800000000000000
+      internalID: -961217768920471816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_24
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 1192
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d420cf5cf6fc879e0800000000000000
+      internalID: -1623319586697117107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_25
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 1148
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e8b05722f3e9e40800000000000000
+      internalID: 5665034798503792247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_26
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1169
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763690eb51b1d3500800000000000000
+      internalID: 377487723965539175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_27
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 1167
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb35a84fc171a6220800000000000000
+      internalID: 2479819957950108604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_28
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 1159
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27aeec991d3988b0800000000000000
+      internalID: -5149517518705088722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_29
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 1156
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fd6757cddfe51a0800000000000000
+      internalID: -6818733662486995186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_30
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 1046
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1ff25455e4c6370800000000000000
+      internalID: 8317108739986420195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_31
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 1072
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19714b820ce5cf40800000000000000
+      internalID: 5748259995078719771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_32
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 1070
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fa03347cee7de90800000000000000
+      internalID: -7000864556130979979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_33
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 959
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c1e833750e18c70800000000000000
+      internalID: 8971698597830466646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_34
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 1036
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23183e5455b2ef260800000000000000
+      internalID: 7133186505046196530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_35
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 1001
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0572e49271ba6c890800000000000000
+      internalID: -7438069618590210224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_36
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1029
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecc1593d7d9eda90800000000000000
+      internalID: -7287213985880748823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_37
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 1029
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3faaa6063001790800000000000000
+      internalID: -7561540061713730625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_38
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1001
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34226ea1e314edcb0800000000000000
+      internalID: -4837357214754266557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_39
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 979
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2670717476927140800000000000000
+      internalID: 4715997186673899051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_40
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 975
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f64ce2ba1c59d630800000000000000
+      internalID: 3952291417735055090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_41
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 959
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af626bb20b85a63f0800000000000000
+      internalID: -906814861290887430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_42
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 983
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f525dd4ae12188090800000000000000
+      internalID: -8032150012590992801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_43
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 949
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f61ff613d96f45d0800000000000000
+      internalID: -3076123665125927183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_44
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 947
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a7652b6e18d85a0800000000000000
+      internalID: -6517410257900766613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_45
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 943
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb41377a599129d30800000000000000
+      internalID: 4436636713463518398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_46
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 950
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bccdacee36c5bcc0800000000000000
+      internalID: -3695829945626538831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_47
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 610
+        width: 183
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8515ae2535c1fc0800000000000000
+      internalID: -3522849192926947098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_48
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 926
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd469136f9872490800000000000000
+      internalID: -7771090941517607463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_49
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 925
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1b79e5182c47510800000000000000
+      internalID: 1546074432988492208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_50
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 919
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5053b121983ae1890800000000000000
+      internalID: -7485365721533565691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_51
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 925
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efade3e920a15800800000000000000
+      internalID: 599436327195095015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_52
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 882
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884fb6e1b670c2ad0800000000000000
+      internalID: -2725795517812706168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_53
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 885
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d4178b71918f630800000000000000
+      internalID: 3960943461941726546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_54
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 903
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3667330964cd94a0800000000000000
+      internalID: -6584891124841224642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_55
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 606
+        width: 207
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344dd9d5d798a9280800000000000000
+      internalID: -9035758530830937021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_56
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 886
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc48d4caa77b9bf70800000000000000
+      internalID: 9203589051012973773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_57
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 862
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b4a9351ba0a08c0800000000000000
+      internalID: -4032398759628747904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_58
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 868
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f0378f706b491e0800000000000000
+      internalID: -2191926973273272560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_59
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 809
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0654109d646cba60800000000000000
+      internalID: 7691132685373429262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_60
+      rect:
+        serializedVersion: 2
+        x: 2657
+        y: 610
+        width: 251
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed2c2740a77d4910800000000000000
+      internalID: 1823244954427469284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-cardboard-branch-scenery-kit_61
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 733
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ed27c4d9cd1b940800000000000000
+      internalID: 5310268003797098141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PROP-03-cardboard-branch-scenery-kit_0: 187689188643706325
+      PROP-03-cardboard-branch-scenery-kit_1: -3862905842103580438
+      PROP-03-cardboard-branch-scenery-kit_10: -5957229675332537367
+      PROP-03-cardboard-branch-scenery-kit_11: -4373530248836393566
+      PROP-03-cardboard-branch-scenery-kit_12: -6541705661952114227
+      PROP-03-cardboard-branch-scenery-kit_13: 4572396473364099031
+      PROP-03-cardboard-branch-scenery-kit_14: -3759392488277703097
+      PROP-03-cardboard-branch-scenery-kit_15: 2079792034088751936
+      PROP-03-cardboard-branch-scenery-kit_16: -5990863582257135179
+      PROP-03-cardboard-branch-scenery-kit_17: -974120030395516013
+      PROP-03-cardboard-branch-scenery-kit_18: 5212483364252083164
+      PROP-03-cardboard-branch-scenery-kit_19: -5225142479007697132
+      PROP-03-cardboard-branch-scenery-kit_2: -5110041529626914594
+      PROP-03-cardboard-branch-scenery-kit_20: -5931377489835231398
+      PROP-03-cardboard-branch-scenery-kit_21: 6313856404686981468
+      PROP-03-cardboard-branch-scenery-kit_22: 1636815127027293599
+      PROP-03-cardboard-branch-scenery-kit_23: -961217768920471816
+      PROP-03-cardboard-branch-scenery-kit_24: -1623319586697117107
+      PROP-03-cardboard-branch-scenery-kit_25: 5665034798503792247
+      PROP-03-cardboard-branch-scenery-kit_26: 377487723965539175
+      PROP-03-cardboard-branch-scenery-kit_27: 2479819957950108604
+      PROP-03-cardboard-branch-scenery-kit_28: -5149517518705088722
+      PROP-03-cardboard-branch-scenery-kit_29: -6818733662486995186
+      PROP-03-cardboard-branch-scenery-kit_3: 4680964963702727040
+      PROP-03-cardboard-branch-scenery-kit_30: 8317108739986420195
+      PROP-03-cardboard-branch-scenery-kit_31: 5748259995078719771
+      PROP-03-cardboard-branch-scenery-kit_32: -7000864556130979979
+      PROP-03-cardboard-branch-scenery-kit_33: 8971698597830466646
+      PROP-03-cardboard-branch-scenery-kit_34: 7133186505046196530
+      PROP-03-cardboard-branch-scenery-kit_35: -7438069618590210224
+      PROP-03-cardboard-branch-scenery-kit_36: -7287213985880748823
+      PROP-03-cardboard-branch-scenery-kit_37: -7561540061713730625
+      PROP-03-cardboard-branch-scenery-kit_38: -4837357214754266557
+      PROP-03-cardboard-branch-scenery-kit_39: 4715997186673899051
+      PROP-03-cardboard-branch-scenery-kit_4: 127184707371559807
+      PROP-03-cardboard-branch-scenery-kit_40: 3952291417735055090
+      PROP-03-cardboard-branch-scenery-kit_41: -906814861290887430
+      PROP-03-cardboard-branch-scenery-kit_42: -8032150012590992801
+      PROP-03-cardboard-branch-scenery-kit_43: -3076123665125927183
+      PROP-03-cardboard-branch-scenery-kit_44: -6517410257900766613
+      PROP-03-cardboard-branch-scenery-kit_45: 4436636713463518398
+      PROP-03-cardboard-branch-scenery-kit_46: -3695829945626538831
+      PROP-03-cardboard-branch-scenery-kit_47: -3522849192926947098
+      PROP-03-cardboard-branch-scenery-kit_48: -7771090941517607463
+      PROP-03-cardboard-branch-scenery-kit_49: 1546074432988492208
+      PROP-03-cardboard-branch-scenery-kit_5: 2828477718324769869
+      PROP-03-cardboard-branch-scenery-kit_50: -7485365721533565691
+      PROP-03-cardboard-branch-scenery-kit_51: 599436327195095015
+      PROP-03-cardboard-branch-scenery-kit_52: -2725795517812706168
+      PROP-03-cardboard-branch-scenery-kit_53: 3960943461941726546
+      PROP-03-cardboard-branch-scenery-kit_54: -6584891124841224642
+      PROP-03-cardboard-branch-scenery-kit_55: -9035758530830937021
+      PROP-03-cardboard-branch-scenery-kit_56: 9203589051012973773
+      PROP-03-cardboard-branch-scenery-kit_57: -4032398759628747904
+      PROP-03-cardboard-branch-scenery-kit_58: -2191926973273272560
+      PROP-03-cardboard-branch-scenery-kit_59: 7691132685373429262
+      PROP-03-cardboard-branch-scenery-kit_6: 756498203325392344
+      PROP-03-cardboard-branch-scenery-kit_60: 1823244954427469284
+      PROP-03-cardboard-branch-scenery-kit_61: 5310268003797098141
+      PROP-03-cardboard-branch-scenery-kit_7: 6666216722790861102
+      PROP-03-cardboard-branch-scenery-kit_8: 8108894095510956222
+      PROP-03-cardboard-branch-scenery-kit_9: 8809994901286160095
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

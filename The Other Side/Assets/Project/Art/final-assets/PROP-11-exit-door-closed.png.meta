@@ -1,0 +1,1911 @@
+fileFormatVersion: 2
+guid: ec2527c7d01187e419e7a5d6ae073f57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -52299465876549239
+    second: PROP-11-exit-door-closed_0
+  - first:
+      213: 5263648262656392302
+    second: PROP-11-exit-door-closed_1
+  - first:
+      213: -2271340864849603687
+    second: PROP-11-exit-door-closed_2
+  - first:
+      213: 5804655110333548169
+    second: PROP-11-exit-door-closed_3
+  - first:
+      213: 1433975077873052019
+    second: PROP-11-exit-door-closed_4
+  - first:
+      213: -8473546895608330970
+    second: PROP-11-exit-door-closed_5
+  - first:
+      213: -7680934707609001429
+    second: PROP-11-exit-door-closed_6
+  - first:
+      213: -6452544276191142240
+    second: PROP-11-exit-door-closed_7
+  - first:
+      213: 7839318328982980318
+    second: PROP-11-exit-door-closed_8
+  - first:
+      213: 4092933714136812590
+    second: PROP-11-exit-door-closed_9
+  - first:
+      213: 4568673811440864345
+    second: PROP-11-exit-door-closed_10
+  - first:
+      213: 6234960429661344378
+    second: PROP-11-exit-door-closed_11
+  - first:
+      213: 7479257042674899504
+    second: PROP-11-exit-door-closed_12
+  - first:
+      213: -2036643890268609863
+    second: PROP-11-exit-door-closed_13
+  - first:
+      213: 1472756081144955583
+    second: PROP-11-exit-door-closed_14
+  - first:
+      213: -4664976406779428330
+    second: PROP-11-exit-door-closed_15
+  - first:
+      213: 1554585690814175196
+    second: PROP-11-exit-door-closed_16
+  - first:
+      213: 2578603875844463283
+    second: PROP-11-exit-door-closed_17
+  - first:
+      213: -7578562410189595772
+    second: PROP-11-exit-door-closed_18
+  - first:
+      213: -4699579538697716715
+    second: PROP-11-exit-door-closed_19
+  - first:
+      213: -7720193077992752586
+    second: PROP-11-exit-door-closed_20
+  - first:
+      213: -2070362533876827959
+    second: PROP-11-exit-door-closed_21
+  - first:
+      213: 768648582453837297
+    second: PROP-11-exit-door-closed_22
+  - first:
+      213: -1562524606601398438
+    second: PROP-11-exit-door-closed_23
+  - first:
+      213: 6849652522665392233
+    second: PROP-11-exit-door-closed_24
+  - first:
+      213: -7744748528652095001
+    second: PROP-11-exit-door-closed_25
+  - first:
+      213: -6672973395399979240
+    second: PROP-11-exit-door-closed_26
+  - first:
+      213: -8048191760481100930
+    second: PROP-11-exit-door-closed_27
+  - first:
+      213: 6250726007772830277
+    second: PROP-11-exit-door-closed_28
+  - first:
+      213: 5851968176630909673
+    second: PROP-11-exit-door-closed_29
+  - first:
+      213: -3639556839233941705
+    second: PROP-11-exit-door-closed_30
+  - first:
+      213: 5906264726870683564
+    second: PROP-11-exit-door-closed_31
+  - first:
+      213: 1537978810289765007
+    second: PROP-11-exit-door-closed_32
+  - first:
+      213: 5027438510284522777
+    second: PROP-11-exit-door-closed_33
+  - first:
+      213: -1804216202170551415
+    second: PROP-11-exit-door-closed_34
+  - first:
+      213: 7200689806203582637
+    second: PROP-11-exit-door-closed_35
+  - first:
+      213: -6974236956856136569
+    second: PROP-11-exit-door-closed_36
+  - first:
+      213: 7073586003600001809
+    second: PROP-11-exit-door-closed_37
+  - first:
+      213: 1984193082357153428
+    second: PROP-11-exit-door-closed_38
+  - first:
+      213: -8598556805272795240
+    second: PROP-11-exit-door-closed_39
+  - first:
+      213: -8721555349473166958
+    second: PROP-11-exit-door-closed_40
+  - first:
+      213: 4827248182428218635
+    second: PROP-11-exit-door-closed_41
+  - first:
+      213: 1005239139118549597
+    second: PROP-11-exit-door-closed_42
+  - first:
+      213: 8259154070418117484
+    second: PROP-11-exit-door-closed_43
+  - first:
+      213: -6404676624843928403
+    second: PROP-11-exit-door-closed_44
+  - first:
+      213: 3747848953231216716
+    second: PROP-11-exit-door-closed_45
+  - first:
+      213: -8216197997550379198
+    second: PROP-11-exit-door-closed_46
+  - first:
+      213: 4977374614195589481
+    second: PROP-11-exit-door-closed_47
+  - first:
+      213: -2488712991099825982
+    second: PROP-11-exit-door-closed_48
+  - first:
+      213: 5901148008752215367
+    second: PROP-11-exit-door-closed_49
+  - first:
+      213: -9001843427626000510
+    second: PROP-11-exit-door-closed_50
+  - first:
+      213: 1460264595160050760
+    second: PROP-11-exit-door-closed_51
+  - first:
+      213: 3202046556481033046
+    second: PROP-11-exit-door-closed_52
+  - first:
+      213: -252316998365563283
+    second: PROP-11-exit-door-closed_53
+  - first:
+      213: 2213470090753714027
+    second: PROP-11-exit-door-closed_54
+  - first:
+      213: -7516983027522744740
+    second: PROP-11-exit-door-closed_55
+  - first:
+      213: 4108213201607752087
+    second: PROP-11-exit-door-closed_56
+  - first:
+      213: -7941653333238251476
+    second: PROP-11-exit-door-closed_57
+  - first:
+      213: -7206908536017044910
+    second: PROP-11-exit-door-closed_58
+  - first:
+      213: 5211857713847530028
+    second: PROP-11-exit-door-closed_59
+  - first:
+      213: 8598931843757530897
+    second: PROP-11-exit-door-closed_60
+  - first:
+      213: 1378834913125636314
+    second: PROP-11-exit-door-closed_61
+  - first:
+      213: 3002975062335863247
+    second: PROP-11-exit-door-closed_62
+  - first:
+      213: 7124257567027958138
+    second: PROP-11-exit-door-closed_63
+  - first:
+      213: -6092424622507882423
+    second: PROP-11-exit-door-closed_64
+  - first:
+      213: 6447873991191663615
+    second: PROP-11-exit-door-closed_65
+  - first:
+      213: -6151798964084138537
+    second: PROP-11-exit-door-closed_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_0
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 767
+        width: 880
+        height: 1530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9815c72b9e1364ff0800000000000000
+      internalID: -52299465876549239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_1
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 2119
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c7c36f43c3c0940800000000000000
+      internalID: 5263648262656392302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 2079
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9939fca74839a70e0800000000000000
+      internalID: -2271340864849603687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_3
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 2053
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986461781174e8050800000000000000
+      internalID: 5804655110333548169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_4
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2047
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379e26d5cb086e310800000000000000
+      internalID: 1433975077873052019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_5
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1999
+        width: 123
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625c6a34ef9e76a80800000000000000
+      internalID: -8473546895608330970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_6
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 2073
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b222ff92496d76590800000000000000
+      internalID: -7680934707609001429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_7
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 2053
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae9528fa25f376a0800000000000000
+      internalID: -6452544276191142240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_8
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 2023
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed64d385c7adacc60800000000000000
+      internalID: 7839318328982980318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_9
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1911
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c485817850dc830800000000000000
+      internalID: 4092933714136812590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_10
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1957
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c009920a0376f30800000000000000
+      internalID: 4568673811440864345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_11
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1909
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72d49ef977078650800000000000000
+      internalID: 6234960429661344378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_12
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1867
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ad97c47a8abc760800000000000000
+      internalID: 7479257042674899504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_13
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1825
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2e1922c236cb3e0800000000000000
+      internalID: -2036643890268609863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_14
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1767
+        width: 37
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb201715ad7407410800000000000000
+      internalID: 1472756081144955583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_15
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1733
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61285549caca24fb0800000000000000
+      internalID: -4664976406779428330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_16
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1719
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd752e1037ff29510800000000000000
+      internalID: 1554585690814175196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_17
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1729
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba9724209a09c320800000000000000
+      internalID: 2578603875844463283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_18
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1703
+        width: 84
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b558014a983d690800000000000000
+      internalID: -7578562410189595772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_19
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1687
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c7a3a1f4db7ceb0800000000000000
+      internalID: -4699579538697716715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_20
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 1655
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63affc48c4d5cd490800000000000000
+      internalID: -7720193077992752586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_21
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1647
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c87ef3ae389443e0800000000000000
+      internalID: -2070362533876827959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_22
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1611
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdb44230d9caaa00800000000000000
+      internalID: 768648582453837297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_23
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1617
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5777be162cc05ae0800000000000000
+      internalID: -1562524606601398438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_24
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1599
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9683458adaade0f50800000000000000
+      internalID: 6849652522665392233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_25
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1523
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e176f22f30258490800000000000000
+      internalID: -7744748528652095001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_26
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1511
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f4d834d06d463a0800000000000000
+      internalID: -6672973395399979240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_27
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1525
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b5c482c341f4090800000000000000
+      internalID: -8048191760481100930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_28
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1431
+        width: 23
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a5891bf2a0fb650800000000000000
+      internalID: 6250726007772830277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_29
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1468
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eac9f43d0e563150800000000000000
+      internalID: 5851968176630909673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_30
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1445
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f0e918652bd7dc0800000000000000
+      internalID: -3639556839233941705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_31
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 1381
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafeb82f97447f150800000000000000
+      internalID: 5906264726870683564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_32
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1446
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a3663549ff75510800000000000000
+      internalID: 1537978810289765007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_33
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1397
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915c0a740bc05c540800000000000000
+      internalID: 5027438510284522777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_34
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1311
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983be9b5ce226f6e0800000000000000
+      internalID: -1804216202170551415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_35
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 1271
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da87a845a3dfde360800000000000000
+      internalID: 7200689806203582637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_36
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 1333
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c40375078863f90800000000000000
+      internalID: -6974236956856136569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_37
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1303
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bc0c82efc6a2260800000000000000
+      internalID: 7073586003600001809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_38
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1287
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e7faf7815498b10800000000000000
+      internalID: 1984193082357153428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_39
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1285
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89782b8842acba880800000000000000
+      internalID: -8598556805272795240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_40
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1246
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2997eb15e9fc6f680800000000000000
+      internalID: -8721555349473166958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_41
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1213
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05b84465a4ddf240800000000000000
+      internalID: 4827248182428218635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_42
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1221
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a0b79cba353fd00800000000000000
+      internalID: 1005239139118549597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_43
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1187
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c635e704ed86e9270800000000000000
+      internalID: 8259154070418117484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_44
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1173
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac0eea0b840e17a0800000000000000
+      internalID: -6404676624843928403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_45
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1119
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c409a2914c8030430800000000000000
+      internalID: 3747848953231216716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_46
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1139
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fdbb7d3733afd80800000000000000
+      internalID: -8216197997550379198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_47
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1095
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961dc2127df231540800000000000000
+      internalID: 4977374614195589481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_48
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1060
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0589968b0567dd0800000000000000
+      internalID: -2488712991099825982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_49
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 1093
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745fdac29d615e150800000000000000
+      internalID: 5901148008752215367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_50
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1091
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fdaaca817031380800000000000000
+      internalID: -9001843427626000510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_51
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1071
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c289899e6e34410800000000000000
+      internalID: 1460264595160050760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_52
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 1038
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6539051c064ff6c20800000000000000
+      internalID: 3202046556481033046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_53
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 1040
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66b0add6079f7cf0800000000000000
+      internalID: -252316998365563283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_54
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1045
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67a350f153d7be10800000000000000
+      internalID: 2213470090753714027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_55
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 939
+        width: 79
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ecddd53cf4ea790800000000000000
+      internalID: -7516983027522744740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_56
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1013
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799766ff32e430930800000000000000
+      internalID: 4108213201607752087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_57
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 908
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20890fbe5499c190800000000000000
+      internalID: -7941653333238251476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_58
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 833
+        width: 33
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a39fdcedaebfb90800000000000000
+      internalID: -7206908536017044910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_59
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 785
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22f2c52afc345840800000000000000
+      internalID: 5211857713847530028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_60
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 782
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f56fae3fa855770800000000000000
+      internalID: 8598931843757530897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_61
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 789
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad892c05c0b922310800000000000000
+      internalID: 1378834913125636314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_62
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 791
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9b2e3a8e5bca920800000000000000
+      internalID: 3002975062335863247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_63
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 783
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a711713e2827ed260800000000000000
+      internalID: 7124257567027958138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_64
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 784
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948039ab51c537ba0800000000000000
+      internalID: -6092424622507882423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_65
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 785
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff395719b337b7950800000000000000
+      internalID: 6447873991191663615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-11-exit-door-closed_66
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 777
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd16209f6b60aaa0800000000000000
+      internalID: -6151798964084138537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PROP-11-exit-door-closed_0: -52299465876549239
+      PROP-11-exit-door-closed_1: 5263648262656392302
+      PROP-11-exit-door-closed_10: 4568673811440864345
+      PROP-11-exit-door-closed_11: 6234960429661344378
+      PROP-11-exit-door-closed_12: 7479257042674899504
+      PROP-11-exit-door-closed_13: -2036643890268609863
+      PROP-11-exit-door-closed_14: 1472756081144955583
+      PROP-11-exit-door-closed_15: -4664976406779428330
+      PROP-11-exit-door-closed_16: 1554585690814175196
+      PROP-11-exit-door-closed_17: 2578603875844463283
+      PROP-11-exit-door-closed_18: -7578562410189595772
+      PROP-11-exit-door-closed_19: -4699579538697716715
+      PROP-11-exit-door-closed_2: -2271340864849603687
+      PROP-11-exit-door-closed_20: -7720193077992752586
+      PROP-11-exit-door-closed_21: -2070362533876827959
+      PROP-11-exit-door-closed_22: 768648582453837297
+      PROP-11-exit-door-closed_23: -1562524606601398438
+      PROP-11-exit-door-closed_24: 6849652522665392233
+      PROP-11-exit-door-closed_25: -7744748528652095001
+      PROP-11-exit-door-closed_26: -6672973395399979240
+      PROP-11-exit-door-closed_27: -8048191760481100930
+      PROP-11-exit-door-closed_28: 6250726007772830277
+      PROP-11-exit-door-closed_29: 5851968176630909673
+      PROP-11-exit-door-closed_3: 5804655110333548169
+      PROP-11-exit-door-closed_30: -3639556839233941705
+      PROP-11-exit-door-closed_31: 5906264726870683564
+      PROP-11-exit-door-closed_32: 1537978810289765007
+      PROP-11-exit-door-closed_33: 5027438510284522777
+      PROP-11-exit-door-closed_34: -1804216202170551415
+      PROP-11-exit-door-closed_35: 7200689806203582637
+      PROP-11-exit-door-closed_36: -6974236956856136569
+      PROP-11-exit-door-closed_37: 7073586003600001809
+      PROP-11-exit-door-closed_38: 1984193082357153428
+      PROP-11-exit-door-closed_39: -8598556805272795240
+      PROP-11-exit-door-closed_4: 1433975077873052019
+      PROP-11-exit-door-closed_40: -8721555349473166958
+      PROP-11-exit-door-closed_41: 4827248182428218635
+      PROP-11-exit-door-closed_42: 1005239139118549597
+      PROP-11-exit-door-closed_43: 8259154070418117484
+      PROP-11-exit-door-closed_44: -6404676624843928403
+      PROP-11-exit-door-closed_45: 3747848953231216716
+      PROP-11-exit-door-closed_46: -8216197997550379198
+      PROP-11-exit-door-closed_47: 4977374614195589481
+      PROP-11-exit-door-closed_48: -2488712991099825982
+      PROP-11-exit-door-closed_49: 5901148008752215367
+      PROP-11-exit-door-closed_5: -8473546895608330970
+      PROP-11-exit-door-closed_50: -9001843427626000510
+      PROP-11-exit-door-closed_51: 1460264595160050760
+      PROP-11-exit-door-closed_52: 3202046556481033046
+      PROP-11-exit-door-closed_53: -252316998365563283
+      PROP-11-exit-door-closed_54: 2213470090753714027
+      PROP-11-exit-door-closed_55: -7516983027522744740
+      PROP-11-exit-door-closed_56: 4108213201607752087
+      PROP-11-exit-door-closed_57: -7941653333238251476
+      PROP-11-exit-door-closed_58: -7206908536017044910
+      PROP-11-exit-door-closed_59: 5211857713847530028
+      PROP-11-exit-door-closed_6: -7680934707609001429
+      PROP-11-exit-door-closed_60: 8598931843757530897
+      PROP-11-exit-door-closed_61: 1378834913125636314
+      PROP-11-exit-door-closed_62: 3002975062335863247
+      PROP-11-exit-door-closed_63: 7124257567027958138
+      PROP-11-exit-door-closed_64: -6092424622507882423
+      PROP-11-exit-door-closed_65: 6447873991191663615
+      PROP-11-exit-door-closed_66: -6151798964084138537
+      PROP-11-exit-door-closed_7: -6452544276191142240
+      PROP-11-exit-door-closed_8: 7839318328982980318
+      PROP-11-exit-door-closed_9: 4092933714136812590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

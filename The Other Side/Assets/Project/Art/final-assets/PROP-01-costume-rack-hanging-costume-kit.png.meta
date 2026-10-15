@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 582e539cce7c9284397d0183549c0f57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4994992854808978126
+    second: PROP-01-costume-rack-hanging-costume-kit_0
+  - first:
+      213: -7597016924788323377
+    second: PROP-01-costume-rack-hanging-costume-kit_1
+  - first:
+      213: -2106222605620255932
+    second: PROP-01-costume-rack-hanging-costume-kit_2
+  - first:
+      213: 5538631036356666950
+    second: PROP-01-costume-rack-hanging-costume-kit_3
+  - first:
+      213: -4419231951505357552
+    second: PROP-01-costume-rack-hanging-costume-kit_4
+  - first:
+      213: 2339619614066574506
+    second: PROP-01-costume-rack-hanging-costume-kit_5
+  - first:
+      213: 5945736688218347630
+    second: PROP-01-costume-rack-hanging-costume-kit_6
+  - first:
+      213: -232164427587128351
+    second: PROP-01-costume-rack-hanging-costume-kit_7
+  - first:
+      213: -3713998584006565890
+    second: PROP-01-costume-rack-hanging-costume-kit_8
+  - first:
+      213: 143023811588740731
+    second: PROP-01-costume-rack-hanging-costume-kit_9
+  - first:
+      213: 7520738272567211898
+    second: PROP-01-costume-rack-hanging-costume-kit_10
+  - first:
+      213: -2424815297333427207
+    second: PROP-01-costume-rack-hanging-costume-kit_11
+  - first:
+      213: -6887082460650575918
+    second: PROP-01-costume-rack-hanging-costume-kit_12
+  - first:
+      213: 4733000105541419571
+    second: PROP-01-costume-rack-hanging-costume-kit_13
+  - first:
+      213: 278666026478096743
+    second: PROP-01-costume-rack-hanging-costume-kit_14
+  - first:
+      213: 8202580525532423172
+    second: PROP-01-costume-rack-hanging-costume-kit_15
+  - first:
+      213: 6751373644915625532
+    second: PROP-01-costume-rack-hanging-costume-kit_16
+  - first:
+      213: 5419116709914755206
+    second: PROP-01-costume-rack-hanging-costume-kit_17
+  - first:
+      213: -2790927414506256396
+    second: PROP-01-costume-rack-hanging-costume-kit_18
+  - first:
+      213: 6131653380344795816
+    second: PROP-01-costume-rack-hanging-costume-kit_19
+  - first:
+      213: 8832633754599408728
+    second: PROP-01-costume-rack-hanging-costume-kit_20
+  - first:
+      213: 8133202312238664234
+    second: PROP-01-costume-rack-hanging-costume-kit_21
+  - first:
+      213: 4944682651870372000
+    second: PROP-01-costume-rack-hanging-costume-kit_22
+  - first:
+      213: -73060469768109766
+    second: PROP-01-costume-rack-hanging-costume-kit_23
+  - first:
+      213: -1155772947174317720
+    second: PROP-01-costume-rack-hanging-costume-kit_24
+  - first:
+      213: -74706625912575653
+    second: PROP-01-costume-rack-hanging-costume-kit_25
+  - first:
+      213: 6962794984435131962
+    second: PROP-01-costume-rack-hanging-costume-kit_26
+  - first:
+      213: 9085474926774616083
+    second: PROP-01-costume-rack-hanging-costume-kit_27
+  - first:
+      213: 5271972718992639039
+    second: PROP-01-costume-rack-hanging-costume-kit_28
+  - first:
+      213: 6865701802553284133
+    second: PROP-01-costume-rack-hanging-costume-kit_29
+  - first:
+      213: 8679053644046961442
+    second: PROP-01-costume-rack-hanging-costume-kit_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_0
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 604
+        width: 606
+        height: 833
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d1f7196783eaab0800000000000000
+      internalID: -4994992854808978126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_1
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 597
+        width: 671
+        height: 855
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb8c5d8b59f19690800000000000000
+      internalID: -7597016924788323377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_2
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1427
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4436b1e03b135c2e0800000000000000
+      internalID: -2106222605620255932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_3
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1383
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6462ef7259b2ddc40800000000000000
+      internalID: 5538631036356666950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_4
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1392
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015877644fbbba2c0800000000000000
+      internalID: -4419231951505357552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_5
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 1376
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa489f5a4aff77020800000000000000
+      internalID: 2339619614066574506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_6
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 1372
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68134d1400838250800000000000000
+      internalID: 5945736688218347630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_7
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 1344
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3ff24eeaf27ccf0800000000000000
+      internalID: -232164427587128351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_8
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 1342
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff1cf727f9357cc0800000000000000
+      internalID: -3713998584006565890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_9
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 1056
+        width: 385
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b765b2c166f1cf100800000000000000
+      internalID: 143023811588740731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_10
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1144
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77bd01cc970f5860800000000000000
+      internalID: 7520738272567211898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_11
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 598
+        width: 323
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f302849553595ed0800000000000000
+      internalID: -2424815297333427207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_12
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 1015
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7691acdfa2c60a0800000000000000
+      internalID: -6887082460650575918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_13
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1013
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332ceacf48efea140800000000000000
+      internalID: 4733000105541419571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_14
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 624
+        width: 181
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761523f46450ed300800000000000000
+      internalID: 278666026478096743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_15
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 624
+        width: 287
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404a5e1678b65d170800000000000000
+      internalID: 8202580525532423172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_16
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 731
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e412b4f82b1bd50800000000000000
+      internalID: 6751373644915625532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_17
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 741
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6804ada9fe1943b40800000000000000
+      internalID: 5419116709914755206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_18
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 719
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f78470bd42a449d0800000000000000
+      internalID: -2790927414506256396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_19
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 723
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a256453342081550800000000000000
+      internalID: 6131653380344795816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_20
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 691
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854c50e3a91d39a70800000000000000
+      internalID: 8832633754599408728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_21
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 693
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a0f535960fed070800000000000000
+      internalID: 8133202312238664234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_22
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 657
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a025cf7caa0f9440800000000000000
+      internalID: 4944682651870372000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_23
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 646
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31495cc3ef6cfef0800000000000000
+      internalID: -73060469768109766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_24
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 671
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8612baac0aed5ffe0800000000000000
+      internalID: -1155772947174317720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_25
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 661
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59ec1438b696fef0800000000000000
+      internalID: -74706625912575653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_26
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 674
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36a02bd521d0a060800000000000000
+      internalID: 6962794984435131962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_27
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 628
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3108e1a1f47161e70800000000000000
+      internalID: 9085474926774616083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_28
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 646
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f344b1d714fc92940800000000000000
+      internalID: 5271972718992639039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_29
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 636
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52692f2d96fd74f50800000000000000
+      internalID: 6865701802553284133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-01-costume-rack-hanging-costume-kit_30
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 600
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b8aff3e41327870800000000000000
+      internalID: 8679053644046961442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PROP-01-costume-rack-hanging-costume-kit_0: -4994992854808978126
+      PROP-01-costume-rack-hanging-costume-kit_1: -7597016924788323377
+      PROP-01-costume-rack-hanging-costume-kit_10: 7520738272567211898
+      PROP-01-costume-rack-hanging-costume-kit_11: -2424815297333427207
+      PROP-01-costume-rack-hanging-costume-kit_12: -6887082460650575918
+      PROP-01-costume-rack-hanging-costume-kit_13: 4733000105541419571
+      PROP-01-costume-rack-hanging-costume-kit_14: 278666026478096743
+      PROP-01-costume-rack-hanging-costume-kit_15: 8202580525532423172
+      PROP-01-costume-rack-hanging-costume-kit_16: 6751373644915625532
+      PROP-01-costume-rack-hanging-costume-kit_17: 5419116709914755206
+      PROP-01-costume-rack-hanging-costume-kit_18: -2790927414506256396
+      PROP-01-costume-rack-hanging-costume-kit_19: 6131653380344795816
+      PROP-01-costume-rack-hanging-costume-kit_2: -2106222605620255932
+      PROP-01-costume-rack-hanging-costume-kit_20: 8832633754599408728
+      PROP-01-costume-rack-hanging-costume-kit_21: 8133202312238664234
+      PROP-01-costume-rack-hanging-costume-kit_22: 4944682651870372000
+      PROP-01-costume-rack-hanging-costume-kit_23: -73060469768109766
+      PROP-01-costume-rack-hanging-costume-kit_24: -1155772947174317720
+      PROP-01-costume-rack-hanging-costume-kit_25: -74706625912575653
+      PROP-01-costume-rack-hanging-costume-kit_26: 6962794984435131962
+      PROP-01-costume-rack-hanging-costume-kit_27: 9085474926774616083
+      PROP-01-costume-rack-hanging-costume-kit_28: 5271972718992639039
+      PROP-01-costume-rack-hanging-costume-kit_29: 6865701802553284133
+      PROP-01-costume-rack-hanging-costume-kit_3: 5538631036356666950
+      PROP-01-costume-rack-hanging-costume-kit_30: 8679053644046961442
+      PROP-01-costume-rack-hanging-costume-kit_4: -4419231951505357552
+      PROP-01-costume-rack-hanging-costume-kit_5: 2339619614066574506
+      PROP-01-costume-rack-hanging-costume-kit_6: 5945736688218347630
+      PROP-01-costume-rack-hanging-costume-kit_7: -232164427587128351
+      PROP-01-costume-rack-hanging-costume-kit_8: -3713998584006565890
+      PROP-01-costume-rack-hanging-costume-kit_9: 143023811588740731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

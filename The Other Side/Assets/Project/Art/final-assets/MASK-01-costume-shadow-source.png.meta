@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 1a8743724a90382498d4929d544aa6a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6548621098990226829
+    second: MASK-01-costume-shadow-source_0
+  - first:
+      213: -3380423788570396866
+    second: MASK-01-costume-shadow-source_1
+  - first:
+      213: -200658650002444208
+    second: MASK-01-costume-shadow-source_2
+  - first:
+      213: 2615790127323182661
+    second: MASK-01-costume-shadow-source_3
+  - first:
+      213: 607297630795906655
+    second: MASK-01-costume-shadow-source_4
+  - first:
+      213: 1623903895363524480
+    second: MASK-01-costume-shadow-source_5
+  - first:
+      213: 4803394106523546479
+    second: MASK-01-costume-shadow-source_6
+  - first:
+      213: 7132539435398087697
+    second: MASK-01-costume-shadow-source_7
+  - first:
+      213: 5264943870685745196
+    second: MASK-01-costume-shadow-source_8
+  - first:
+      213: -3530823070451308751
+    second: MASK-01-costume-shadow-source_9
+  - first:
+      213: 5257864034432604484
+    second: MASK-01-costume-shadow-source_10
+  - first:
+      213: -8345235577573780367
+    second: MASK-01-costume-shadow-source_11
+  - first:
+      213: -7598878069209562753
+    second: MASK-01-costume-shadow-source_12
+  - first:
+      213: 2166386201024190778
+    second: MASK-01-costume-shadow-source_13
+  - first:
+      213: -4175767963869601471
+    second: MASK-01-costume-shadow-source_14
+  - first:
+      213: -1879571274071867139
+    second: MASK-01-costume-shadow-source_15
+  - first:
+      213: 6743893294294768306
+    second: MASK-01-costume-shadow-source_16
+  - first:
+      213: 5363439412506606146
+    second: MASK-01-costume-shadow-source_17
+  - first:
+      213: -3709664844019385485
+    second: MASK-01-costume-shadow-source_18
+  - first:
+      213: -7555093337563980636
+    second: MASK-01-costume-shadow-source_19
+  - first:
+      213: 3061784993109855725
+    second: MASK-01-costume-shadow-source_20
+  - first:
+      213: -8930971663969065530
+    second: MASK-01-costume-shadow-source_21
+  - first:
+      213: -8936088764230329578
+    second: MASK-01-costume-shadow-source_22
+  - first:
+      213: -6445299310863438731
+    second: MASK-01-costume-shadow-source_23
+  - first:
+      213: -5063266653229239517
+    second: MASK-01-costume-shadow-source_24
+  - first:
+      213: -1899448689882792074
+    second: MASK-01-costume-shadow-source_25
+  - first:
+      213: 4456789435955081546
+    second: MASK-01-costume-shadow-source_26
+  - first:
+      213: -3138862022594367874
+    second: MASK-01-costume-shadow-source_27
+  - first:
+      213: 2196896418147848772
+    second: MASK-01-costume-shadow-source_28
+  - first:
+      213: 7088566586244565207
+    second: MASK-01-costume-shadow-source_29
+  - first:
+      213: -3840992118605815600
+    second: MASK-01-costume-shadow-source_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_0
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 604
+        width: 606
+        height: 833
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3723f0a7ecf9e15a0800000000000000
+      internalID: -6548621098990226829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_1
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 597
+        width: 671
+        height: 855
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e373bfb79725611d0800000000000000
+      internalID: -3380423788570396866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_2
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1427
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050be7d550e173df0800000000000000
+      internalID: -200658650002444208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_3
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1383
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546721203472d4420800000000000000
+      internalID: 2615790127323182661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_4
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1392
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5eb6844afd8d6800800000000000000
+      internalID: 607297630795906655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_5
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 1376
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08714803df3498610800000000000000
+      internalID: 1623903895363524480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_6
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 1372
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f637a8b8d7519a240800000000000000
+      internalID: 4803394106523546479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_7
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 1344
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1144e51a3dedbf260800000000000000
+      internalID: 7132539435398087697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_8
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 1342
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2018963e86d01940800000000000000
+      internalID: 5264943870685745196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_9
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 1056
+        width: 385
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137eef0ef1ffffec0800000000000000
+      internalID: -3530823070451308751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_10
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1144
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44958a16b7fa7f840800000000000000
+      internalID: 5257864034432604484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_11
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 598
+        width: 323
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17453c70574cf2c80800000000000000
+      internalID: -8345235577573780367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_12
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 1015
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71024918ac5b8690800000000000000
+      internalID: -7598878069209562753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_13
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1013
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39da5695cc801e10800000000000000
+      internalID: 2166386201024190778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_14
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 624
+        width: 181
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141a8193921bc06c0800000000000000
+      internalID: -4175767963869601471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_15
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 624
+        width: 287
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df00be672eb6ae5e0800000000000000
+      internalID: -1879571274071867139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_16
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 731
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba1491783f179d50800000000000000
+      internalID: 6743893294294768306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_17
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 741
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a39cc9ab3ce6a40800000000000000
+      internalID: 5363439412506606146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_18
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 719
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b3870aa7f948cc0800000000000000
+      internalID: -3709664844019385485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_19
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 723
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac149953aae62790800000000000000
+      internalID: -7555093337563980636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_20
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 691
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded4fecaa35ad7a20800000000000000
+      internalID: 3061784993109855725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_21
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 693
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c56b060790de0480800000000000000
+      internalID: -8930971663969065530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_22
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 657
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b11b64d92acf380800000000000000
+      internalID: -8936088764230329578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_23
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 646
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c2ae8ec62bd86a0800000000000000
+      internalID: -6445299310863438731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_24
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 671
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323b0332ec9abb9b0800000000000000
+      internalID: -5063266653229239517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_25
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 661
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f7472fa7dc3a5e0800000000000000
+      internalID: -1899448689882792074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_26
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 674
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41f0d00162b9dd30800000000000000
+      internalID: 4456789435955081546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_27
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 628
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e6c40fe958074d0800000000000000
+      internalID: -3138862022594367874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_28
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 646
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442d70417a1fc7e10800000000000000
+      internalID: 2196896418147848772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_29
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 636
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d88fcbd0c5af5260800000000000000
+      internalID: 7088566586244565207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MASK-01-costume-shadow-source_30
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 600
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0ec61c40e02bac0800000000000000
+      internalID: -3840992118605815600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MASK-01-costume-shadow-source_0: -6548621098990226829
+      MASK-01-costume-shadow-source_1: -3380423788570396866
+      MASK-01-costume-shadow-source_10: 5257864034432604484
+      MASK-01-costume-shadow-source_11: -8345235577573780367
+      MASK-01-costume-shadow-source_12: -7598878069209562753
+      MASK-01-costume-shadow-source_13: 2166386201024190778
+      MASK-01-costume-shadow-source_14: -4175767963869601471
+      MASK-01-costume-shadow-source_15: -1879571274071867139
+      MASK-01-costume-shadow-source_16: 6743893294294768306
+      MASK-01-costume-shadow-source_17: 5363439412506606146
+      MASK-01-costume-shadow-source_18: -3709664844019385485
+      MASK-01-costume-shadow-source_19: -7555093337563980636
+      MASK-01-costume-shadow-source_2: -200658650002444208
+      MASK-01-costume-shadow-source_20: 3061784993109855725
+      MASK-01-costume-shadow-source_21: -8930971663969065530
+      MASK-01-costume-shadow-source_22: -8936088764230329578
+      MASK-01-costume-shadow-source_23: -6445299310863438731
+      MASK-01-costume-shadow-source_24: -5063266653229239517
+      MASK-01-costume-shadow-source_25: -1899448689882792074
+      MASK-01-costume-shadow-source_26: 4456789435955081546
+      MASK-01-costume-shadow-source_27: -3138862022594367874
+      MASK-01-costume-shadow-source_28: 2196896418147848772
+      MASK-01-costume-shadow-source_29: 7088566586244565207
+      MASK-01-costume-shadow-source_3: 2615790127323182661
+      MASK-01-costume-shadow-source_30: -3840992118605815600
+      MASK-01-costume-shadow-source_4: 607297630795906655
+      MASK-01-costume-shadow-source_5: 1623903895363524480
+      MASK-01-costume-shadow-source_6: 4803394106523546479
+      MASK-01-costume-shadow-source_7: 7132539435398087697
+      MASK-01-costume-shadow-source_8: 5264943870685745196
+      MASK-01-costume-shadow-source_9: -3530823070451308751
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

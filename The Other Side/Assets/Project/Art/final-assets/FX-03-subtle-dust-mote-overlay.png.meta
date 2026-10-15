@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: f5f334e068c003745bd43d2da31fef85
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1855089767842543023
+    second: FX-03-subtle-dust-mote-overlay_0
+  - first:
+      213: -5875377298751456029
+    second: FX-03-subtle-dust-mote-overlay_1
+  - first:
+      213: 8116731194383206128
+    second: FX-03-subtle-dust-mote-overlay_2
+  - first:
+      213: -5683109723251642873
+    second: FX-03-subtle-dust-mote-overlay_3
+  - first:
+      213: -6391428120264908179
+    second: FX-03-subtle-dust-mote-overlay_4
+  - first:
+      213: -1234512282143494405
+    second: FX-03-subtle-dust-mote-overlay_5
+  - first:
+      213: -8646630809566429612
+    second: FX-03-subtle-dust-mote-overlay_6
+  - first:
+      213: -2846283444620256548
+    second: FX-03-subtle-dust-mote-overlay_7
+  - first:
+      213: -8611637582294989726
+    second: FX-03-subtle-dust-mote-overlay_8
+  - first:
+      213: 3737262252952320204
+    second: FX-03-subtle-dust-mote-overlay_9
+  - first:
+      213: -1336672763107733264
+    second: FX-03-subtle-dust-mote-overlay_10
+  - first:
+      213: -4842235780345696962
+    second: FX-03-subtle-dust-mote-overlay_11
+  - first:
+      213: -8360124327005332267
+    second: FX-03-subtle-dust-mote-overlay_12
+  - first:
+      213: 4917954927032142530
+    second: FX-03-subtle-dust-mote-overlay_13
+  - first:
+      213: -7055154674461806882
+    second: FX-03-subtle-dust-mote-overlay_14
+  - first:
+      213: -5810016991795290055
+    second: FX-03-subtle-dust-mote-overlay_15
+  - first:
+      213: 6898572194527300937
+    second: FX-03-subtle-dust-mote-overlay_16
+  - first:
+      213: 1619356644508272987
+    second: FX-03-subtle-dust-mote-overlay_17
+  - first:
+      213: -5361754371119740553
+    second: FX-03-subtle-dust-mote-overlay_18
+  - first:
+      213: 3312647829351412455
+    second: FX-03-subtle-dust-mote-overlay_19
+  - first:
+      213: -6572895780185916074
+    second: FX-03-subtle-dust-mote-overlay_20
+  - first:
+      213: 7029352188516141767
+    second: FX-03-subtle-dust-mote-overlay_21
+  - first:
+      213: -8895127826695085290
+    second: FX-03-subtle-dust-mote-overlay_22
+  - first:
+      213: -3364684682246177176
+    second: FX-03-subtle-dust-mote-overlay_23
+  - first:
+      213: -7526511666197199465
+    second: FX-03-subtle-dust-mote-overlay_24
+  - first:
+      213: 1546738226009902917
+    second: FX-03-subtle-dust-mote-overlay_25
+  - first:
+      213: -780707431822509639
+    second: FX-03-subtle-dust-mote-overlay_26
+  - first:
+      213: -7594535469983554925
+    second: FX-03-subtle-dust-mote-overlay_27
+  - first:
+      213: -7358318432965043781
+    second: FX-03-subtle-dust-mote-overlay_28
+  - first:
+      213: -3384340745520279063
+    second: FX-03-subtle-dust-mote-overlay_29
+  - first:
+      213: 5317207660315720257
+    second: FX-03-subtle-dust-mote-overlay_30
+  - first:
+      213: -3671024916391181136
+    second: FX-03-subtle-dust-mote-overlay_31
+  - first:
+      213: 3618017185256628349
+    second: FX-03-subtle-dust-mote-overlay_32
+  - first:
+      213: 878032455626804931
+    second: FX-03-subtle-dust-mote-overlay_33
+  - first:
+      213: -2122106633728137482
+    second: FX-03-subtle-dust-mote-overlay_34
+  - first:
+      213: -8800050101042760911
+    second: FX-03-subtle-dust-mote-overlay_35
+  - first:
+      213: -3397493602134940924
+    second: FX-03-subtle-dust-mote-overlay_36
+  - first:
+      213: -4913478325135526247
+    second: FX-03-subtle-dust-mote-overlay_37
+  - first:
+      213: -5021551586359290476
+    second: FX-03-subtle-dust-mote-overlay_38
+  - first:
+      213: 8048088681225520323
+    second: FX-03-subtle-dust-mote-overlay_39
+  - first:
+      213: -4325733907101288704
+    second: FX-03-subtle-dust-mote-overlay_40
+  - first:
+      213: 1867218500526106070
+    second: FX-03-subtle-dust-mote-overlay_41
+  - first:
+      213: 9121637269158188737
+    second: FX-03-subtle-dust-mote-overlay_42
+  - first:
+      213: 9119206152825846006
+    second: FX-03-subtle-dust-mote-overlay_43
+  - first:
+      213: -7213350506804460595
+    second: FX-03-subtle-dust-mote-overlay_44
+  - first:
+      213: -8241243459346141692
+    second: FX-03-subtle-dust-mote-overlay_45
+  - first:
+      213: 5013769375783462189
+    second: FX-03-subtle-dust-mote-overlay_46
+  - first:
+      213: -5946821164047747604
+    second: FX-03-subtle-dust-mote-overlay_47
+  - first:
+      213: 7363775716680823653
+    second: FX-03-subtle-dust-mote-overlay_48
+  - first:
+      213: -4980275801018651212
+    second: FX-03-subtle-dust-mote-overlay_49
+  - first:
+      213: -1219631084417607796
+    second: FX-03-subtle-dust-mote-overlay_50
+  - first:
+      213: 2877758638195921245
+    second: FX-03-subtle-dust-mote-overlay_51
+  - first:
+      213: -6310858490055966237
+    second: FX-03-subtle-dust-mote-overlay_52
+  - first:
+      213: -7927739414751858457
+    second: FX-03-subtle-dust-mote-overlay_53
+  - first:
+      213: -4036589492070599446
+    second: FX-03-subtle-dust-mote-overlay_54
+  - first:
+      213: 6832081420879151866
+    second: FX-03-subtle-dust-mote-overlay_55
+  - first:
+      213: -7283433108667760953
+    second: FX-03-subtle-dust-mote-overlay_56
+  - first:
+      213: 953807994237286900
+    second: FX-03-subtle-dust-mote-overlay_57
+  - first:
+      213: 4810396790953305876
+    second: FX-03-subtle-dust-mote-overlay_58
+  - first:
+      213: 2762327865068348196
+    second: FX-03-subtle-dust-mote-overlay_59
+  - first:
+      213: 4202629546033268586
+    second: FX-03-subtle-dust-mote-overlay_60
+  - first:
+      213: -4080006387439372544
+    second: FX-03-subtle-dust-mote-overlay_61
+  - first:
+      213: -6420410647689659461
+    second: FX-03-subtle-dust-mote-overlay_62
+  - first:
+      213: 6160294672200497195
+    second: FX-03-subtle-dust-mote-overlay_63
+  - first:
+      213: 274603575880833075
+    second: FX-03-subtle-dust-mote-overlay_64
+  - first:
+      213: -1363147021187280489
+    second: FX-03-subtle-dust-mote-overlay_65
+  - first:
+      213: 321202613568357608
+    second: FX-03-subtle-dust-mote-overlay_66
+  - first:
+      213: -2022708451353062205
+    second: FX-03-subtle-dust-mote-overlay_67
+  - first:
+      213: 9186259109429918419
+    second: FX-03-subtle-dust-mote-overlay_68
+  - first:
+      213: -1579673577753818258
+    second: FX-03-subtle-dust-mote-overlay_69
+  - first:
+      213: 5686480306869399129
+    second: FX-03-subtle-dust-mote-overlay_70
+  - first:
+      213: 4495232321416264842
+    second: FX-03-subtle-dust-mote-overlay_71
+  - first:
+      213: 2937684367805607981
+    second: FX-03-subtle-dust-mote-overlay_72
+  - first:
+      213: -8930532827668182935
+    second: FX-03-subtle-dust-mote-overlay_73
+  - first:
+      213: 2302664252902695921
+    second: FX-03-subtle-dust-mote-overlay_74
+  - first:
+      213: 2216713903653723288
+    second: FX-03-subtle-dust-mote-overlay_75
+  - first:
+      213: 3258326873612184700
+    second: FX-03-subtle-dust-mote-overlay_76
+  - first:
+      213: 2995848472784515898
+    second: FX-03-subtle-dust-mote-overlay_77
+  - first:
+      213: 6476856502675316508
+    second: FX-03-subtle-dust-mote-overlay_78
+  - first:
+      213: -3184086954888836598
+    second: FX-03-subtle-dust-mote-overlay_79
+  - first:
+      213: -7072460346530157528
+    second: FX-03-subtle-dust-mote-overlay_80
+  - first:
+      213: -7283343304247038787
+    second: FX-03-subtle-dust-mote-overlay_81
+  - first:
+      213: 3621078704737607115
+    second: FX-03-subtle-dust-mote-overlay_82
+  - first:
+      213: -3286644463164300256
+    second: FX-03-subtle-dust-mote-overlay_83
+  - first:
+      213: -2144107208723605513
+    second: FX-03-subtle-dust-mote-overlay_84
+  - first:
+      213: -3390737757505159057
+    second: FX-03-subtle-dust-mote-overlay_85
+  - first:
+      213: -345601612449563870
+    second: FX-03-subtle-dust-mote-overlay_86
+  - first:
+      213: -7513617186741274863
+    second: FX-03-subtle-dust-mote-overlay_87
+  - first:
+      213: -4379919390401055276
+    second: FX-03-subtle-dust-mote-overlay_88
+  - first:
+      213: 4068454916533076000
+    second: FX-03-subtle-dust-mote-overlay_89
+  - first:
+      213: 21162181847264948
+    second: FX-03-subtle-dust-mote-overlay_90
+  - first:
+      213: 8465782088220403477
+    second: FX-03-subtle-dust-mote-overlay_91
+  - first:
+      213: -4634197313114895977
+    second: FX-03-subtle-dust-mote-overlay_92
+  - first:
+      213: 1686662475941181199
+    second: FX-03-subtle-dust-mote-overlay_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_0
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 1300
+        width: 88
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa577bea05a9eb910800000000000000
+      internalID: 1855089767842543023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_1
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1485
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec7682d977767ea0800000000000000
+      internalID: -5875377298751456029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_2
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1331
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f60b8a540c64a070800000000000000
+      internalID: 8116731194383206128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_3
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1386
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e640e21d98121b0800000000000000
+      internalID: -5683109723251642873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_4
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1311
+        width: 196
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62ea24ecf51d47a0800000000000000
+      internalID: -6391428120264908179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_5
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 1282
+        width: 198
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfeeaffbe912edee0800000000000000
+      internalID: -1234512282143494405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_6
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 1420
+        width: 98
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e38db271ff00880800000000000000
+      internalID: -8646630809566429612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_7
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1311
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda95519948ff78d0800000000000000
+      internalID: -2846283444620256548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_8
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1323
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26447ecce315d7880800000000000000
+      internalID: -8611637582294989726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_9
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1234
+        width: 77
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8f2bbd73c6dd330800000000000000
+      internalID: 3737262252952320204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_10
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1298
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f01606343f237de0800000000000000
+      internalID: -1336672763107733264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_11
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 1336
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3deec9863cecccb0800000000000000
+      internalID: -4842235780345696962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_12
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 1252
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcdebae73fdafb80800000000000000
+      internalID: -8360124327005332267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_13
+      rect:
+        serializedVersion: 2
+        x: 2491
+        y: 1325
+        width: 121
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca022f13f5104440800000000000000
+      internalID: 4917954927032142530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_14
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1102
+        width: 224
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede6441143e071e90800000000000000
+      internalID: -7055154674461806882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_15
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1193
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930ee09245cae5fa0800000000000000
+      internalID: -5810016991795290055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_16
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 1213
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94dcf285cd6acbf50800000000000000
+      internalID: 6898572194527300937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_17
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1134
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b598598d94c197610800000000000000
+      internalID: 1619356644508272987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_18
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1285
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7798288aec83795b0800000000000000
+      internalID: -5361754371119740553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_19
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1196
+        width: 93
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2b57e46a3e8fd20800000000000000
+      internalID: 3312647829351412455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_20
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1134
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65dba54dc1268c4a0800000000000000
+      internalID: -6572895780185916074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_21
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1101
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca8e9582964d8160800000000000000
+      internalID: 7029352188516141767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_22
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1193
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613a52abe582e8480800000000000000
+      internalID: -8895127826695085290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_23
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1256
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86eb48dbb1d3e41d0800000000000000
+      internalID: -3364684682246177176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_24
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1126
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7958b7a44857c8790800000000000000
+      internalID: -7526511666197199465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_25
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 1217
+        width: 58
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f86d9b83e177510800000000000000
+      internalID: 1546738226009902917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_26
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1088
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b936b42abe5a25f0800000000000000
+      internalID: -780707431822509639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_27
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1228
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392a6854a3aca9690800000000000000
+      internalID: -7594535469983554925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_28
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1270
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9d8ea0f5002e990800000000000000
+      internalID: -7358318432965043781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_29
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1256
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e11260e5086801d0800000000000000
+      internalID: -3384340745520279063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_30
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1193
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14aba1ef1348ac940800000000000000
+      internalID: 5317207660315720257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_31
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1110
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b445e8d946ed0dc0800000000000000
+      internalID: -3671024916391181136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_32
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1177
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70ea7ef577c53230800000000000000
+      internalID: 3618017185256628349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_33
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1272
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce46eacdd56f2c00800000000000000
+      internalID: 878032455626804931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_34
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 1258
+        width: 57
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f662219243cc82e0800000000000000
+      internalID: -2122106633728137482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_35
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 1126
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133b4b9ce01ffd580800000000000000
+      internalID: -8800050101042760911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_36
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1161
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403a51ec19da9d0d0800000000000000
+      internalID: -3397493602134940924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_37
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1063
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99637bafe71dfcbb0800000000000000
+      internalID: -4913478325135526247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_38
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1234
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49551c1007ddf4ab0800000000000000
+      internalID: -5021551586359290476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_39
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 1138
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c40a45d30e80bf60800000000000000
+      internalID: 8048088681225520323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_40
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1129
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0077d522ee7e7f3c0800000000000000
+      internalID: -4325733907101288704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_41
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 1103
+        width: 56
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d565e15551b9e910800000000000000
+      internalID: 1867218500526106070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_42
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1161
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6532e84c0969e70800000000000000
+      internalID: 9121637269158188737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_43
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 1255
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8bdbc2eaded8e70800000000000000
+      internalID: 9119206152825846006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_44
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 1077
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc349899ee705eb90800000000000000
+      internalID: -7213350506804460595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_45
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 1289
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e692adcb831ad80800000000000000
+      internalID: -8241243459346141692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_46
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 1205
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d252e45eeac749540800000000000000
+      internalID: 5013769375783462189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_47
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 1161
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5b82ea8a5a87da0800000000000000
+      internalID: -5946821164047747604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_48
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 1169
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5637866dff2613660800000000000000
+      internalID: 7363775716680823653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_49
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1144
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd2fccab8182eab0800000000000000
+      internalID: -4980275801018651212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_50
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 1100
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8793489dfff21fe0800000000000000
+      internalID: -1219631084417607796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_51
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 1254
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51daf20c3adfe720800000000000000
+      internalID: 2877758638195921245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_52
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 1071
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1c470c3a35b68a0800000000000000
+      internalID: -6310858490055966237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_53
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 1162
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e03ad751030bf190800000000000000
+      internalID: -7927739414751858457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_54
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 1175
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4be056e372bf7c0800000000000000
+      internalID: -4036589492070599446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_55
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 1130
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af24c08badd60de50800000000000000
+      internalID: 6832081420879151866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_56
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 1217
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cef98c4d2c0cea90800000000000000
+      internalID: -7283433108667760953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_57
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 1104
+        width: 36
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9f078315b9c3d00800000000000000
+      internalID: 953807994237286900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_58
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 1258
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41763711566f1c240800000000000000
+      internalID: 4810396790953305876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_59
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1148
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423ef8ece82c55620800000000000000
+      internalID: 2762327865068348196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_60
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1079
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67cfdd3e4db25a30800000000000000
+      internalID: 4202629546033268586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_61
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1063
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007f953bec7e067c0800000000000000
+      internalID: -4080006387439372544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_62
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1047
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb7250688e16e6a0800000000000000
+      internalID: -6420410647689659461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_63
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1086
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28fd30ad53cd7550800000000000000
+      internalID: 6160294672200497195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_64
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1077
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338dd625f769fc300800000000000000
+      internalID: 274603575880833075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_65
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 1017
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7911089a101251de0800000000000000
+      internalID: -1363147021187280489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_66
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1045
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e44ba24314257400800000000000000
+      internalID: 321202613568357608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_67
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1039
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c49be85165ede3e0800000000000000
+      internalID: -2022708451353062205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_68
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 925
+        width: 218
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da34483df52c7f70800000000000000
+      internalID: 9186259109429918419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_69
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 939
+        width: 74
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6bc9e0204fd31ae0800000000000000
+      internalID: -1579673577753818258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_70
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 877
+        width: 188
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e6439f5bf6aee40800000000000000
+      internalID: 5686480306869399129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_71
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1041
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cfed4caf5426e30800000000000000
+      internalID: 4495232321416264842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_72
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1029
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2075453e50c4c820800000000000000
+      internalID: 2937684367805607981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_73
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 958
+        width: 148
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9688fdf85bf501480800000000000000
+      internalID: -8930532827668182935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_74
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 1044
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3614f10f4b4ff10800000000000000
+      internalID: 2302664252902695921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_75
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 974
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c13fbfc8953ce10800000000000000
+      internalID: 2216713903653723288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_76
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1006
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c63c73707e73d20800000000000000
+      internalID: 3258326873612184700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_77
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 962
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33b7353054639920800000000000000
+      internalID: 2995848472784515898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_78
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 966
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f142f5caa62e950800000000000000
+      internalID: 6476856502675316508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_79
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 952
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a45e7d8c9dfc3d0800000000000000
+      internalID: -3184086954888836598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_80
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 972
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ca80d49c299dd90800000000000000
+      internalID: -7072460346530157528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_81
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 925
+        width: 50
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbca2258add5cea90800000000000000
+      internalID: -7283343304247038787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_82
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 950
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcddd9b85e7a04230800000000000000
+      internalID: 3621078704737607115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_83
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 917
+        width: 74
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024661e264e7362d0800000000000000
+      internalID: -3286644463164300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_84
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 909
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7dca78ad99e32e0800000000000000
+      internalID: -2144107208723605513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_85
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 919
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60866579fda1f0d0800000000000000
+      internalID: -3390737757505159057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_86
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 913
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b34202a2d243bf0800000000000000
+      internalID: -345601612449563870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_87
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 935
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117340e3af44ab790800000000000000
+      internalID: -7513617186741274863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_88
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 891
+        width: 122
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5bc4e25866733c0800000000000000
+      internalID: -4379919390401055276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_89
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 893
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02045a4e03e067830800000000000000
+      internalID: 4068454916533076000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_90
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 905
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4beadab64ee2b4000800000000000000
+      internalID: 21162181847264948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_91
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 901
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517ed32a4ff7c7570800000000000000
+      internalID: 8465782088220403477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_92
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 907
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79987b4c81600bfb0800000000000000
+      internalID: -4634197313114895977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-03-subtle-dust-mote-overlay_93
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 641
+        width: 76
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f077476e59a386710800000000000000
+      internalID: 1686662475941181199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FX-03-subtle-dust-mote-overlay_0: 1855089767842543023
+      FX-03-subtle-dust-mote-overlay_1: -5875377298751456029
+      FX-03-subtle-dust-mote-overlay_10: -1336672763107733264
+      FX-03-subtle-dust-mote-overlay_11: -4842235780345696962
+      FX-03-subtle-dust-mote-overlay_12: -8360124327005332267
+      FX-03-subtle-dust-mote-overlay_13: 4917954927032142530
+      FX-03-subtle-dust-mote-overlay_14: -7055154674461806882
+      FX-03-subtle-dust-mote-overlay_15: -5810016991795290055
+      FX-03-subtle-dust-mote-overlay_16: 6898572194527300937
+      FX-03-subtle-dust-mote-overlay_17: 1619356644508272987
+      FX-03-subtle-dust-mote-overlay_18: -5361754371119740553
+      FX-03-subtle-dust-mote-overlay_19: 3312647829351412455
+      FX-03-subtle-dust-mote-overlay_2: 8116731194383206128
+      FX-03-subtle-dust-mote-overlay_20: -6572895780185916074
+      FX-03-subtle-dust-mote-overlay_21: 7029352188516141767
+      FX-03-subtle-dust-mote-overlay_22: -8895127826695085290
+      FX-03-subtle-dust-mote-overlay_23: -3364684682246177176
+      FX-03-subtle-dust-mote-overlay_24: -7526511666197199465
+      FX-03-subtle-dust-mote-overlay_25: 1546738226009902917
+      FX-03-subtle-dust-mote-overlay_26: -780707431822509639
+      FX-03-subtle-dust-mote-overlay_27: -7594535469983554925
+      FX-03-subtle-dust-mote-overlay_28: -7358318432965043781
+      FX-03-subtle-dust-mote-overlay_29: -3384340745520279063
+      FX-03-subtle-dust-mote-overlay_3: -5683109723251642873
+      FX-03-subtle-dust-mote-overlay_30: 5317207660315720257
+      FX-03-subtle-dust-mote-overlay_31: -3671024916391181136
+      FX-03-subtle-dust-mote-overlay_32: 3618017185256628349
+      FX-03-subtle-dust-mote-overlay_33: 878032455626804931
+      FX-03-subtle-dust-mote-overlay_34: -2122106633728137482
+      FX-03-subtle-dust-mote-overlay_35: -8800050101042760911
+      FX-03-subtle-dust-mote-overlay_36: -3397493602134940924
+      FX-03-subtle-dust-mote-overlay_37: -4913478325135526247
+      FX-03-subtle-dust-mote-overlay_38: -5021551586359290476
+      FX-03-subtle-dust-mote-overlay_39: 8048088681225520323
+      FX-03-subtle-dust-mote-overlay_4: -6391428120264908179
+      FX-03-subtle-dust-mote-overlay_40: -4325733907101288704
+      FX-03-subtle-dust-mote-overlay_41: 1867218500526106070
+      FX-03-subtle-dust-mote-overlay_42: 9121637269158188737
+      FX-03-subtle-dust-mote-overlay_43: 9119206152825846006
+      FX-03-subtle-dust-mote-overlay_44: -7213350506804460595
+      FX-03-subtle-dust-mote-overlay_45: -8241243459346141692
+      FX-03-subtle-dust-mote-overlay_46: 5013769375783462189
+      FX-03-subtle-dust-mote-overlay_47: -5946821164047747604
+      FX-03-subtle-dust-mote-overlay_48: 7363775716680823653
+      FX-03-subtle-dust-mote-overlay_49: -4980275801018651212
+      FX-03-subtle-dust-mote-overlay_5: -1234512282143494405
+      FX-03-subtle-dust-mote-overlay_50: -1219631084417607796
+      FX-03-subtle-dust-mote-overlay_51: 2877758638195921245
+      FX-03-subtle-dust-mote-overlay_52: -6310858490055966237
+      FX-03-subtle-dust-mote-overlay_53: -7927739414751858457
+      FX-03-subtle-dust-mote-overlay_54: -4036589492070599446
+      FX-03-subtle-dust-mote-overlay_55: 6832081420879151866
+      FX-03-subtle-dust-mote-overlay_56: -7283433108667760953
+      FX-03-subtle-dust-mote-overlay_57: 953807994237286900
+      FX-03-subtle-dust-mote-overlay_58: 4810396790953305876
+      FX-03-subtle-dust-mote-overlay_59: 2762327865068348196
+      FX-03-subtle-dust-mote-overlay_6: -8646630809566429612
+      FX-03-subtle-dust-mote-overlay_60: 4202629546033268586
+      FX-03-subtle-dust-mote-overlay_61: -4080006387439372544
+      FX-03-subtle-dust-mote-overlay_62: -6420410647689659461
+      FX-03-subtle-dust-mote-overlay_63: 6160294672200497195
+      FX-03-subtle-dust-mote-overlay_64: 274603575880833075
+      FX-03-subtle-dust-mote-overlay_65: -1363147021187280489
+      FX-03-subtle-dust-mote-overlay_66: 321202613568357608
+      FX-03-subtle-dust-mote-overlay_67: -2022708451353062205
+      FX-03-subtle-dust-mote-overlay_68: 9186259109429918419
+      FX-03-subtle-dust-mote-overlay_69: -1579673577753818258
+      FX-03-subtle-dust-mote-overlay_7: -2846283444620256548
+      FX-03-subtle-dust-mote-overlay_70: 5686480306869399129
+      FX-03-subtle-dust-mote-overlay_71: 4495232321416264842
+      FX-03-subtle-dust-mote-overlay_72: 2937684367805607981
+      FX-03-subtle-dust-mote-overlay_73: -8930532827668182935
+      FX-03-subtle-dust-mote-overlay_74: 2302664252902695921
+      FX-03-subtle-dust-mote-overlay_75: 2216713903653723288
+      FX-03-subtle-dust-mote-overlay_76: 3258326873612184700
+      FX-03-subtle-dust-mote-overlay_77: 2995848472784515898
+      FX-03-subtle-dust-mote-overlay_78: 6476856502675316508
+      FX-03-subtle-dust-mote-overlay_79: -3184086954888836598
+      FX-03-subtle-dust-mote-overlay_8: -8611637582294989726
+      FX-03-subtle-dust-mote-overlay_80: -7072460346530157528
+      FX-03-subtle-dust-mote-overlay_81: -7283343304247038787
+      FX-03-subtle-dust-mote-overlay_82: 3621078704737607115
+      FX-03-subtle-dust-mote-overlay_83: -3286644463164300256
+      FX-03-subtle-dust-mote-overlay_84: -2144107208723605513
+      FX-03-subtle-dust-mote-overlay_85: -3390737757505159057
+      FX-03-subtle-dust-mote-overlay_86: -345601612449563870
+      FX-03-subtle-dust-mote-overlay_87: -7513617186741274863
+      FX-03-subtle-dust-mote-overlay_88: -4379919390401055276
+      FX-03-subtle-dust-mote-overlay_89: 4068454916533076000
+      FX-03-subtle-dust-mote-overlay_9: 3737262252952320204
+      FX-03-subtle-dust-mote-overlay_90: 21162181847264948
+      FX-03-subtle-dust-mote-overlay_91: 8465782088220403477
+      FX-03-subtle-dust-mote-overlay_92: -4634197313114895977
+      FX-03-subtle-dust-mote-overlay_93: 1686662475941181199
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

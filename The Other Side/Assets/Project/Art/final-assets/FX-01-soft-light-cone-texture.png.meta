@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 4586c140b7ef12b4a85e65c150a74809
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6548225611880070811
+    second: FX-01-soft-light-cone-texture_0
+  - first:
+      213: 35907963997121380
+    second: FX-01-soft-light-cone-texture_1
+  - first:
+      213: 7546549548482344578
+    second: FX-01-soft-light-cone-texture_2
+  - first:
+      213: -5214000199680509743
+    second: FX-01-soft-light-cone-texture_3
+  - first:
+      213: 8792895645331429178
+    second: FX-01-soft-light-cone-texture_4
+  - first:
+      213: 8222031891700062127
+    second: FX-01-soft-light-cone-texture_5
+  - first:
+      213: 3596380523766846538
+    second: FX-01-soft-light-cone-texture_6
+  - first:
+      213: -6765884040023091101
+    second: FX-01-soft-light-cone-texture_7
+  - first:
+      213: -7855462874527258471
+    second: FX-01-soft-light-cone-texture_8
+  - first:
+      213: 4249026087363720549
+    second: FX-01-soft-light-cone-texture_9
+  - first:
+      213: -6261275039311496352
+    second: FX-01-soft-light-cone-texture_10
+  - first:
+      213: 7465127682523401112
+    second: FX-01-soft-light-cone-texture_11
+  - first:
+      213: 36647743961506046
+    second: FX-01-soft-light-cone-texture_12
+  - first:
+      213: -7296429190871398126
+    second: FX-01-soft-light-cone-texture_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_0
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 417
+        width: 1256
+        height: 1218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56106ceff770025a0800000000000000
+      internalID: -6548225611880070811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_1
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1575
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46be7ae5a129f7000800000000000000
+      internalID: 35907963997121380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_2
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1570
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286bc2db4dabab860800000000000000
+      internalID: 7546549548482344578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_3
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1513
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d83a3f717624a7b0800000000000000
+      internalID: -5214000199680509743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_4
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 629
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a371f0fa004a60a70800000000000000
+      internalID: 8792895645331429178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_5
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 573
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa717bc71768a1270800000000000000
+      internalID: 8222031891700062127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_6
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 545
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44914c2809e8e130800000000000000
+      internalID: 3596380523766846538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_7
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 545
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36850f21050ca12a0800000000000000
+      internalID: -6765884040023091101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_8
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 516
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998a889b22acbf290800000000000000
+      internalID: -7855462874527258471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_9
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 516
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565bea2d6b297fa30800000000000000
+      internalID: 4249026087363720549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_10
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 500
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b71d0868b7b19a0800000000000000
+      internalID: -6261275039311496352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_11
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 500
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b0eb74316799760800000000000000
+      internalID: 7465127682523401112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_12
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 500
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef025a0dde2328000800000000000000
+      internalID: 36647743961506046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX-01-soft-light-cone-texture_13
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 452
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219c15d1f40edba90800000000000000
+      internalID: -7296429190871398126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FX-01-soft-light-cone-texture_0: -6548225611880070811
+      FX-01-soft-light-cone-texture_1: 35907963997121380
+      FX-01-soft-light-cone-texture_10: -6261275039311496352
+      FX-01-soft-light-cone-texture_11: 7465127682523401112
+      FX-01-soft-light-cone-texture_12: 36647743961506046
+      FX-01-soft-light-cone-texture_13: -7296429190871398126
+      FX-01-soft-light-cone-texture_2: 7546549548482344578
+      FX-01-soft-light-cone-texture_3: -5214000199680509743
+      FX-01-soft-light-cone-texture_4: 8792895645331429178
+      FX-01-soft-light-cone-texture_5: 8222031891700062127
+      FX-01-soft-light-cone-texture_6: 3596380523766846538
+      FX-01-soft-light-cone-texture_7: -6765884040023091101
+      FX-01-soft-light-cone-texture_8: -7855462874527258471
+      FX-01-soft-light-cone-texture_9: 4249026087363720549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

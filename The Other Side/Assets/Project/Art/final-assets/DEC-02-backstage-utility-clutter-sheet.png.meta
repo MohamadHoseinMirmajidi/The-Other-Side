@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 9dcc14818b6b0214f8b174a473116828
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8922421589315639310
+    second: DEC-02-backstage-utility-clutter-sheet_0
+  - first:
+      213: 4078013609937680492
+    second: DEC-02-backstage-utility-clutter-sheet_1
+  - first:
+      213: -2181590489465499416
+    second: DEC-02-backstage-utility-clutter-sheet_2
+  - first:
+      213: 2117575665354587854
+    second: DEC-02-backstage-utility-clutter-sheet_3
+  - first:
+      213: 5431916961944562898
+    second: DEC-02-backstage-utility-clutter-sheet_4
+  - first:
+      213: -3304230050222772570
+    second: DEC-02-backstage-utility-clutter-sheet_5
+  - first:
+      213: 3280758586971707864
+    second: DEC-02-backstage-utility-clutter-sheet_6
+  - first:
+      213: 4313437227833909167
+    second: DEC-02-backstage-utility-clutter-sheet_7
+  - first:
+      213: 6245560187061504525
+    second: DEC-02-backstage-utility-clutter-sheet_8
+  - first:
+      213: -8632781958026375114
+    second: DEC-02-backstage-utility-clutter-sheet_9
+  - first:
+      213: -6463207500335772890
+    second: DEC-02-backstage-utility-clutter-sheet_10
+  - first:
+      213: 4841988589109360573
+    second: DEC-02-backstage-utility-clutter-sheet_11
+  - first:
+      213: 8163789096116240707
+    second: DEC-02-backstage-utility-clutter-sheet_12
+  - first:
+      213: -1314050037425855183
+    second: DEC-02-backstage-utility-clutter-sheet_13
+  - first:
+      213: -3423573286970155366
+    second: DEC-02-backstage-utility-clutter-sheet_14
+  - first:
+      213: 4945596312358758491
+    second: DEC-02-backstage-utility-clutter-sheet_15
+  - first:
+      213: -442218348081751475
+    second: DEC-02-backstage-utility-clutter-sheet_16
+  - first:
+      213: 2074974871359594189
+    second: DEC-02-backstage-utility-clutter-sheet_17
+  - first:
+      213: 2781399996560114326
+    second: DEC-02-backstage-utility-clutter-sheet_18
+  - first:
+      213: 1934613157967442539
+    second: DEC-02-backstage-utility-clutter-sheet_19
+  - first:
+      213: 6554567151982119598
+    second: DEC-02-backstage-utility-clutter-sheet_20
+  - first:
+      213: 6939562772621524284
+    second: DEC-02-backstage-utility-clutter-sheet_21
+  - first:
+      213: 1662625228708886096
+    second: DEC-02-backstage-utility-clutter-sheet_22
+  - first:
+      213: -6322708284106931185
+    second: DEC-02-backstage-utility-clutter-sheet_23
+  - first:
+      213: -7473295053029374642
+    second: DEC-02-backstage-utility-clutter-sheet_24
+  - first:
+      213: -2332839972190531423
+    second: DEC-02-backstage-utility-clutter-sheet_25
+  - first:
+      213: -2181423049305074519
+    second: DEC-02-backstage-utility-clutter-sheet_26
+  - first:
+      213: -79024906938324808
+    second: DEC-02-backstage-utility-clutter-sheet_27
+  - first:
+      213: 4126530348659212396
+    second: DEC-02-backstage-utility-clutter-sheet_28
+  - first:
+      213: -5724540094576493695
+    second: DEC-02-backstage-utility-clutter-sheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2202
+        width: 389
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7a09866d03d2480800000000000000
+      internalID: -8922421589315639310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 2495
+        width: 204
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c683b81a5c3089830800000000000000
+      internalID: 4078013609937680492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 2626
+        width: 44
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0d906220f69b1e0800000000000000
+      internalID: -2181590489465499416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 2224
+        width: 448
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eceb87629d3236d10800000000000000
+      internalID: 2117575665354587854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 2628
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcef1682bb026b40800000000000000
+      internalID: 5431916961944562898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 2608
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aeec40a6440522d0800000000000000
+      internalID: -3304230050222772570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 2615
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9d24a7d88978d20800000000000000
+      internalID: 3280758586971707864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 2616
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf5cfd1e486cdb30800000000000000
+      internalID: 4313437227833909167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 2554
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a8f1556efaca650800000000000000
+      internalID: 6245560187061504525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 2544
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630df603c82323880800000000000000
+      internalID: -8632781958026375114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 2543
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b88d0a5031e46a0800000000000000
+      internalID: -6463207500335772890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 2547
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7bb54c7f2323340800000000000000
+      internalID: 4841988589109360573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 2563
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3414737edea9b4170800000000000000
+      internalID: 8163789096116240707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 2569
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135a42ef37e83cde0800000000000000
+      internalID: -1314050037425855183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 2529
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e90affb360d70d0800000000000000
+      internalID: -3423573286970155366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2498
+        y: 2564
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5820a8a4a942a440800000000000000
+      internalID: 4945596312358758491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 2517
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a5d6161ccecd9f0800000000000000
+      internalID: -442218348081751475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2513
+        width: 49
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce104dd6aacbcc10800000000000000
+      internalID: 2074974871359594189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 2516
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6920d357f84899620800000000000000
+      internalID: 2781399996560114326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 2513
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62327aca6029da10800000000000000
+      internalID: 1934613157967442539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 2226
+        width: 405
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa865ed81086fa50800000000000000
+      internalID: 6554567151982119598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1967
+        width: 390
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d71a603974e4060800000000000000
+      internalID: 6939562772621524284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1743
+        width: 437
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056bbc726d4d21710800000000000000
+      internalID: 1662625228708886096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 1962
+        width: 360
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f040363905a3148a0800000000000000
+      internalID: -6322708284106931185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1963
+        width: 461
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4500869eb5894890800000000000000
+      internalID: -7473295053029374642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1757
+        width: 256
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a050cbb76610afd0800000000000000
+      internalID: -2332839972190531423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1420
+        width: 361
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a452595b470ab1e0800000000000000
+      internalID: -2181423049305074519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1756
+        width: 467
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8688d044f37eef0800000000000000
+      internalID: -79024906938324808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1420
+        width: 513
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6083b22d71644930800000000000000
+      internalID: 4126530348659212396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-clutter-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1452
+        width: 265
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b79482d195e80b0800000000000000
+      internalID: -5724540094576493695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DEC-02-backstage-utility-clutter-sheet_0: -8922421589315639310
+      DEC-02-backstage-utility-clutter-sheet_1: 4078013609937680492
+      DEC-02-backstage-utility-clutter-sheet_10: -6463207500335772890
+      DEC-02-backstage-utility-clutter-sheet_11: 4841988589109360573
+      DEC-02-backstage-utility-clutter-sheet_12: 8163789096116240707
+      DEC-02-backstage-utility-clutter-sheet_13: -1314050037425855183
+      DEC-02-backstage-utility-clutter-sheet_14: -3423573286970155366
+      DEC-02-backstage-utility-clutter-sheet_15: 4945596312358758491
+      DEC-02-backstage-utility-clutter-sheet_16: -442218348081751475
+      DEC-02-backstage-utility-clutter-sheet_17: 2074974871359594189
+      DEC-02-backstage-utility-clutter-sheet_18: 2781399996560114326
+      DEC-02-backstage-utility-clutter-sheet_19: 1934613157967442539
+      DEC-02-backstage-utility-clutter-sheet_2: -2181590489465499416
+      DEC-02-backstage-utility-clutter-sheet_20: 6554567151982119598
+      DEC-02-backstage-utility-clutter-sheet_21: 6939562772621524284
+      DEC-02-backstage-utility-clutter-sheet_22: 1662625228708886096
+      DEC-02-backstage-utility-clutter-sheet_23: -6322708284106931185
+      DEC-02-backstage-utility-clutter-sheet_24: -7473295053029374642
+      DEC-02-backstage-utility-clutter-sheet_25: -2332839972190531423
+      DEC-02-backstage-utility-clutter-sheet_26: -2181423049305074519
+      DEC-02-backstage-utility-clutter-sheet_27: -79024906938324808
+      DEC-02-backstage-utility-clutter-sheet_28: 4126530348659212396
+      DEC-02-backstage-utility-clutter-sheet_29: -5724540094576493695
+      DEC-02-backstage-utility-clutter-sheet_3: 2117575665354587854
+      DEC-02-backstage-utility-clutter-sheet_4: 5431916961944562898
+      DEC-02-backstage-utility-clutter-sheet_5: -3304230050222772570
+      DEC-02-backstage-utility-clutter-sheet_6: 3280758586971707864
+      DEC-02-backstage-utility-clutter-sheet_7: 4313437227833909167
+      DEC-02-backstage-utility-clutter-sheet_8: 6245560187061504525
+      DEC-02-backstage-utility-clutter-sheet_9: -8632781958026375114
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: f1e8fce57099a9b4fa64fc97a8e6356a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 722687462711413668
+    second: CHAR-03-interaction-reaction-reference-v2_0
+  - first:
+      213: -2378068072036831547
+    second: CHAR-03-interaction-reaction-reference-v2_1
+  - first:
+      213: 7974121186642297618
+    second: CHAR-03-interaction-reaction-reference-v2_2
+  - first:
+      213: -4309000482603766690
+    second: CHAR-03-interaction-reaction-reference-v2_3
+  - first:
+      213: 6653010733695868312
+    second: CHAR-03-interaction-reaction-reference-v2_4
+  - first:
+      213: 4611061696021998426
+    second: CHAR-03-interaction-reaction-reference-v2_5
+  - first:
+      213: -4619066803046851339
+    second: CHAR-03-interaction-reaction-reference-v2_6
+  - first:
+      213: 2121702406556786010
+    second: CHAR-03-interaction-reaction-reference-v2_7
+  - first:
+      213: 4384280081696967488
+    second: CHAR-03-interaction-reaction-reference-v2_8
+  - first:
+      213: -817306060055288255
+    second: CHAR-03-interaction-reaction-reference-v2_9
+  - first:
+      213: 3192683414828770340
+    second: CHAR-03-interaction-reaction-reference-v2_10
+  - first:
+      213: -7305061880668531290
+    second: CHAR-03-interaction-reaction-reference-v2_11
+  - first:
+      213: 206048677775425053
+    second: CHAR-03-interaction-reaction-reference-v2_12
+  - first:
+      213: 6264220076399820247
+    second: CHAR-03-interaction-reaction-reference-v2_13
+  - first:
+      213: -8650373565922615133
+    second: CHAR-03-interaction-reaction-reference-v2_14
+  - first:
+      213: -7415912970269822570
+    second: CHAR-03-interaction-reaction-reference-v2_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 846
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abca8a1b60870a00800000000000000
+      internalID: 722687462711413668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 810
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ceeb8220b76ffed0800000000000000
+      internalID: -2378068072036831547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_2
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 551
+        width: 192
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2130bb578f4c9ae60800000000000000
+      internalID: 7974121186642297618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 555
+        width: 584
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c6a6124ea5334c0800000000000000
+      internalID: -4309000482603766690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_4
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 289
+        width: 602
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d9dcc530e345c50800000000000000
+      internalID: 6653010733695868312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 551
+        width: 229
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b2dcc9e28cdff30800000000000000
+      internalID: 4611061696021998426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_6
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 557
+        width: 200
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcd79a2737c5efb0800000000000000
+      internalID: -4619066803046851339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 293
+        width: 299
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d98e5f81dc17d10800000000000000
+      internalID: 2121702406556786010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 534
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b4e51618718dc30800000000000000
+      internalID: 4384280081696967488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_9
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 27
+        width: 415
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14661a9f77858a4f0800000000000000
+      internalID: -817306060055288255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_10
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 214
+        width: 314
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424662576a0be4c20800000000000000
+      internalID: 3192683414828770340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 195
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a551846ce43f9a90800000000000000
+      internalID: -7305061880668531290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_12
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 27
+        width: 389
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e3e354e280cd200800000000000000
+      internalID: 206048677775425053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_13
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 25
+        width: 295
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd7ea068fafee650800000000000000
+      internalID: 6264220076399820247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_14
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 15
+        width: 299
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0e0ccc213b3f780800000000000000
+      internalID: -8650373565922615133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHAR-03-interaction-reaction-reference-v2_15
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 15
+        width: 217
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691fad9d172651990800000000000000
+      internalID: -7415912970269822570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CHAR-03-interaction-reaction-reference-v2_0: 722687462711413668
+      CHAR-03-interaction-reaction-reference-v2_1: -2378068072036831547
+      CHAR-03-interaction-reaction-reference-v2_10: 3192683414828770340
+      CHAR-03-interaction-reaction-reference-v2_11: -7305061880668531290
+      CHAR-03-interaction-reaction-reference-v2_12: 206048677775425053
+      CHAR-03-interaction-reaction-reference-v2_13: 6264220076399820247
+      CHAR-03-interaction-reaction-reference-v2_14: -8650373565922615133
+      CHAR-03-interaction-reaction-reference-v2_15: -7415912970269822570
+      CHAR-03-interaction-reaction-reference-v2_2: 7974121186642297618
+      CHAR-03-interaction-reaction-reference-v2_3: -4309000482603766690
+      CHAR-03-interaction-reaction-reference-v2_4: 6653010733695868312
+      CHAR-03-interaction-reaction-reference-v2_5: 4611061696021998426
+      CHAR-03-interaction-reaction-reference-v2_6: -4619066803046851339
+      CHAR-03-interaction-reaction-reference-v2_7: 2121702406556786010
+      CHAR-03-interaction-reaction-reference-v2_8: 4384280081696967488
+      CHAR-03-interaction-reaction-reference-v2_9: -817306060055288255
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

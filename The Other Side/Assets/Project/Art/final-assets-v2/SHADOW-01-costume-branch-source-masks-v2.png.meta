@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 36ce43e7b40dc9b4488e58c218ae6707
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1635461164937310785
+    second: SHADOW-01-costume-branch-source-masks-v2_0
+  - first:
+      213: 8620658377540771518
+    second: SHADOW-01-costume-branch-source-masks-v2_1
+  - first:
+      213: -1389632466050781070
+    second: SHADOW-01-costume-branch-source-masks-v2_2
+  - first:
+      213: -2560073510661174941
+    second: SHADOW-01-costume-branch-source-masks-v2_3
+  - first:
+      213: 6953700612632704215
+    second: SHADOW-01-costume-branch-source-masks-v2_4
+  - first:
+      213: 3480542658331002069
+    second: SHADOW-01-costume-branch-source-masks-v2_5
+  - first:
+      213: -7709424796548368671
+    second: SHADOW-01-costume-branch-source-masks-v2_6
+  - first:
+      213: -9084344424269438267
+    second: SHADOW-01-costume-branch-source-masks-v2_7
+  - first:
+      213: -8350515787407627034
+    second: SHADOW-01-costume-branch-source-masks-v2_8
+  - first:
+      213: 3341332517517835543
+    second: SHADOW-01-costume-branch-source-masks-v2_9
+  - first:
+      213: -5870310898099932201
+    second: SHADOW-01-costume-branch-source-masks-v2_10
+  - first:
+      213: 3525787490694906543
+    second: SHADOW-01-costume-branch-source-masks-v2_11
+  - first:
+      213: -1850114878993087402
+    second: SHADOW-01-costume-branch-source-masks-v2_12
+  - first:
+      213: -4910445583092353475
+    second: SHADOW-01-costume-branch-source-masks-v2_13
+  - first:
+      213: 2770585296412977685
+    second: SHADOW-01-costume-branch-source-masks-v2_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 876
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142f804b34352b610800000000000000
+      internalID: 1635461164937310785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_1
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 870
+        width: 45
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe1053ce1bb2a770800000000000000
+      internalID: 8620658377540771518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_2
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 838
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27071bc72a807bce0800000000000000
+      internalID: -1389632466050781070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_3
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 854
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3694726b4bac87cd0800000000000000
+      internalID: -2560073510661174941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_4
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 858
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4736a6dd1808060800000000000000
+      internalID: 6953700612632704215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_5
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 813
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4c9676b1f5d4030800000000000000
+      internalID: 3480542658331002069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_6
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 855
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6752b6efe920590800000000000000
+      internalID: -7709424796548368671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_7
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 0
+        width: 808
+        height: 853
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2ae1680ecede180800000000000000
+      internalID: -9084344424269438267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_8
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 844
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ece64062220d1c80800000000000000
+      internalID: -8350515787407627034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_9
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 825
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dbc17b83cce5e20800000000000000
+      internalID: 3341332517517835543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_10
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 420
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d336a52757788ea0800000000000000
+      internalID: -5870310898099932201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_11
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 394
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2c268da0d1ee030800000000000000
+      internalID: 3525787490694906543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_12
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 313
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654c3f3e1521356e0800000000000000
+      internalID: -1850114878993087402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 273
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36f4e242c79adbb0800000000000000
+      internalID: -4910445583092353475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW-01-costume-branch-source-masks-v2_14
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 203
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51aad9cd5a8137620800000000000000
+      internalID: 2770585296412977685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SHADOW-01-costume-branch-source-masks-v2_0: 1635461164937310785
+      SHADOW-01-costume-branch-source-masks-v2_1: 8620658377540771518
+      SHADOW-01-costume-branch-source-masks-v2_10: -5870310898099932201
+      SHADOW-01-costume-branch-source-masks-v2_11: 3525787490694906543
+      SHADOW-01-costume-branch-source-masks-v2_12: -1850114878993087402
+      SHADOW-01-costume-branch-source-masks-v2_13: -4910445583092353475
+      SHADOW-01-costume-branch-source-masks-v2_14: 2770585296412977685
+      SHADOW-01-costume-branch-source-masks-v2_2: -1389632466050781070
+      SHADOW-01-costume-branch-source-masks-v2_3: -2560073510661174941
+      SHADOW-01-costume-branch-source-masks-v2_4: 6953700612632704215
+      SHADOW-01-costume-branch-source-masks-v2_5: 3480542658331002069
+      SHADOW-01-costume-branch-source-masks-v2_6: -7709424796548368671
+      SHADOW-01-costume-branch-source-masks-v2_7: -9084344424269438267
+      SHADOW-01-costume-branch-source-masks-v2_8: -8350515787407627034
+      SHADOW-01-costume-branch-source-masks-v2_9: 3341332517517835543
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 8fa6c951fed2f1545813c15e3d486d98
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8307060516303518388
+    second: PROP-03-tutorial-floor-item-paper-v2_0
+  - first:
+      213: -9022184389249616872
+    second: PROP-03-tutorial-floor-item-paper-v2_1
+  - first:
+      213: 6679373189616926136
+    second: PROP-03-tutorial-floor-item-paper-v2_2
+  - first:
+      213: -5971218203031782465
+    second: PROP-03-tutorial-floor-item-paper-v2_3
+  - first:
+      213: -7346405367275801722
+    second: PROP-03-tutorial-floor-item-paper-v2_4
+  - first:
+      213: -4243071053795901699
+    second: PROP-03-tutorial-floor-item-paper-v2_5
+  - first:
+      213: 3420266438256556596
+    second: PROP-03-tutorial-floor-item-paper-v2_6
+  - first:
+      213: 4467154013577318872
+    second: PROP-03-tutorial-floor-item-paper-v2_7
+  - first:
+      213: -9083520316146474789
+    second: PROP-03-tutorial-floor-item-paper-v2_8
+  - first:
+      213: 4679394640957310339
+    second: PROP-03-tutorial-floor-item-paper-v2_9
+  - first:
+      213: -7901040101015914803
+    second: PROP-03-tutorial-floor-item-paper-v2_10
+  - first:
+      213: -4267701810724662478
+    second: PROP-03-tutorial-floor-item-paper-v2_11
+  - first:
+      213: 4579936057060564038
+    second: PROP-03-tutorial-floor-item-paper-v2_12
+  - first:
+      213: -5770819987371410668
+    second: PROP-03-tutorial-floor-item-paper-v2_13
+  - first:
+      213: 1131679548040092275
+    second: PROP-03-tutorial-floor-item-paper-v2_14
+  - first:
+      213: 3552979777967552857
+    second: PROP-03-tutorial-floor-item-paper-v2_15
+  - first:
+      213: 8046397443885099601
+    second: PROP-03-tutorial-floor-item-paper-v2_16
+  - first:
+      213: -2991661568679550995
+    second: PROP-03-tutorial-floor-item-paper-v2_17
+  - first:
+      213: 1238315145655735633
+    second: PROP-03-tutorial-floor-item-paper-v2_18
+  - first:
+      213: 7615219613378561337
+    second: PROP-03-tutorial-floor-item-paper-v2_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_0
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1381
+        width: 458
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bab1f1e68b984370800000000000000
+      internalID: 8307060516303518388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_1
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 511
+        width: 887
+        height: 1007
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814b3bc7913cac280800000000000000
+      internalID: -9022184389249616872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_2
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1503
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd7261f686e1bc50800000000000000
+      internalID: 6679373189616926136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_3
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 1495
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbb1f36ea8f12da0800000000000000
+      internalID: -5971218203031782465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_4
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1449
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683b08bcd335c0a90800000000000000
+      internalID: -7346405367275801722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_5
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1491
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfeb0c97b559d15c0800000000000000
+      internalID: -4243071053795901699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_6
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1458
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43af879443a377f20800000000000000
+      internalID: 3420266438256556596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_7
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1442
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d19c3848e48efd30800000000000000
+      internalID: 4467154013577318872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_8
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1441
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0ab06266ad0f180800000000000000
+      internalID: -9083520316146474789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_9
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1439
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385802a22ac80f040800000000000000
+      internalID: 4679394640957310339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_10
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1441
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc674deb3edd95290800000000000000
+      internalID: -7901040101015914803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_11
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1413
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233177c70d316c4c0800000000000000
+      internalID: -4267701810724662478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_12
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1071
+        width: 572
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c191f04933f8f30800000000000000
+      internalID: 4579936057060564038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_13
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 535
+        width: 509
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bb00eebcde9efa0800000000000000
+      internalID: -5770819987371410668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_14
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 529
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a11849d8884bf00800000000000000
+      internalID: 1131679548040092275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_15
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 533
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959f6e79848be4130800000000000000
+      internalID: 3552979777967552857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_16
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 535
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ae164f7db8aaf60800000000000000
+      internalID: 8046397443885099601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_17
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 527
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defdaae57ab7b76d0800000000000000
+      internalID: -2991661568679550995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_18
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 535
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155dbc860116f2110800000000000000
+      internalID: 1238315145655735633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-03-tutorial-floor-item-paper-v2_19
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 511
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935440624e1bea960800000000000000
+      internalID: 7615219613378561337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PROP-03-tutorial-floor-item-paper-v2_0: 8307060516303518388
+      PROP-03-tutorial-floor-item-paper-v2_1: -9022184389249616872
+      PROP-03-tutorial-floor-item-paper-v2_10: -7901040101015914803
+      PROP-03-tutorial-floor-item-paper-v2_11: -4267701810724662478
+      PROP-03-tutorial-floor-item-paper-v2_12: 4579936057060564038
+      PROP-03-tutorial-floor-item-paper-v2_13: -5770819987371410668
+      PROP-03-tutorial-floor-item-paper-v2_14: 1131679548040092275
+      PROP-03-tutorial-floor-item-paper-v2_15: 3552979777967552857
+      PROP-03-tutorial-floor-item-paper-v2_16: 8046397443885099601
+      PROP-03-tutorial-floor-item-paper-v2_17: -2991661568679550995
+      PROP-03-tutorial-floor-item-paper-v2_18: 1238315145655735633
+      PROP-03-tutorial-floor-item-paper-v2_19: 7615219613378561337
+      PROP-03-tutorial-floor-item-paper-v2_2: 6679373189616926136
+      PROP-03-tutorial-floor-item-paper-v2_3: -5971218203031782465
+      PROP-03-tutorial-floor-item-paper-v2_4: -7346405367275801722
+      PROP-03-tutorial-floor-item-paper-v2_5: -4243071053795901699
+      PROP-03-tutorial-floor-item-paper-v2_6: 3420266438256556596
+      PROP-03-tutorial-floor-item-paper-v2_7: 4467154013577318872
+      PROP-03-tutorial-floor-item-paper-v2_8: -9083520316146474789
+      PROP-03-tutorial-floor-item-paper-v2_9: 4679394640957310339
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2743 @@
+fileFormatVersion: 2
+guid: ab72e1b4dafd3314b93c1feba9111bde
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6126298199021545981
+    second: PROP-04-pushable-box-kit-v2_0
+  - first:
+      213: -5431909548870517327
+    second: PROP-04-pushable-box-kit-v2_1
+  - first:
+      213: -4325915092356272978
+    second: PROP-04-pushable-box-kit-v2_2
+  - first:
+      213: -7195848817969528655
+    second: PROP-04-pushable-box-kit-v2_3
+  - first:
+      213: -2320559645227354251
+    second: PROP-04-pushable-box-kit-v2_4
+  - first:
+      213: 7295750456146886967
+    second: PROP-04-pushable-box-kit-v2_5
+  - first:
+      213: 7813727322457684752
+    second: PROP-04-pushable-box-kit-v2_6
+  - first:
+      213: -6636339356878346577
+    second: PROP-04-pushable-box-kit-v2_7
+  - first:
+      213: -46944414975818084
+    second: PROP-04-pushable-box-kit-v2_8
+  - first:
+      213: -1480620679231932673
+    second: PROP-04-pushable-box-kit-v2_9
+  - first:
+      213: 5969782767549331816
+    second: PROP-04-pushable-box-kit-v2_10
+  - first:
+      213: -401348552609664134
+    second: PROP-04-pushable-box-kit-v2_11
+  - first:
+      213: 5339539119789641383
+    second: PROP-04-pushable-box-kit-v2_12
+  - first:
+      213: 6964404422159634695
+    second: PROP-04-pushable-box-kit-v2_13
+  - first:
+      213: 3457523901564466294
+    second: PROP-04-pushable-box-kit-v2_14
+  - first:
+      213: -2421954233501899944
+    second: PROP-04-pushable-box-kit-v2_15
+  - first:
+      213: -8944008172410115792
+    second: PROP-04-pushable-box-kit-v2_16
+  - first:
+      213: 1783388245690436090
+    second: PROP-04-pushable-box-kit-v2_17
+  - first:
+      213: 1837042240105197281
+    second: PROP-04-pushable-box-kit-v2_18
+  - first:
+      213: 5363432689634208782
+    second: PROP-04-pushable-box-kit-v2_19
+  - first:
+      213: 6968137195166681654
+    second: PROP-04-pushable-box-kit-v2_20
+  - first:
+      213: -4155804780783344348
+    second: PROP-04-pushable-box-kit-v2_21
+  - first:
+      213: -148301637451651307
+    second: PROP-04-pushable-box-kit-v2_22
+  - first:
+      213: -6276164287090917109
+    second: PROP-04-pushable-box-kit-v2_23
+  - first:
+      213: 8901874038032560871
+    second: PROP-04-pushable-box-kit-v2_24
+  - first:
+      213: -8093972242830837719
+    second: PROP-04-pushable-box-kit-v2_25
+  - first:
+      213: 3828875207102794262
+    second: PROP-04-pushable-box-kit-v2_26
+  - first:
+      213: 7949193558514783552
+    second: PROP-04-pushable-box-kit-v2_27
+  - first:
+      213: 3201142619113046638
+    second: PROP-04-pushable-box-kit-v2_28
+  - first:
+      213: -3592627281756975977
+    second: PROP-04-pushable-box-kit-v2_29
+  - first:
+      213: 7433567245263988902
+    second: PROP-04-pushable-box-kit-v2_30
+  - first:
+      213: -8648789802831626140
+    second: PROP-04-pushable-box-kit-v2_31
+  - first:
+      213: -7365408316589174016
+    second: PROP-04-pushable-box-kit-v2_32
+  - first:
+      213: 7785819275034001079
+    second: PROP-04-pushable-box-kit-v2_33
+  - first:
+      213: -2790755296826300864
+    second: PROP-04-pushable-box-kit-v2_34
+  - first:
+      213: 4496841597129921104
+    second: PROP-04-pushable-box-kit-v2_35
+  - first:
+      213: -8344005290506466850
+    second: PROP-04-pushable-box-kit-v2_36
+  - first:
+      213: 3896793926919582170
+    second: PROP-04-pushable-box-kit-v2_37
+  - first:
+      213: 7528033504060032796
+    second: PROP-04-pushable-box-kit-v2_38
+  - first:
+      213: -864064939273470894
+    second: PROP-04-pushable-box-kit-v2_39
+  - first:
+      213: 6816744147752314189
+    second: PROP-04-pushable-box-kit-v2_40
+  - first:
+      213: 4602614442600582404
+    second: PROP-04-pushable-box-kit-v2_41
+  - first:
+      213: -398944404865269213
+    second: PROP-04-pushable-box-kit-v2_42
+  - first:
+      213: -6955089685719560937
+    second: PROP-04-pushable-box-kit-v2_43
+  - first:
+      213: 1579922665658995512
+    second: PROP-04-pushable-box-kit-v2_44
+  - first:
+      213: -5735976371579921043
+    second: PROP-04-pushable-box-kit-v2_45
+  - first:
+      213: 6406222671106574974
+    second: PROP-04-pushable-box-kit-v2_46
+  - first:
+      213: -6658042964848999150
+    second: PROP-04-pushable-box-kit-v2_47
+  - first:
+      213: -987928045940822253
+    second: PROP-04-pushable-box-kit-v2_48
+  - first:
+      213: -7651796489446893687
+    second: PROP-04-pushable-box-kit-v2_49
+  - first:
+      213: 4066764599476163741
+    second: PROP-04-pushable-box-kit-v2_50
+  - first:
+      213: 5358691132705988753
+    second: PROP-04-pushable-box-kit-v2_51
+  - first:
+      213: 2715314635099860885
+    second: PROP-04-pushable-box-kit-v2_52
+  - first:
+      213: 112388169312918829
+    second: PROP-04-pushable-box-kit-v2_53
+  - first:
+      213: 1428470332913391037
+    second: PROP-04-pushable-box-kit-v2_54
+  - first:
+      213: 3137866439793410379
+    second: PROP-04-pushable-box-kit-v2_55
+  - first:
+      213: -1313425587057673677
+    second: PROP-04-pushable-box-kit-v2_56
+  - first:
+      213: -5938095865375210025
+    second: PROP-04-pushable-box-kit-v2_57
+  - first:
+      213: -1382958402162402917
+    second: PROP-04-pushable-box-kit-v2_58
+  - first:
+      213: -870696104143600745
+    second: PROP-04-pushable-box-kit-v2_59
+  - first:
+      213: 8818510901146583464
+    second: PROP-04-pushable-box-kit-v2_60
+  - first:
+      213: 7923325958144717328
+    second: PROP-04-pushable-box-kit-v2_61
+  - first:
+      213: -2048885366718121462
+    second: PROP-04-pushable-box-kit-v2_62
+  - first:
+      213: -7919908360711063098
+    second: PROP-04-pushable-box-kit-v2_63
+  - first:
+      213: 4124215698863397767
+    second: PROP-04-pushable-box-kit-v2_64
+  - first:
+      213: -9150390531872117538
+    second: PROP-04-pushable-box-kit-v2_65
+  - first:
+      213: 7017947825684065022
+    second: PROP-04-pushable-box-kit-v2_66
+  - first:
+      213: -3020897623234068635
+    second: PROP-04-pushable-box-kit-v2_67
+  - first:
+      213: 8983203046384674564
+    second: PROP-04-pushable-box-kit-v2_68
+  - first:
+      213: -5582196622662791592
+    second: PROP-04-pushable-box-kit-v2_69
+  - first:
+      213: 3286820016374883404
+    second: PROP-04-pushable-box-kit-v2_70
+  - first:
+      213: 5841550320409530088
+    second: PROP-04-pushable-box-kit-v2_71
+  - first:
+      213: 2059616121740298888
+    second: PROP-04-pushable-box-kit-v2_72
+  - first:
+      213: -1501860750455052829
+    second: PROP-04-pushable-box-kit-v2_73
+  - first:
+      213: 491209982875236729
+    second: PROP-04-pushable-box-kit-v2_74
+  - first:
+      213: -3624901117492728036
+    second: PROP-04-pushable-box-kit-v2_75
+  - first:
+      213: -171732854491287740
+    second: PROP-04-pushable-box-kit-v2_76
+  - first:
+      213: -1139021838301036213
+    second: PROP-04-pushable-box-kit-v2_77
+  - first:
+      213: 169230540761259831
+    second: PROP-04-pushable-box-kit-v2_78
+  - first:
+      213: -3966965426483224069
+    second: PROP-04-pushable-box-kit-v2_79
+  - first:
+      213: 7946665076843549375
+    second: PROP-04-pushable-box-kit-v2_80
+  - first:
+      213: 1638749074606502930
+    second: PROP-04-pushable-box-kit-v2_81
+  - first:
+      213: 5008084615061926337
+    second: PROP-04-pushable-box-kit-v2_82
+  - first:
+      213: 5049097513134930556
+    second: PROP-04-pushable-box-kit-v2_83
+  - first:
+      213: -2874178786496665062
+    second: PROP-04-pushable-box-kit-v2_84
+  - first:
+      213: 9056773140718325044
+    second: PROP-04-pushable-box-kit-v2_85
+  - first:
+      213: 7246940631867078940
+    second: PROP-04-pushable-box-kit-v2_86
+  - first:
+      213: -7663356471390506655
+    second: PROP-04-pushable-box-kit-v2_87
+  - first:
+      213: -2336739196300278383
+    second: PROP-04-pushable-box-kit-v2_88
+  - first:
+      213: 6580949179406319416
+    second: PROP-04-pushable-box-kit-v2_89
+  - first:
+      213: -5905452909344880958
+    second: PROP-04-pushable-box-kit-v2_90
+  - first:
+      213: 1937864196654735246
+    second: PROP-04-pushable-box-kit-v2_91
+  - first:
+      213: -6117650024367810281
+    second: PROP-04-pushable-box-kit-v2_92
+  - first:
+      213: -9137667806204818708
+    second: PROP-04-pushable-box-kit-v2_93
+  - first:
+      213: -4145736985914813190
+    second: PROP-04-pushable-box-kit-v2_94
+  - first:
+      213: 363581611897784494
+    second: PROP-04-pushable-box-kit-v2_95
+  - first:
+      213: 6141056174247585170
+    second: PROP-04-pushable-box-kit-v2_96
+  - first:
+      213: -4040083424277723411
+    second: PROP-04-pushable-box-kit-v2_97
+  - first:
+      213: -554989088109935188
+    second: PROP-04-pushable-box-kit-v2_98
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_0
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1392
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306943b1f340bfaa0800000000000000
+      internalID: -6126298199021545981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_1
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1359
+        width: 78
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd35877b0bfd94b0800000000000000
+      internalID: -5431909548870517327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_2
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1294
+        width: 237
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac6a97a42347f3c0800000000000000
+      internalID: -4325915092356272978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_3
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 1425
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0038310a5332c90800000000000000
+      internalID: -7195848817969528655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_4
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 1402
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577fd1a2c47bbcfd0800000000000000
+      internalID: -2320559645227354251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_5
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 1386
+        width: 77
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7318784a266bf3560800000000000000
+      internalID: 7295750456146886967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_6
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 1338
+        width: 84
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bbad2d99fef6c60800000000000000
+      internalID: 7813727322457684752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_7
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 1439
+        width: 64
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa66258048cf6e3a0800000000000000
+      internalID: -6636339356878346577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_8
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 1328
+        width: 148
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c968d25ad48395ff0800000000000000
+      internalID: -46944414975818084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_9
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 1332
+        width: 94
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6784f3657c37be0800000000000000
+      internalID: -1480620679231932673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_10
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1391
+        width: 143
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869b60e3ccde8d250800000000000000
+      internalID: 5969782767549331816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_11
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 1312
+        width: 114
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73759a2e9f1e6af0800000000000000
+      internalID: -401348552609664134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_12
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 1421
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae0d531a8ad91a40800000000000000
+      internalID: 5339539119789641383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_13
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 580
+        width: 647
+        height: 824
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7011cf64ce886a060800000000000000
+      internalID: 6964404422159634695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_14
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 1402
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6743c237ba79bff20800000000000000
+      internalID: 3457523901564466294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_15
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1378
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853add9e47d736ed0800000000000000
+      internalID: -2421954233501899944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_16
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 1396
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039ed4f54ff70e380800000000000000
+      internalID: -8944008172410115792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_17
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 1394
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af94cf0292edfb810800000000000000
+      internalID: 1783388245690436090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_18
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 1280
+        width: 80
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eeabde2f2c7e7910800000000000000
+      internalID: 1837042240105197281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_19
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 1372
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c6d525d9dbe6a40800000000000000
+      internalID: 5363432689634208782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_20
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 1386
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ac8183cdbc3b060800000000000000
+      internalID: 6968137195166681654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_21
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1352
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425e98df19d9356c0800000000000000
+      internalID: -4155804780783344348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_22
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1323
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517e51c427021fdf0800000000000000
+      internalID: -148301637451651307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_23
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1322
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0104fb55d596e8a0800000000000000
+      internalID: -6276164287090917109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_24
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 1290
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2f330064fc98b70800000000000000
+      internalID: 8901874038032560871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_25
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1325
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928323cf02f6caf80800000000000000
+      internalID: -8093972242830837719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_26
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1318
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a89a0f6b5e22530800000000000000
+      internalID: 3828875207102794262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_27
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 1312
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045d812cc65315e60800000000000000
+      internalID: 7949193558514783552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_28
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1298
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62c89f604ebc6c20800000000000000
+      internalID: 3201142619113046638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_29
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1312
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c8f74958c642ec0800000000000000
+      internalID: -3592627281756975977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_30
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1290
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a860fb5606592760800000000000000
+      internalID: 7433567245263988902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_31
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 1304
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46043316f7359f780800000000000000
+      internalID: -8648789802831626140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_32
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 1291
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0039effd820d8c990800000000000000
+      internalID: -7365408316589174016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_33
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1294
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be7acd2169cc0c60800000000000000
+      internalID: 7785819275034001079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_34
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 1306
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046e0a5f7de3549d0800000000000000
+      internalID: -2790755296826300864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_35
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 1310
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05211287b9df76e30800000000000000
+      internalID: 4496841597129921104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_36
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 1290
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9c16f8563243c80800000000000000
+      internalID: -8344005290506466850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_37
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 1316
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1f0f03e61341630800000000000000
+      internalID: 3896793926919582170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_38
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 1305
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17ccb23692f87860800000000000000
+      internalID: 7528033504060032796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_39
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 1290
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c3cb704893204f0800000000000000
+      internalID: -864064939273470894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_40
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 1304
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45ef7b8fa0f99e50800000000000000
+      internalID: 6816744147752314189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_41
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 1296
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d4a492375cfdf30800000000000000
+      internalID: 4602614442600582404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_42
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 1304
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32240ee6d2aa67af0800000000000000
+      internalID: -398944404865269213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_43
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 580
+        width: 569
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dc3bdc7ce8a7f90800000000000000
+      internalID: -6955089685719560937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_44
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 580
+        width: 574
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833513b2b430de510800000000000000
+      internalID: 1579922665658995512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_45
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 1279
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dd1fb61e7b560b0800000000000000
+      internalID: -5735976371579921043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_46
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 1281
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a8c57e39977e850800000000000000
+      internalID: 6406222671106574974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_47
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 757
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21503e40331e993a0800000000000000
+      internalID: -6658042964848999150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_48
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 717
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f2d0e2dac2a42f0800000000000000
+      internalID: -987928045940822253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_49
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 733
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987dfe042ab5fc590800000000000000
+      internalID: -7651796489446893687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_50
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 725
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9419e84bdc007830800000000000000
+      internalID: 4066764599476163741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_51
+      rect:
+        serializedVersion: 2
+        x: 2245
+        y: 721
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190e9f19135ed5a40800000000000000
+      internalID: 5358691132705988753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_52
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 717
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59feb86364cbea520800000000000000
+      internalID: 2715314635099860885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_53
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 677
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d5adcc1784f8100800000000000000
+      internalID: 112388169312918829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_54
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 666
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db59c7d0332f2d310800000000000000
+      internalID: 1428470332913391037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_55
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 683
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b418180e6e0fb8b20800000000000000
+      internalID: 3137866439793410379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_56
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 692
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ab48c2366c5cde0800000000000000
+      internalID: -1313425587057673677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_57
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 681
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d548169545a79da0800000000000000
+      internalID: -5938095865375210025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_58
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 693
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99d7f319aebecce0800000000000000
+      internalID: -1382958402162402917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_59
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 669
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7934435a18aaae3f0800000000000000
+      internalID: -870696104143600745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_60
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 683
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a180ce21f4a16a70800000000000000
+      internalID: 8818510901146583464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_61
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 693
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012f8d6bafe45fd60800000000000000
+      internalID: 7923325958144717328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_62
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 683
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a354b4d95e093e0800000000000000
+      internalID: -2048885366718121462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_63
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 677
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9bb22be45d61290800000000000000
+      internalID: -7919908360711063098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_64
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 659
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b97dbb3582c3930800000000000000
+      internalID: 4124215698863397767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_65
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 678
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc2aa7ca48430180800000000000000
+      internalID: -9150390531872117538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_66
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 675
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efaaf126d52c46160800000000000000
+      internalID: 7017947825684065022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_67
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 659
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fbf48fd9d9316d0800000000000000
+      internalID: -3020897623234068635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_68
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 669
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40727fc539fbaac70800000000000000
+      internalID: 8983203046384674564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_69
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 626
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e8cc75fbd0882b0800000000000000
+      internalID: -5582196622662791592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_70
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 660
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c442bacf3612d9d20800000000000000
+      internalID: 3286820016374883404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_71
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 663
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee4499011b511150800000000000000
+      internalID: 5841550320409530088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_72
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 657
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a8ffd43f9359c10800000000000000
+      internalID: 2059616121740298888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_73
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 655
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5660bca91582be0800000000000000
+      internalID: -1501860750455052829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_74
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 648
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979776b70e021d600800000000000000
+      internalID: 491209982875236729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_75
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 663
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fede1a3a3c1bdc0800000000000000
+      internalID: -3624901117492728036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_76
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 642
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f68c3f0e1ed9df0800000000000000
+      internalID: -171732854491287740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_77
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 618
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4187a04ca16130f0800000000000000
+      internalID: -1139021838301036213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_78
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 627
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fd83bb74a395200800000000000000
+      internalID: 169230540761259831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_79
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 626
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1263666f182f8c0800000000000000
+      internalID: -3966965426483224069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_80
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 640
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2134eb8c9384e60800000000000000
+      internalID: 7946665076843549375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_81
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 644
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214bbe3d9910eb610800000000000000
+      internalID: 1638749074606502930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_82
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 646
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c17dd56c6a408540800000000000000
+      internalID: 5008084615061926337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_83
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 648
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a37badf6ff11640800000000000000
+      internalID: 5049097513134930556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_84
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 648
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a27e92f9ddc18d0800000000000000
+      internalID: -2874178786496665062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_85
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 644
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d80d7cf2f10bd70800000000000000
+      internalID: 9056773140718325044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_86
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 644
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1938c6db1e429460800000000000000
+      internalID: 7246940631867078940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_87
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 636
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161f39734e946a590800000000000000
+      internalID: -7663356471390506655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_88
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 650
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1954acfd41c329fd0800000000000000
+      internalID: -2336739196300278383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_89
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 644
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f796b496a345b50800000000000000
+      internalID: 6580949179406319416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_90
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 641
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c683bc0edd9b0ea0800000000000000
+      internalID: -5905452909344880958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_91
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 626
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f9d88383da4ea10800000000000000
+      internalID: 1937864196654735246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_92
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 642
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719956d27bdb91ba0800000000000000
+      internalID: -6117650024367810281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_93
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 640
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea83af2b8b703180800000000000000
+      internalID: -9137667806204818708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_94
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 636
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af459562d226776c0800000000000000
+      internalID: -4145736985914813190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_95
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 628
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea80808bc83bb0500800000000000000
+      internalID: 363581611897784494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_96
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 627
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2952fb3cd0a693550800000000000000
+      internalID: 6141056174247585170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_97
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 631
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de68bf8e78dbee7c0800000000000000
+      internalID: -4040083424277723411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-04-pushable-box-kit-v2_98
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 622
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca54df46d584c48f0800000000000000
+      internalID: -554989088109935188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PROP-04-pushable-box-kit-v2_0: -6126298199021545981
+      PROP-04-pushable-box-kit-v2_1: -5431909548870517327
+      PROP-04-pushable-box-kit-v2_10: 5969782767549331816
+      PROP-04-pushable-box-kit-v2_11: -401348552609664134
+      PROP-04-pushable-box-kit-v2_12: 5339539119789641383
+      PROP-04-pushable-box-kit-v2_13: 6964404422159634695
+      PROP-04-pushable-box-kit-v2_14: 3457523901564466294
+      PROP-04-pushable-box-kit-v2_15: -2421954233501899944
+      PROP-04-pushable-box-kit-v2_16: -8944008172410115792
+      PROP-04-pushable-box-kit-v2_17: 1783388245690436090
+      PROP-04-pushable-box-kit-v2_18: 1837042240105197281
+      PROP-04-pushable-box-kit-v2_19: 5363432689634208782
+      PROP-04-pushable-box-kit-v2_2: -4325915092356272978
+      PROP-04-pushable-box-kit-v2_20: 6968137195166681654
+      PROP-04-pushable-box-kit-v2_21: -4155804780783344348
+      PROP-04-pushable-box-kit-v2_22: -148301637451651307
+      PROP-04-pushable-box-kit-v2_23: -6276164287090917109
+      PROP-04-pushable-box-kit-v2_24: 8901874038032560871
+      PROP-04-pushable-box-kit-v2_25: -8093972242830837719
+      PROP-04-pushable-box-kit-v2_26: 3828875207102794262
+      PROP-04-pushable-box-kit-v2_27: 7949193558514783552
+      PROP-04-pushable-box-kit-v2_28: 3201142619113046638
+      PROP-04-pushable-box-kit-v2_29: -3592627281756975977
+      PROP-04-pushable-box-kit-v2_3: -7195848817969528655
+      PROP-04-pushable-box-kit-v2_30: 7433567245263988902
+      PROP-04-pushable-box-kit-v2_31: -8648789802831626140
+      PROP-04-pushable-box-kit-v2_32: -7365408316589174016
+      PROP-04-pushable-box-kit-v2_33: 7785819275034001079
+      PROP-04-pushable-box-kit-v2_34: -2790755296826300864
+      PROP-04-pushable-box-kit-v2_35: 4496841597129921104
+      PROP-04-pushable-box-kit-v2_36: -8344005290506466850
+      PROP-04-pushable-box-kit-v2_37: 3896793926919582170
+      PROP-04-pushable-box-kit-v2_38: 7528033504060032796
+      PROP-04-pushable-box-kit-v2_39: -864064939273470894
+      PROP-04-pushable-box-kit-v2_4: -2320559645227354251
+      PROP-04-pushable-box-kit-v2_40: 6816744147752314189
+      PROP-04-pushable-box-kit-v2_41: 4602614442600582404
+      PROP-04-pushable-box-kit-v2_42: -398944404865269213
+      PROP-04-pushable-box-kit-v2_43: -6955089685719560937
+      PROP-04-pushable-box-kit-v2_44: 1579922665658995512
+      PROP-04-pushable-box-kit-v2_45: -5735976371579921043
+      PROP-04-pushable-box-kit-v2_46: 6406222671106574974
+      PROP-04-pushable-box-kit-v2_47: -6658042964848999150
+      PROP-04-pushable-box-kit-v2_48: -987928045940822253
+      PROP-04-pushable-box-kit-v2_49: -7651796489446893687
+      PROP-04-pushable-box-kit-v2_5: 7295750456146886967
+      PROP-04-pushable-box-kit-v2_50: 4066764599476163741
+      PROP-04-pushable-box-kit-v2_51: 5358691132705988753
+      PROP-04-pushable-box-kit-v2_52: 2715314635099860885
+      PROP-04-pushable-box-kit-v2_53: 112388169312918829
+      PROP-04-pushable-box-kit-v2_54: 1428470332913391037
+      PROP-04-pushable-box-kit-v2_55: 3137866439793410379
+      PROP-04-pushable-box-kit-v2_56: -1313425587057673677
+      PROP-04-pushable-box-kit-v2_57: -5938095865375210025
+      PROP-04-pushable-box-kit-v2_58: -1382958402162402917
+      PROP-04-pushable-box-kit-v2_59: -870696104143600745
+      PROP-04-pushable-box-kit-v2_6: 7813727322457684752
+      PROP-04-pushable-box-kit-v2_60: 8818510901146583464
+      PROP-04-pushable-box-kit-v2_61: 7923325958144717328
+      PROP-04-pushable-box-kit-v2_62: -2048885366718121462
+      PROP-04-pushable-box-kit-v2_63: -7919908360711063098
+      PROP-04-pushable-box-kit-v2_64: 4124215698863397767
+      PROP-04-pushable-box-kit-v2_65: -9150390531872117538
+      PROP-04-pushable-box-kit-v2_66: 7017947825684065022
+      PROP-04-pushable-box-kit-v2_67: -3020897623234068635
+      PROP-04-pushable-box-kit-v2_68: 8983203046384674564
+      PROP-04-pushable-box-kit-v2_69: -5582196622662791592
+      PROP-04-pushable-box-kit-v2_7: -6636339356878346577
+      PROP-04-pushable-box-kit-v2_70: 3286820016374883404
+      PROP-04-pushable-box-kit-v2_71: 5841550320409530088
+      PROP-04-pushable-box-kit-v2_72: 2059616121740298888
+      PROP-04-pushable-box-kit-v2_73: -1501860750455052829
+      PROP-04-pushable-box-kit-v2_74: 491209982875236729
+      PROP-04-pushable-box-kit-v2_75: -3624901117492728036
+      PROP-04-pushable-box-kit-v2_76: -171732854491287740
+      PROP-04-pushable-box-kit-v2_77: -1139021838301036213
+      PROP-04-pushable-box-kit-v2_78: 169230540761259831
+      PROP-04-pushable-box-kit-v2_79: -3966965426483224069
+      PROP-04-pushable-box-kit-v2_8: -46944414975818084
+      PROP-04-pushable-box-kit-v2_80: 7946665076843549375
+      PROP-04-pushable-box-kit-v2_81: 1638749074606502930
+      PROP-04-pushable-box-kit-v2_82: 5008084615061926337
+      PROP-04-pushable-box-kit-v2_83: 5049097513134930556
+      PROP-04-pushable-box-kit-v2_84: -2874178786496665062
+      PROP-04-pushable-box-kit-v2_85: 9056773140718325044
+      PROP-04-pushable-box-kit-v2_86: 7246940631867078940
+      PROP-04-pushable-box-kit-v2_87: -7663356471390506655
+      PROP-04-pushable-box-kit-v2_88: -2336739196300278383
+      PROP-04-pushable-box-kit-v2_89: 6580949179406319416
+      PROP-04-pushable-box-kit-v2_9: -1480620679231932673
+      PROP-04-pushable-box-kit-v2_90: -5905452909344880958
+      PROP-04-pushable-box-kit-v2_91: 1937864196654735246
+      PROP-04-pushable-box-kit-v2_92: -6117650024367810281
+      PROP-04-pushable-box-kit-v2_93: -9137667806204818708
+      PROP-04-pushable-box-kit-v2_94: -4145736985914813190
+      PROP-04-pushable-box-kit-v2_95: 363581611897784494
+      PROP-04-pushable-box-kit-v2_96: 6141056174247585170
+      PROP-04-pushable-box-kit-v2_97: -4040083424277723411
+      PROP-04-pushable-box-kit-v2_98: -554989088109935188
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GreyboxFlowController : MonoBehaviour
 {
     [SerializeField] private GameProgress gameProgress;
+    [SerializeField] private GameUIController gameUIController;
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private GameObject startPanel;
     [SerializeField] private GameObject pausePanel;
@@ -27,6 +28,9 @@ public class GreyboxFlowController : MonoBehaviour
     {
         if (gameProgress == null)
             gameProgress = FindAnyObjectByType<GameProgress>();
+
+        if (gameUIController == null)
+            gameUIController = FindAnyObjectByType<GameUIController>();
 
         if (playerMovement == null)
             playerMovement = FindAnyObjectByType<PlayerMovement>();
@@ -90,7 +94,8 @@ public class GreyboxFlowController : MonoBehaviour
             return;
 
         isPaused = true;
-        gameProgress.PauseGame();
+        if (gameUIController != null)
+            gameUIController.PauseGame();
         SelectButton(pauseDefaultButton);
     }
 
@@ -100,7 +105,8 @@ public class GreyboxFlowController : MonoBehaviour
             return;
 
         isPaused = false;
-        gameProgress.ResumeGame();
+        if (gameUIController != null)
+            gameUIController.ResumeGame();
         ClearButtonSelection();
     }
 

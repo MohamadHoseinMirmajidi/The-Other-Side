@@ -1,41 +1,22 @@
-using UnityEngine.InputSystem;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class InteractionManager : MonoBehaviour
 {
-    [Header("References")]
     [SerializeField] private PlayerInteractionDetector detector;
-    [SerializeField] private InteractionPromptUI promptPrefab;
 
-    //[Header("Input")]
-    //[SerializeField] private KeyCode interactionKey = KeyCode.E;
-
-    private InteractionPromptUI promptUI;
     private Interactable currentTarget;
     private bool isInteracting;
 
     private void Awake()
     {
-        if (promptPrefab == null)
-        {
-            Debug.LogError(
-                "Interaction Prompt Prefab is not assigned!",
-                this
-            );
-            enabled = false;
-            return;
-        }
-
-        promptUI = Instantiate(promptPrefab);
-        promptUI.Hide();
+        if (detector == null)
+            detector = GetComponentInChildren<PlayerInteractionDetector>();
 
         if (detector == null)
         {
-            Debug.LogError(
-                "Player Interaction Detector is not assigned!",
-                this
-            );
+            Debug.LogError("Player Interaction Detector is not assigned.", this);
             enabled = false;
         }
     }
@@ -43,26 +24,14 @@ public class InteractionManager : MonoBehaviour
     private void Update()
     {
         if (isInteracting || Time.timeScale == 0f)
-        {
-            promptUI.Hide();
             return;
-        }
 
         currentTarget = FindClosestTarget();
-
-        if (currentTarget == null)
-        {
-            promptUI.Hide();
+        if (currentTarget == null || Keyboard.current == null)
             return;
-        }
 
-        promptUI.Show(currentTarget);
-
-        if (Keyboard.current != null &&
-            Keyboard.current.eKey.wasPressedThisFrame)
-        {
+        if (Keyboard.current.eKey.wasPressedThisFrame)
             StartCoroutine(PerformInteraction(currentTarget));
-        }
     }
 
     private Interactable FindClosestTarget()
@@ -75,15 +44,12 @@ public class InteractionManager : MonoBehaviour
             if (candidate == null || !candidate.CanInteract)
                 continue;
 
-            float distance = (
-                candidate.transform.position - transform.position
-            ).sqrMagnitude;
+            float distance = (candidate.transform.position - transform.position).sqrMagnitude;
+            if (distance >= closestDistance)
+                continue;
 
-            if (distance < closestDistance)
-            {
-                closestDistance = distance;
-                closestTarget = candidate;
-            }
+            closestDistance = distance;
+            closestTarget = candidate;
         }
 
         return closestTarget;
@@ -98,10 +64,7 @@ public class InteractionManager : MonoBehaviour
         }
 
         isInteracting = true;
-        promptUI.Hide();
-
         yield return StartCoroutine(target.ExecuteInteraction());
-
         isInteracting = false;
         currentTarget = null;
     }
@@ -111,14 +74,5 @@ public class InteractionManager : MonoBehaviour
         StopAllCoroutines();
         isInteracting = false;
         currentTarget = null;
-
-        if (promptUI != null)
-            promptUI.Hide();
-    }
-
-    private void OnDestroy()
-    {
-        if (promptUI != null)
-            Destroy(promptUI.gameObject);
     }
 }

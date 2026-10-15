@@ -5,7 +5,6 @@ using UnityEngine;
 public class DialogueHUD : MonoBehaviour
 {
     [Header("References")]
-    [SerializeField] private GameProgress gameProgress;
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private TMP_Text dialogueText;
 
@@ -14,25 +13,12 @@ public class DialogueHUD : MonoBehaviour
 
     private Coroutine hideRoutine;
 
+    public float MessageDuration => messageDuration;
+
     private void Awake()
     {
-        if (gameProgress == null)
-            gameProgress = FindAnyObjectByType<GameProgress>();
-
         if (dialogueBox != null)
             dialogueBox.SetActive(false);
-    }
-
-    private void OnEnable()
-    {
-        if (gameProgress != null)
-            gameProgress.ProgressChanged += HandleProgressChanged;
-    }
-
-    private void OnDisable()
-    {
-        if (gameProgress != null)
-            gameProgress.ProgressChanged -= HandleProgressChanged;
     }
 
     public void ShowDialogue(string message)
@@ -48,46 +34,14 @@ public class DialogueHUD : MonoBehaviour
         hideRoutine = StartCoroutine(HideAfterDelay());
     }
 
-    private void HandleProgressChanged(GameProgressEvent progressEvent)
+    public void HideDialogue()
     {
-        switch (progressEvent)
-        {
-            case GameProgressEvent.ShadowSeen:
-                ShowDialogue("این سایه ثابت است... اما چیزی جلوی نور نیست.");
-                break;
+        if (hideRoutine != null)
+            StopCoroutine(hideRoutine);
 
-            case GameProgressEvent.BoxPlaced:
-                ShowDialogue("حالا می‌توانم روی جعبه بروم و به دستگیره برسم.");
-                break;
-
-            case GameProgressEvent.EnteredCartRoom:
-                ShowDialogue("انگار یک در پشت این چرخ دستی پنهان شده.");
-                break;
-
-            case GameProgressEvent.CartMovedAway:
-                ShowDialogue("در اینجا بود.");
-                break;
-
-            case GameProgressEvent.EnteredBagRoom:
-                ShowDialogue("این همان پرده اصلی نمایش است...");
-                break;
-
-            case GameProgressEvent.BagCollected:
-                ShowDialogue("این سایه روی پرده چرا شبیه من است؟");
-                break;
-
-            case GameProgressEvent.HallwayLightSelected:
-                ShowDialogue("پس این سایه تمام مدت مال خودم بود.");
-                break;
-
-            case GameProgressEvent.StageDoorChecked:
-                ShowDialogue("در صحنه بسته است. باید از همان راه برگردم.");
-                break;
-
-            case GameProgressEvent.ReturnedToFirstRoom:
-                ShowDialogue("مسیر حیاط حالا باز است.");
-                break;
-        }
+        hideRoutine = null;
+        if (dialogueBox != null)
+            dialogueBox.SetActive(false);
     }
 
     private IEnumerator HideAfterDelay()

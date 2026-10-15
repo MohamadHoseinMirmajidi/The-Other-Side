@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: 85331b5a4d1dcd94797d8a469d8d5722
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6519686674799929734
+    second: PROP-10-curtain-rail-hardware-kit_0
+  - first:
+      213: 8836245728499716595
+    second: PROP-10-curtain-rail-hardware-kit_1
+  - first:
+      213: -309530015047702395
+    second: PROP-10-curtain-rail-hardware-kit_2
+  - first:
+      213: 5070900829739334408
+    second: PROP-10-curtain-rail-hardware-kit_3
+  - first:
+      213: -866548799819896931
+    second: PROP-10-curtain-rail-hardware-kit_4
+  - first:
+      213: -2085982826385351063
+    second: PROP-10-curtain-rail-hardware-kit_5
+  - first:
+      213: -3994350395792336404
+    second: PROP-10-curtain-rail-hardware-kit_6
+  - first:
+      213: -7030576203686837282
+    second: PROP-10-curtain-rail-hardware-kit_7
+  - first:
+      213: 9096245753594292734
+    second: PROP-10-curtain-rail-hardware-kit_8
+  - first:
+      213: -1139727905266079516
+    second: PROP-10-curtain-rail-hardware-kit_9
+  - first:
+      213: -383086598456521252
+    second: PROP-10-curtain-rail-hardware-kit_10
+  - first:
+      213: -487564158829582082
+    second: PROP-10-curtain-rail-hardware-kit_11
+  - first:
+      213: 3293710713761357156
+    second: PROP-10-curtain-rail-hardware-kit_12
+  - first:
+      213: -4929248530986045906
+    second: PROP-10-curtain-rail-hardware-kit_13
+  - first:
+      213: 3416671864981235293
+    second: PROP-10-curtain-rail-hardware-kit_14
+  - first:
+      213: 2891908214605386884
+    second: PROP-10-curtain-rail-hardware-kit_15
+  - first:
+      213: 2005410011904890120
+    second: PROP-10-curtain-rail-hardware-kit_16
+  - first:
+      213: -4590708797104846108
+    second: PROP-10-curtain-rail-hardware-kit_17
+  - first:
+      213: 8767572493521504332
+    second: PROP-10-curtain-rail-hardware-kit_18
+  - first:
+      213: 8047814507122524268
+    second: PROP-10-curtain-rail-hardware-kit_19
+  - first:
+      213: -6376694287598762330
+    second: PROP-10-curtain-rail-hardware-kit_20
+  - first:
+      213: 4165610585616580598
+    second: PROP-10-curtain-rail-hardware-kit_21
+  - first:
+      213: -8216073575634352275
+    second: PROP-10-curtain-rail-hardware-kit_22
+  - first:
+      213: -4592568648471015201
+    second: PROP-10-curtain-rail-hardware-kit_23
+  - first:
+      213: 8487549798139044577
+    second: PROP-10-curtain-rail-hardware-kit_24
+  - first:
+      213: 1275062863602086575
+    second: PROP-10-curtain-rail-hardware-kit_25
+  - first:
+      213: 570458579787188815
+    second: PROP-10-curtain-rail-hardware-kit_26
+  - first:
+      213: -591748088857296919
+    second: PROP-10-curtain-rail-hardware-kit_27
+  - first:
+      213: 7777374033592611592
+    second: PROP-10-curtain-rail-hardware-kit_28
+  - first:
+      213: 3639443301629414823
+    second: PROP-10-curtain-rail-hardware-kit_29
+  - first:
+      213: 4607693502436750191
+    second: PROP-10-curtain-rail-hardware-kit_30
+  - first:
+      213: 8639182197368918645
+    second: PROP-10-curtain-rail-hardware-kit_31
+  - first:
+      213: -3479225797562703143
+    second: PROP-10-curtain-rail-hardware-kit_32
+  - first:
+      213: -3025218601102550228
+    second: PROP-10-curtain-rail-hardware-kit_33
+  - first:
+      213: -6448082009048340646
+    second: PROP-10-curtain-rail-hardware-kit_34
+  - first:
+      213: 1070490109025632505
+    second: PROP-10-curtain-rail-hardware-kit_35
+  - first:
+      213: 4239071536856925415
+    second: PROP-10-curtain-rail-hardware-kit_36
+  - first:
+      213: -7128672601713717589
+    second: PROP-10-curtain-rail-hardware-kit_37
+  - first:
+      213: -3238087216338900840
+    second: PROP-10-curtain-rail-hardware-kit_38
+  - first:
+      213: -2134612293249749865
+    second: PROP-10-curtain-rail-hardware-kit_39
+  - first:
+      213: 4795659378106806913
+    second: PROP-10-curtain-rail-hardware-kit_40
+  - first:
+      213: -7594616068520948045
+    second: PROP-10-curtain-rail-hardware-kit_41
+  - first:
+      213: -8620021023478281276
+    second: PROP-10-curtain-rail-hardware-kit_42
+  - first:
+      213: -4365241949809455321
+    second: PROP-10-curtain-rail-hardware-kit_43
+  - first:
+      213: -473162164443719118
+    second: PROP-10-curtain-rail-hardware-kit_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_0
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 896
+        width: 1719
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6892c4aec749a7a50800000000000000
+      internalID: 6519686674799929734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_1
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1442
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1d9437ca6a0aa70800000000000000
+      internalID: 8836245728499716595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_2
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 1437
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588a2cd571454bbf0800000000000000
+      internalID: -309530015047702395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_3
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 1434
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bb8d710757f5640800000000000000
+      internalID: 5070900829739334408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_4
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1400
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97a13e257669f3f0800000000000000
+      internalID: -866548799819896931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_5
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1403
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e5cb1eba91d03e0800000000000000
+      internalID: -2085982826385351063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_6
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1386
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce95b5e5a773198c0800000000000000
+      internalID: -3994350395792336404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_7
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1392
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed38eec31306e6e90800000000000000
+      internalID: -7030576203686837282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_8
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1365
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9a4a4a15b5c3e70800000000000000
+      internalID: 9096245753594292734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_9
+      rect:
+        serializedVersion: 2
+        x: 2679
+        y: 1385
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8e30a328fde20f0800000000000000
+      internalID: -1139727905266079516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_10
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1356
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd49c4b4c00faaf0800000000000000
+      internalID: -383086598456521252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_11
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 1370
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef820c31bf2db39f0800000000000000
+      internalID: -487564158829582082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_12
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 1366
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46dd4ae717c95bd20800000000000000
+      internalID: 3293710713761357156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_13
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 1366
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ee5fcc39ac79bb0800000000000000
+      internalID: -4929248530986045906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_14
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1362
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56274a75f47a6f20800000000000000
+      internalID: 3416671864981235293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_15
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 1362
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484969ef23f122820800000000000000
+      internalID: 2891908214605386884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_16
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1354
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8055a9cd7c5a4db10800000000000000
+      internalID: 2005410011904890120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_17
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 1122
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea0e41fba68a40c0800000000000000
+      internalID: -4590708797104846108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_18
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 648
+        width: 70
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48c5d2fabcaca970800000000000000
+      internalID: 8767572493521504332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_19
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1088
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c600643b7a49faf60800000000000000
+      internalID: 8047814507122524268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_20
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 648
+        width: 235
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6c962a45e6187a0800000000000000
+      internalID: -6376694287598762330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_21
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 1060
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff784cd1c83fc930800000000000000
+      internalID: 4165610585616580598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_22
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 580
+        width: 309
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6747d31d94aafd80800000000000000
+      internalID: -8216073575634352275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_23
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 598
+        width: 382
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd01a4d852be340c0800000000000000
+      internalID: -4592568648471015201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_24
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 747
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2248b8295d9c570800000000000000
+      internalID: 8487549798139044577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_25
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 707
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa27b4b3beee1b110800000000000000
+      internalID: 1275062863602086575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_26
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 580
+        width: 259
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a0a4f4e0daae700800000000000000
+      internalID: 570458579787188815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_27
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 703
+        width: 172
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eff4279f30b9c7f0800000000000000
+      internalID: -591748088857296919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_28
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 697
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80372ad2a78ceeb60800000000000000
+      internalID: 7777374033592611592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_29
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 698
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adcbc57666e18230800000000000000
+      internalID: 3639443301629414823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_30
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 698
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f633e9ee3d0d1ff30800000000000000
+      internalID: 4607693502436750191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_31
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 701
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5729d08af6a84e770800000000000000
+      internalID: 8639182197368918645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_32
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 693
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d266e2229e47bfc0800000000000000
+      internalID: -3479225797562703143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_33
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 685
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bd069e5b34406d0800000000000000
+      internalID: -3025218601102550228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_34
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 677
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a572610839fc386a0800000000000000
+      internalID: -6448082009048340646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_35
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 652
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0ca0c15152bde00800000000000000
+      internalID: 1070490109025632505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_36
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 636
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e483db6a1534da30800000000000000
+      internalID: 4239071536856925415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_37
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 645
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae4bceb90ed11d90800000000000000
+      internalID: -7128672601713717589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_38
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 655
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898e26635d00013d0800000000000000
+      internalID: -3238087216338900840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_39
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 608
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79caaafcd655062e0800000000000000
+      internalID: -2134612293249749865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_40
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 612
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182b3dfbbca9d8240800000000000000
+      internalID: 4795659378106806913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_41
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 634
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bec5567ce08a9690800000000000000
+      internalID: -7594616068520948045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_42
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 608
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb8d2bcc888f5880800000000000000
+      internalID: -8620021023478281276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_43
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 596
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f49fe139b8b63c0800000000000000
+      internalID: -4365241949809455321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-10-curtain-rail-hardware-kit_44
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 604
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a5d23b48dfe69f0800000000000000
+      internalID: -473162164443719118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PROP-10-curtain-rail-hardware-kit_0: 6519686674799929734
+      PROP-10-curtain-rail-hardware-kit_1: 8836245728499716595
+      PROP-10-curtain-rail-hardware-kit_10: -383086598456521252
+      PROP-10-curtain-rail-hardware-kit_11: -487564158829582082
+      PROP-10-curtain-rail-hardware-kit_12: 3293710713761357156
+      PROP-10-curtain-rail-hardware-kit_13: -4929248530986045906
+      PROP-10-curtain-rail-hardware-kit_14: 3416671864981235293
+      PROP-10-curtain-rail-hardware-kit_15: 2891908214605386884
+      PROP-10-curtain-rail-hardware-kit_16: 2005410011904890120
+      PROP-10-curtain-rail-hardware-kit_17: -4590708797104846108
+      PROP-10-curtain-rail-hardware-kit_18: 8767572493521504332
+      PROP-10-curtain-rail-hardware-kit_19: 8047814507122524268
+      PROP-10-curtain-rail-hardware-kit_2: -309530015047702395
+      PROP-10-curtain-rail-hardware-kit_20: -6376694287598762330
+      PROP-10-curtain-rail-hardware-kit_21: 4165610585616580598
+      PROP-10-curtain-rail-hardware-kit_22: -8216073575634352275
+      PROP-10-curtain-rail-hardware-kit_23: -4592568648471015201
+      PROP-10-curtain-rail-hardware-kit_24: 8487549798139044577
+      PROP-10-curtain-rail-hardware-kit_25: 1275062863602086575
+      PROP-10-curtain-rail-hardware-kit_26: 570458579787188815
+      PROP-10-curtain-rail-hardware-kit_27: -591748088857296919
+      PROP-10-curtain-rail-hardware-kit_28: 7777374033592611592
+      PROP-10-curtain-rail-hardware-kit_29: 3639443301629414823
+      PROP-10-curtain-rail-hardware-kit_3: 5070900829739334408
+      PROP-10-curtain-rail-hardware-kit_30: 4607693502436750191
+      PROP-10-curtain-rail-hardware-kit_31: 8639182197368918645
+      PROP-10-curtain-rail-hardware-kit_32: -3479225797562703143
+      PROP-10-curtain-rail-hardware-kit_33: -3025218601102550228
+      PROP-10-curtain-rail-hardware-kit_34: -6448082009048340646
+      PROP-10-curtain-rail-hardware-kit_35: 1070490109025632505
+      PROP-10-curtain-rail-hardware-kit_36: 4239071536856925415
+      PROP-10-curtain-rail-hardware-kit_37: -7128672601713717589
+      PROP-10-curtain-rail-hardware-kit_38: -3238087216338900840
+      PROP-10-curtain-rail-hardware-kit_39: -2134612293249749865
+      PROP-10-curtain-rail-hardware-kit_4: -866548799819896931
+      PROP-10-curtain-rail-hardware-kit_40: 4795659378106806913
+      PROP-10-curtain-rail-hardware-kit_41: -7594616068520948045
+      PROP-10-curtain-rail-hardware-kit_42: -8620021023478281276
+      PROP-10-curtain-rail-hardware-kit_43: -4365241949809455321
+      PROP-10-curtain-rail-hardware-kit_44: -473162164443719118
+      PROP-10-curtain-rail-hardware-kit_5: -2085982826385351063
+      PROP-10-curtain-rail-hardware-kit_6: -3994350395792336404
+      PROP-10-curtain-rail-hardware-kit_7: -7030576203686837282
+      PROP-10-curtain-rail-hardware-kit_8: 9096245753594292734
+      PROP-10-curtain-rail-hardware-kit_9: -1139727905266079516
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

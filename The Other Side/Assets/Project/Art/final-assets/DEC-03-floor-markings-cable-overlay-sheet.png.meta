@@ -1,0 +1,2925 @@
+fileFormatVersion: 2
+guid: 592efbcf20693b642a63bd080a277072
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3675267172527941902
+    second: DEC-03-floor-markings-cable-overlay-sheet_0
+  - first:
+      213: 8493133915232017825
+    second: DEC-03-floor-markings-cable-overlay-sheet_1
+  - first:
+      213: -2662525531543286739
+    second: DEC-03-floor-markings-cable-overlay-sheet_2
+  - first:
+      213: 6348977979049008724
+    second: DEC-03-floor-markings-cable-overlay-sheet_3
+  - first:
+      213: 4009397530151234840
+    second: DEC-03-floor-markings-cable-overlay-sheet_4
+  - first:
+      213: -2626744397197139046
+    second: DEC-03-floor-markings-cable-overlay-sheet_5
+  - first:
+      213: 8938189753098156107
+    second: DEC-03-floor-markings-cable-overlay-sheet_6
+  - first:
+      213: 6710443682150347726
+    second: DEC-03-floor-markings-cable-overlay-sheet_7
+  - first:
+      213: -4377059405857000265
+    second: DEC-03-floor-markings-cable-overlay-sheet_8
+  - first:
+      213: -2182250070421631109
+    second: DEC-03-floor-markings-cable-overlay-sheet_9
+  - first:
+      213: 3567079641047889475
+    second: DEC-03-floor-markings-cable-overlay-sheet_10
+  - first:
+      213: -3427878819506098484
+    second: DEC-03-floor-markings-cable-overlay-sheet_11
+  - first:
+      213: 911656421449501388
+    second: DEC-03-floor-markings-cable-overlay-sheet_12
+  - first:
+      213: -7036290010028288584
+    second: DEC-03-floor-markings-cable-overlay-sheet_13
+  - first:
+      213: -5840710059279408178
+    second: DEC-03-floor-markings-cable-overlay-sheet_14
+  - first:
+      213: 8423138425559652164
+    second: DEC-03-floor-markings-cable-overlay-sheet_15
+  - first:
+      213: 8934083718958154255
+    second: DEC-03-floor-markings-cable-overlay-sheet_16
+  - first:
+      213: -2471573460630309273
+    second: DEC-03-floor-markings-cable-overlay-sheet_17
+  - first:
+      213: -5550065325134704230
+    second: DEC-03-floor-markings-cable-overlay-sheet_18
+  - first:
+      213: 6547877582002069291
+    second: DEC-03-floor-markings-cable-overlay-sheet_19
+  - first:
+      213: 9163431846836542107
+    second: DEC-03-floor-markings-cable-overlay-sheet_20
+  - first:
+      213: -8795578807241984168
+    second: DEC-03-floor-markings-cable-overlay-sheet_21
+  - first:
+      213: -1148929213171096956
+    second: DEC-03-floor-markings-cable-overlay-sheet_22
+  - first:
+      213: 6854961111788701398
+    second: DEC-03-floor-markings-cable-overlay-sheet_23
+  - first:
+      213: -5018366423315425759
+    second: DEC-03-floor-markings-cable-overlay-sheet_24
+  - first:
+      213: -8249065900203349501
+    second: DEC-03-floor-markings-cable-overlay-sheet_25
+  - first:
+      213: -8015481809315919902
+    second: DEC-03-floor-markings-cable-overlay-sheet_26
+  - first:
+      213: 8757542634004428363
+    second: DEC-03-floor-markings-cable-overlay-sheet_27
+  - first:
+      213: 3046839643338998460
+    second: DEC-03-floor-markings-cable-overlay-sheet_28
+  - first:
+      213: 6252523349572960841
+    second: DEC-03-floor-markings-cable-overlay-sheet_29
+  - first:
+      213: 9062921039165407775
+    second: DEC-03-floor-markings-cable-overlay-sheet_30
+  - first:
+      213: -4581313875333209992
+    second: DEC-03-floor-markings-cable-overlay-sheet_31
+  - first:
+      213: -1155055416904370359
+    second: DEC-03-floor-markings-cable-overlay-sheet_32
+  - first:
+      213: 8644249567668897642
+    second: DEC-03-floor-markings-cable-overlay-sheet_33
+  - first:
+      213: 5030549427348682189
+    second: DEC-03-floor-markings-cable-overlay-sheet_34
+  - first:
+      213: 490631687009189598
+    second: DEC-03-floor-markings-cable-overlay-sheet_35
+  - first:
+      213: -3000564096181078249
+    second: DEC-03-floor-markings-cable-overlay-sheet_36
+  - first:
+      213: -5090538493231141555
+    second: DEC-03-floor-markings-cable-overlay-sheet_37
+  - first:
+      213: -4111682114600973749
+    second: DEC-03-floor-markings-cable-overlay-sheet_38
+  - first:
+      213: -3199701357327751488
+    second: DEC-03-floor-markings-cable-overlay-sheet_39
+  - first:
+      213: 2023938158688518238
+    second: DEC-03-floor-markings-cable-overlay-sheet_40
+  - first:
+      213: 5185522149089010803
+    second: DEC-03-floor-markings-cable-overlay-sheet_41
+  - first:
+      213: -5226827422903783679
+    second: DEC-03-floor-markings-cable-overlay-sheet_42
+  - first:
+      213: -2125521699189046580
+    second: DEC-03-floor-markings-cable-overlay-sheet_43
+  - first:
+      213: -9123228425889885789
+    second: DEC-03-floor-markings-cable-overlay-sheet_44
+  - first:
+      213: 4532202901065355020
+    second: DEC-03-floor-markings-cable-overlay-sheet_45
+  - first:
+      213: 921089735747768352
+    second: DEC-03-floor-markings-cable-overlay-sheet_46
+  - first:
+      213: 1371829351776476239
+    second: DEC-03-floor-markings-cable-overlay-sheet_47
+  - first:
+      213: -7592372854284225081
+    second: DEC-03-floor-markings-cable-overlay-sheet_48
+  - first:
+      213: -6076151929956829766
+    second: DEC-03-floor-markings-cable-overlay-sheet_49
+  - first:
+      213: 2238642997216121570
+    second: DEC-03-floor-markings-cable-overlay-sheet_50
+  - first:
+      213: -6438984587823287378
+    second: DEC-03-floor-markings-cable-overlay-sheet_51
+  - first:
+      213: 2072353141519654981
+    second: DEC-03-floor-markings-cable-overlay-sheet_52
+  - first:
+      213: 4355667108715178993
+    second: DEC-03-floor-markings-cable-overlay-sheet_53
+  - first:
+      213: 8981129236216854609
+    second: DEC-03-floor-markings-cable-overlay-sheet_54
+  - first:
+      213: -6585531632236717733
+    second: DEC-03-floor-markings-cable-overlay-sheet_55
+  - first:
+      213: -2391748900626958107
+    second: DEC-03-floor-markings-cable-overlay-sheet_56
+  - first:
+      213: -555128267111444391
+    second: DEC-03-floor-markings-cable-overlay-sheet_57
+  - first:
+      213: -6781796238031115179
+    second: DEC-03-floor-markings-cable-overlay-sheet_58
+  - first:
+      213: 7316613547441314247
+    second: DEC-03-floor-markings-cable-overlay-sheet_59
+  - first:
+      213: -4256766016878059265
+    second: DEC-03-floor-markings-cable-overlay-sheet_60
+  - first:
+      213: -3703230623481342023
+    second: DEC-03-floor-markings-cable-overlay-sheet_61
+  - first:
+      213: 2159302283089960816
+    second: DEC-03-floor-markings-cable-overlay-sheet_62
+  - first:
+      213: 2945089301788185611
+    second: DEC-03-floor-markings-cable-overlay-sheet_63
+  - first:
+      213: -602338586326025733
+    second: DEC-03-floor-markings-cable-overlay-sheet_64
+  - first:
+      213: -8771053944244267251
+    second: DEC-03-floor-markings-cable-overlay-sheet_65
+  - first:
+      213: -5352621431664145931
+    second: DEC-03-floor-markings-cable-overlay-sheet_66
+  - first:
+      213: 527308277453229141
+    second: DEC-03-floor-markings-cable-overlay-sheet_67
+  - first:
+      213: 5647565466910716356
+    second: DEC-03-floor-markings-cable-overlay-sheet_68
+  - first:
+      213: 7615567994851664263
+    second: DEC-03-floor-markings-cable-overlay-sheet_69
+  - first:
+      213: 3980913542442754560
+    second: DEC-03-floor-markings-cable-overlay-sheet_70
+  - first:
+      213: 4116407378794308625
+    second: DEC-03-floor-markings-cable-overlay-sheet_71
+  - first:
+      213: 7470046034805759927
+    second: DEC-03-floor-markings-cable-overlay-sheet_72
+  - first:
+      213: -1561040343566979510
+    second: DEC-03-floor-markings-cable-overlay-sheet_73
+  - first:
+      213: 1472268534437241107
+    second: DEC-03-floor-markings-cable-overlay-sheet_74
+  - first:
+      213: -7967414423992471186
+    second: DEC-03-floor-markings-cable-overlay-sheet_75
+  - first:
+      213: 2041456015183865069
+    second: DEC-03-floor-markings-cable-overlay-sheet_76
+  - first:
+      213: 2741169904311286042
+    second: DEC-03-floor-markings-cable-overlay-sheet_77
+  - first:
+      213: 6899799436200794549
+    second: DEC-03-floor-markings-cable-overlay-sheet_78
+  - first:
+      213: -1742920530840383674
+    second: DEC-03-floor-markings-cable-overlay-sheet_79
+  - first:
+      213: 8810193612046118511
+    second: DEC-03-floor-markings-cable-overlay-sheet_80
+  - first:
+      213: -6330655855777337067
+    second: DEC-03-floor-markings-cable-overlay-sheet_81
+  - first:
+      213: 1124204352817776326
+    second: DEC-03-floor-markings-cable-overlay-sheet_82
+  - first:
+      213: -8178790701735968970
+    second: DEC-03-floor-markings-cable-overlay-sheet_83
+  - first:
+      213: 8391407100617555455
+    second: DEC-03-floor-markings-cable-overlay-sheet_84
+  - first:
+      213: 8038523107206859394
+    second: DEC-03-floor-markings-cable-overlay-sheet_85
+  - first:
+      213: -7311739078040995637
+    second: DEC-03-floor-markings-cable-overlay-sheet_86
+  - first:
+      213: -3142196754699823856
+    second: DEC-03-floor-markings-cable-overlay-sheet_87
+  - first:
+      213: -8245860782489246585
+    second: DEC-03-floor-markings-cable-overlay-sheet_88
+  - first:
+      213: -6142469183820495026
+    second: DEC-03-floor-markings-cable-overlay-sheet_89
+  - first:
+      213: -5530861925557715017
+    second: DEC-03-floor-markings-cable-overlay-sheet_90
+  - first:
+      213: 1103435656059869354
+    second: DEC-03-floor-markings-cable-overlay-sheet_91
+  - first:
+      213: 7330289028551503255
+    second: DEC-03-floor-markings-cable-overlay-sheet_92
+  - first:
+      213: 2291652728705899618
+    second: DEC-03-floor-markings-cable-overlay-sheet_93
+  - first:
+      213: 6537951017038447527
+    second: DEC-03-floor-markings-cable-overlay-sheet_94
+  - first:
+      213: 5243662780279686175
+    second: DEC-03-floor-markings-cable-overlay-sheet_95
+  - first:
+      213: -4484002413674069407
+    second: DEC-03-floor-markings-cable-overlay-sheet_96
+  - first:
+      213: -785202341815324114
+    second: DEC-03-floor-markings-cable-overlay-sheet_97
+  - first:
+      213: 4433215279929218982
+    second: DEC-03-floor-markings-cable-overlay-sheet_98
+  - first:
+      213: 6685064208203004777
+    second: DEC-03-floor-markings-cable-overlay-sheet_99
+  - first:
+      213: -5741095120771936436
+    second: DEC-03-floor-markings-cable-overlay-sheet_100
+  - first:
+      213: -3551406081452828227
+    second: DEC-03-floor-markings-cable-overlay-sheet_101
+  - first:
+      213: 2995395175474962456
+    second: DEC-03-floor-markings-cable-overlay-sheet_102
+  - first:
+      213: -4790454918975782213
+    second: DEC-03-floor-markings-cable-overlay-sheet_103
+  - first:
+      213: 1899916437985727056
+    second: DEC-03-floor-markings-cable-overlay-sheet_104
+  - first:
+      213: 7936081382077017400
+    second: DEC-03-floor-markings-cable-overlay-sheet_105
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1142
+        width: 531
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09ae21650c210330800000000000000
+      internalID: 3675267172527941902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1451
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad1a3f1c4cadd570800000000000000
+      internalID: 8493133915232017825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1433
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c44feb22fcc0bd0800000000000000
+      internalID: -2662525531543286739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1417
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e5ef765d91c1850800000000000000
+      internalID: 6348977979049008724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 1313
+        width: 90
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d2efb9fcd34a730800000000000000
+      internalID: 4009397530151234840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1408
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93215943edeb8bd0800000000000000
+      internalID: -2626744397197139046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 1419
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48b3705934da0c70800000000000000
+      internalID: 8938189753098156107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 1326
+        width: 205
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3f5d7b9f8402d50800000000000000
+      internalID: 6710443682150347726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1406
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b47c1939af8143c0800000000000000
+      internalID: -4377059405857000265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1402
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f827d7f1717b1e0800000000000000
+      internalID: -2182250070421631109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1406
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346ff2ac800d08130800000000000000
+      internalID: 3567079641047889475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1390
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccee046106abd60d0800000000000000
+      internalID: -3427878819506098484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1397
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca83b56faad6ac00800000000000000
+      internalID: 911656421449501388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1388
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b552a704831a5e90800000000000000
+      internalID: -7036290010028288584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1413
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3a9908521a1fea0800000000000000
+      internalID: -5840710059279408178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1408
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4471d6535cff4e470800000000000000
+      internalID: 8423138425559652164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1406
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f020a1ebecd3cfb70800000000000000
+      internalID: 8934083718958154255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1383
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766f8d2580533bdd0800000000000000
+      internalID: -2471573460630309273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 1394
+        width: 74
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9112270ef43af2b0800000000000000
+      internalID: -5550065325134704230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 1386
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f1afbf7fbbeda50800000000000000
+      internalID: 6547877582002069291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 1129
+        width: 269
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a913af6bc0b2f70800000000000000
+      internalID: 9163431846836542107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1409
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85733600da3dfe580800000000000000
+      internalID: -8795578807241984168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 1406
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4822ed8c7fe2e00f0800000000000000
+      internalID: -1148929213171096956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 1427
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d64841efc6b12f50800000000000000
+      internalID: 6854961111788701398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 1142
+        width: 252
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1265981935e2b5ab0800000000000000
+      internalID: -5018366423315425759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1370
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a6799e44e658d80800000000000000
+      internalID: -8249065900203349501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1381
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e78e1423c943c090800000000000000
+      internalID: -8015481809315919902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1352
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b463c2d40aa098970800000000000000
+      internalID: 8757542634004428363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 1378
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb28cc4438c884a20800000000000000
+      internalID: 3046839643338998460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1319
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942c121fbdc65c650800000000000000
+      internalID: 6252523349572960841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1354
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f124edeeaa6f5cd70800000000000000
+      internalID: 9062921039165407775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1298
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8702230ad47eb60c0800000000000000
+      internalID: -4581313875333209992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1342
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9473683d73b68ffe0800000000000000
+      internalID: -1155055416904370359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1348
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a678abebe2b86f770800000000000000
+      internalID: 8644249567668897642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1326
+        width: 74
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5b92a1d0a10d540800000000000000
+      internalID: 5030549427348682189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1344
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edebbbb7be21fc600800000000000000
+      internalID: 490631687009189598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1328
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717f5592adadb56d0800000000000000
+      internalID: -3000564096181078249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1308
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d61831636ca59b0800000000000000
+      internalID: -5090538493231141555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 1145
+        width: 270
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ac1e1c6ee50f6c0800000000000000
+      internalID: -4111682114600973749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1320
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6e42971906893d0800000000000000
+      internalID: -3199701357327751488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1275
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50ccf33809761c10800000000000000
+      internalID: 2023938158688518238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1158
+        width: 360
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374ee57abeca6f740800000000000000
+      internalID: 5185522149089010803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1135
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fac8bd6249677b0800000000000000
+      internalID: -5226827422903783679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1153
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2c37da641a082e0800000000000000
+      internalID: -2125521699189046580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1160
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a156166518c36180800000000000000
+      internalID: -9123228425889885789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 1164
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fceff968e95ee30800000000000000
+      internalID: 4532202901065355020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1153
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02011890c3e58cc00800000000000000
+      internalID: 921089735747768352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 999
+        width: 1746
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c5715f687b90310800000000000000
+      internalID: 1371829351776476239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_48
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 1141
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5f11a7d1972a690800000000000000
+      internalID: -7592372854284225081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 761
+        width: 1735
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab57e95330c2daba0800000000000000
+      internalID: -6076151929956829766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 991
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e29bf3f1f1411f10800000000000000
+      internalID: 2238642997216121570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1009
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3f390f1a124a6a0800000000000000
+      internalID: -6438984587823287378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 983
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540a171d33a72cc10800000000000000
+      internalID: 2072353141519654981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 999
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb22d67820727c30800000000000000
+      internalID: 4355667108715178993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_54
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 1001
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158b49ec47163ac70800000000000000
+      internalID: 8981129236216854609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 831
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b599e634fdd7b94a0800000000000000
+      internalID: -6585531632236717733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 840
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8f2320c0dceced0800000000000000
+      internalID: -2391748900626958107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 840
+        width: 72
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9505b0248c9cb48f0800000000000000
+      internalID: -555128267111444391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 838
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c2315c04832e1a0800000000000000
+      internalID: -6781796238031115179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 841
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9dc0e9145d98560800000000000000
+      internalID: 7316613547441314247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 824
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff067086cddece4c0800000000000000
+      internalID: -4256766016878059265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 836
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7db065e5b7b9cc0800000000000000
+      internalID: -3703230623481342023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 834
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f544a6cf167fd10800000000000000
+      internalID: 2159302283089960816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 834
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0453e0cd1f0fd820800000000000000
+      internalID: 2945089301788185611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 840
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9b68f3f3014a7f0800000000000000
+      internalID: -602338586326025733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 840
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d071883a8e4f64680800000000000000
+      internalID: -8771053944244267251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_66
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 580
+        width: 620
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f90484da2ba7b5b0800000000000000
+      internalID: -5352621431664145931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_67
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 838
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c09b4a510615700800000000000000
+      internalID: 527308277453229141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_68
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 842
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1f9fcbede206e40800000000000000
+      internalID: 5647565466910716356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_69
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 846
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781a7f70ebeefa960800000000000000
+      internalID: 7615567994851664263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_70
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 840
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002a7da66cb0f3730800000000000000
+      internalID: 3980913542442754560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_71
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 836
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114e4db83ba602930800000000000000
+      internalID: 4116407378794308625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_72
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 830
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf99686a4feaa760800000000000000
+      internalID: 7470046034805759927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_73
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 838
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ee2a90412165ae0800000000000000
+      internalID: -1561040343566979510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_74
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 816
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311ed118e6c8e6410800000000000000
+      internalID: 1472268534437241107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_75
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 824
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61fa976bce0e6190800000000000000
+      internalID: -7967414423992471186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_76
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 830
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de46e910e65b45c10800000000000000
+      internalID: 2041456015183865069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_77
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 825
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19377f21879a0620800000000000000
+      internalID: 2741169904311286042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 808
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b95030d70301cf50800000000000000
+      internalID: 6899799436200794549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 812
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f0687f207efc7e0800000000000000
+      internalID: -1742920530840383674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 803
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6eac686968144a70800000000000000
+      internalID: 8810193612046118511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 580
+        width: 265
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51135295a0ef428a0800000000000000
+      internalID: -6330655855777337067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_82
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 798
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6c6a017e9f99f00800000000000000
+      internalID: 1124204352817776326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_83
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 580
+        width: 673
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f72ca90391f7e80800000000000000
+      internalID: -8178790701735968970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_84
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 794
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdfff56c44447470800000000000000
+      internalID: 8391407100617555455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_85
+      rect:
+        serializedVersion: 2
+        x: 2885
+        y: 771
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a85d31d229e8f60800000000000000
+      internalID: 8038523107206859394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_86
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 773
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8360b3c0c778a90800000000000000
+      internalID: -7311739078040995637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_87
+      rect:
+        serializedVersion: 2
+        x: 2899
+        y: 778
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0155bbd13bca464d0800000000000000
+      internalID: -3142196754699823856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_88
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 757
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78467688e41d09d80800000000000000
+      internalID: -8245860782489246585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 596
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47889e42d091caa0800000000000000
+      internalID: -6142469183820495026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_90
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 600
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf3669e16e6e33b0800000000000000
+      internalID: -5530861925557715017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_91
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 583
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8d2f702e0305f00800000000000000
+      internalID: 1103435656059869354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 614
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d61cfa80b6ab560800000000000000
+      internalID: 7330289028551503255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_93
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 606
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cd11bd3069dcf10800000000000000
+      internalID: 2291652728705899618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 602
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a30b797fc77bba50800000000000000
+      internalID: 6537951017038447527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 596
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14028c348b35c840800000000000000
+      internalID: 5243662780279686175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 593
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16286f0ef8f95c1c0800000000000000
+      internalID: -4484002413674069407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_97
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 614
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22fa4b51a66a15f0800000000000000
+      internalID: -785202341815324114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_98
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 648
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7d3051fc1f58d30800000000000000
+      internalID: 4433215279929218982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_99
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 659
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b3e967a7e16cc50800000000000000
+      internalID: 6685064208203004777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_100
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 646
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f09a0c7688350b0800000000000000
+      internalID: -5741095120771936436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_101
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 580
+        width: 177
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db997dd2cfed6bec0800000000000000
+      internalID: -3551406081452828227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_102
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 649
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810aa14ba08c19920800000000000000
+      internalID: 2995395175474962456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_103
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 644
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb20de1d1a2e48db0800000000000000
+      internalID: -4790454918975782213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_104
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 636
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05290152febdd5a10800000000000000
+      internalID: 1899916437985727056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-03-floor-markings-cable-overlay-sheet_105
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 631
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83daa4748ff922e60800000000000000
+      internalID: 7936081382077017400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DEC-03-floor-markings-cable-overlay-sheet_0: 3675267172527941902
+      DEC-03-floor-markings-cable-overlay-sheet_1: 8493133915232017825
+      DEC-03-floor-markings-cable-overlay-sheet_10: 3567079641047889475
+      DEC-03-floor-markings-cable-overlay-sheet_100: -5741095120771936436
+      DEC-03-floor-markings-cable-overlay-sheet_101: -3551406081452828227
+      DEC-03-floor-markings-cable-overlay-sheet_102: 2995395175474962456
+      DEC-03-floor-markings-cable-overlay-sheet_103: -4790454918975782213
+      DEC-03-floor-markings-cable-overlay-sheet_104: 1899916437985727056
+      DEC-03-floor-markings-cable-overlay-sheet_105: 7936081382077017400
+      DEC-03-floor-markings-cable-overlay-sheet_11: -3427878819506098484
+      DEC-03-floor-markings-cable-overlay-sheet_12: 911656421449501388
+      DEC-03-floor-markings-cable-overlay-sheet_13: -7036290010028288584
+      DEC-03-floor-markings-cable-overlay-sheet_14: -5840710059279408178
+      DEC-03-floor-markings-cable-overlay-sheet_15: 8423138425559652164
+      DEC-03-floor-markings-cable-overlay-sheet_16: 8934083718958154255
+      DEC-03-floor-markings-cable-overlay-sheet_17: -2471573460630309273
+      DEC-03-floor-markings-cable-overlay-sheet_18: -5550065325134704230
+      DEC-03-floor-markings-cable-overlay-sheet_19: 6547877582002069291
+      DEC-03-floor-markings-cable-overlay-sheet_2: -2662525531543286739
+      DEC-03-floor-markings-cable-overlay-sheet_20: 9163431846836542107
+      DEC-03-floor-markings-cable-overlay-sheet_21: -8795578807241984168
+      DEC-03-floor-markings-cable-overlay-sheet_22: -1148929213171096956
+      DEC-03-floor-markings-cable-overlay-sheet_23: 6854961111788701398
+      DEC-03-floor-markings-cable-overlay-sheet_24: -5018366423315425759
+      DEC-03-floor-markings-cable-overlay-sheet_25: -8249065900203349501
+      DEC-03-floor-markings-cable-overlay-sheet_26: -8015481809315919902
+      DEC-03-floor-markings-cable-overlay-sheet_27: 8757542634004428363
+      DEC-03-floor-markings-cable-overlay-sheet_28: 3046839643338998460
+      DEC-03-floor-markings-cable-overlay-sheet_29: 6252523349572960841
+      DEC-03-floor-markings-cable-overlay-sheet_3: 6348977979049008724
+      DEC-03-floor-markings-cable-overlay-sheet_30: 9062921039165407775
+      DEC-03-floor-markings-cable-overlay-sheet_31: -4581313875333209992
+      DEC-03-floor-markings-cable-overlay-sheet_32: -1155055416904370359
+      DEC-03-floor-markings-cable-overlay-sheet_33: 8644249567668897642
+      DEC-03-floor-markings-cable-overlay-sheet_34: 5030549427348682189
+      DEC-03-floor-markings-cable-overlay-sheet_35: 490631687009189598
+      DEC-03-floor-markings-cable-overlay-sheet_36: -3000564096181078249
+      DEC-03-floor-markings-cable-overlay-sheet_37: -5090538493231141555
+      DEC-03-floor-markings-cable-overlay-sheet_38: -4111682114600973749
+      DEC-03-floor-markings-cable-overlay-sheet_39: -3199701357327751488
+      DEC-03-floor-markings-cable-overlay-sheet_4: 4009397530151234840
+      DEC-03-floor-markings-cable-overlay-sheet_40: 2023938158688518238
+      DEC-03-floor-markings-cable-overlay-sheet_41: 5185522149089010803
+      DEC-03-floor-markings-cable-overlay-sheet_42: -5226827422903783679
+      DEC-03-floor-markings-cable-overlay-sheet_43: -2125521699189046580
+      DEC-03-floor-markings-cable-overlay-sheet_44: -9123228425889885789
+      DEC-03-floor-markings-cable-overlay-sheet_45: 4532202901065355020
+      DEC-03-floor-markings-cable-overlay-sheet_46: 921089735747768352
+      DEC-03-floor-markings-cable-overlay-sheet_47: 1371829351776476239
+      DEC-03-floor-markings-cable-overlay-sheet_48: -7592372854284225081
+      DEC-03-floor-markings-cable-overlay-sheet_49: -6076151929956829766
+      DEC-03-floor-markings-cable-overlay-sheet_5: -2626744397197139046
+      DEC-03-floor-markings-cable-overlay-sheet_50: 2238642997216121570
+      DEC-03-floor-markings-cable-overlay-sheet_51: -6438984587823287378
+      DEC-03-floor-markings-cable-overlay-sheet_52: 2072353141519654981
+      DEC-03-floor-markings-cable-overlay-sheet_53: 4355667108715178993
+      DEC-03-floor-markings-cable-overlay-sheet_54: 8981129236216854609
+      DEC-03-floor-markings-cable-overlay-sheet_55: -6585531632236717733
+      DEC-03-floor-markings-cable-overlay-sheet_56: -2391748900626958107
+      DEC-03-floor-markings-cable-overlay-sheet_57: -555128267111444391
+      DEC-03-floor-markings-cable-overlay-sheet_58: -6781796238031115179
+      DEC-03-floor-markings-cable-overlay-sheet_59: 7316613547441314247
+      DEC-03-floor-markings-cable-overlay-sheet_6: 8938189753098156107
+      DEC-03-floor-markings-cable-overlay-sheet_60: -4256766016878059265
+      DEC-03-floor-markings-cable-overlay-sheet_61: -3703230623481342023
+      DEC-03-floor-markings-cable-overlay-sheet_62: 2159302283089960816
+      DEC-03-floor-markings-cable-overlay-sheet_63: 2945089301788185611
+      DEC-03-floor-markings-cable-overlay-sheet_64: -602338586326025733
+      DEC-03-floor-markings-cable-overlay-sheet_65: -8771053944244267251
+      DEC-03-floor-markings-cable-overlay-sheet_66: -5352621431664145931
+      DEC-03-floor-markings-cable-overlay-sheet_67: 527308277453229141
+      DEC-03-floor-markings-cable-overlay-sheet_68: 5647565466910716356
+      DEC-03-floor-markings-cable-overlay-sheet_69: 7615567994851664263
+      DEC-03-floor-markings-cable-overlay-sheet_7: 6710443682150347726
+      DEC-03-floor-markings-cable-overlay-sheet_70: 3980913542442754560
+      DEC-03-floor-markings-cable-overlay-sheet_71: 4116407378794308625
+      DEC-03-floor-markings-cable-overlay-sheet_72: 7470046034805759927
+      DEC-03-floor-markings-cable-overlay-sheet_73: -1561040343566979510
+      DEC-03-floor-markings-cable-overlay-sheet_74: 1472268534437241107
+      DEC-03-floor-markings-cable-overlay-sheet_75: -7967414423992471186
+      DEC-03-floor-markings-cable-overlay-sheet_76: 2041456015183865069
+      DEC-03-floor-markings-cable-overlay-sheet_77: 2741169904311286042
+      DEC-03-floor-markings-cable-overlay-sheet_78: 6899799436200794549
+      DEC-03-floor-markings-cable-overlay-sheet_79: -1742920530840383674
+      DEC-03-floor-markings-cable-overlay-sheet_8: -4377059405857000265
+      DEC-03-floor-markings-cable-overlay-sheet_80: 8810193612046118511
+      DEC-03-floor-markings-cable-overlay-sheet_81: -6330655855777337067
+      DEC-03-floor-markings-cable-overlay-sheet_82: 1124204352817776326
+      DEC-03-floor-markings-cable-overlay-sheet_83: -8178790701735968970
+      DEC-03-floor-markings-cable-overlay-sheet_84: 8391407100617555455
+      DEC-03-floor-markings-cable-overlay-sheet_85: 8038523107206859394
+      DEC-03-floor-markings-cable-overlay-sheet_86: -7311739078040995637
+      DEC-03-floor-markings-cable-overlay-sheet_87: -3142196754699823856
+      DEC-03-floor-markings-cable-overlay-sheet_88: -8245860782489246585
+      DEC-03-floor-markings-cable-overlay-sheet_89: -6142469183820495026
+      DEC-03-floor-markings-cable-overlay-sheet_9: -2182250070421631109
+      DEC-03-floor-markings-cable-overlay-sheet_90: -5530861925557715017
+      DEC-03-floor-markings-cable-overlay-sheet_91: 1103435656059869354
+      DEC-03-floor-markings-cable-overlay-sheet_92: 7330289028551503255
+      DEC-03-floor-markings-cable-overlay-sheet_93: 2291652728705899618
+      DEC-03-floor-markings-cable-overlay-sheet_94: 6537951017038447527
+      DEC-03-floor-markings-cable-overlay-sheet_95: 5243662780279686175
+      DEC-03-floor-markings-cable-overlay-sheet_96: -4484002413674069407
+      DEC-03-floor-markings-cable-overlay-sheet_97: -785202341815324114
+      DEC-03-floor-markings-cable-overlay-sheet_98: 4433215279929218982
+      DEC-03-floor-markings-cable-overlay-sheet_99: 6685064208203004777
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

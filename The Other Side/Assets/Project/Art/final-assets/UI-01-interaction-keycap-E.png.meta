@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 9e6ab81952b28194281e012cb6ce7072
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1737175129519131436
+    second: UI-01-interaction-keycap-E_0
+  - first:
+      213: -7513219137603010312
+    second: UI-01-interaction-keycap-E_1
+  - first:
+      213: 4418538409502104227
+    second: UI-01-interaction-keycap-E_2
+  - first:
+      213: -2499472023215648979
+    second: UI-01-interaction-keycap-E_3
+  - first:
+      213: 3986323934059331127
+    second: UI-01-interaction-keycap-E_4
+  - first:
+      213: 5262953586994627496
+    second: UI-01-interaction-keycap-E_5
+  - first:
+      213: 1232270202013919448
+    second: UI-01-interaction-keycap-E_6
+  - first:
+      213: 5441130789438901233
+    second: UI-01-interaction-keycap-E_7
+  - first:
+      213: -5639867806543531346
+    second: UI-01-interaction-keycap-E_8
+  - first:
+      213: -8484054898492540501
+    second: UI-01-interaction-keycap-E_9
+  - first:
+      213: 3383937029075285376
+    second: UI-01-interaction-keycap-E_10
+  - first:
+      213: -7160213202736556491
+    second: UI-01-interaction-keycap-E_11
+  - first:
+      213: 4201456800627860436
+    second: UI-01-interaction-keycap-E_12
+  - first:
+      213: 4661754063351342452
+    second: UI-01-interaction-keycap-E_13
+  - first:
+      213: -8043794964932891676
+    second: UI-01-interaction-keycap-E_14
+  - first:
+      213: -2400508408825160898
+    second: UI-01-interaction-keycap-E_15
+  - first:
+      213: 5433639909955795780
+    second: UI-01-interaction-keycap-E_16
+  - first:
+      213: -2393780409985401539
+    second: UI-01-interaction-keycap-E_17
+  - first:
+      213: -7411732392708150395
+    second: UI-01-interaction-keycap-E_18
+  - first:
+      213: 8039311585336243792
+    second: UI-01-interaction-keycap-E_19
+  - first:
+      213: 2721044449163513423
+    second: UI-01-interaction-keycap-E_20
+  - first:
+      213: 8575291714030865188
+    second: UI-01-interaction-keycap-E_21
+  - first:
+      213: -5220833345829894422
+    second: UI-01-interaction-keycap-E_22
+  - first:
+      213: 1338267184264257199
+    second: UI-01-interaction-keycap-E_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 59
+        width: 969
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d47e547c6054e7e0800000000000000
+      internalID: -1737175129519131436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_1
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 887
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f08187400fabb790800000000000000
+      internalID: -7513219137603010312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 696
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aadac4e54dc15d30800000000000000
+      internalID: 4418538409502104227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 701
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f443a0077105dd0800000000000000
+      internalID: -2499472023215648979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_4
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 607
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e7e316f74425730800000000000000
+      internalID: 3986323934059331127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_5
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 516
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3ce2e2764c90940800000000000000
+      internalID: 5262953586994627496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_6
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 516
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8a65a4837e91110800000000000000
+      internalID: 1232270202013919448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_7
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 508
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb42f8ef97c28b40800000000000000
+      internalID: 5441130789438901233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 159
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2bfca7c1a2bb1b0800000000000000
+      internalID: -5639867806543531346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 119
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba970703505924a80800000000000000
+      internalID: -8484054898492540501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_10
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 119
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085b2509cc826fe20800000000000000
+      internalID: 3383937029075285376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 130
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53653de4700d1ac90800000000000000
+      internalID: -7160213202736556491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_12
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 124
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3a29c23b29e4a30800000000000000
+      internalID: 4201456800627860436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_13
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 130
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4756a402f90e1b040800000000000000
+      internalID: 4661754063351342452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_14
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 124
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb6915e813be5090800000000000000
+      internalID: -8043794964932891676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_15
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 117
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b53a3125eafaed0800000000000000
+      internalID: -2400508408825160898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_16
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 121
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bfc4e95ba286b40800000000000000
+      internalID: 5433639909955795780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_17
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 118
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3df780666597ced0800000000000000
+      internalID: -2393780409985401539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_18
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 107
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bef5a68ac342990800000000000000
+      internalID: -7411732392708150395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 106
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05636a2fa4f519f60800000000000000
+      internalID: 8039311585336243792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_20
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 104
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e8072828713c520800000000000000
+      internalID: 2721044449163513423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_21
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 99
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b092c416e810770800000000000000
+      internalID: 8575291714030865188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_22
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 104
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae68b4eabbfdb87b0800000000000000
+      internalID: -5220833345829894422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-01-interaction-keycap-E_23
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 90
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae12a4e9ea729210800000000000000
+      internalID: 1338267184264257199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UI-01-interaction-keycap-E_0: -1737175129519131436
+      UI-01-interaction-keycap-E_1: -7513219137603010312
+      UI-01-interaction-keycap-E_10: 3383937029075285376
+      UI-01-interaction-keycap-E_11: -7160213202736556491
+      UI-01-interaction-keycap-E_12: 4201456800627860436
+      UI-01-interaction-keycap-E_13: 4661754063351342452
+      UI-01-interaction-keycap-E_14: -8043794964932891676
+      UI-01-interaction-keycap-E_15: -2400508408825160898
+      UI-01-interaction-keycap-E_16: 5433639909955795780
+      UI-01-interaction-keycap-E_17: -2393780409985401539
+      UI-01-interaction-keycap-E_18: -7411732392708150395
+      UI-01-interaction-keycap-E_19: 8039311585336243792
+      UI-01-interaction-keycap-E_2: 4418538409502104227
+      UI-01-interaction-keycap-E_20: 2721044449163513423
+      UI-01-interaction-keycap-E_21: 8575291714030865188
+      UI-01-interaction-keycap-E_22: -5220833345829894422
+      UI-01-interaction-keycap-E_23: 1338267184264257199
+      UI-01-interaction-keycap-E_3: -2499472023215648979
+      UI-01-interaction-keycap-E_4: 3986323934059331127
+      UI-01-interaction-keycap-E_5: 5262953586994627496
+      UI-01-interaction-keycap-E_6: 1232270202013919448
+      UI-01-interaction-keycap-E_7: 5441130789438901233
+      UI-01-interaction-keycap-E_8: -5639867806543531346
+      UI-01-interaction-keycap-E_9: -8484054898492540501
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

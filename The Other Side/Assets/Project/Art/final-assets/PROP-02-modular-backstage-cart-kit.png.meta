@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 390561de5ce5405428f87e407538b9df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5917765508093929644
+    second: PROP-02-modular-backstage-cart-kit_0
+  - first:
+      213: -1719294330403036350
+    second: PROP-02-modular-backstage-cart-kit_1
+  - first:
+      213: 2396088270461687687
+    second: PROP-02-modular-backstage-cart-kit_2
+  - first:
+      213: -587201348378769536
+    second: PROP-02-modular-backstage-cart-kit_3
+  - first:
+      213: 434363970576798882
+    second: PROP-02-modular-backstage-cart-kit_4
+  - first:
+      213: -4016764805257729724
+    second: PROP-02-modular-backstage-cart-kit_5
+  - first:
+      213: 3839190058016716685
+    second: PROP-02-modular-backstage-cart-kit_6
+  - first:
+      213: -3290459600808281583
+    second: PROP-02-modular-backstage-cart-kit_7
+  - first:
+      213: 918750877424269466
+    second: PROP-02-modular-backstage-cart-kit_8
+  - first:
+      213: -7006083872356124259
+    second: PROP-02-modular-backstage-cart-kit_9
+  - first:
+      213: -1840677460632425898
+    second: PROP-02-modular-backstage-cart-kit_10
+  - first:
+      213: -2976695137565319437
+    second: PROP-02-modular-backstage-cart-kit_11
+  - first:
+      213: -2809661378101291913
+    second: PROP-02-modular-backstage-cart-kit_12
+  - first:
+      213: -5185626329343461639
+    second: PROP-02-modular-backstage-cart-kit_13
+  - first:
+      213: -1008478102358473323
+    second: PROP-02-modular-backstage-cart-kit_14
+  - first:
+      213: -2965422296611889650
+    second: PROP-02-modular-backstage-cart-kit_15
+  - first:
+      213: 2455641901571765327
+    second: PROP-02-modular-backstage-cart-kit_16
+  - first:
+      213: -5604562686430379429
+    second: PROP-02-modular-backstage-cart-kit_17
+  - first:
+      213: -5640982037958777539
+    second: PROP-02-modular-backstage-cart-kit_18
+  - first:
+      213: 5187001101172479940
+    second: PROP-02-modular-backstage-cart-kit_19
+  - first:
+      213: 8078828961255518832
+    second: PROP-02-modular-backstage-cart-kit_20
+  - first:
+      213: -7726305122462218479
+    second: PROP-02-modular-backstage-cart-kit_21
+  - first:
+      213: 29824197255238521
+    second: PROP-02-modular-backstage-cart-kit_22
+  - first:
+      213: 525564610145713219
+    second: PROP-02-modular-backstage-cart-kit_23
+  - first:
+      213: 2090595788698370598
+    second: PROP-02-modular-backstage-cart-kit_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_0
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 580
+        width: 1196
+        height: 866
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4579002cf9fdfdda0800000000000000
+      internalID: -5917765508093929644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_1
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1427
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243ebfb6ae6d328e0800000000000000
+      internalID: -1719294330403036350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_2
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1420
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7875953469d904120800000000000000
+      internalID: 2396088270461687687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_3
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1429
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087c04a1c77d9d7f0800000000000000
+      internalID: -587201348378769536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_4
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 1419
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a45579dabb270600800000000000000
+      internalID: 434363970576798882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_5
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 1386
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449625cf0b59148c0800000000000000
+      internalID: -4016764805257729724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_6
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 1427
+        width: 116
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d873c41540b874530800000000000000
+      internalID: 3839190058016716685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_7
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 1353
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a7c0a3d60f552d0800000000000000
+      internalID: -3290459600808281583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_8
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 1344
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98b3f52e0f00cc00800000000000000
+      internalID: 918750877424269466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_9
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1384
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99be9186d365ce90800000000000000
+      internalID: -7006083872356124259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_10
+      rect:
+        serializedVersion: 2
+        x: 2755
+        y: 1344
+        width: 60
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65aafe41a999476e0800000000000000
+      internalID: -1840677460632425898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_11
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 1400
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe59c82b87a0b6d0800000000000000
+      internalID: -2976695137565319437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_12
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 1350
+        width: 53
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7745323ecd31209d0800000000000000
+      internalID: -2809661378101291913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_13
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 1346
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6f19df354f808b0800000000000000
+      internalID: -5185626329343461639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_14
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 1364
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595c921528a2102f0800000000000000
+      internalID: -1008478102358473323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_15
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 1108
+        width: 703
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0edc69f124b8d6d0800000000000000
+      internalID: -2965422296611889650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_16
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 1337
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44ffb68c41341220800000000000000
+      internalID: 2455641901571765327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_17
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 1334
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5288e15ee79832b0800000000000000
+      internalID: -5604562686430379429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_18
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 624
+        width: 378
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35ab1349b437b1b0800000000000000
+      internalID: -5640982037958777539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_19
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 809
+        width: 286
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c712f4050eebf740800000000000000
+      internalID: 5187001101172479940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_20
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 806
+        width: 290
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072f5c40324cd1070800000000000000
+      internalID: 8078828961255518832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_21
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 644
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117cb554d66a6c490800000000000000
+      internalID: -7726305122462218479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_22
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 622
+        width: 281
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9731c1b03f4f96000800000000000000
+      internalID: 29824197255238521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_23
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 620
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c70467a3e2b4700800000000000000
+      internalID: 525564610145713219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-02-modular-backstage-cart-kit_24
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 602
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6224b4a1bc9430d10800000000000000
+      internalID: 2090595788698370598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PROP-02-modular-backstage-cart-kit_0: -5917765508093929644
+      PROP-02-modular-backstage-cart-kit_1: -1719294330403036350
+      PROP-02-modular-backstage-cart-kit_10: -1840677460632425898
+      PROP-02-modular-backstage-cart-kit_11: -2976695137565319437
+      PROP-02-modular-backstage-cart-kit_12: -2809661378101291913
+      PROP-02-modular-backstage-cart-kit_13: -5185626329343461639
+      PROP-02-modular-backstage-cart-kit_14: -1008478102358473323
+      PROP-02-modular-backstage-cart-kit_15: -2965422296611889650
+      PROP-02-modular-backstage-cart-kit_16: 2455641901571765327
+      PROP-02-modular-backstage-cart-kit_17: -5604562686430379429
+      PROP-02-modular-backstage-cart-kit_18: -5640982037958777539
+      PROP-02-modular-backstage-cart-kit_19: 5187001101172479940
+      PROP-02-modular-backstage-cart-kit_2: 2396088270461687687
+      PROP-02-modular-backstage-cart-kit_20: 8078828961255518832
+      PROP-02-modular-backstage-cart-kit_21: -7726305122462218479
+      PROP-02-modular-backstage-cart-kit_22: 29824197255238521
+      PROP-02-modular-backstage-cart-kit_23: 525564610145713219
+      PROP-02-modular-backstage-cart-kit_24: 2090595788698370598
+      PROP-02-modular-backstage-cart-kit_3: -587201348378769536
+      PROP-02-modular-backstage-cart-kit_4: 434363970576798882
+      PROP-02-modular-backstage-cart-kit_5: -4016764805257729724
+      PROP-02-modular-backstage-cart-kit_6: 3839190058016716685
+      PROP-02-modular-backstage-cart-kit_7: -3290459600808281583
+      PROP-02-modular-backstage-cart-kit_8: 918750877424269466
+      PROP-02-modular-backstage-cart-kit_9: -7006083872356124259
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

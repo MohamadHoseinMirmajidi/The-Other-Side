@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: f10359c39049d704cac7aac016734308
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3454915453537653717
+    second: PROP-05-fuse-box-red-indicator-v2_0
+  - first:
+      213: 6331991138068688468
+    second: PROP-05-fuse-box-red-indicator-v2_1
+  - first:
+      213: 7699153107156623946
+    second: PROP-05-fuse-box-red-indicator-v2_2
+  - first:
+      213: -6370543530186792421
+    second: PROP-05-fuse-box-red-indicator-v2_3
+  - first:
+      213: -667770226361846223
+    second: PROP-05-fuse-box-red-indicator-v2_4
+  - first:
+      213: 2817197426078638393
+    second: PROP-05-fuse-box-red-indicator-v2_5
+  - first:
+      213: -7164711365170576823
+    second: PROP-05-fuse-box-red-indicator-v2_6
+  - first:
+      213: -7639094454206144382
+    second: PROP-05-fuse-box-red-indicator-v2_7
+  - first:
+      213: 8004194117381889426
+    second: PROP-05-fuse-box-red-indicator-v2_8
+  - first:
+      213: 865939412290370546
+    second: PROP-05-fuse-box-red-indicator-v2_9
+  - first:
+      213: -3458602914331829693
+    second: PROP-05-fuse-box-red-indicator-v2_10
+  - first:
+      213: -7703582106655084509
+    second: PROP-05-fuse-box-red-indicator-v2_11
+  - first:
+      213: 2934254203116062434
+    second: PROP-05-fuse-box-red-indicator-v2_12
+  - first:
+      213: -2269126324822538417
+    second: PROP-05-fuse-box-red-indicator-v2_13
+  - first:
+      213: -1552193806627431684
+    second: PROP-05-fuse-box-red-indicator-v2_14
+  - first:
+      213: -1524776343053690157
+    second: PROP-05-fuse-box-red-indicator-v2_15
+  - first:
+      213: -572045823313671273
+    second: PROP-05-fuse-box-red-indicator-v2_16
+  - first:
+      213: -1908152151756733312
+    second: PROP-05-fuse-box-red-indicator-v2_17
+  - first:
+      213: -8870642395089812059
+    second: PROP-05-fuse-box-red-indicator-v2_18
+  - first:
+      213: 296079942644449567
+    second: PROP-05-fuse-box-red-indicator-v2_19
+  - first:
+      213: 4853312914779958252
+    second: PROP-05-fuse-box-red-indicator-v2_20
+  - first:
+      213: 6257721974019554117
+    second: PROP-05-fuse-box-red-indicator-v2_21
+  - first:
+      213: 4560775800246862480
+    second: PROP-05-fuse-box-red-indicator-v2_22
+  - first:
+      213: 558788641079794468
+    second: PROP-05-fuse-box-red-indicator-v2_23
+  - first:
+      213: 2728954549387226910
+    second: PROP-05-fuse-box-red-indicator-v2_24
+  - first:
+      213: -7976556956149528734
+    second: PROP-05-fuse-box-red-indicator-v2_25
+  - first:
+      213: -1983053524573956343
+    second: PROP-05-fuse-box-red-indicator-v2_26
+  - first:
+      213: 9093109526627653784
+    second: PROP-05-fuse-box-red-indicator-v2_27
+  - first:
+      213: -85873063439723917
+    second: PROP-05-fuse-box-red-indicator-v2_28
+  - first:
+      213: 2986643434464360576
+    second: PROP-05-fuse-box-red-indicator-v2_29
+  - first:
+      213: 1637708604877185877
+    second: PROP-05-fuse-box-red-indicator-v2_30
+  - first:
+      213: -7135006461395774724
+    second: PROP-05-fuse-box-red-indicator-v2_31
+  - first:
+      213: 2611553750543091732
+    second: PROP-05-fuse-box-red-indicator-v2_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_0
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1522
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c61ee23bcad00d0800000000000000
+      internalID: -3454915453537653717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_1
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 511
+        width: 548
+        height: 1003
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e61894460cfd750800000000000000
+      internalID: 6331991138068688468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_2
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 753
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a426a6785f2e8da60800000000000000
+      internalID: 7699153107156623946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_3
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 717
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12ad0179684797a0800000000000000
+      internalID: -6370543530186792421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_4
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 693
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136be12648a9bb6f0800000000000000
+      internalID: -667770226361846223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_5
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 636
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931ef830222b81720800000000000000
+      internalID: 2817197426078638393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_6
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 550
+        width: 124
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942cdc049f4d19c90800000000000000
+      internalID: -7164711365170576823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_7
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 565
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280e26b411c7cf590800000000000000
+      internalID: -7639094454206144382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_8
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 545
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d91d7442c941f60800000000000000
+      internalID: 8004194117381889426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_9
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 545
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbf39abe4f640c00800000000000000
+      internalID: 865939412290370546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_10
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 511
+        width: 985
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ade1059f29000d0800000000000000
+      internalID: -3458602914331829693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_11
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 527
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320b4caa3e0671590800000000000000
+      internalID: -7703582106655084509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_12
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 571
+        width: 216
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e60e61c6a098b820800000000000000
+      internalID: 2934254203116062434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_13
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 527
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47077241a17280e0800000000000000
+      internalID: -2269126324822538417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_14
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 759
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa196de4ff757ae0800000000000000
+      internalID: -1552193806627431684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_15
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 557
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da9d5e9ef7e6dae0800000000000000
+      internalID: -1524776343053690157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_16
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 557
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b8422ca5faf08f0800000000000000
+      internalID: -572045823313671273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_17
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 517
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08484215ab1e485e0800000000000000
+      internalID: -1908152151756733312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_18
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 511
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5c6278db525e480800000000000000
+      internalID: -8870642395089812059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_19
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 587
+        width: 202
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11c07e9323eb1400800000000000000
+      internalID: 296079942644449567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_20
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 799
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb664dc16e6a5340800000000000000
+      internalID: 4853312914779958252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_21
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 803
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b77940bf4e7d650800000000000000
+      internalID: 6257721974019554117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_22
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 798
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09289e12d612b4f30800000000000000
+      internalID: 4560775800246862480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_23
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 723
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b9518fe4731c700800000000000000
+      internalID: 558788641079794468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_24
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 769
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f696c34b13fd520800000000000000
+      internalID: 2728954549387226910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_25
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 733
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2674902c5b39d4190800000000000000
+      internalID: -7976556956149528734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_26
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 687
+        width: 263
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907de297357ca74e0800000000000000
+      internalID: -1983053524573956343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_27
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 773
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8989c56efe6313e70800000000000000
+      internalID: 9093109526627653784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_28
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 801
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37296ed57eaeecef0800000000000000
+      internalID: -85873063439723917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_29
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 721
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08830063160b27920800000000000000
+      internalID: 2986643434464360576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_30
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 719
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5532e479c4f4ab610800000000000000
+      internalID: 1637708604877185877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_31
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 721
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2536e1d6d5bfc90800000000000000
+      internalID: -7135006461395774724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-05-fuse-box-red-indicator-v2_32
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 725
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418c5fcac4a1e3420800000000000000
+      internalID: 2611553750543091732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PROP-05-fuse-box-red-indicator-v2_0: -3454915453537653717
+      PROP-05-fuse-box-red-indicator-v2_1: 6331991138068688468
+      PROP-05-fuse-box-red-indicator-v2_10: -3458602914331829693
+      PROP-05-fuse-box-red-indicator-v2_11: -7703582106655084509
+      PROP-05-fuse-box-red-indicator-v2_12: 2934254203116062434
+      PROP-05-fuse-box-red-indicator-v2_13: -2269126324822538417
+      PROP-05-fuse-box-red-indicator-v2_14: -1552193806627431684
+      PROP-05-fuse-box-red-indicator-v2_15: -1524776343053690157
+      PROP-05-fuse-box-red-indicator-v2_16: -572045823313671273
+      PROP-05-fuse-box-red-indicator-v2_17: -1908152151756733312
+      PROP-05-fuse-box-red-indicator-v2_18: -8870642395089812059
+      PROP-05-fuse-box-red-indicator-v2_19: 296079942644449567
+      PROP-05-fuse-box-red-indicator-v2_2: 7699153107156623946
+      PROP-05-fuse-box-red-indicator-v2_20: 4853312914779958252
+      PROP-05-fuse-box-red-indicator-v2_21: 6257721974019554117
+      PROP-05-fuse-box-red-indicator-v2_22: 4560775800246862480
+      PROP-05-fuse-box-red-indicator-v2_23: 558788641079794468
+      PROP-05-fuse-box-red-indicator-v2_24: 2728954549387226910
+      PROP-05-fuse-box-red-indicator-v2_25: -7976556956149528734
+      PROP-05-fuse-box-red-indicator-v2_26: -1983053524573956343
+      PROP-05-fuse-box-red-indicator-v2_27: 9093109526627653784
+      PROP-05-fuse-box-red-indicator-v2_28: -85873063439723917
+      PROP-05-fuse-box-red-indicator-v2_29: 2986643434464360576
+      PROP-05-fuse-box-red-indicator-v2_3: -6370543530186792421
+      PROP-05-fuse-box-red-indicator-v2_30: 1637708604877185877
+      PROP-05-fuse-box-red-indicator-v2_31: -7135006461395774724
+      PROP-05-fuse-box-red-indicator-v2_32: 2611553750543091732
+      PROP-05-fuse-box-red-indicator-v2_4: -667770226361846223
+      PROP-05-fuse-box-red-indicator-v2_5: 2817197426078638393
+      PROP-05-fuse-box-red-indicator-v2_6: -7164711365170576823
+      PROP-05-fuse-box-red-indicator-v2_7: -7639094454206144382
+      PROP-05-fuse-box-red-indicator-v2_8: 8004194117381889426
+      PROP-05-fuse-box-red-indicator-v2_9: 865939412290370546
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

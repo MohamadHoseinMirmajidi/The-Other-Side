@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 27dfd34a7d1f4ee4eb0c7191ca9c2d36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2325074512841942200
+    second: PROP-07-distant-lamp-exit-door-v2_0
+  - first:
+      213: -5466031553647582096
+    second: PROP-07-distant-lamp-exit-door-v2_1
+  - first:
+      213: -8530317956807321769
+    second: PROP-07-distant-lamp-exit-door-v2_2
+  - first:
+      213: 4783995120161851586
+    second: PROP-07-distant-lamp-exit-door-v2_3
+  - first:
+      213: -4440036912977503114
+    second: PROP-07-distant-lamp-exit-door-v2_4
+  - first:
+      213: 5414198580742196243
+    second: PROP-07-distant-lamp-exit-door-v2_5
+  - first:
+      213: -8298464092310558512
+    second: PROP-07-distant-lamp-exit-door-v2_6
+  - first:
+      213: -3414849097749018705
+    second: PROP-07-distant-lamp-exit-door-v2_7
+  - first:
+      213: -3138376640353937641
+    second: PROP-07-distant-lamp-exit-door-v2_8
+  - first:
+      213: 6647477355569871265
+    second: PROP-07-distant-lamp-exit-door-v2_9
+  - first:
+      213: -3287270686792840012
+    second: PROP-07-distant-lamp-exit-door-v2_10
+  - first:
+      213: 4766955455575487746
+    second: PROP-07-distant-lamp-exit-door-v2_11
+  - first:
+      213: -1216419386100323846
+    second: PROP-07-distant-lamp-exit-door-v2_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PROP-07-distant-lamp-exit-door-v2_0
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 1457
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bddb1ac0dabbfd0800000000000000
+      internalID: -2325074512841942200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-07-distant-lamp-exit-door-v2_1
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 580
+        width: 362
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07462c12341c424b0800000000000000
+      internalID: -5466031553647582096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-07-distant-lamp-exit-door-v2_2
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 600
+        width: 412
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7571d5b83093e9980800000000000000
+      internalID: -8530317956807321769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-07-distant-lamp-exit-door-v2_3
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 612
+        width: 495
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c80370173a246240800000000000000
+      internalID: 4783995120161851586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-07-distant-lamp-exit-door-v2_4
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 1429
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c9a54b3f1d162c0800000000000000
+      internalID: -4440036912977503114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-07-distant-lamp-exit-door-v2_5
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 580
+        width: 399
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c009c6ce8132b40800000000000000
+      internalID: 5414198580742196243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-07-distant-lamp-exit-door-v2_6
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 836
+        width: 139
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8ae7c00eee5dc80800000000000000
+      internalID: -8298464092310558512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-07-distant-lamp-exit-door-v2_7
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1098
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa74b1796d40c90d0800000000000000
+      internalID: -3414849097749018705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-07-distant-lamp-exit-door-v2_8
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 813
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717d15cc21f3274d0800000000000000
+      internalID: -3138376640353937641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-07-distant-lamp-exit-door-v2_9
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 661
+        width: 81
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9f13f5f65904c50800000000000000
+      internalID: 6647477355569871265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-07-distant-lamp-exit-door-v2_10
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 599
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc88212ab44162d0800000000000000
+      internalID: -3287270686792840012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-07-distant-lamp-exit-door-v2_11
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 606
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205ffadfab0a72240800000000000000
+      internalID: 4766955455575487746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROP-07-distant-lamp-exit-door-v2_12
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 596
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9679163096e1fe0800000000000000
+      internalID: -1216419386100323846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PROP-07-distant-lamp-exit-door-v2_0: -2325074512841942200
+      PROP-07-distant-lamp-exit-door-v2_1: -5466031553647582096
+      PROP-07-distant-lamp-exit-door-v2_10: -3287270686792840012
+      PROP-07-distant-lamp-exit-door-v2_11: 4766955455575487746
+      PROP-07-distant-lamp-exit-door-v2_12: -1216419386100323846
+      PROP-07-distant-lamp-exit-door-v2_2: -8530317956807321769
+      PROP-07-distant-lamp-exit-door-v2_3: 4783995120161851586
+      PROP-07-distant-lamp-exit-door-v2_4: -4440036912977503114
+      PROP-07-distant-lamp-exit-door-v2_5: 5414198580742196243
+      PROP-07-distant-lamp-exit-door-v2_6: -8298464092310558512
+      PROP-07-distant-lamp-exit-door-v2_7: -3414849097749018705
+      PROP-07-distant-lamp-exit-door-v2_8: -3138376640353937641
+      PROP-07-distant-lamp-exit-door-v2_9: 6647477355569871265
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,16 +1,27 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class GreyboxFlowController : MonoBehaviour
 {
     [SerializeField] private GameProgress gameProgress;
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private GameObject startPanel;
+    [SerializeField] private GameObject pausePanel;
     [SerializeField] private GameObject creditsPanel;
     [SerializeField] private TMP_Text objectiveText;
     [SerializeField] private AudioSource progressAudio;
 
+    [Header("Keyboard Selection")]
+    [SerializeField] private Button startDefaultButton;
+    [SerializeField] private Button pauseDefaultButton;
+    [SerializeField] private Button creditsDefaultButton;
+
     private AudioClip progressClip;
+    private bool gameStarted;
+    private bool isPaused;
+    private bool gameEnded;
 
     private void Awake()
     {
@@ -20,11 +31,25 @@ public class GreyboxFlowController : MonoBehaviour
         if (playerMovement == null)
             playerMovement = FindAnyObjectByType<PlayerMovement>();
 
-        startPanel.SetActive(true);
-        creditsPanel.SetActive(false);
-        objectiveText.gameObject.SetActive(false);
-        SetPlayerControl(false);
+        Time.timeScale = 1f;
+        AudioListener.pause = false;
+
+        SetPanelActive(pausePanel, false);
+        SetPanelActive(creditsPanel, false);
+
+        bool waitsForStartButton = startPanel != null && startPanel.activeInHierarchy;
+        gameStarted = !waitsForStartButton;
+
+        if (objectiveText != null)
+            objectiveText.gameObject.SetActive(gameStarted);
+
+        SetPlayerControl(gameStarted);
         progressClip = CreateProgressClip();
+
+        if (gameStarted)
+            UpdateObjective();
+        else
+            SelectButton(startDefaultButton);
     }
 
     private void OnEnable()
@@ -41,15 +66,61 @@ public class GreyboxFlowController : MonoBehaviour
 
     public void StartGame()
     {
-        startPanel.SetActive(false);
-        objectiveText.gameObject.SetActive(true);
+        gameStarted = true;
+        gameEnded = false;
+        isPaused = false;
+        Time.timeScale = 1f;
+        AudioListener.pause = false;
+
+        SetPanelActive(startPanel, false);
+        SetPanelActive(pausePanel, false);
+        SetPanelActive(creditsPanel, false);
+
+        if (objectiveText != null)
+            objectiveText.gameObject.SetActive(true);
+
         SetPlayerControl(true);
         UpdateObjective();
+        ClearButtonSelection();
+    }
+
+    public void PauseGame()
+    {
+        if (!gameStarted || gameEnded || isPaused)
+            return;
+
+        isPaused = true;
+        gameProgress.PauseGame();
+        SelectButton(pauseDefaultButton);
+    }
+
+    public void ResumeGame()
+    {
+        if (!isPaused)
+            return;
+
+        isPaused = false;
+        gameProgress.ResumeGame();
+        ClearButtonSelection();
     }
 
     public void RestartGame()
     {
+        Time.timeScale = 1f;
+        AudioListener.pause = false;
         gameProgress.RestartGame();
+    }
+
+    public void QuitGame()
+    {
+        Time.timeScale = 1f;
+        AudioListener.pause = false;
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 
     private void HandleProgressChanged(GameProgressEvent progressEvent)
@@ -59,9 +130,18 @@ public class GreyboxFlowController : MonoBehaviour
 
         if (progressEvent == GameProgressEvent.ExitOpened)
         {
-            objectiveText.gameObject.SetActive(false);
-            creditsPanel.SetActive(true);
+            gameEnded = true;
+            isPaused = false;
+
+            if (objectiveText != null)
+                objectiveText.gameObject.SetActive(false);
+
+            SetPanelActive(pausePanel, false);
+            SetPanelActive(creditsPanel, true);
             SetPlayerControl(false);
+            Time.timeScale = 0f;
+            AudioListener.pause = true;
+            SelectButton(creditsDefaultButton);
             return;
         }
 
@@ -70,6 +150,9 @@ public class GreyboxFlowController : MonoBehaviour
 
     private void UpdateObjective()
     {
+        if (objectiveText == null)
+            return;
+
         if (!gameProgress.HasCompleted(GameProgressEvent.FirstDoorOpened))
             objectiveText.text = "Open the first door";
         else if (!gameProgress.HasCompleted(GameProgressEvent.EnteredBackstage))
@@ -111,6 +194,26 @@ public class GreyboxFlowController : MonoBehaviour
 
         playerMovement.ResetMotion();
         playerMovement.enabled = enabled;
+    }
+
+    private static void SetPanelActive(GameObject panel, bool active)
+    {
+        if (panel != null)
+            panel.SetActive(active);
+    }
+
+    private static void SelectButton(Button button)
+    {
+        if (button == null || EventSystem.current == null)
+            return;
+
+        EventSystem.current.SetSelectedGameObject(button.gameObject);
+    }
+
+    private static void ClearButtonSelection()
+    {
+        if (EventSystem.current != null)
+            EventSystem.current.SetSelectedGameObject(null);
     }
 
     private static AudioClip CreateProgressClip()

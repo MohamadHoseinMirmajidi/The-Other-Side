@@ -172,7 +172,7 @@ TextureImporter:
         width: 604
         height: 467
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -194,7 +194,7 @@ TextureImporter:
         width: 13
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -216,7 +216,7 @@ TextureImporter:
         width: 694
         height: 653
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -238,7 +238,7 @@ TextureImporter:
         width: 1228
         height: 592
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -260,7 +260,7 @@ TextureImporter:
         width: 542
         height: 662
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -273,11 +273,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: DEC-01-handmade-theater-decoration-sheet-v2_5
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 1448
+        width: 282
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbc7699658b2ec48807ab92175382eb
+      internalID: 371348451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-01-handmade-theater-decoration-sheet-v2_6
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 1700
+        width: 485
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57c976da3d30764eaec0036b988ba8b
+      internalID: -1913329567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-01-handmade-theater-decoration-sheet-v2_7
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2016
+        width: 673
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b91fe7e824793f4db9a29ae1042a37b
+      internalID: -920067273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 306410e6ed5271746bc9bdde7517bca0
     internalID: 0
     vertices: []
     indices: 
@@ -292,6 +358,9 @@ TextureImporter:
       DEC-01-handmade-theater-decoration-sheet-v2_2: -2140911934711611032
       DEC-01-handmade-theater-decoration-sheet-v2_3: 2552953148418327099
       DEC-01-handmade-theater-decoration-sheet-v2_4: -5372115242494636842
+      DEC-01-handmade-theater-decoration-sheet-v2_5: 371348451
+      DEC-01-handmade-theater-decoration-sheet-v2_6: -1913329567
+      DEC-01-handmade-theater-decoration-sheet-v2_7: -920067273
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

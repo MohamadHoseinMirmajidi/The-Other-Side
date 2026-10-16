@@ -35,6 +35,19 @@ public class StorySectionLayout : MonoBehaviour
         return Mathf.Clamp(playerX, minimum, maximum);
     }
 
+    public float GetHorizontalProgress(float playerX)
+    {
+        if (playerLeftLimit == null || playerRightLimit == null)
+            return 0f;
+
+        float minimum = Mathf.Min(playerLeftLimit.position.x, playerRightLimit.position.x);
+        float maximum = Mathf.Max(playerLeftLimit.position.x, playerRightLimit.position.x);
+        if (Mathf.Approximately(minimum, maximum))
+            return 0f;
+
+        return Mathf.InverseLerp(minimum, maximum, playerX);
+    }
+
     public Vector3 GetCameraPosition(Vector3 currentPosition, Vector3 playerPosition)
     {
         Vector3 result = currentPosition;

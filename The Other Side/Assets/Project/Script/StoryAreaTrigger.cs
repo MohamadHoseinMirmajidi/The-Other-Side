@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public enum StoryAreaType
@@ -7,7 +8,7 @@ public enum StoryAreaType
 }
 
 [RequireComponent(typeof(Collider2D))]
-public class StoryAreaTrigger : MonoBehaviour
+public class StoryAreaTrigger : Interactable
 {
     [SerializeField] private StoryRouteController route;
     [SerializeField] private StoryAreaType areaType;
@@ -19,9 +20,16 @@ public class StoryAreaTrigger : MonoBehaviour
         GetComponent<Collider2D>().isTrigger = true;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public override bool CanInteract =>
+        base.CanInteract &&
+        route != null &&
+        route.CanUseStairs(areaType);
+
+    public override IEnumerator ExecuteInteraction()
     {
-        if (other.GetComponentInParent<PlayerMovement>() != null)
-            route?.EnterArea(areaType);
+        if (!CanInteract)
+            yield break;
+
+        yield return route.UseStairs(areaType);
     }
 }

@@ -142,19 +142,34 @@ public class PlayerMovement : MonoBehaviour
     // Actually flip the character visual
     private void ApplyFacing()
     {
-        if (spriteRenderer != null && flipSprite)
-        {
-            // flipX = true means "draw the sprite mirrored" = looking left
-            spriteRenderer.flipX = (facingDirection < 0);
-        }
-
         if (flipByScale)
         {
-            // Positive scale.x = right, negative = left
+            // Use one flip method at a time. Applying both scale and flipX
+            // mirrors the sprite twice and makes it look permanently right-facing.
+            if (spriteRenderer != null)
+                spriteRenderer.flipX = false;
+
             Vector3 scale = transform.localScale;
             scale.x = Mathf.Abs(scale.x) * facingDirection;
             transform.localScale = scale;
+            return;
         }
+
+        if (spriteRenderer != null && flipSprite)
+            spriteRenderer.flipX = facingDirection < 0;
+    }
+
+    public void FaceDirection(float horizontalDirection)
+    {
+        if (Mathf.Abs(horizontalDirection) < 0.01f)
+            return;
+
+        int newDirection = horizontalDirection < 0f ? -1 : 1;
+        if (newDirection == facingDirection)
+            return;
+
+        facingDirection = newDirection;
+        ApplyFacing();
     }
 
     /// <summary>

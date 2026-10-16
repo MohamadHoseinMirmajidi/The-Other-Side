@@ -33,14 +33,19 @@ public class StoryPushBoxInteractable : Interactable
 
     public override bool CanInteract =>
         base.CanInteract &&
-        !isPlaced &&
         route != null &&
-        route.CanUsePushBox;
+        (isPlaced ? route.CanClimbPlacedBox : route.CanUsePushBox);
 
     public override IEnumerator ExecuteInteraction()
     {
         if (!CanInteract)
             yield break;
+
+        if (isPlaced)
+        {
+            yield return route.ClimbPlacedBox();
+            yield break;
+        }
 
         if (isPushing)
             StopPushing();
@@ -71,7 +76,7 @@ public class StoryPushBoxInteractable : Interactable
         isPushing = false;
         transform.position = new Vector3(
             placementPoint.position.x,
-            placementPoint.position.y,
+            startPosition.y,
             position.z);
         route.NotifyBoxPlaced();
     }
@@ -91,7 +96,6 @@ public class StoryPushBoxInteractable : Interactable
 
         Vector3 playerPosition = player.position;
         playerPosition.x = transform.position.x - pushDirection * playerDistanceFromBox;
-        playerPosition.y = transform.position.y;
         player.position = playerPosition;
         playerOffset = transform.position.x - player.position.x;
         isPushing = true;

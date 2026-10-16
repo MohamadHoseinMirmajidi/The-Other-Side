@@ -94,7 +94,8 @@ public class GameUIController : MonoBehaviour
         if (keyboard == null)
             return;
 
-        if (keyboard.escapeKey.wasPressedThisFrame)
+        if (keyboard.escapeKey.wasPressedThisFrame &&
+            !StoryRouteController.IsCutsceneOpen)
             HandleCancel();
 
         if (!UIButtonSelectionSync.IsPointerOverButton)

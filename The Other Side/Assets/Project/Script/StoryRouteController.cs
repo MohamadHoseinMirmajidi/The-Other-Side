@@ -27,6 +27,7 @@ public class StoryRouteController : MonoBehaviour
     [SerializeField] private Transform keyRoomEntryFromFuse;
     [SerializeField] private Transform boxClimbGroundPoint;
     [SerializeField] private Transform boxClimbTopPoint;
+    [SerializeField] private Transform keyPickupPoint;
 
     [Header("Room 03 Design Points")]
     [SerializeField] private Transform fuseRoomEntryFromKey;
@@ -45,6 +46,7 @@ public class StoryRouteController : MonoBehaviour
     [SerializeField] private CanvasGroup storyCanvas;
     [SerializeField] private Image storyImage;
     [SerializeField] private TMP_Text storyLabel;
+    [SerializeField] private GameObject creditPanel;
 
     [Header("Room 01 - Start")]
     [SerializeField] private StoryInteractable tutorialItem;
@@ -56,6 +58,7 @@ public class StoryRouteController : MonoBehaviour
     [SerializeField] private StoryInteractable keyRoomReturnDoor;
     [SerializeField] private StoryPushBoxInteractable pushBox;
     [SerializeField] private GameObject highKey;
+    [SerializeField] private StoryShadowReveal keyRoomShadow;
 
     [Header("Room 03 - Fuse")]
     [SerializeField] private StoryInteractable fuseBox;
@@ -94,17 +97,34 @@ public class StoryRouteController : MonoBehaviour
     [SerializeField] private float endingWalkDuration = 2.4f;
     [SerializeField] private float shortCutsceneDuration = 1.4f;
 
+    [Header("Cutscene Presentation")]
+    [SerializeField] private float cutsceneTransitionDuration = 0.2f;
+    [SerializeField] private float cutsceneStartScale = 0.82f;
+    [SerializeField] private AnimationCurve cutsceneEase =
+        AnimationCurve.EaseInOut(0f, 0f, 1f, 1f);
+
     private Rigidbody2D playerBody;
     private float normalLightIntensity = 1f;
     private int currentRoom;
     private bool isBusy;
     private bool keyDistanceDialogueShown;
     private bool backstageIntroShown;
+    private bool waitingForKeyPickup;
+    private Vector3 storyImageBaseScale = Vector3.one;
+
+    public static bool IsCutsceneOpen { get; private set; }
 
     public bool CanUsePushBox =>
         currentRoom == 1 &&
         gameProgress.HasCompleted(GameProgressEvent.EnteredKeyRoom) &&
         !gameProgress.HasCompleted(GameProgressEvent.BoxPlaced) &&
+        !isBusy;
+
+    public bool CanClimbPlacedBox =>
+        currentRoom == 1 &&
+        gameProgress.HasCompleted(GameProgressEvent.BoxPlaced) &&
+        !gameProgress.HasCompleted(GameProgressEvent.KeyCollected) &&
+        !waitingForKeyPickup &&
         !isBusy;
 
     // Old door components are disabled at startup. These two methods only keep
@@ -122,6 +142,10 @@ public class StoryRouteController : MonoBehaviour
     private void Awake()
     {
         FindReferences();
+        if (gameProgress != null)
+            gameProgress.ProgressChanged += HandleProgressChanged;
+
+        IsCutsceneOpen = false;
         if (fadeCanvas != null)
         {
             fadeCanvas.alpha = 0f;
@@ -132,6 +156,15 @@ public class StoryRouteController : MonoBehaviour
             storyCanvas.alpha = 0f;
             storyCanvas.blocksRaycasts = false;
         }
+        if (storyImage != null)
+            storyImageBaseScale = storyImage.rectTransform.localScale;
+        if (creditPanel != null)
+            creditPanel.SetActive(false);
+        if (keyRoomShadow != null &&
+            !gameProgress.HasCompleted(GameProgressEvent.KeyCollected))
+        {
+            keyRoomShadow.ResetHidden();
+        }
         SetCameraToRoom(0);
         UpdateRouteObjects();
         ApplyRoomLighting();
@@ -139,6 +172,13 @@ public class StoryRouteController : MonoBehaviour
 
     private void Update()
     {
+        if (waitingForKeyPickup && IsInteractionPressed())
+        {
+            waitingForKeyPickup = false;
+            StartCoroutine(KeyPickupSequence());
+            return;
+        }
+
         if (player == null || isBusy)
             return;
 
@@ -158,6 +198,14 @@ public class StoryRouteController : MonoBehaviour
     private void LateUpdate()
     {
         UpdateCameraPosition();
+    }
+
+    private void OnDestroy()
+    {
+        if (gameProgress != null)
+            gameProgress.ProgressChanged -= HandleProgressChanged;
+
+        IsCutsceneOpen = false;
     }
 
     public bool CanInteract(StoryInteractionType type)
@@ -195,7 +243,6 @@ public class StoryRouteController : MonoBehaviour
                        !gameProgress.HasCompleted(GameProgressEvent.CurtainOpened);
             case StoryInteractionType.Backpack:
                 return currentRoom == 3 &&
-                       gameProgress.HasCompleted(GameProgressEvent.DecorationRevealed) &&
                        !gameProgress.HasCompleted(GameProgressEvent.BagCollected);
             case StoryInteractionType.BackstageReturnDoor:
                 return currentRoom == 3 &&
@@ -258,6 +305,12 @@ public class StoryRouteController : MonoBehaviour
                 yield return CurtainSequence();
                 break;
             case StoryInteractionType.Backpack:
+                if (!gameProgress.HasCompleted(GameProgressEvent.DecorationRevealed))
+                {
+                    Say("باید اول بفهمم اون سایه چیه؟");
+                    break;
+                }
+
                 interactedObject.SetActive(false);
                 gameProgress.TryComplete(GameProgressEvent.BagCollected);
                 Say("باید برم سمت حیاط.");
@@ -275,35 +328,95 @@ public class StoryRouteController : MonoBehaviour
         }
     }
 
-    public void NotifyBoxPlaced()
-    {
-        if (isBusy || !gameProgress.TryComplete(GameProgressEvent.BoxPlaced))
-            return;
-
-        StartCoroutine(KeySequence());
-    }
-
-    public void EnterArea(StoryAreaType type)
+    public void EnterNarrativeArea(StoryNarrativeAreaType areaType)
     {
         if (isBusy)
             return;
+
+        if (areaType == StoryNarrativeAreaType.BackstageCurtainIntro)
+        {
+            if (currentRoom == 3 &&
+                gameProgress.HasCompleted(GameProgressEvent.EnteredBackstage) &&
+                !gameProgress.HasCompleted(GameProgressEvent.CurtainOpened) &&
+                !backstageIntroShown)
+            {
+                StartCoroutine(BackstageIntroSequence());
+            }
+
+            return;
+        }
+
+        if (areaType == StoryNarrativeAreaType.ReturnFuseShadow &&
+            currentRoom == 2 &&
+            gameProgress.HasCompleted(GameProgressEvent.BagCollected) &&
+            gameProgress.TryComplete(GameProgressEvent.ReturnedToFuseRoom))
+        {
+            StartCoroutine(ReturnFuseSequence());
+        }
+    }
+
+    public void NotifyBoxPlaced()
+    {
+        if (isBusy)
+            return;
+
+        gameProgress.TryComplete(GameProgressEvent.BoxPlaced);
+    }
+
+    public bool CanUseStairs(StoryAreaType type)
+    {
+        if (isBusy)
+            return false;
+
+        if (type == StoryAreaType.BackstageStairsUp)
+            return currentRoom == 3;
+
+        return type == StoryAreaType.UpperStairsDown &&
+               currentRoom == 4 &&
+               gameProgress.HasCompleted(GameProgressEvent.CurtainOpened);
+    }
+
+    public IEnumerator UseStairs(StoryAreaType type)
+    {
+        if (!CanUseStairs(type))
+            yield break;
 
         if (type == StoryAreaType.BackstageStairsUp && currentRoom == 3)
         {
             if (!gameProgress.HasCompleted(GameProgressEvent.WeightCollected))
             {
                 Say("اول باید وسیله سنگین رو پیدا کنم.");
-                return;
+                yield break;
             }
 
-            StartCoroutine(ChangeRoom(4, upperEntryFromBackstage));
+            yield return ChangeRoom(4, upperEntryFromBackstage);
         }
         else if (type == StoryAreaType.UpperStairsDown &&
                  currentRoom == 4 &&
                  gameProgress.HasCompleted(GameProgressEvent.CurtainOpened))
         {
-            StartCoroutine(ChangeRoom(3, backstageEntryFromUpper));
+            yield return ChangeRoom(3, backstageEntryFromUpper);
         }
+    }
+
+    public IEnumerator ClimbPlacedBox()
+    {
+        if (!CanClimbPlacedBox)
+            yield break;
+
+        isBusy = true;
+        SetPlayerControl(false);
+        yield return MovePlayerTo(boxClimbGroundPoint, walkToPointSpeed);
+
+        Coroutine shadowReveal = keyRoomShadow != null
+            ? StartCoroutine(keyRoomShadow.Reveal())
+            : null;
+        yield return MovePlayerTo(boxClimbTopPoint, climbSpeed);
+        if (shadowReveal != null)
+            yield return shadowReveal;
+
+        isBusy = false;
+        waitingForKeyPickup = true;
     }
 
     private IEnumerator TutorialSequence(GameObject item)
@@ -311,29 +424,29 @@ public class StoryRouteController : MonoBehaviour
         isBusy = true;
         SetPlayerControl(false);
         item.SetActive(false);
-        ShowStoryImage(
+        yield return ShowStoryImageAnimated(
             tutorialPaperImage,
             new Color(0.86f, 0.79f, 0.62f, 1f),
             "TUTORIAL PAPER PLACEHOLDER");
 
-        yield return WaitForFreshEPress();
+        yield return WaitForCutsceneDismiss();
 
-        HideStoryImage();
+        yield return HideStoryImageAnimated();
         gameProgress.TryComplete(GameProgressEvent.TutorialItemRead);
         SetPlayerControl(true);
         isBusy = false;
         UpdateRouteObjects();
     }
 
-    private IEnumerator KeySequence()
+    private IEnumerator KeyPickupSequence()
     {
         isBusy = true;
         SetPlayerControl(false);
 
-        yield return MovePlayerTo(boxClimbGroundPoint, walkToPointSpeed);
-        yield return MovePlayerTo(boxClimbTopPoint, climbSpeed);
+        if (keyPickupPoint != null)
+            yield return MovePlayerTo(keyPickupPoint, walkToPointSpeed);
 
-        ShowStoryImage(
+        yield return ShowStoryImageAnimated(
             firstShadowImage,
             new Color(0.08f, 0.08f, 0.12f, 1f),
             "FIRST SCARY SHADOW PLACEHOLDER");
@@ -342,11 +455,12 @@ public class StoryRouteController : MonoBehaviour
         Say("باید زودتر از اینجا برم.");
         yield return new WaitForSeconds(2.2f);
 
-        yield return WaitForFreshEPress();
+        yield return WaitForCutsceneDismiss();
 
         gameProgress.TryComplete(GameProgressEvent.KeyCollected);
-        highKey.SetActive(false);
-        HideStoryImage();
+        SetInteractionVisual(highKey, true);
+        yield return HideStoryImageAnimated();
+        yield return new WaitForSeconds(0.15f);
         yield return MovePlayerTo(boxClimbGroundPoint, climbSpeed);
 
         SetPlayerControl(true);
@@ -361,8 +475,8 @@ public class StoryRouteController : MonoBehaviour
         Say("ممکنه داخل این جعبه ابزار چیزی که لازمه رو پیدا کنم.");
         yield return new WaitForSeconds(2.2f);
 
-        toolboxObject.SetActive(false);
         gameProgress.TryComplete(GameProgressEvent.FusePartCollected);
+        SetInteractionVisual(toolboxObject, true);
         Say("قطعه رو پیدا کردم. باید بزارمش داخل جعبه فیوز.");
 
         SetPlayerControl(true);
@@ -378,17 +492,18 @@ public class StoryRouteController : MonoBehaviour
 
         if (fuseRenderer != null)
             fuseRenderer.color = new Color(0.22f, 0.8f, 0.28f);
+        SetInteractionVisual(fuseBox != null ? fuseBox.gameObject : null, true);
 
         ApplyRoomLighting();
 
         playerShadow.SetActive(true);
-        ShowStoryImage(
+        yield return ShowStoryImageAnimated(
             ownShadowImage,
             new Color(0.05f, 0.05f, 0.08f, 0.92f),
             "PLAYER SHADOW SCARE PLACEHOLDER");
         Say("اون سایه دوباره پیداش شد!");
-        yield return new WaitForSeconds(shortCutsceneDuration);
-        HideStoryImage();
+        yield return WaitForCutsceneDismiss();
+        yield return HideStoryImageAnimated();
 
         yield return AutoRunTo(fuseEscapeTarget);
         yield return ChangeRoom(3, backstageEntryFromFuse, false, false);
@@ -404,13 +519,13 @@ public class StoryRouteController : MonoBehaviour
         Say("باید این وزنه رو به طناب پرده گره بزنم.");
         yield return new WaitForSeconds(2f);
 
-        ShowStoryImage(
+        yield return ShowStoryImageAnimated(
             curtainOpeningImage,
             new Color(0.3f, 0.12f, 0.18f, 1f),
             "CURTAIN OPENING PLACEHOLDER");
-        yield return new WaitForSeconds(shortCutsceneDuration);
+        yield return WaitForCutsceneDismiss();
         gameProgress.TryComplete(GameProgressEvent.CurtainOpened);
-        HideStoryImage();
+        yield return HideStoryImageAnimated();
 
         SetPlayerControl(true);
         isBusy = false;
@@ -424,13 +539,13 @@ public class StoryRouteController : MonoBehaviour
         curtainShadow.SetActive(false);
         revealedDecoration.SetActive(true);
 
-        ShowStoryImage(
+        yield return ShowStoryImageAnimated(
             decorationRevealImage,
             new Color(0.26f, 0.22f, 0.2f, 1f),
             "STAGE DECORATION REVEAL PLACEHOLDER");
         Say("پس سایه دکور بود که اینهمه ازش ترسیدم!");
-        yield return new WaitForSeconds(2.8f);
-        HideStoryImage();
+        yield return WaitForCutsceneDismiss();
+        yield return HideStoryImageAnimated();
 
         gameProgress.TryComplete(GameProgressEvent.DecorationRevealed);
         Say("باید زودتر کوله پشتیمو بردارم و از اینجا برم.");
@@ -444,13 +559,13 @@ public class StoryRouteController : MonoBehaviour
         isBusy = true;
         SetPlayerControl(false);
         playerShadow.SetActive(true);
-        ShowStoryImage(
+        yield return ShowStoryImageAnimated(
             ownShadowImage,
             new Color(0.09f, 0.09f, 0.12f, 0.9f),
             "OWN SHADOW REVEAL PLACEHOLDER");
         Say("یعنی من از سایه خودم انقدر ترسیدم؟");
-        yield return new WaitForSeconds(2.8f);
-        HideStoryImage();
+        yield return WaitForCutsceneDismiss();
+        yield return HideStoryImageAnimated();
         SetPlayerControl(true);
         isBusy = false;
     }
@@ -465,13 +580,14 @@ public class StoryRouteController : MonoBehaviour
         yield return MovePlayerTo(boxClimbGroundPoint, walkToPointSpeed);
         yield return MovePlayerTo(boxClimbTopPoint, climbSpeed);
 
-        ShowStoryImage(
+        yield return ShowStoryImageAnimated(
             costumeRevealImage,
             new Color(0.32f, 0.27f, 0.34f, 1f),
             "COSTUME SHADOW REVEAL PLACEHOLDER");
         Say("پس هیچ هیولایی در کار نبود!");
-        yield return new WaitForSeconds(2.8f);
-        HideStoryImage();
+        yield return WaitForCutsceneDismiss();
+        yield return HideStoryImageAnimated();
+        keyRoomShadow?.Hide();
 
         yield return MovePlayerTo(boxClimbGroundPoint, climbSpeed);
         Say("باید برم به سمت حیاط، مادرم منتظرمه.");
@@ -505,6 +621,8 @@ public class StoryRouteController : MonoBehaviour
 
         fadeCanvas.alpha = 1f;
         gameProgress.TryComplete(GameProgressEvent.GameFinished);
+        if (creditPanel != null)
+            creditPanel.SetActive(true);
     }
 
     private IEnumerator ChangeRoom(
@@ -519,6 +637,7 @@ public class StoryRouteController : MonoBehaviour
             SetPlayerControl(false);
         }
 
+        dialogueHUD?.HideDialogue();
         yield return Fade(0f, 1f);
         currentRoom = targetRoom;
         player.position = GetPointPosition(spawnPoint, player.position);
@@ -545,7 +664,6 @@ public class StoryRouteController : MonoBehaviour
         if (room == 1 && !gameProgress.HasCompleted(GameProgressEvent.EnteredKeyRoom))
         {
             gameProgress.TryComplete(GameProgressEvent.EnteredKeyRoom);
-            Say("در قفله، باید دنبال کلید بگردم.");
         }
         else if (room == 1 && gameProgress.HasCompleted(GameProgressEvent.BagCollected))
         {
@@ -559,13 +677,13 @@ public class StoryRouteController : MonoBehaviour
         }
         else if (room == 2 && gameProgress.HasCompleted(GameProgressEvent.BagCollected))
         {
-            if (gameProgress.TryComplete(GameProgressEvent.ReturnedToFuseRoom))
-                StartCoroutine(ReturnFuseSequence());
+            // The return reveal starts from a movable scene trigger after the
+            // player has walked a few steps into the room.
         }
         else if (room == 3 && !gameProgress.HasCompleted(GameProgressEvent.EnteredBackstage))
         {
             gameProgress.TryComplete(GameProgressEvent.EnteredBackstage);
-            StartCoroutine(BackstageIntroSequence());
+            Say("باید کیفم همینجاها باشه!");
         }
         else if (room == 3 &&
                  gameProgress.HasCompleted(GameProgressEvent.CurtainOpened) &&
@@ -591,15 +709,11 @@ public class StoryRouteController : MonoBehaviour
             yield break;
 
         backstageIntroShown = true;
-        isBusy = true;
-        SetPlayerControl(false);
         Say("اون سایه روی پرده چیه؟");
         yield return new WaitForSeconds(2.4f);
         Say("باید بفهمم پشت این پرده چی قایم شده.");
         yield return new WaitForSeconds(2.4f);
         Say("باید یه جوری طناب پرده رو بکشم پایین تا پرده بره کنار.");
-        SetPlayerControl(true);
-        isBusy = false;
     }
 
     private IEnumerator AutoRunTo(Transform targetPoint)
@@ -614,6 +728,7 @@ public class StoryRouteController : MonoBehaviour
         while (Vector2.Distance(player.position, target) > 0.12f)
         {
             Vector2 direction = (target - player.position).normalized;
+            playerMovement?.FaceDirection(direction.x);
             playerBody.linearVelocity = direction * autoRunSpeed;
             yield return null;
         }
@@ -625,6 +740,7 @@ public class StoryRouteController : MonoBehaviour
     private IEnumerator MovePlayerTo(Transform targetPoint, float speed)
     {
         Vector3 target = GetPointPosition(targetPoint, player.position);
+        playerMovement?.FaceDirection(target.x - player.position.x);
         while (Vector3.Distance(player.position, target) > 0.03f)
         {
             player.position = Vector3.MoveTowards(
@@ -647,13 +763,41 @@ public class StoryRouteController : MonoBehaviour
         return result;
     }
 
-    private IEnumerator WaitForFreshEPress()
+    private IEnumerator WaitForCutsceneDismiss()
     {
-        while (Keyboard.current != null && Keyboard.current.eKey.isPressed)
+        while (IsDismissKeyHeld())
             yield return null;
 
-        while (Keyboard.current == null || !Keyboard.current.eKey.wasPressedThisFrame)
+        while (!IsDismissKeyPressed())
             yield return null;
+    }
+
+    private static bool IsInteractionPressed()
+    {
+        return Keyboard.current != null &&
+               Keyboard.current.eKey.wasPressedThisFrame;
+    }
+
+    private static bool IsDismissKeyHeld()
+    {
+        Keyboard keyboard = Keyboard.current;
+        return keyboard != null &&
+               (keyboard.eKey.isPressed ||
+                keyboard.spaceKey.isPressed ||
+                keyboard.enterKey.isPressed ||
+                keyboard.numpadEnterKey.isPressed ||
+                keyboard.escapeKey.isPressed);
+    }
+
+    private static bool IsDismissKeyPressed()
+    {
+        Keyboard keyboard = Keyboard.current;
+        return keyboard != null &&
+               (keyboard.eKey.wasPressedThisFrame ||
+                keyboard.spaceKey.wasPressedThisFrame ||
+                keyboard.enterKey.wasPressedThisFrame ||
+                keyboard.numpadEnterKey.wasPressedThisFrame ||
+                keyboard.escapeKey.wasPressedThisFrame);
     }
 
     private void KeepPlayerInsideCurrentRoom()
@@ -723,12 +867,27 @@ public class StoryRouteController : MonoBehaviour
         if (pushBox != null)
             pushBox.gameObject.SetActive(currentRoom == 1);
         if (highKey != null)
-            highKey.SetActive(currentRoom == 1 &&
-                !gameProgress.HasCompleted(GameProgressEvent.KeyCollected));
+        {
+            highKey.SetActive(currentRoom == 1);
+            SetInteractionVisual(
+                highKey,
+                gameProgress.HasCompleted(GameProgressEvent.KeyCollected));
+        }
 
         SetActive(fuseBox, currentRoom == 2);
-        SetActive(toolbox, currentRoom == 2 &&
-            !gameProgress.HasCompleted(GameProgressEvent.FusePartCollected));
+        SetActive(toolbox, currentRoom == 2);
+        if (toolbox != null)
+        {
+            SetInteractionVisual(
+                toolbox.gameObject,
+                gameProgress.HasCompleted(GameProgressEvent.FusePartCollected));
+        }
+        if (fuseBox != null)
+        {
+            SetInteractionVisual(
+                fuseBox.gameObject,
+                gameProgress.HasCompleted(GameProgressEvent.FuseRepaired));
+        }
         SetActive(fuseReturnDoor, currentRoom == 2 && bagCollected);
         if (playerShadow != null)
             playerShadow.SetActive(currentRoom == 2 &&
@@ -740,7 +899,7 @@ public class StoryRouteController : MonoBehaviour
         SetActive(backstageReturnDoor, currentRoom == 3 && bagCollected);
         if (backstageStairs != null)
             backstageStairs.SetActive(currentRoom == 3);
-        SetActive(backpack, currentRoom == 3 && decorationRevealed && !bagCollected);
+        SetActive(backpack, currentRoom == 3 && !bagCollected);
         if (curtainShadow != null)
             curtainShadow.SetActive(currentRoom == 3 && !decorationRevealed);
         if (revealedDecoration != null)
@@ -846,26 +1005,100 @@ public class StoryRouteController : MonoBehaviour
         fadeCanvas.alpha = to;
     }
 
-    private void ShowStoryImage(Sprite sprite, Color fallbackColor, string label)
+    private IEnumerator ShowStoryImageAnimated(
+        Sprite sprite,
+        Color fallbackColor,
+        string label)
     {
         if (storyCanvas == null || storyImage == null)
-            return;
+            yield break;
 
+        IsCutsceneOpen = true;
         storyImage.sprite = sprite;
         storyImage.color = sprite == null ? fallbackColor : Color.white;
         storyImage.preserveAspect = true;
         if (storyLabel != null)
             storyLabel.text = sprite == null ? label : string.Empty;
-        storyCanvas.alpha = 1f;
+
+        storyCanvas.alpha = 0f;
         storyCanvas.blocksRaycasts = true;
+        storyImage.rectTransform.localScale = storyImageBaseScale * cutsceneStartScale;
+
+        float elapsed = 0f;
+        while (elapsed < cutsceneTransitionDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float progress = cutsceneTransitionDuration <= 0f
+                ? 1f
+                : Mathf.Clamp01(elapsed / cutsceneTransitionDuration);
+            float eased = cutsceneEase.Evaluate(progress);
+            storyCanvas.alpha = eased;
+            storyImage.rectTransform.localScale = Vector3.Lerp(
+                storyImageBaseScale * cutsceneStartScale,
+                storyImageBaseScale,
+                eased);
+            yield return null;
+        }
+
+        storyCanvas.alpha = 1f;
+        storyImage.rectTransform.localScale = storyImageBaseScale;
     }
 
-    private void HideStoryImage()
+    private IEnumerator HideStoryImageAnimated()
     {
         if (storyCanvas == null)
-            return;
+        {
+            IsCutsceneOpen = false;
+            yield break;
+        }
+
+        float elapsed = 0f;
+        Vector3 startScale = storyImage != null
+            ? storyImage.rectTransform.localScale
+            : storyImageBaseScale;
+        while (elapsed < cutsceneTransitionDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float progress = cutsceneTransitionDuration <= 0f
+                ? 1f
+                : Mathf.Clamp01(elapsed / cutsceneTransitionDuration);
+            float eased = cutsceneEase.Evaluate(progress);
+            storyCanvas.alpha = 1f - eased;
+            if (storyImage != null)
+            {
+                storyImage.rectTransform.localScale = Vector3.Lerp(
+                    startScale,
+                    storyImageBaseScale * cutsceneStartScale,
+                    eased);
+            }
+            yield return null;
+        }
 
         storyCanvas.alpha = 0f;
         storyCanvas.blocksRaycasts = false;
+        if (storyImage != null)
+            storyImage.rectTransform.localScale = storyImageBaseScale;
+        IsCutsceneOpen = false;
+    }
+
+    private void HandleProgressChanged(GameProgressEvent progressEvent)
+    {
+        dialogueHUD?.HideDialogue();
+    }
+
+    private static void SetInteractionVisual(GameObject item, bool showAfter)
+    {
+        if (item == null)
+            return;
+
+        InteractionVisualState visualState =
+            item.GetComponent<InteractionVisualState>();
+        if (visualState == null)
+            return;
+
+        if (showAfter)
+            visualState.ShowAfterInteraction();
+        else
+            visualState.ShowBeforeInteraction();
     }
 }

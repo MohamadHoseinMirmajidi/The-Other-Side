@@ -180,11 +180,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1420
-        y: 1450
-        width: 617
-        height: 1176
+        y: 2148
+        width: 434
+        height: 478
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -201,12 +201,12 @@ TextureImporter:
       name: DEC-02-backstage-utility-props-sheet-v2_1
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 2481
-        width: 520
-        height: 172
+        x: 1867
+        y: 2164
+        width: 406
+        height: 229
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -223,12 +223,12 @@ TextureImporter:
       name: DEC-02-backstage-utility-props-sheet-v2_2
       rect:
         serializedVersion: 2
-        x: 1869
+        x: 2274
         y: 2157
-        width: 789
+        width: 384
         height: 315
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -250,7 +250,7 @@ TextureImporter:
         width: 360
         height: 237
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -272,7 +272,7 @@ TextureImporter:
         width: 708
         height: 488
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -294,7 +294,7 @@ TextureImporter:
         width: 424
         height: 232
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -316,7 +316,7 @@ TextureImporter:
         width: 262
         height: 184
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -338,7 +338,7 @@ TextureImporter:
         width: 6
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -360,7 +360,7 @@ TextureImporter:
         width: 8
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -373,11 +373,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-props-sheet-v2_9
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1924
+        width: 397
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe973a6568a841449bbcc51e7c4a5f2
+      internalID: 1692301683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-props-sheet-v2_10
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1709
+        width: 415
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a361b67d2d343eb43a03c3d975f3a4db
+      internalID: 1000020720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-02-backstage-utility-props-sheet-v2_11
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 1451
+        width: 284
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca370191c7ceef745993293dce86244e
+      internalID: -468149699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 724fc456b0d02f042a26e89448a87917
     internalID: 0
     vertices: []
     indices: 
@@ -389,6 +455,8 @@ TextureImporter:
     nameFileIdTable:
       DEC-02-backstage-utility-props-sheet-v2_0: -8756183569878680633
       DEC-02-backstage-utility-props-sheet-v2_1: 6393668048935823853
+      DEC-02-backstage-utility-props-sheet-v2_10: 1000020720
+      DEC-02-backstage-utility-props-sheet-v2_11: -468149699
       DEC-02-backstage-utility-props-sheet-v2_2: -7534559537563241449
       DEC-02-backstage-utility-props-sheet-v2_3: -2359812621042079058
       DEC-02-backstage-utility-props-sheet-v2_4: -6335811388158409861
@@ -396,6 +464,7 @@ TextureImporter:
       DEC-02-backstage-utility-props-sheet-v2_6: 6833157061770799624
       DEC-02-backstage-utility-props-sheet-v2_7: 6930772650365302445
       DEC-02-backstage-utility-props-sheet-v2_8: 7617695680783605041
+      DEC-02-backstage-utility-props-sheet-v2_9: 1692301683
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

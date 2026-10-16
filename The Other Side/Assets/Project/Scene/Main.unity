@@ -6519,6 +6519,126 @@ Transform:
   m_Children: []
   m_Father: {fileID: 141440898}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &818033184
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1063459420207432436, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: worldOffset.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628851100239634604, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9e6ab81952b28194281e012cb6ce7072, type: 3}
+    - target: {fileID: 3628851100239634604, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363633986724198653, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_Name
+      value: TUTORIAL PAPER PROMPT - REPLACE IMAGE OR CHANGE OFFSET
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845402162309740585, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+--- !u!114 &818033185 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1063459420207432436, guid: f216c3d47939dcf43abc18a3a7550dbb, type: 3}
+  m_PrefabInstance: {fileID: 818033184}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a1aa1987363924faaf1910a9b574e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionPromptUI
 --- !u!1 &828606437
 GameObject:
   m_ObjectHideFlags: 0
@@ -8068,7 +8188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1058835003}
   m_Layer: 0
-  m_Name: SPAWN - STAIRS DOWN (MOVE THIS)
+  m_Name: SECTION 04 RETURN SPAWN - MOVE THIS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8601,6 +8721,8 @@ MonoBehaviour:
   climbSpeed: 2.5
   endingWalkDuration: 2.4
   shortCutsceneDuration: 1.4
+  creditMinimumDuration: 10
+  creditMaximumDuration: 60
   cutsceneTransitionDuration: 0.2
   cutsceneStartScale: 0.82
   cutsceneEase:
@@ -8787,7 +8909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1146034626}
   m_Layer: 0
-  m_Name: SPAWN - FROM BACKSTAGE
+  m_Name: SECTION 05 ENTRY SPAWN - MOVE THIS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12894,7 +13016,7 @@ GameObject:
   - component: {fileID: 1653051624}
   - component: {fileID: 1653051623}
   m_Layer: 0
-  m_Name: Stairs Trigger - GO UP
+  m_Name: SECTION 04 STAIRS UP INTERACTION - MOVE OR RESIZE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13156,6 +13278,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractionManager
   detector: {fileID: 969860908}
+  tutorialPromptTarget: {fileID: 774962080}
+  tutorialPrompt: {fileID: 818033185}
 --- !u!1 &1669452632
 GameObject:
   m_ObjectHideFlags: 0
@@ -13369,7 +13493,7 @@ GameObject:
   - component: {fileID: 1683891824}
   - component: {fileID: 1683891823}
   m_Layer: 0
-  m_Name: Stairs Trigger - GO DOWN
+  m_Name: SECTION 05 STAIRS DOWN INTERACTION - MOVE OR RESIZE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17424,3 +17548,4 @@ SceneRoots:
   - {fileID: 2001419873}
   - {fileID: 1669452636}
   - {fileID: 60462799}
+  - {fileID: 818033184}

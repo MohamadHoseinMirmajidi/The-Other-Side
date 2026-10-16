@@ -96,6 +96,8 @@ public class StoryRouteController : MonoBehaviour
     [SerializeField] private float climbSpeed = 2.5f;
     [SerializeField] private float endingWalkDuration = 2.4f;
     [SerializeField] private float shortCutsceneDuration = 1.4f;
+    [SerializeField] private float creditMinimumDuration = 10f;
+    [SerializeField] private float creditMaximumDuration = 60f;
 
     [Header("Cutscene Presentation")]
     [SerializeField] private float cutsceneTransitionDuration = 0.2f;
@@ -109,6 +111,8 @@ public class StoryRouteController : MonoBehaviour
     private bool isBusy;
     private bool keyDistanceDialogueShown;
     private bool backstageIntroShown;
+    private bool backstageIntroComplete;
+    private bool fuseInspected;
     private bool waitingForKeyPickup;
     private Vector3 storyImageBaseScale = Vector3.one;
 
@@ -228,31 +232,31 @@ public class StoryRouteController : MonoBehaviour
                        !gameProgress.HasCompleted(GameProgressEvent.EnteredFuseRoom);
             case StoryInteractionType.Toolbox:
                 return currentRoom == 2 &&
+                       fuseInspected &&
                        !gameProgress.HasCompleted(GameProgressEvent.FusePartCollected);
             case StoryInteractionType.FuseBox:
                 return currentRoom == 2 &&
                        !gameProgress.HasCompleted(GameProgressEvent.FuseRepaired);
             case StoryInteractionType.Weight:
                 return currentRoom == 3 &&
+                       backstageIntroComplete &&
                        !gameProgress.HasCompleted(GameProgressEvent.WeightCollected);
             case StoryInteractionType.LockedStageDoor:
-                return currentRoom == 3;
+                return currentRoom == 3 && backstageIntroComplete;
             case StoryInteractionType.CurtainRope:
                 return currentRoom == 4 &&
                        gameProgress.HasCompleted(GameProgressEvent.WeightCollected) &&
                        !gameProgress.HasCompleted(GameProgressEvent.CurtainOpened);
             case StoryInteractionType.Backpack:
                 return currentRoom == 3 &&
+                       backstageIntroComplete &&
                        !gameProgress.HasCompleted(GameProgressEvent.BagCollected);
             case StoryInteractionType.BackstageReturnDoor:
-                return currentRoom == 3 &&
-                       gameProgress.HasCompleted(GameProgressEvent.BagCollected);
+                return currentRoom == 3 && backstageIntroComplete;
             case StoryInteractionType.FuseReturnDoor:
-                return currentRoom == 2 &&
-                       gameProgress.HasCompleted(GameProgressEvent.BagCollected);
+                return currentRoom == 2;
             case StoryInteractionType.KeyRoomReturnDoor:
-                return currentRoom == 1 &&
-                       gameProgress.HasCompleted(GameProgressEvent.BagCollected);
+                return currentRoom == 1;
             default:
                 return false;
         }
@@ -288,7 +292,10 @@ public class StoryRouteController : MonoBehaviour
                 break;
             case StoryInteractionType.FuseBox:
                 if (!gameProgress.HasCompleted(GameProgressEvent.FusePartCollected))
+                {
+                    fuseInspected = true;
                     Say("یه قطعه از جعبه فیوز کمه. باید پیداش کنم.");
+                }
                 else
                     yield return FuseSequence();
                 break;
@@ -317,13 +324,22 @@ public class StoryRouteController : MonoBehaviour
                 UpdateRouteObjects();
                 break;
             case StoryInteractionType.BackstageReturnDoor:
-                yield return ChangeRoom(2, fuseRoomEntryFromBackstage);
+                if (!gameProgress.HasCompleted(GameProgressEvent.BagCollected))
+                    Say("باید اول کوله پشتیمو بردارم.");
+                else
+                    yield return ChangeRoom(2, fuseRoomEntryFromBackstage);
                 break;
             case StoryInteractionType.FuseReturnDoor:
-                yield return ChangeRoom(1, keyRoomEntryFromFuse);
+                if (!gameProgress.HasCompleted(GameProgressEvent.BagCollected))
+                    Say("باید اول کوله پشتیمو بردارم.");
+                else
+                    yield return ChangeRoom(1, keyRoomEntryFromFuse);
                 break;
             case StoryInteractionType.KeyRoomReturnDoor:
-                yield return ChangeRoom(0, startEntryFromKeyRoom);
+                if (!gameProgress.HasCompleted(GameProgressEvent.BagCollected))
+                    Say("باید اول کوله پشتیمو بردارم.");
+                else
+                    yield return ChangeRoom(0, startEntryFromKeyRoom);
                 break;
         }
     }
@@ -341,6 +357,12 @@ public class StoryRouteController : MonoBehaviour
                 !backstageIntroShown)
             {
                 StartCoroutine(BackstageIntroSequence());
+            }
+            else if (currentRoom == 3 &&
+                     gameProgress.HasCompleted(GameProgressEvent.CurtainOpened) &&
+                     !gameProgress.HasCompleted(GameProgressEvent.DecorationRevealed))
+            {
+                StartCoroutine(BackstageRevealSequence());
             }
 
             return;
@@ -369,7 +391,7 @@ public class StoryRouteController : MonoBehaviour
             return false;
 
         if (type == StoryAreaType.BackstageStairsUp)
-            return currentRoom == 3;
+            return currentRoom == 3 && backstageIntroComplete;
 
         return type == StoryAreaType.UpperStairsDown &&
                currentRoom == 4 &&
@@ -508,6 +530,7 @@ public class StoryRouteController : MonoBehaviour
         yield return AutoRunTo(fuseEscapeTarget);
         yield return ChangeRoom(3, backstageEntryFromFuse, false, false);
 
+        SetPlayerControl(true);
         isBusy = false;
         HandleRoomEntered(3);
     }
@@ -519,13 +542,7 @@ public class StoryRouteController : MonoBehaviour
         Say("باید این وزنه رو به طناب پرده گره بزنم.");
         yield return new WaitForSeconds(2f);
 
-        yield return ShowStoryImageAnimated(
-            curtainOpeningImage,
-            new Color(0.3f, 0.12f, 0.18f, 1f),
-            "CURTAIN OPENING PLACEHOLDER");
-        yield return WaitForCutsceneDismiss();
         gameProgress.TryComplete(GameProgressEvent.CurtainOpened);
-        yield return HideStoryImageAnimated();
 
         SetPlayerControl(true);
         isBusy = false;
@@ -621,8 +638,7 @@ public class StoryRouteController : MonoBehaviour
 
         fadeCanvas.alpha = 1f;
         gameProgress.TryComplete(GameProgressEvent.GameFinished);
-        if (creditPanel != null)
-            creditPanel.SetActive(true);
+        yield return CreditSequence();
     }
 
     private IEnumerator ChangeRoom(
@@ -673,7 +689,7 @@ public class StoryRouteController : MonoBehaviour
         else if (room == 2 && !gameProgress.HasCompleted(GameProgressEvent.EnteredFuseRoom))
         {
             gameProgress.TryComplete(GameProgressEvent.EnteredFuseRoom);
-            Say("اینجا خیلی تاریکه. باید قطعه گمشده جعبه فیوز رو پیدا کنم.");
+            Say("اینجا خیلی تاریکه، باید چراغ رو روشن کنم.");
         }
         else if (room == 2 && gameProgress.HasCompleted(GameProgressEvent.BagCollected))
         {
@@ -684,12 +700,6 @@ public class StoryRouteController : MonoBehaviour
         {
             gameProgress.TryComplete(GameProgressEvent.EnteredBackstage);
             Say("باید کیفم همینجاها باشه!");
-        }
-        else if (room == 3 &&
-                 gameProgress.HasCompleted(GameProgressEvent.CurtainOpened) &&
-                 !gameProgress.HasCompleted(GameProgressEvent.DecorationRevealed))
-        {
-            StartCoroutine(BackstageRevealSequence());
         }
         else if (room == 4)
         {
@@ -714,6 +724,29 @@ public class StoryRouteController : MonoBehaviour
         Say("باید بفهمم پشت این پرده چی قایم شده.");
         yield return new WaitForSeconds(2.4f);
         Say("باید یه جوری طناب پرده رو بکشم پایین تا پرده بره کنار.");
+        backstageIntroComplete = true;
+    }
+
+    private IEnumerator CreditSequence()
+    {
+        IsCutsceneOpen = true;
+        if (creditPanel != null)
+            creditPanel.SetActive(true);
+
+        float elapsed = 0f;
+        while (elapsed < creditMaximumDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            if (elapsed >= creditMinimumDuration && IsDismissKeyPressed())
+                break;
+
+            yield return null;
+        }
+
+        if (creditPanel != null)
+            creditPanel.SetActive(false);
+        IsCutsceneOpen = false;
+        gameProgress.ReturnToMainMenu();
     }
 
     private IEnumerator AutoRunTo(Transform targetPoint)
@@ -863,7 +896,7 @@ public class StoryRouteController : MonoBehaviour
         SetActive(courtyardDoor, currentRoom == 0);
 
         SetActive(keyRoomDoor, currentRoom == 1 && !bagCollected);
-        SetActive(keyRoomReturnDoor, currentRoom == 1 && bagCollected);
+        SetActive(keyRoomReturnDoor, currentRoom == 1);
         if (pushBox != null)
             pushBox.gameObject.SetActive(currentRoom == 1);
         if (highKey != null)
@@ -888,7 +921,7 @@ public class StoryRouteController : MonoBehaviour
                 fuseBox.gameObject,
                 gameProgress.HasCompleted(GameProgressEvent.FuseRepaired));
         }
-        SetActive(fuseReturnDoor, currentRoom == 2 && bagCollected);
+        SetActive(fuseReturnDoor, currentRoom == 2);
         if (playerShadow != null)
             playerShadow.SetActive(currentRoom == 2 &&
                 gameProgress.HasCompleted(GameProgressEvent.FuseRepaired));
@@ -896,7 +929,7 @@ public class StoryRouteController : MonoBehaviour
         SetActive(weight, currentRoom == 3 &&
             !gameProgress.HasCompleted(GameProgressEvent.WeightCollected));
         SetActive(lockedStageDoor, currentRoom == 3);
-        SetActive(backstageReturnDoor, currentRoom == 3 && bagCollected);
+        SetActive(backstageReturnDoor, currentRoom == 3);
         if (backstageStairs != null)
             backstageStairs.SetActive(currentRoom == 3);
         SetActive(backpack, currentRoom == 3 && !bagCollected);

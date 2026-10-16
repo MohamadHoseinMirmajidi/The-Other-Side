@@ -231,7 +231,10 @@ public class GameUIController : MonoBehaviour
 
         CanvasGroup canvasGroup = panel.GetComponent<CanvasGroup>();
         if (canvasGroup == null)
-            canvasGroup = panel.AddComponent<CanvasGroup>();
+        {
+            Debug.LogError($"Panel '{panel.name}' needs a CanvasGroup assigned in the scene.", panel);
+            return;
+        }
 
         canvasGroups[panel] = canvasGroup;
         panelScales[panel] = panel.transform.localScale;
@@ -254,7 +257,7 @@ public class GameUIController : MonoBehaviour
         foreach (Button button in buttons)
         {
             if (button.GetComponent<UIButtonSelectionSync>() == null)
-                button.gameObject.AddComponent<UIButtonSelectionSync>();
+                Debug.LogError($"Button '{button.name}' needs UIButtonSelectionSync in the scene.", button);
 
             ColorBlock colors = button.colors;
             colors.normalColor = normalButtonColor;

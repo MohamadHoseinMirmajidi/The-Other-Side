@@ -9,8 +9,8 @@ public enum StoryAreaType
 [RequireComponent(typeof(Collider2D))]
 public class StoryAreaTrigger : MonoBehaviour
 {
-    private StoryRouteController route;
-    private StoryAreaType areaType;
+    [SerializeField] private StoryRouteController route;
+    [SerializeField] private StoryAreaType areaType;
 
     public void Initialize(StoryRouteController storyRoute, StoryAreaType type)
     {

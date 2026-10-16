@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: c3559c908ec61714abc399a114123c23
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2001504603010560000
+    second: ANIM-23-pick-up-backpack_0
+  - first:
+      213: -6292756578246826350
+    second: ANIM-23-pick-up-backpack_1
+  - first:
+      213: 442751525016129089
+    second: ANIM-23-pick-up-backpack_2
+  - first:
+      213: 6672995091644947073
+    second: ANIM-23-pick-up-backpack_3
+  - first:
+      213: -8834465278109536972
+    second: ANIM-23-pick-up-backpack_4
+  - first:
+      213: -3616627186726954043
+    second: ANIM-23-pick-up-backpack_5
+  - first:
+      213: -7603030656404362840
+    second: ANIM-23-pick-up-backpack_6
+  - first:
+      213: -6784919654102050729
+    second: ANIM-23-pick-up-backpack_7
+  - first:
+      213: -3475780866919840990
+    second: ANIM-23-pick-up-backpack_8
+  - first:
+      213: 8213415988314027008
+    second: ANIM-23-pick-up-backpack_9
+  - first:
+      213: 2857952204383804311
+    second: ANIM-23-pick-up-backpack_10
+  - first:
+      213: 7365099084079611099
+    second: ANIM-23-pick-up-backpack_11
+  - first:
+      213: 7519214707405191441
+    second: ANIM-23-pick-up-backpack_12
+  - first:
+      213: 5128750680672309556
+    second: ANIM-23-pick-up-backpack_13
+  - first:
+      213: -441945672551751049
+    second: ANIM-23-pick-up-backpack_14
+  - first:
+      213: 2007396692080251477
+    second: ANIM-23-pick-up-backpack_15
+  - first:
+      213: -2421267941382888645
+    second: ANIM-23-pick-up-backpack_16
+  - first:
+      213: -7197375217800823467
+    second: ANIM-23-pick-up-backpack_17
+  - first:
+      213: 7526054081430679303
+    second: ANIM-23-pick-up-backpack_18
+  - first:
+      213: -5961944489064986253
+    second: ANIM-23-pick-up-backpack_19
+  - first:
+      213: -7619424775702033125
+    second: ANIM-23-pick-up-backpack_20
+  - first:
+      213: -7470747535209983003
+    second: ANIM-23-pick-up-backpack_21
+  - first:
+      213: -4862385462745563792
+    second: ANIM-23-pick-up-backpack_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 357
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000f0cef4d5c6cb10800000000000000
+      internalID: 2001504603010560000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_1
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 530
+        width: 112
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29668978b33aba8a0800000000000000
+      internalID: -6292756578246826350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_2
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 45
+        width: 283
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e495c8a28f42600800000000000000
+      internalID: 442751525016129089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_3
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 693
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a1c694ead3b9c50800000000000000
+      internalID: 6672995091644947073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_4
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 676
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d22c5f2aca56580800000000000000
+      internalID: -8834465278109536972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_5
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 693
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb9e124cb82fcdc0800000000000000
+      internalID: -3616627186726954043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_6
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 681
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9ec9c86eb9c7690800000000000000
+      internalID: -7603030656404362840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_7
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 76
+        width: 243
+        height: 657
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7585eabc58f17d1a0800000000000000
+      internalID: -6784919654102050729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_8
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 702
+        width: 76
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223c42e87bb83cfc0800000000000000
+      internalID: -3475780866919840990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_9
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 588
+        width: 226
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004b8f7235aebf170800000000000000
+      internalID: 8213415988314027008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_10
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 663
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b5757436c79a720800000000000000
+      internalID: 2857952204383804311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_11
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 679
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcbe125896163660800000000000000
+      internalID: 7365099084079611099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_12
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 669
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11977c810fd995860800000000000000
+      internalID: 7519214707405191441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_13
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 76
+        width: 213
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431140f129bfc2740800000000000000
+      internalID: 5128750680672309556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_14
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 534
+        width: 226
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772288990c4edd9f0800000000000000
+      internalID: -441945672551751049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_15
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 554
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552dcb2e7a4bbdb10800000000000000
+      internalID: 2007396692080251477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_16
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 500
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33e4dfb2ade56ed0800000000000000
+      internalID: -2421267941382888645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_17
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 78
+        width: 363
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d38cb6f59cd1c90800000000000000
+      internalID: -7197375217800823467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_18
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 564
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fed04ff4ae17860800000000000000
+      internalID: 7526054081430679303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_19
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 23
+        width: 254
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3790fae231be24da0800000000000000
+      internalID: -5961944489064986253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_20
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 78
+        width: 282
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d4873398d524690800000000000000
+      internalID: -7619424775702033125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_21
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 483
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e31f2dc2b2925890800000000000000
+      internalID: -7470747535209983003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-23-pick-up-backpack_22
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 82
+        width: 275
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07df6040f26558cb0800000000000000
+      internalID: -4862385462745563792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-23-pick-up-backpack_0: 2001504603010560000
+      ANIM-23-pick-up-backpack_1: -6292756578246826350
+      ANIM-23-pick-up-backpack_10: 2857952204383804311
+      ANIM-23-pick-up-backpack_11: 7365099084079611099
+      ANIM-23-pick-up-backpack_12: 7519214707405191441
+      ANIM-23-pick-up-backpack_13: 5128750680672309556
+      ANIM-23-pick-up-backpack_14: -441945672551751049
+      ANIM-23-pick-up-backpack_15: 2007396692080251477
+      ANIM-23-pick-up-backpack_16: -2421267941382888645
+      ANIM-23-pick-up-backpack_17: -7197375217800823467
+      ANIM-23-pick-up-backpack_18: 7526054081430679303
+      ANIM-23-pick-up-backpack_19: -5961944489064986253
+      ANIM-23-pick-up-backpack_2: 442751525016129089
+      ANIM-23-pick-up-backpack_20: -7619424775702033125
+      ANIM-23-pick-up-backpack_21: -7470747535209983003
+      ANIM-23-pick-up-backpack_22: -4862385462745563792
+      ANIM-23-pick-up-backpack_3: 6672995091644947073
+      ANIM-23-pick-up-backpack_4: -8834465278109536972
+      ANIM-23-pick-up-backpack_5: -3616627186726954043
+      ANIM-23-pick-up-backpack_6: -7603030656404362840
+      ANIM-23-pick-up-backpack_7: -6784919654102050729
+      ANIM-23-pick-up-backpack_8: -3475780866919840990
+      ANIM-23-pick-up-backpack_9: 8213415988314027008
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

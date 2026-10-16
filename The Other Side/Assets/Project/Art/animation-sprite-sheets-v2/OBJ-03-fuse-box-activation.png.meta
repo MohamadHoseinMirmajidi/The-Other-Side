@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: ebe64ceb507f54649bbcebecd1605256
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3583661396222902690
+    second: OBJ-03-fuse-box-activation_0
+  - first:
+      213: -8194487548345577341
+    second: OBJ-03-fuse-box-activation_1
+  - first:
+      213: 3762505383239965261
+    second: OBJ-03-fuse-box-activation_2
+  - first:
+      213: 3121630929089237844
+    second: OBJ-03-fuse-box-activation_3
+  - first:
+      213: 7126323742500324327
+    second: OBJ-03-fuse-box-activation_4
+  - first:
+      213: -7179944459530545253
+    second: OBJ-03-fuse-box-activation_5
+  - first:
+      213: 833981190833038643
+    second: OBJ-03-fuse-box-activation_6
+  - first:
+      213: 6656350915555774567
+    second: OBJ-03-fuse-box-activation_7
+  - first:
+      213: 6378403319541031626
+    second: OBJ-03-fuse-box-activation_8
+  - first:
+      213: 8790288782828534488
+    second: OBJ-03-fuse-box-activation_9
+  - first:
+      213: -2624316334845370235
+    second: OBJ-03-fuse-box-activation_10
+  - first:
+      213: 3613849205701370173
+    second: OBJ-03-fuse-box-activation_11
+  - first:
+      213: -1489866411517946295
+    second: OBJ-03-fuse-box-activation_12
+  - first:
+      213: 131443274170792080
+    second: OBJ-03-fuse-box-activation_13
+  - first:
+      213: -6119939592353393613
+    second: OBJ-03-fuse-box-activation_14
+  - first:
+      213: -2226248013541931041
+    second: OBJ-03-fuse-box-activation_15
+  - first:
+      213: -3280633182961571514
+    second: OBJ-03-fuse-box-activation_16
+  - first:
+      213: -6138019236292182579
+    second: OBJ-03-fuse-box-activation_17
+  - first:
+      213: 1862555040324643904
+    second: OBJ-03-fuse-box-activation_18
+  - first:
+      213: -7871711486359999467
+    second: OBJ-03-fuse-box-activation_19
+  - first:
+      213: -2572037444365318210
+    second: OBJ-03-fuse-box-activation_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 45
+        width: 412
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a185258d09bbb130800000000000000
+      internalID: 3583661396222902690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_1
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 687
+        width: 82
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3801084bdf4574e80800000000000000
+      internalID: -8194487548345577341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_2
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 47
+        width: 360
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a538126ba173430800000000000000
+      internalID: 3762505383239965261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 87
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4539c387ac2425b20800000000000000
+      internalID: 3121630929089237844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_4
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 18
+        width: 578
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e30a2adfa9c5e260800000000000000
+      internalID: 7126323742500324327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_5
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 55
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97d5a61e86bb5c90800000000000000
+      internalID: -7179944459530545253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_6
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 31
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335e5f47975e29b00800000000000000
+      internalID: 833981190833038643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_7
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 21
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7605c0e04eb106c50800000000000000
+      internalID: 6656350915555774567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_8
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac26a6f5604a48850800000000000000
+      internalID: 6378403319541031626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_9
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 31
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da789533116df970800000000000000
+      internalID: 8790288782828534488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_10
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 19
+        width: 565
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580694b923e849bd0800000000000000
+      internalID: -2624316334845370235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_11
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 63
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3168a1a4b8f62230800000000000000
+      internalID: 3613849205701370173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_12
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946dfa2746ee25be0800000000000000
+      internalID: -1489866411517946295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_13
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 65
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098701126faf2d100800000000000000
+      internalID: 131443274170792080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_14
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 29
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3345de69d5b911ba0800000000000000
+      internalID: -6119939592353393613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_15
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 43
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd70ae21a37ca11e0800000000000000
+      internalID: -2226248013541931041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_16
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 37
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649673b6089d872d0800000000000000
+      internalID: -3280633182961571514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_17
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 40
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd3a44760061daa0800000000000000
+      internalID: -6138019236292182579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_18
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 81
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ce921e0ff19d910800000000000000
+      internalID: 1862555040324643904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_19
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 49
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c6629fb1012c290800000000000000
+      internalID: -7871711486359999467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBJ-03-fuse-box-activation_20
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb70a9352994e4cd0800000000000000
+      internalID: -2572037444365318210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OBJ-03-fuse-box-activation_0: 3583661396222902690
+      OBJ-03-fuse-box-activation_1: -8194487548345577341
+      OBJ-03-fuse-box-activation_10: -2624316334845370235
+      OBJ-03-fuse-box-activation_11: 3613849205701370173
+      OBJ-03-fuse-box-activation_12: -1489866411517946295
+      OBJ-03-fuse-box-activation_13: 131443274170792080
+      OBJ-03-fuse-box-activation_14: -6119939592353393613
+      OBJ-03-fuse-box-activation_15: -2226248013541931041
+      OBJ-03-fuse-box-activation_16: -3280633182961571514
+      OBJ-03-fuse-box-activation_17: -6138019236292182579
+      OBJ-03-fuse-box-activation_18: 1862555040324643904
+      OBJ-03-fuse-box-activation_19: -7871711486359999467
+      OBJ-03-fuse-box-activation_2: 3762505383239965261
+      OBJ-03-fuse-box-activation_20: -2572037444365318210
+      OBJ-03-fuse-box-activation_3: 3121630929089237844
+      OBJ-03-fuse-box-activation_4: 7126323742500324327
+      OBJ-03-fuse-box-activation_5: -7179944459530545253
+      OBJ-03-fuse-box-activation_6: 833981190833038643
+      OBJ-03-fuse-box-activation_7: 6656350915555774567
+      OBJ-03-fuse-box-activation_8: 6378403319541031626
+      OBJ-03-fuse-box-activation_9: 8790288782828534488
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

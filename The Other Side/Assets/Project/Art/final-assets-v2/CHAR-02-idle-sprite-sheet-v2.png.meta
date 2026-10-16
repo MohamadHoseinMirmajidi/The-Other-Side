@@ -194,12 +194,12 @@ TextureImporter:
       name: CHAR-02-idle-sprite-sheet-v2_0
       rect:
         serializedVersion: 2
-        x: 86
-        y: 693
-        width: 20
-        height: 23
+        x: 106
+        y: 0
+        width: 250
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -216,12 +216,12 @@ TextureImporter:
       name: CHAR-02-idle-sprite-sheet-v2_1
       rect:
         serializedVersion: 2
-        x: 714
-        y: 21
-        width: 291
-        height: 683
+        x: 427
+        y: 0
+        width: 267
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -238,12 +238,12 @@ TextureImporter:
       name: CHAR-02-idle-sprite-sheet-v2_2
       rect:
         serializedVersion: 2
-        x: 1752
-        y: 27
-        width: 405
-        height: 677
+        x: 761
+        y: 0
+        width: 242
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -260,12 +260,12 @@ TextureImporter:
       name: CHAR-02-idle-sprite-sheet-v2_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 23
-        width: 349
-        height: 659
+        x: 1104
+        y: 0
+        width: 248
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -282,12 +282,12 @@ TextureImporter:
       name: CHAR-02-idle-sprite-sheet-v2_4
       rect:
         serializedVersion: 2
-        x: 34
-        y: 614
-        width: 21
-        height: 25
+        x: 1426
+        y: 0
+        width: 263
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -304,12 +304,12 @@ TextureImporter:
       name: CHAR-02-idle-sprite-sheet-v2_5
       rect:
         serializedVersion: 2
-        x: 48
-        y: 633
-        width: 34
-        height: 45
+        x: 1794
+        y: 0
+        width: 243
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -322,187 +322,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: CHAR-02-idle-sprite-sheet-v2_6
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 626
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9eee36b1854f3c020800000000000000
-      internalID: 2360999288926105321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHAR-02-idle-sprite-sheet-v2_7
-      rect:
-        serializedVersion: 2
-        x: 377
-        y: 25
-        width: 310
-        height: 656
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2859b33fafbb69b20800000000000000
-      internalID: 3140904476634486146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHAR-02-idle-sprite-sheet-v2_8
-      rect:
-        serializedVersion: 2
-        x: 1022
-        y: 25
-        width: 316
-        height: 659
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1734cb642cddbda90800000000000000
-      internalID: -7287987745488878735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHAR-02-idle-sprite-sheet-v2_9
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 24
-        width: 327
-        height: 658
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 537a7ed5439ae7ce0800000000000000
-      internalID: -1405499991314159819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHAR-02-idle-sprite-sheet-v2_10
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 514
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3416e7aaa6e847280800000000000000
-      internalID: -9046449162702397117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHAR-02-idle-sprite-sheet-v2_11
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 531
-        width: 31
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c163755d1fb89b40800000000000000
-      internalID: 5447313882013196737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHAR-02-idle-sprite-sheet-v2_12
-      rect:
-        serializedVersion: 2
-        x: 738
-        y: 204
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd2d18ee1c47f1d90800000000000000
-      internalID: -7124847709197839651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHAR-02-idle-sprite-sheet-v2_13
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 164
-        width: 9
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7cf9cb6aa06b7b00800000000000000
-      internalID: 827361241621724287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a0f6ea5184b86724db0f3cec24be7725
     internalID: 0
     vertices: []
     indices: 
@@ -510,22 +334,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":325.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":44.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       CHAR-02-idle-sprite-sheet-v2_0: 3342541496721167907
       CHAR-02-idle-sprite-sheet-v2_1: -3616650592197954518
-      CHAR-02-idle-sprite-sheet-v2_10: -9046449162702397117
-      CHAR-02-idle-sprite-sheet-v2_11: 5447313882013196737
-      CHAR-02-idle-sprite-sheet-v2_12: -7124847709197839651
-      CHAR-02-idle-sprite-sheet-v2_13: 827361241621724287
       CHAR-02-idle-sprite-sheet-v2_2: -5868573781738307613
       CHAR-02-idle-sprite-sheet-v2_3: -6185128398478273979
       CHAR-02-idle-sprite-sheet-v2_4: 1664392599003247275
       CHAR-02-idle-sprite-sheet-v2_5: 2756622347495013942
-      CHAR-02-idle-sprite-sheet-v2_6: 2360999288926105321
-      CHAR-02-idle-sprite-sheet-v2_7: 3140904476634486146
-      CHAR-02-idle-sprite-sheet-v2_8: -7287987745488878735
-      CHAR-02-idle-sprite-sheet-v2_9: -1405499991314159819
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

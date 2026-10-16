@@ -26,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
+    private InputAction moveAction;
+    private InputAction runAction;
 
     private float moveInput;
     private bool isRunning;
@@ -53,6 +55,27 @@ public class PlayerMovement : MonoBehaviour
 
         // Default = looking right
         ApplyFacing();
+
+        CreateInputActions();
+    }
+
+    private void OnEnable()
+    {
+        moveAction?.Enable();
+        runAction?.Enable();
+    }
+
+    private void OnDisable()
+    {
+        moveAction?.Disable();
+        runAction?.Disable();
+        ResetMotion();
+    }
+
+    private void OnDestroy()
+    {
+        moveAction?.Dispose();
+        runAction?.Dispose();
     }
 
     private void Update()
@@ -62,21 +85,25 @@ public class PlayerMovement : MonoBehaviour
 
     private void ReadInput()
     {
-        moveInput = 0f;
-        isRunning = false;
+        moveInput = moveAction != null
+            ? Mathf.Clamp(moveAction.ReadValue<float>(), -1f, 1f)
+            : 0f;
+        isRunning = runAction != null && runAction.IsPressed();
+    }
 
-        Keyboard keyboard = Keyboard.current;
-        if (keyboard == null)
-            return;
+    private void CreateInputActions()
+    {
+        moveAction = new InputAction("Move", InputActionType.Value);
+        moveAction.AddCompositeBinding("1DAxis")
+            .With("Negative", "<Keyboard>/a")
+            .With("Positive", "<Keyboard>/d");
+        moveAction.AddCompositeBinding("1DAxis")
+            .With("Negative", "<Keyboard>/leftArrow")
+            .With("Positive", "<Keyboard>/rightArrow");
 
-        if (keyboard.aKey.isPressed || keyboard.leftArrowKey.isPressed)
-            moveInput -= 1f;
-
-        if (keyboard.dKey.isPressed || keyboard.rightArrowKey.isPressed)
-            moveInput += 1f;
-
-        isRunning = keyboard.leftShiftKey.isPressed
-                 || keyboard.rightShiftKey.isPressed;
+        runAction = new InputAction("Run", InputActionType.Button);
+        runAction.AddBinding("<Keyboard>/leftShift");
+        runAction.AddBinding("<Keyboard>/rightShift");
     }
 
     private void FixedUpdate()

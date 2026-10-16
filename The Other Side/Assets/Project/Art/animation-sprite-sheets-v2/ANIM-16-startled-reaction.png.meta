@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: 9670af13aada45646af904ff65b758f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6962698331483783132
+    second: ANIM-16-startled-reaction_0
+  - first:
+      213: 7602966665373481265
+    second: ANIM-16-startled-reaction_1
+  - first:
+      213: -9210807239571215305
+    second: ANIM-16-startled-reaction_2
+  - first:
+      213: 6116004719736908748
+    second: ANIM-16-startled-reaction_3
+  - first:
+      213: -4451382222643736269
+    second: ANIM-16-startled-reaction_4
+  - first:
+      213: -705600649186807103
+    second: ANIM-16-startled-reaction_5
+  - first:
+      213: -197644733011894584
+    second: ANIM-16-startled-reaction_6
+  - first:
+      213: -4297226969828467871
+    second: ANIM-16-startled-reaction_7
+  - first:
+      213: -2780714744916128863
+    second: ANIM-16-startled-reaction_8
+  - first:
+      213: -8127501886934789793
+    second: ANIM-16-startled-reaction_9
+  - first:
+      213: -843771127466071620
+    second: ANIM-16-startled-reaction_10
+  - first:
+      213: 6886050964707209725
+    second: ANIM-16-startled-reaction_11
+  - first:
+      213: -1672147183010225004
+    second: ANIM-16-startled-reaction_12
+  - first:
+      213: -8542794380525676410
+    second: ANIM-16-startled-reaction_13
+  - first:
+      213: -5889288604773786728
+    second: ANIM-16-startled-reaction_14
+  - first:
+      213: -1358176681581792066
+    second: ANIM-16-startled-reaction_15
+  - first:
+      213: 3327266351038815205
+    second: ANIM-16-startled-reaction_16
+  - first:
+      213: -6460487994913726918
+    second: ANIM-16-startled-reaction_17
+  - first:
+      213: 5576022054116427426
+    second: ANIM-16-startled-reaction_18
+  - first:
+      213: 8138938926410567716
+    second: ANIM-16-startled-reaction_19
+  - first:
+      213: -3495681134740998456
+    second: ANIM-16-startled-reaction_20
+  - first:
+      213: 5462714460711713108
+    second: ANIM-16-startled-reaction_21
+  - first:
+      213: -408389533705085456
+    second: ANIM-16-startled-reaction_22
+  - first:
+      213: 6417494202329196494
+    second: ANIM-16-startled-reaction_23
+  - first:
+      213: 4196619098236743986
+    second: ANIM-16-startled-reaction_24
+  - first:
+      213: 6314668428141542836
+    second: ANIM-16-startled-reaction_25
+  - first:
+      213: 5937041585885263987
+    second: ANIM-16-startled-reaction_26
+  - first:
+      213: 1714678156767681611
+    second: ANIM-16-startled-reaction_27
+  - first:
+      213: 8764773355068306434
+    second: ANIM-16-startled-reaction_28
+  - first:
+      213: 4681519995794217073
+    second: ANIM-16-startled-reaction_29
+  - first:
+      213: -6677560133396921528
+    second: ANIM-16-startled-reaction_30
+  - first:
+      213: -8322684608086794571
+    second: ANIM-16-startled-reaction_31
+  - first:
+      213: -738020352393183073
+    second: ANIM-16-startled-reaction_32
+  - first:
+      213: 1236854749630076717
+    second: ANIM-16-startled-reaction_33
+  - first:
+      213: -4026877468836663246
+    second: ANIM-16-startled-reaction_34
+  - first:
+      213: 1652841591795107305
+    second: ANIM-16-startled-reaction_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 410
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42044b9e1c68f5f90800000000000000
+      internalID: -6962698331483783132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 13
+        width: 394
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139f8b066e9238960800000000000000
+      internalID: 7602966665373481265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_2
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 644
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ce2c6dd93ac2080800000000000000
+      internalID: -9210807239571215305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_3
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 14
+        width: 347
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbe78c73e960e450800000000000000
+      internalID: 6116004719736908748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_4
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 17
+        width: 423
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331d4d3f3738932c0800000000000000
+      internalID: -4451382222643736269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_5
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 633
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c27fefa2f33536f0800000000000000
+      internalID: -705600649186807103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_6
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 691
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce59199923d14df0800000000000000
+      internalID: -197644733011894584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_7
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 15
+        width: 468
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b5520b6de2d54c0800000000000000
+      internalID: -4297226969828467871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_8
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 632
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab459f1caae869d0800000000000000
+      internalID: -2780714744916128863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_9
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 647
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f515fed5810553f80800000000000000
+      internalID: -8127501886934789793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_10
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 657
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb967ab41a25a44f0800000000000000
+      internalID: -843771127466071620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_11
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 538
+        width: 41
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1fb985eda209f50800000000000000
+      internalID: 6886050964707209725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_12
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 630
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49461881ff65bc8e0800000000000000
+      internalID: -1672147183010225004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_13
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 596
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6885097c5c5e17980800000000000000
+      internalID: -8542794380525676410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_14
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 602
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bd3bc773b054ea0800000000000000
+      internalID: -5889288604773786728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_15
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 606
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb439180189c62de0800000000000000
+      internalID: -1358176681581792066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_16
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 598
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb57ce1e13dc2e20800000000000000
+      internalID: 3327266351038815205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_17
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 594
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3edd73d56cb756a0800000000000000
+      internalID: -6460487994913726918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_18
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 568
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a68a53e382026d40800000000000000
+      internalID: 5576022054116427426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_19
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 580
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4201d45e4d153f070800000000000000
+      internalID: 8138938926410567716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_20
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 577
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c67ab36788dc7fc0800000000000000
+      internalID: -3495681134740998456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_21
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 570
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4597c1cfbd57fcb40800000000000000
+      internalID: 5462714460711713108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_22
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 573
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd558102eb155af0800000000000000
+      internalID: -408389533705085456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_23
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 496
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7e5f5c9f48f0950800000000000000
+      internalID: 6417494202329196494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_24
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 214
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2317500d5d26d3a30800000000000000
+      internalID: 4196619098236743986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_25
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 196
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd30c59a7532a750800000000000000
+      internalID: 6314668428141542836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_26
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 191
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378b967dddb946250800000000000000
+      internalID: 5937041585885263987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_27
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 186
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c5246e2b2cbc710800000000000000
+      internalID: 1714678156767681611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_28
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 168
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204b7adbdeab2a970800000000000000
+      internalID: 8764773355068306434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_29
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 126
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178d336e1a918f040800000000000000
+      internalID: 4681519995794217073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_30
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 131
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843019a107a8453a0800000000000000
+      internalID: -6677560133396921528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 143
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be1065c172ef7c80800000000000000
+      internalID: -8322684608086794571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_32
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f908892566602c5f0800000000000000
+      internalID: -738020352393183073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_33
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 116
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27947677d03a2110800000000000000
+      internalID: 1236854749630076717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_34
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23077f30748ad18c0800000000000000
+      internalID: -4026877468836663246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-16-startled-reaction_35
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 67
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e540fcaba210f610800000000000000
+      internalID: 1652841591795107305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-16-startled-reaction_0: -6962698331483783132
+      ANIM-16-startled-reaction_1: 7602966665373481265
+      ANIM-16-startled-reaction_10: -843771127466071620
+      ANIM-16-startled-reaction_11: 6886050964707209725
+      ANIM-16-startled-reaction_12: -1672147183010225004
+      ANIM-16-startled-reaction_13: -8542794380525676410
+      ANIM-16-startled-reaction_14: -5889288604773786728
+      ANIM-16-startled-reaction_15: -1358176681581792066
+      ANIM-16-startled-reaction_16: 3327266351038815205
+      ANIM-16-startled-reaction_17: -6460487994913726918
+      ANIM-16-startled-reaction_18: 5576022054116427426
+      ANIM-16-startled-reaction_19: 8138938926410567716
+      ANIM-16-startled-reaction_2: -9210807239571215305
+      ANIM-16-startled-reaction_20: -3495681134740998456
+      ANIM-16-startled-reaction_21: 5462714460711713108
+      ANIM-16-startled-reaction_22: -408389533705085456
+      ANIM-16-startled-reaction_23: 6417494202329196494
+      ANIM-16-startled-reaction_24: 4196619098236743986
+      ANIM-16-startled-reaction_25: 6314668428141542836
+      ANIM-16-startled-reaction_26: 5937041585885263987
+      ANIM-16-startled-reaction_27: 1714678156767681611
+      ANIM-16-startled-reaction_28: 8764773355068306434
+      ANIM-16-startled-reaction_29: 4681519995794217073
+      ANIM-16-startled-reaction_3: 6116004719736908748
+      ANIM-16-startled-reaction_30: -6677560133396921528
+      ANIM-16-startled-reaction_31: -8322684608086794571
+      ANIM-16-startled-reaction_32: -738020352393183073
+      ANIM-16-startled-reaction_33: 1236854749630076717
+      ANIM-16-startled-reaction_34: -4026877468836663246
+      ANIM-16-startled-reaction_35: 1652841591795107305
+      ANIM-16-startled-reaction_4: -4451382222643736269
+      ANIM-16-startled-reaction_5: -705600649186807103
+      ANIM-16-startled-reaction_6: -197644733011894584
+      ANIM-16-startled-reaction_7: -4297226969828467871
+      ANIM-16-startled-reaction_8: -2780714744916128863
+      ANIM-16-startled-reaction_9: -8127501886934789793
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

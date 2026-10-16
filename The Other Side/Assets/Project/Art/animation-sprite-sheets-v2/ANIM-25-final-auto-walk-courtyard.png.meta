@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: b33ebf9c8f0f3b043848d4890be3cb20
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4883935399355251658
+    second: ANIM-25-final-auto-walk-courtyard_0
+  - first:
+      213: 6597486495967374367
+    second: ANIM-25-final-auto-walk-courtyard_1
+  - first:
+      213: 4534498861563340814
+    second: ANIM-25-final-auto-walk-courtyard_2
+  - first:
+      213: 2185560867559530168
+    second: ANIM-25-final-auto-walk-courtyard_3
+  - first:
+      213: 3505441904838506665
+    second: ANIM-25-final-auto-walk-courtyard_4
+  - first:
+      213: -8714447100880922038
+    second: ANIM-25-final-auto-walk-courtyard_5
+  - first:
+      213: -3119380141393474904
+    second: ANIM-25-final-auto-walk-courtyard_6
+  - first:
+      213: -3505236715923903500
+    second: ANIM-25-final-auto-walk-courtyard_7
+  - first:
+      213: 2983839449942097120
+    second: ANIM-25-final-auto-walk-courtyard_8
+  - first:
+      213: 1104829291133732408
+    second: ANIM-25-final-auto-walk-courtyard_9
+  - first:
+      213: 2636028859189567660
+    second: ANIM-25-final-auto-walk-courtyard_10
+  - first:
+      213: -6686454732230454827
+    second: ANIM-25-final-auto-walk-courtyard_11
+  - first:
+      213: -3245134151397556519
+    second: ANIM-25-final-auto-walk-courtyard_12
+  - first:
+      213: -5290234936677034047
+    second: ANIM-25-final-auto-walk-courtyard_13
+  - first:
+      213: 8442493301095459189
+    second: ANIM-25-final-auto-walk-courtyard_14
+  - first:
+      213: -4830232681128897850
+    second: ANIM-25-final-auto-walk-courtyard_15
+  - first:
+      213: -8776358667348618629
+    second: ANIM-25-final-auto-walk-courtyard_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 45
+        width: 553
+        height: 671
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634897761a6c83cb0800000000000000
+      internalID: -4883935399355251658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_1
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 696
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c629a530bfe8b50800000000000000
+      internalID: 6597486495967374367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_2
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 663
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0865e590b6cdee30800000000000000
+      internalID: 4534498861563340814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_3
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 659
+        width: 107
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be51e9870ca45e10800000000000000
+      internalID: 2185560867559530168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_4
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 659
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8faaef6d4d5a030800000000000000
+      internalID: 3505441904838506665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_5
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 46
+        width: 291
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a5f0a6880101780800000000000000
+      internalID: -8714447100880922038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_6
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 628
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa85d0e94cb5b4d0800000000000000
+      internalID: -3119380141393474904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_7
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 659
+        width: 166
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbe2b547c5ea5fc0800000000000000
+      internalID: -3505236715923903500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_8
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 657
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec7890bb2ab86920800000000000000
+      internalID: 2983839449942097120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_9
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 45
+        width: 629
+        height: 657
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836097bf264255f00800000000000000
+      internalID: 1104829291133732408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_10
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 659
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca02ca9f74e059420800000000000000
+      internalID: 2636028859189567660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_11
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 628
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d19caee8d0f433a0800000000000000
+      internalID: -6686454732230454827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_12
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 644
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9deb579cea7f6f2d0800000000000000
+      internalID: -3245134151397556519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 679
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7110d9a5f4596b0800000000000000
+      internalID: -5290234936677034047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_14
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 677
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579e8665de2c92570800000000000000
+      internalID: 8442493301095459189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_15
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 45
+        width: 275
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c254dad7f097fcb0800000000000000
+      internalID: -4830232681128897850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-25-final-auto-walk-courtyard_16
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 45
+        width: 585
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72d34b8a4c143680800000000000000
+      internalID: -8776358667348618629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-25-final-auto-walk-courtyard_0: -4883935399355251658
+      ANIM-25-final-auto-walk-courtyard_1: 6597486495967374367
+      ANIM-25-final-auto-walk-courtyard_10: 2636028859189567660
+      ANIM-25-final-auto-walk-courtyard_11: -6686454732230454827
+      ANIM-25-final-auto-walk-courtyard_12: -3245134151397556519
+      ANIM-25-final-auto-walk-courtyard_13: -5290234936677034047
+      ANIM-25-final-auto-walk-courtyard_14: 8442493301095459189
+      ANIM-25-final-auto-walk-courtyard_15: -4830232681128897850
+      ANIM-25-final-auto-walk-courtyard_16: -8776358667348618629
+      ANIM-25-final-auto-walk-courtyard_2: 4534498861563340814
+      ANIM-25-final-auto-walk-courtyard_3: 2185560867559530168
+      ANIM-25-final-auto-walk-courtyard_4: 3505441904838506665
+      ANIM-25-final-auto-walk-courtyard_5: -8714447100880922038
+      ANIM-25-final-auto-walk-courtyard_6: -3119380141393474904
+      ANIM-25-final-auto-walk-courtyard_7: -3505236715923903500
+      ANIM-25-final-auto-walk-courtyard_8: 2983839449942097120
+      ANIM-25-final-auto-walk-courtyard_9: 1104829291133732408
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

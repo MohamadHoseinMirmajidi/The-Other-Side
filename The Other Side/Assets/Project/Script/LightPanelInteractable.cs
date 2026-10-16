@@ -12,9 +12,6 @@ public class LightPanelInteractable : Interactable
     [SerializeField] private Light2D[] routeLights = new Light2D[0];
     [SerializeField] private float targetIntensity = 0.55f;
     [SerializeField] private float fadeDuration = 0.65f;
-    [SerializeField] private Vector3 routeLightPosition = new Vector3(43.2f, 0.2f, 0f);
-    [SerializeField] private float routeLightInnerRadius = 2.5f;
-    [SerializeField] private float routeLightOuterRadius = 7f;
 
     [Header("Panel Feedback")]
     [SerializeField] private SpriteRenderer[] panelIndicators = new SpriteRenderer[0];
@@ -36,7 +33,6 @@ public class LightPanelInteractable : Interactable
             gameProgress = FindAnyObjectByType<GameProgress>();
 
         FindPanelIndicators();
-        CreateRouteLightIfNeeded();
 
         bool isAlreadyOn = gameProgress != null &&
                            gameProgress.HasCompleted(GameProgressEvent.HallwayLightSelected);
@@ -68,24 +64,6 @@ public class LightPanelInteractable : Interactable
         }
 
         panelIndicators = foundIndicators.ToArray();
-    }
-
-    private void CreateRouteLightIfNeeded()
-    {
-        if (routeLights != null && routeLights.Length > 0)
-            return;
-
-        GameObject routeLightObject = new GameObject("Route Light");
-        routeLightObject.transform.position = routeLightPosition;
-
-        Light2D routeLight = routeLightObject.AddComponent<Light2D>();
-        routeLight.lightType = Light2D.LightType.Point;
-        routeLight.color = new Color(1f, 0.82f, 0.5f, 1f);
-        routeLight.intensity = 0f;
-        routeLight.pointLightInnerRadius = routeLightInnerRadius;
-        routeLight.pointLightOuterRadius = routeLightOuterRadius;
-
-        routeLights = new[] { routeLight };
     }
 
     public override IEnumerator ExecuteInteraction()

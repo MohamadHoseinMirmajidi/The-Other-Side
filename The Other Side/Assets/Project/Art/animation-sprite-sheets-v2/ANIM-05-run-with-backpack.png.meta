@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: ceed9393fae455a47a9ec1f9de54d654
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1096232706316979120
+    second: ANIM-05-run-with-backpack_0
+  - first:
+      213: -259389803680720022
+    second: ANIM-05-run-with-backpack_1
+  - first:
+      213: -6606917264738214624
+    second: ANIM-05-run-with-backpack_2
+  - first:
+      213: -5127072752155225709
+    second: ANIM-05-run-with-backpack_3
+  - first:
+      213: -8760166922497951248
+    second: ANIM-05-run-with-backpack_4
+  - first:
+      213: 8485648406973124476
+    second: ANIM-05-run-with-backpack_5
+  - first:
+      213: -1721113981484678565
+    second: ANIM-05-run-with-backpack_6
+  - first:
+      213: 4511379130757192399
+    second: ANIM-05-run-with-backpack_7
+  - first:
+      213: -431315388480880761
+    second: ANIM-05-run-with-backpack_8
+  - first:
+      213: -536662568995799344
+    second: ANIM-05-run-with-backpack_9
+  - first:
+      213: 2419236598557456174
+    second: ANIM-05-run-with-backpack_10
+  - first:
+      213: 8158228781709398872
+    second: ANIM-05-run-with-backpack_11
+  - first:
+      213: 6015420080753815384
+    second: ANIM-05-run-with-backpack_12
+  - first:
+      213: -395646499313844856
+    second: ANIM-05-run-with-backpack_13
+  - first:
+      213: -4825493686213131967
+    second: ANIM-05-run-with-backpack_14
+  - first:
+      213: 5799105522321855373
+    second: ANIM-05-run-with-backpack_15
+  - first:
+      213: 6733056294119459110
+    second: ANIM-05-run-with-backpack_16
+  - first:
+      213: -540291637492152421
+    second: ANIM-05-run-with-backpack_17
+  - first:
+      213: -4000958615409865392
+    second: ANIM-05-run-with-backpack_18
+  - first:
+      213: 133171500638341567
+    second: ANIM-05-run-with-backpack_19
+  - first:
+      213: 6162483894745647638
+    second: ANIM-05-run-with-backpack_20
+  - first:
+      213: -7585521761943944750
+    second: ANIM-05-run-with-backpack_21
+  - first:
+      213: 5902637729622325994
+    second: ANIM-05-run-with-backpack_22
+  - first:
+      213: -222290027514662924
+    second: ANIM-05-run-with-backpack_23
+  - first:
+      213: 3636676834060085528
+    second: ANIM-05-run-with-backpack_24
+  - first:
+      213: 5732470363092434397
+    second: ANIM-05-run-with-backpack_25
+  - first:
+      213: 2015900553262712583
+    second: ANIM-05-run-with-backpack_26
+  - first:
+      213: 3338047698049299704
+    second: ANIM-05-run-with-backpack_27
+  - first:
+      213: -8855138063603591101
+    second: ANIM-05-run-with-backpack_28
+  - first:
+      213: 5621483960815591050
+    second: ANIM-05-run-with-backpack_29
+  - first:
+      213: 6823607816959420968
+    second: ANIM-05-run-with-backpack_30
+  - first:
+      213: -4630166413158674628
+    second: ANIM-05-run-with-backpack_31
+  - first:
+      213: -396494164583554806
+    second: ANIM-05-run-with-backpack_32
+  - first:
+      213: 5716988763149433869
+    second: ANIM-05-run-with-backpack_33
+  - first:
+      213: 8929717901202034288
+    second: ANIM-05-run-with-backpack_34
+  - first:
+      213: 5162018965990160215
+    second: ANIM-05-run-with-backpack_35
+  - first:
+      213: -5301769855877972929
+    second: ANIM-05-run-with-backpack_36
+  - first:
+      213: -7055992722886190709
+    second: ANIM-05-run-with-backpack_37
+  - first:
+      213: 3512779313896025237
+    second: ANIM-05-run-with-backpack_38
+  - first:
+      213: -1336481387173144220
+    second: ANIM-05-run-with-backpack_39
+  - first:
+      213: -6620819500061158352
+    second: ANIM-05-run-with-backpack_40
+  - first:
+      213: -2213930005906021963
+    second: ANIM-05-run-with-backpack_41
+  - first:
+      213: 8055764549552005673
+    second: ANIM-05-run-with-backpack_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 77
+        width: 338
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb403b96d9963f00800000000000000
+      internalID: 1096232706316979120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 634
+        width: 80
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b904d0956766cf0800000000000000
+      internalID: -259389803680720022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 689
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d12eea0c38f44a0800000000000000
+      internalID: -6606917264738214624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 620
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391143e0f7af8d8b0800000000000000
+      internalID: -5127072752155225709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 642
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9f16be892ad6680800000000000000
+      internalID: -8760166922497951248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 612
+        width: 124
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f0e7a644413c570800000000000000
+      internalID: 8485648406973124476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_6
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 667
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52c5a3e3ff5d18e0800000000000000
+      internalID: -1721113981484678565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_7
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 690
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca94e7ca63ab9e30800000000000000
+      internalID: 4511379130757192399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_8
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 644
+        width: 91
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78fff6b70f8a30af0800000000000000
+      internalID: -431315388480880761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_9
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 644
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0deb1c2ac346d88f0800000000000000
+      internalID: -536662568995799344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_10
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 617
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2734a46edad29120800000000000000
+      internalID: 2419236598557456174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_11
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 608
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85318225ad9d73170800000000000000
+      internalID: 8158228781709398872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_12
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 626
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f251041b01b7350800000000000000
+      internalID: 6015420080753815384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_13
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 634
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d75c7ea91628af0800000000000000
+      internalID: -395646499313844856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_14
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 685
+        width: 109
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14140671f07680db0800000000000000
+      internalID: -4825493686213131967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_15
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 49
+        width: 659
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8310016fbf8a7050800000000000000
+      internalID: 5799105522321855373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_16
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 626
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629c2b7b60f907d50800000000000000
+      internalID: 6733056294119459110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_17
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 634
+        width: 178
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b978a284e9f7088f0800000000000000
+      internalID: -540291637492152421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 626
+        width: 82
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05dc477565db978c0800000000000000
+      internalID: -4000958615409865392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_19
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 606
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb901c536ce19d100800000000000000
+      internalID: 133171500638341567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_20
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 604
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a4168b37a858550800000000000000
+      internalID: 6162483894745647638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_21
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 667
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d10657b520dab690800000000000000
+      internalID: -7585521761943944750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_22
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 691
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaf4f7ddb16ae150800000000000000
+      internalID: 5902637729622325994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_23
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 661
+        width: 120
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff60e0d5644aecf0800000000000000
+      internalID: -222290027514662924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_24
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 602
+        width: 113
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8192b090052187230800000000000000
+      internalID: 3636676834060085528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_25
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 677
+        width: 58
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd349d5c63dd8f40800000000000000
+      internalID: 5732470363092434397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_26
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 77
+        width: 322
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707ccbb5fdae9fb10800000000000000
+      internalID: 2015900553262712583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_27
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 644
+        width: 102
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4f98512b0235e20800000000000000
+      internalID: 3338047698049299704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_28
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 610
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3481ed109da3c1580800000000000000
+      internalID: -8855138063603591101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_29
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 667
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e18f2e0e5830e40800000000000000
+      internalID: 5621483960815591050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_30
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 691
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ae170182352be50800000000000000
+      internalID: 6823607816959420968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_31
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 691
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f8bbccd285ebfb0800000000000000
+      internalID: -4630166413158674628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_32
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 663
+        width: 104
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a016b7478ae5f7af0800000000000000
+      internalID: -396494164583554806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_33
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 644
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cfb6c7df2d65f40800000000000000
+      internalID: 5716988763149433869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_34
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 604
+        width: 236
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e08959e1bbceb70800000000000000
+      internalID: 8929717901202034288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_35
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 25
+        width: 341
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7573ca766ec23a740800000000000000
+      internalID: 5162018965990160215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_36
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 0
+        width: 339
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cf483f7645c66b0800000000000000
+      internalID: -5301769855877972929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_37
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 23
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8990a6b004141e90800000000000000
+      internalID: -7055992722886190709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_38
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 23
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cec1bac26efb030800000000000000
+      internalID: 3512779313896025237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_39
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 19
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4699f94624dd37de0800000000000000
+      internalID: -1336481387173144220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_40
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 71
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03410e84ebf1e14a0800000000000000
+      internalID: -6620819500061158352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_41
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 38
+        width: 285
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1a468b36a8641e0800000000000000
+      internalID: -2213930005906021963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-05-run-with-backpack_42
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 18
+        width: 391
+        height: 583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9226b323d23dbcf60800000000000000
+      internalID: 8055764549552005673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-05-run-with-backpack_0: 1096232706316979120
+      ANIM-05-run-with-backpack_1: -259389803680720022
+      ANIM-05-run-with-backpack_10: 2419236598557456174
+      ANIM-05-run-with-backpack_11: 8158228781709398872
+      ANIM-05-run-with-backpack_12: 6015420080753815384
+      ANIM-05-run-with-backpack_13: -395646499313844856
+      ANIM-05-run-with-backpack_14: -4825493686213131967
+      ANIM-05-run-with-backpack_15: 5799105522321855373
+      ANIM-05-run-with-backpack_16: 6733056294119459110
+      ANIM-05-run-with-backpack_17: -540291637492152421
+      ANIM-05-run-with-backpack_18: -4000958615409865392
+      ANIM-05-run-with-backpack_19: 133171500638341567
+      ANIM-05-run-with-backpack_2: -6606917264738214624
+      ANIM-05-run-with-backpack_20: 6162483894745647638
+      ANIM-05-run-with-backpack_21: -7585521761943944750
+      ANIM-05-run-with-backpack_22: 5902637729622325994
+      ANIM-05-run-with-backpack_23: -222290027514662924
+      ANIM-05-run-with-backpack_24: 3636676834060085528
+      ANIM-05-run-with-backpack_25: 5732470363092434397
+      ANIM-05-run-with-backpack_26: 2015900553262712583
+      ANIM-05-run-with-backpack_27: 3338047698049299704
+      ANIM-05-run-with-backpack_28: -8855138063603591101
+      ANIM-05-run-with-backpack_29: 5621483960815591050
+      ANIM-05-run-with-backpack_3: -5127072752155225709
+      ANIM-05-run-with-backpack_30: 6823607816959420968
+      ANIM-05-run-with-backpack_31: -4630166413158674628
+      ANIM-05-run-with-backpack_32: -396494164583554806
+      ANIM-05-run-with-backpack_33: 5716988763149433869
+      ANIM-05-run-with-backpack_34: 8929717901202034288
+      ANIM-05-run-with-backpack_35: 5162018965990160215
+      ANIM-05-run-with-backpack_36: -5301769855877972929
+      ANIM-05-run-with-backpack_37: -7055992722886190709
+      ANIM-05-run-with-backpack_38: 3512779313896025237
+      ANIM-05-run-with-backpack_39: -1336481387173144220
+      ANIM-05-run-with-backpack_4: -8760166922497951248
+      ANIM-05-run-with-backpack_40: -6620819500061158352
+      ANIM-05-run-with-backpack_41: -2213930005906021963
+      ANIM-05-run-with-backpack_42: 8055764549552005673
+      ANIM-05-run-with-backpack_5: 8485648406973124476
+      ANIM-05-run-with-backpack_6: -1721113981484678565
+      ANIM-05-run-with-backpack_7: 4511379130757192399
+      ANIM-05-run-with-backpack_8: -431315388480880761
+      ANIM-05-run-with-backpack_9: -536662568995799344
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

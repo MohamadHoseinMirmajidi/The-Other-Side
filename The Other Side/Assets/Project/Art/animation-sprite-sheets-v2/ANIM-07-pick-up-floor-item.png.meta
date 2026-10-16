@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: e67bac053b58adb4b887bf0066c01602
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 432516262972881679
+    second: ANIM-07-pick-up-floor-item_0
+  - first:
+      213: 8753539707693496557
+    second: ANIM-07-pick-up-floor-item_1
+  - first:
+      213: -6151100765693288949
+    second: ANIM-07-pick-up-floor-item_2
+  - first:
+      213: 66555493273162432
+    second: ANIM-07-pick-up-floor-item_3
+  - first:
+      213: 1922796363895027606
+    second: ANIM-07-pick-up-floor-item_4
+  - first:
+      213: -847050443129230139
+    second: ANIM-07-pick-up-floor-item_5
+  - first:
+      213: 4804052659903660730
+    second: ANIM-07-pick-up-floor-item_6
+  - first:
+      213: 8887212204052792981
+    second: ANIM-07-pick-up-floor-item_7
+  - first:
+      213: -2161450822690672720
+    second: ANIM-07-pick-up-floor-item_8
+  - first:
+      213: 8843863132803245868
+    second: ANIM-07-pick-up-floor-item_9
+  - first:
+      213: 1637454025669331494
+    second: ANIM-07-pick-up-floor-item_10
+  - first:
+      213: 7135170151417131611
+    second: ANIM-07-pick-up-floor-item_11
+  - first:
+      213: -5670530518051833792
+    second: ANIM-07-pick-up-floor-item_12
+  - first:
+      213: 1488505828331422321
+    second: ANIM-07-pick-up-floor-item_13
+  - first:
+      213: -8246475453895569047
+    second: ANIM-07-pick-up-floor-item_14
+  - first:
+      213: 6866484963197317899
+    second: ANIM-07-pick-up-floor-item_15
+  - first:
+      213: 5498025356667048366
+    second: ANIM-07-pick-up-floor-item_16
+  - first:
+      213: -8687896337048667806
+    second: ANIM-07-pick-up-floor-item_17
+  - first:
+      213: 6796762081381906170
+    second: ANIM-07-pick-up-floor-item_18
+  - first:
+      213: 4902049593637682944
+    second: ANIM-07-pick-up-floor-item_19
+  - first:
+      213: -3292611539703201025
+    second: ANIM-07-pick-up-floor-item_20
+  - first:
+      213: 3391951108732235182
+    second: ANIM-07-pick-up-floor-item_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 47
+        width: 320
+        height: 663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bf316ef3b900600800000000000000
+      internalID: 432516262972881679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_1
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 568
+        width: 258
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8f8546cf1da7970800000000000000
+      internalID: 8753539707693496557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_2
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 530
+        width: 46
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ed73b8176e2aaa0800000000000000
+      internalID: -6151100765693288949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_3
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 634
+        width: 86
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2d5665ed37ce000800000000000000
+      internalID: 66555493273162432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_4
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 610
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69730650b152faa10800000000000000
+      internalID: 1922796363895027606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_5
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 309
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cce17e1c1cae34f0800000000000000
+      internalID: -847050443129230139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_6
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 632
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab204d3f07c6ba240800000000000000
+      internalID: 4804052659903660730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_7
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 691
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5964512c968b55b70800000000000000
+      internalID: 8887212204052792981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_8
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 679
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfeb0abdebf002e0800000000000000
+      internalID: -2161450822690672720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_9
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 608
+        width: 71
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2729e899a6bbba70800000000000000
+      internalID: 8843863132803245868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_10
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 47
+        width: 279
+        height: 647
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62acd00c2c769b610800000000000000
+      internalID: 1637454025669331494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_11
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 562
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52303fe277350360800000000000000
+      internalID: 7135170151417131611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_12
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 484
+        width: 76
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048328f998a3e41b0800000000000000
+      internalID: -5670530518051833792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_13
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 470
+        width: 301
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1720bc71a2c38a410800000000000000
+      internalID: 1488505828331422321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_14
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 516
+        width: 49
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96193913442ae8d80800000000000000
+      internalID: -8246475453895569047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_15
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 570
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03ffee91b7aa4f50800000000000000
+      internalID: 6866484963197317899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_16
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 549
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1da3e9ee8ec4c40800000000000000
+      internalID: 5498025356667048366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_17
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 449
+        width: 106
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269fbc8df446e6780800000000000000
+      internalID: -8687896337048667806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_18
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 49
+        width: 356
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6fc9b2a13f25e50800000000000000
+      internalID: 6796762081381906170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_19
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 484
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f3f1c1224970440800000000000000
+      internalID: 4902049593637682944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_20
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 45
+        width: 362
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff283a8ef3b4e42d0800000000000000
+      internalID: -3292611539703201025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-07-pick-up-floor-item_21
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 49
+        width: 329
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead2a73ef81a21f20800000000000000
+      internalID: 3391951108732235182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c25ac3328a55d7840b8e90d1809b8833
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-07-pick-up-floor-item_0: 432516262972881679
+      ANIM-07-pick-up-floor-item_1: 8753539707693496557
+      ANIM-07-pick-up-floor-item_10: 1637454025669331494
+      ANIM-07-pick-up-floor-item_11: 7135170151417131611
+      ANIM-07-pick-up-floor-item_12: -5670530518051833792
+      ANIM-07-pick-up-floor-item_13: 1488505828331422321
+      ANIM-07-pick-up-floor-item_14: -8246475453895569047
+      ANIM-07-pick-up-floor-item_15: 6866484963197317899
+      ANIM-07-pick-up-floor-item_16: 5498025356667048366
+      ANIM-07-pick-up-floor-item_17: -8687896337048667806
+      ANIM-07-pick-up-floor-item_18: 6796762081381906170
+      ANIM-07-pick-up-floor-item_19: 4902049593637682944
+      ANIM-07-pick-up-floor-item_2: -6151100765693288949
+      ANIM-07-pick-up-floor-item_20: -3292611539703201025
+      ANIM-07-pick-up-floor-item_21: 3391951108732235182
+      ANIM-07-pick-up-floor-item_3: 66555493273162432
+      ANIM-07-pick-up-floor-item_4: 1922796363895027606
+      ANIM-07-pick-up-floor-item_5: -847050443129230139
+      ANIM-07-pick-up-floor-item_6: 4804052659903660730
+      ANIM-07-pick-up-floor-item_7: 8887212204052792981
+      ANIM-07-pick-up-floor-item_8: -2161450822690672720
+      ANIM-07-pick-up-floor-item_9: 8843863132803245868
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

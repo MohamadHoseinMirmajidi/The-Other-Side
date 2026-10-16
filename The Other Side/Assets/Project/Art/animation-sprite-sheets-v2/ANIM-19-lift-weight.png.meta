@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 622907cfc6ff88d499b12b85d11a2b8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8302590171828152879
+    second: ANIM-19-lift-weight_0
+  - first:
+      213: -7014904707002435573
+    second: ANIM-19-lift-weight_1
+  - first:
+      213: 6739517790531947684
+    second: ANIM-19-lift-weight_2
+  - first:
+      213: 3772041854183384634
+    second: ANIM-19-lift-weight_3
+  - first:
+      213: 5858311463374047913
+    second: ANIM-19-lift-weight_4
+  - first:
+      213: -3153928243062581370
+    second: ANIM-19-lift-weight_5
+  - first:
+      213: 3117086100335900675
+    second: ANIM-19-lift-weight_6
+  - first:
+      213: 1034253016752702646
+    second: ANIM-19-lift-weight_7
+  - first:
+      213: 1812707565504930518
+    second: ANIM-19-lift-weight_8
+  - first:
+      213: -929180928509502508
+    second: ANIM-19-lift-weight_9
+  - first:
+      213: -8563271340049350831
+    second: ANIM-19-lift-weight_10
+  - first:
+      213: 2115378382015469441
+    second: ANIM-19-lift-weight_11
+  - first:
+      213: -4243897151545485481
+    second: ANIM-19-lift-weight_12
+  - first:
+      213: -7079966401223598677
+    second: ANIM-19-lift-weight_13
+  - first:
+      213: -8618433439357292048
+    second: ANIM-19-lift-weight_14
+  - first:
+      213: 686272033071023345
+    second: ANIM-19-lift-weight_15
+  - first:
+      213: 8547140931015196273
+    second: ANIM-19-lift-weight_16
+  - first:
+      213: -5313288016993600442
+    second: ANIM-19-lift-weight_17
+  - first:
+      213: 9015912064208291525
+    second: ANIM-19-lift-weight_18
+  - first:
+      213: -2546545676942035175
+    second: ANIM-19-lift-weight_19
+  - first:
+      213: 2409701834025431499
+    second: ANIM-19-lift-weight_20
+  - first:
+      213: 1304344308559706824
+    second: ANIM-19-lift-weight_21
+  - first:
+      213: 2855226091481310208
+    second: ANIM-19-lift-weight_22
+  - first:
+      213: 6000412440519515518
+    second: ANIM-19-lift-weight_23
+  - first:
+      213: 3065632064740359653
+    second: ANIM-19-lift-weight_24
+  - first:
+      213: -6791064952789370711
+    second: ANIM-19-lift-weight_25
+  - first:
+      213: 9220651266283999616
+    second: ANIM-19-lift-weight_26
+  - first:
+      213: 157094719093202290
+    second: ANIM-19-lift-weight_27
+  - first:
+      213: -7894860717673519914
+    second: ANIM-19-lift-weight_28
+  - first:
+      213: 4509989119021850244
+    second: ANIM-19-lift-weight_29
+  - first:
+      213: -6308377552861690399
+    second: ANIM-19-lift-weight_30
+  - first:
+      213: -1623787160449122216
+    second: ANIM-19-lift-weight_31
+  - first:
+      213: -8169913876686605652
+    second: ANIM-19-lift-weight_32
+  - first:
+      213: -786122100784800904
+    second: ANIM-19-lift-weight_33
+  - first:
+      213: -5621159733368009962
+    second: ANIM-19-lift-weight_34
+  - first:
+      213: -5721804988332408711
+    second: ANIM-19-lift-weight_35
+  - first:
+      213: -7831090838027419977
+    second: ANIM-19-lift-weight_36
+  - first:
+      213: 6904344132408867086
+    second: ANIM-19-lift-weight_37
+  - first:
+      213: -3302942076625308231
+    second: ANIM-19-lift-weight_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 43
+        width: 571
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a6773b5c9b83370800000000000000
+      internalID: 8302590171828152879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_1
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 602
+        width: 184
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0877e5e55d06ae90800000000000000
+      internalID: -7014904707002435573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_2
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 578
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac051619b3978d50800000000000000
+      internalID: 6739517790531947684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_3
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 653
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36a18cc41cf85430800000000000000
+      internalID: 3772041854183384634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_4
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 626
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa420ebc37ec4150800000000000000
+      internalID: 5858311463374047913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_5
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 661
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687de2129fefa34d0800000000000000
+      internalID: -3153928243062581370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_6
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 594
+        width: 123
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30834d01b4d124b20800000000000000
+      internalID: 3117086100335900675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_7
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 640
+        width: 158
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4cb6793a76a5e00800000000000000
+      internalID: 1034253016752702646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_8
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 42
+        width: 367
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2a59b3de7082910800000000000000
+      internalID: 1812707565504930518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_9
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 624
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db9f185ed2ea13f0800000000000000
+      internalID: -929180928509502508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_10
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 657
+        width: 115
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f331d1616292980800000000000000
+      internalID: -8563271340049350831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_11
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 43
+        width: 220
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18792914e655b5d10800000000000000
+      internalID: 2115378382015469441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_12
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 628
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757d6da9606aa15c0800000000000000
+      internalID: -4243897151545485481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_13
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 602
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baddd51c118eebd90800000000000000
+      internalID: -7079966401223598677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_14
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 39
+        width: 226
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1b2c6037c256880800000000000000
+      internalID: -8618433439357292048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_15
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 624
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4cb7e27c0268900800000000000000
+      internalID: 686272033071023345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_16
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 620
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ebc5e546b8d9670800000000000000
+      internalID: 8547140931015196273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_17
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 586
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cb1c513b86346b0800000000000000
+      internalID: -5313288016993600442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_18
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 43
+        width: 298
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c64b490144fe1d70800000000000000
+      internalID: 9015912064208291525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_19
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 577
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9173091f23ad8acd0800000000000000
+      internalID: -2546545676942035175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_20
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 580
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc171b70d0bf07120800000000000000
+      internalID: 2409701834025431499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_21
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 516
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8caf088ec36f91210800000000000000
+      internalID: 1304344308559706824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_22
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 508
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004ab28a00dcf9720800000000000000
+      internalID: 2855226091481310208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_23
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 520
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d1007b25fb54350800000000000000
+      internalID: 6000412440519515518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_24
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 498
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed75e6de105b8a20800000000000000
+      internalID: 3065632064740359653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_25
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 478
+        width: 29
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a87262f76a41c1a0800000000000000
+      internalID: -6791064952789370711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_26
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 530
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0811d9c397556ff70800000000000000
+      internalID: 9220651266283999616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_27
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 33
+        width: 261
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dd3af80dc1e2200800000000000000
+      internalID: 157094719093202290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_28
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 496
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d462eb8102df6290800000000000000
+      internalID: -7894860717673519914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_29
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 482
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e9c247533b69e30800000000000000
+      internalID: 4509989119021850244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_30
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 492
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e581a4f9042478a0800000000000000
+      internalID: -6308377552861690399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_31
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 491
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85007964e262779e0800000000000000
+      internalID: -1623787160449122216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_32
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 45
+        width: 266
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca27f8e7d92ae9e80800000000000000
+      internalID: -8169913876686605652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_33
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 40
+        width: 283
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b53a84d122715f0800000000000000
+      internalID: -786122100784800904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_34
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 475
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bced23101adf1b0800000000000000
+      internalID: -5621159733368009962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_35
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 468
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9708364bda01890b0800000000000000
+      internalID: -5721804988332408711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_36
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 480
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be3f8baf50625390800000000000000
+      internalID: -7831090838027419977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_37
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 474
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09784b586821df50800000000000000
+      internalID: 6904344132408867086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-19-lift-weight_38
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 449
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5be095ea79922d0800000000000000
+      internalID: -3302942076625308231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-19-lift-weight_0: 8302590171828152879
+      ANIM-19-lift-weight_1: -7014904707002435573
+      ANIM-19-lift-weight_10: -8563271340049350831
+      ANIM-19-lift-weight_11: 2115378382015469441
+      ANIM-19-lift-weight_12: -4243897151545485481
+      ANIM-19-lift-weight_13: -7079966401223598677
+      ANIM-19-lift-weight_14: -8618433439357292048
+      ANIM-19-lift-weight_15: 686272033071023345
+      ANIM-19-lift-weight_16: 8547140931015196273
+      ANIM-19-lift-weight_17: -5313288016993600442
+      ANIM-19-lift-weight_18: 9015912064208291525
+      ANIM-19-lift-weight_19: -2546545676942035175
+      ANIM-19-lift-weight_2: 6739517790531947684
+      ANIM-19-lift-weight_20: 2409701834025431499
+      ANIM-19-lift-weight_21: 1304344308559706824
+      ANIM-19-lift-weight_22: 2855226091481310208
+      ANIM-19-lift-weight_23: 6000412440519515518
+      ANIM-19-lift-weight_24: 3065632064740359653
+      ANIM-19-lift-weight_25: -6791064952789370711
+      ANIM-19-lift-weight_26: 9220651266283999616
+      ANIM-19-lift-weight_27: 157094719093202290
+      ANIM-19-lift-weight_28: -7894860717673519914
+      ANIM-19-lift-weight_29: 4509989119021850244
+      ANIM-19-lift-weight_3: 3772041854183384634
+      ANIM-19-lift-weight_30: -6308377552861690399
+      ANIM-19-lift-weight_31: -1623787160449122216
+      ANIM-19-lift-weight_32: -8169913876686605652
+      ANIM-19-lift-weight_33: -786122100784800904
+      ANIM-19-lift-weight_34: -5621159733368009962
+      ANIM-19-lift-weight_35: -5721804988332408711
+      ANIM-19-lift-weight_36: -7831090838027419977
+      ANIM-19-lift-weight_37: 6904344132408867086
+      ANIM-19-lift-weight_38: -3302942076625308231
+      ANIM-19-lift-weight_4: 5858311463374047913
+      ANIM-19-lift-weight_5: -3153928243062581370
+      ANIM-19-lift-weight_6: 3117086100335900675
+      ANIM-19-lift-weight_7: 1034253016752702646
+      ANIM-19-lift-weight_8: 1812707565504930518
+      ANIM-19-lift-weight_9: -929180928509502508
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

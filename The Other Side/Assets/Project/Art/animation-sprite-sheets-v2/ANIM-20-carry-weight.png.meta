@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 178e3c2d63761284498c30da943c820b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7513422432662182325
+    second: ANIM-20-carry-weight_0
+  - first:
+      213: 5615796427109263987
+    second: ANIM-20-carry-weight_1
+  - first:
+      213: -9201434260536955245
+    second: ANIM-20-carry-weight_2
+  - first:
+      213: -7191041330936884044
+    second: ANIM-20-carry-weight_3
+  - first:
+      213: -5753078850710130769
+    second: ANIM-20-carry-weight_4
+  - first:
+      213: 9082878958148672487
+    second: ANIM-20-carry-weight_5
+  - first:
+      213: -3355345285372438324
+    second: ANIM-20-carry-weight_6
+  - first:
+      213: 3476730717218814098
+    second: ANIM-20-carry-weight_7
+  - first:
+      213: -8398019215748917287
+    second: ANIM-20-carry-weight_8
+  - first:
+      213: -1866057560641248243
+    second: ANIM-20-carry-weight_9
+  - first:
+      213: 5114081100315187364
+    second: ANIM-20-carry-weight_10
+  - first:
+      213: -957656832530417143
+    second: ANIM-20-carry-weight_11
+  - first:
+      213: 8658450912358753987
+    second: ANIM-20-carry-weight_12
+  - first:
+      213: -4505295728807599755
+    second: ANIM-20-carry-weight_13
+  - first:
+      213: 7988524254231778058
+    second: ANIM-20-carry-weight_14
+  - first:
+      213: 8490978310306918912
+    second: ANIM-20-carry-weight_15
+  - first:
+      213: 4091876778487188221
+    second: ANIM-20-carry-weight_16
+  - first:
+      213: -2891823349272789748
+    second: ANIM-20-carry-weight_17
+  - first:
+      213: -3374438932714686767
+    second: ANIM-20-carry-weight_18
+  - first:
+      213: -3365116874233653954
+    second: ANIM-20-carry-weight_19
+  - first:
+      213: -3510896020406165131
+    second: ANIM-20-carry-weight_20
+  - first:
+      213: 1930976956082890492
+    second: ANIM-20-carry-weight_21
+  - first:
+      213: 9031237622214478118
+    second: ANIM-20-carry-weight_22
+  - first:
+      213: 7613496791761004146
+    second: ANIM-20-carry-weight_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 666
+        width: 173
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4628b5fa16fab790800000000000000
+      internalID: -7513422432662182325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 693
+        width: 170
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a61c0c8115fed40800000000000000
+      internalID: 5615796427109263987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 723
+        width: 58
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ee5949a40fd4080800000000000000
+      internalID: -9201434260536955245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_3
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 75
+        width: 346
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4da50620a443c90800000000000000
+      internalID: -7191041330936884044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_4
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 648
+        width: 171
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf2c923445f820b0800000000000000
+      internalID: -5753078850710130769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_5
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 660
+        width: 108
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb525e0a4edc0e70800000000000000
+      internalID: 9082878958148672487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_6
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 664
+        width: 118
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc818968d3b6f61d0800000000000000
+      internalID: -3355345285372438324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_7
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 661
+        width: 211
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2983483ba24df3030800000000000000
+      internalID: 3476730717218814098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_8
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 706
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d79164940e347b80800000000000000
+      internalID: -8398019215748917287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_9
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 709
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04eb8f098e6a16e0800000000000000
+      internalID: -1866057560641248243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_10
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 725
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a853d84aadd8f640800000000000000
+      internalID: 5114081100315187364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_11
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 695
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a7c484f28b5b2f0800000000000000
+      internalID: -957656832530417143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_12
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 77
+        width: 288
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6ec48fa3ff82870800000000000000
+      internalID: 8658450912358753987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_13
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 657
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571a65c9769f971c0800000000000000
+      internalID: -4505295728807599755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_14
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 709
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03d315fb70fcde60800000000000000
+      internalID: 7988524254231778058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_15
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 693
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002f36d39c306d570800000000000000
+      internalID: 8490978310306918912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_16
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 677
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa0666104449c830800000000000000
+      internalID: 4091876778487188221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_17
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 661
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d3a614cfd2ed7d0800000000000000
+      internalID: -2891823349272789748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 78
+        width: 241
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6fa435ba59b21d0800000000000000
+      internalID: -3374438932714686767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_19
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 25
+        width: 257
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3551a33804bc41d0800000000000000
+      internalID: -3365116874233653954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_20
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 77
+        width: 271
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571ab54cbaac64fc0800000000000000
+      internalID: -3510896020406165131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_21
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 75
+        width: 254
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf629c09f453cca10800000000000000
+      internalID: 1930976956082890492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_22
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 71
+        width: 269
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629cc3294c6655d70800000000000000
+      internalID: 9031237622214478118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-20-carry-weight_23
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 74
+        width: 273
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276ad7b7ef298a960800000000000000
+      internalID: 7613496791761004146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-20-carry-weight_0: -7513422432662182325
+      ANIM-20-carry-weight_1: 5615796427109263987
+      ANIM-20-carry-weight_10: 5114081100315187364
+      ANIM-20-carry-weight_11: -957656832530417143
+      ANIM-20-carry-weight_12: 8658450912358753987
+      ANIM-20-carry-weight_13: -4505295728807599755
+      ANIM-20-carry-weight_14: 7988524254231778058
+      ANIM-20-carry-weight_15: 8490978310306918912
+      ANIM-20-carry-weight_16: 4091876778487188221
+      ANIM-20-carry-weight_17: -2891823349272789748
+      ANIM-20-carry-weight_18: -3374438932714686767
+      ANIM-20-carry-weight_19: -3365116874233653954
+      ANIM-20-carry-weight_2: -9201434260536955245
+      ANIM-20-carry-weight_20: -3510896020406165131
+      ANIM-20-carry-weight_21: 1930976956082890492
+      ANIM-20-carry-weight_22: 9031237622214478118
+      ANIM-20-carry-weight_23: 7613496791761004146
+      ANIM-20-carry-weight_3: -7191041330936884044
+      ANIM-20-carry-weight_4: -5753078850710130769
+      ANIM-20-carry-weight_5: 9082878958148672487
+      ANIM-20-carry-weight_6: -3355345285372438324
+      ANIM-20-carry-weight_7: 3476730717218814098
+      ANIM-20-carry-weight_8: -8398019215748917287
+      ANIM-20-carry-weight_9: -1866057560641248243
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

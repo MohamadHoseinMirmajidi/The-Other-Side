@@ -179,12 +179,12 @@ TextureImporter:
       name: CHAR-02-run-sprite-sheet-v2_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 88
-        width: 373
-        height: 517
+        x: 303
+        y: 0
+        width: 308
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -201,12 +201,12 @@ TextureImporter:
       name: CHAR-02-run-sprite-sheet-v2_1
       rect:
         serializedVersion: 2
-        x: 308
-        y: 81
-        width: 305
-        height: 603
+        x: 536
+        y: 0
+        width: 303
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -223,12 +223,12 @@ TextureImporter:
       name: CHAR-02-run-sprite-sheet-v2_2
       rect:
         serializedVersion: 2
-        x: 538
-        y: 39
-        width: 300
-        height: 558
+        x: 779
+        y: 0
+        width: 340
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -245,12 +245,12 @@ TextureImporter:
       name: CHAR-02-run-sprite-sheet-v2_3
       rect:
         serializedVersion: 2
-        x: 594
-        y: 92
-        width: 529
-        height: 614
+        x: 1042
+        y: 0
+        width: 341
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -267,12 +267,12 @@ TextureImporter:
       name: CHAR-02-run-sprite-sheet-v2_4
       rect:
         serializedVersion: 2
-        x: 1043
-        y: 87
-        width: 378
-        height: 597
+        x: 1323
+        y: 0
+        width: 317
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: CHAR-02-run-sprite-sheet-v2_5
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 52
-        width: 321
-        height: 537
+        x: 1574
+        y: 0
+        width: 324
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -311,12 +311,12 @@ TextureImporter:
       name: CHAR-02-run-sprite-sheet-v2_6
       rect:
         serializedVersion: 2
-        x: 1574
-        y: 92
-        width: 329
-        height: 506
+        x: 1858
+        y: 0
+        width: 302
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -329,55 +329,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: CHAR-02-run-sprite-sheet-v2_7
-      rect:
-        serializedVersion: 2
-        x: 1858
-        y: 81
-        width: 302
-        height: 591
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c0176bd0ce7aef670800000000000000
-      internalID: 8574475372844183820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHAR-02-run-sprite-sheet-v2_8
-      rect:
-        serializedVersion: 2
-        x: 1830
-        y: 63
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1cb261f135a0c9ff0800000000000000
-      internalID: -28136145550955583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9ababee43e7dbc04aa6fcb124c54834d
     internalID: 0
     vertices: []
     indices: 
@@ -385,7 +341,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":1.0},"gridSpriteSize":{"x":272.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":44.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       CHAR-02-run-sprite-sheet-v2_0: 6401161850832340891
       CHAR-02-run-sprite-sheet-v2_1: 4824546029355419364
@@ -394,8 +352,6 @@ TextureImporter:
       CHAR-02-run-sprite-sheet-v2_4: -1365706728524995904
       CHAR-02-run-sprite-sheet-v2_5: -8506528105944575685
       CHAR-02-run-sprite-sheet-v2_6: -942224625235328953
-      CHAR-02-run-sprite-sheet-v2_7: 8574475372844183820
-      CHAR-02-run-sprite-sheet-v2_8: -28136145550955583
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

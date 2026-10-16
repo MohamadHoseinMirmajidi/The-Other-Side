@@ -178,7 +178,7 @@ TextureImporter:
         width: 481
         height: 856
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,7 +200,7 @@ TextureImporter:
         width: 685
         height: 842
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -218,11 +218,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2316
-        y: 1095
-        width: 607
-        height: 359
+        y: 1174
+        width: 576
+        height: 280
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -244,7 +244,7 @@ TextureImporter:
         width: 501
         height: 473
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -266,7 +266,7 @@ TextureImporter:
         width: 7
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -288,7 +288,7 @@ TextureImporter:
         width: 49
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -310,7 +310,7 @@ TextureImporter:
         width: 10
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -323,11 +323,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: PROP-10-locked-stage-door-staircase-kit-v2_7
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 1174
+        width: 431
+        height: 280
+      alignment: 9
+      pivot: {x: -0.18339865, y: 1.0206021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4282a969d9ad40f46a80f412d8d12e8e
+      internalID: 890611834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b3684f660ea816d418b04632c2ca8bcb
     internalID: 0
     vertices: []
     indices: 
@@ -344,6 +366,7 @@ TextureImporter:
       PROP-10-locked-stage-door-staircase-kit-v2_4: -1081599010860070895
       PROP-10-locked-stage-door-staircase-kit-v2_5: 8054898107053249501
       PROP-10-locked-stage-door-staircase-kit-v2_6: -7698844452645750762
+      PROP-10-locked-stage-door-staircase-kit-v2_7: 890611834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

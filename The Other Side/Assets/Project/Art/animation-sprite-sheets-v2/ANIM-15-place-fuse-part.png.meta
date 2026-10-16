@@ -1,0 +1,1599 @@
+fileFormatVersion: 2
+guid: 7993270fa6e27f842ac7091341df1b2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2580598683969934160
+    second: ANIM-15-place-fuse-part_0
+  - first:
+      213: -3450778275467719085
+    second: ANIM-15-place-fuse-part_1
+  - first:
+      213: 6254357773511688459
+    second: ANIM-15-place-fuse-part_2
+  - first:
+      213: -3767180545018854684
+    second: ANIM-15-place-fuse-part_3
+  - first:
+      213: 8423040658288582102
+    second: ANIM-15-place-fuse-part_4
+  - first:
+      213: 8534884446494039175
+    second: ANIM-15-place-fuse-part_5
+  - first:
+      213: 7992365534989902886
+    second: ANIM-15-place-fuse-part_6
+  - first:
+      213: -7534819584162195033
+    second: ANIM-15-place-fuse-part_7
+  - first:
+      213: 5565491151788827503
+    second: ANIM-15-place-fuse-part_8
+  - first:
+      213: 7837043512302032503
+    second: ANIM-15-place-fuse-part_9
+  - first:
+      213: -3204742958359953099
+    second: ANIM-15-place-fuse-part_10
+  - first:
+      213: 241850406030735449
+    second: ANIM-15-place-fuse-part_11
+  - first:
+      213: -7925169957765127301
+    second: ANIM-15-place-fuse-part_12
+  - first:
+      213: -1505463117211437589
+    second: ANIM-15-place-fuse-part_13
+  - first:
+      213: 7066954817654069463
+    second: ANIM-15-place-fuse-part_14
+  - first:
+      213: 599344518585129216
+    second: ANIM-15-place-fuse-part_15
+  - first:
+      213: -2307389103011322490
+    second: ANIM-15-place-fuse-part_16
+  - first:
+      213: -7981262311338467844
+    second: ANIM-15-place-fuse-part_17
+  - first:
+      213: -7214628577546930206
+    second: ANIM-15-place-fuse-part_18
+  - first:
+      213: 7472470062336127773
+    second: ANIM-15-place-fuse-part_19
+  - first:
+      213: -362361087535878373
+    second: ANIM-15-place-fuse-part_20
+  - first:
+      213: -2252600560073559276
+    second: ANIM-15-place-fuse-part_21
+  - first:
+      213: 5145292214862764296
+    second: ANIM-15-place-fuse-part_22
+  - first:
+      213: 6502045455622494529
+    second: ANIM-15-place-fuse-part_23
+  - first:
+      213: -8961084699748187771
+    second: ANIM-15-place-fuse-part_24
+  - first:
+      213: -2736439735629251342
+    second: ANIM-15-place-fuse-part_25
+  - first:
+      213: 6467384362900195548
+    second: ANIM-15-place-fuse-part_26
+  - first:
+      213: -4976491552273831538
+    second: ANIM-15-place-fuse-part_27
+  - first:
+      213: -4159463407671358292
+    second: ANIM-15-place-fuse-part_28
+  - first:
+      213: 7126349844089625514
+    second: ANIM-15-place-fuse-part_29
+  - first:
+      213: -537018183704995692
+    second: ANIM-15-place-fuse-part_30
+  - first:
+      213: 6116298100633445326
+    second: ANIM-15-place-fuse-part_31
+  - first:
+      213: -4070846055221435983
+    second: ANIM-15-place-fuse-part_32
+  - first:
+      213: -479998225393067482
+    second: ANIM-15-place-fuse-part_33
+  - first:
+      213: -7029049748707259525
+    second: ANIM-15-place-fuse-part_34
+  - first:
+      213: -7758761208134570825
+    second: ANIM-15-place-fuse-part_35
+  - first:
+      213: -8737403747972664839
+    second: ANIM-15-place-fuse-part_36
+  - first:
+      213: -7618558329270363738
+    second: ANIM-15-place-fuse-part_37
+  - first:
+      213: 7989817507773131657
+    second: ANIM-15-place-fuse-part_38
+  - first:
+      213: 7318508824039016010
+    second: ANIM-15-place-fuse-part_39
+  - first:
+      213: -1577701661511645376
+    second: ANIM-15-place-fuse-part_40
+  - first:
+      213: 8673613030913311756
+    second: ANIM-15-place-fuse-part_41
+  - first:
+      213: -6788511766422360426
+    second: ANIM-15-place-fuse-part_42
+  - first:
+      213: 6324887204932105767
+    second: ANIM-15-place-fuse-part_43
+  - first:
+      213: -273697288491547753
+    second: ANIM-15-place-fuse-part_44
+  - first:
+      213: -7725479919756664033
+    second: ANIM-15-place-fuse-part_45
+  - first:
+      213: -1675933459530405021
+    second: ANIM-15-place-fuse-part_46
+  - first:
+      213: 7507810737942469492
+    second: ANIM-15-place-fuse-part_47
+  - first:
+      213: -3948581895443018618
+    second: ANIM-15-place-fuse-part_48
+  - first:
+      213: -4866907565052578711
+    second: ANIM-15-place-fuse-part_49
+  - first:
+      213: -6178252338784694875
+    second: ANIM-15-place-fuse-part_50
+  - first:
+      213: 5615283416028842940
+    second: ANIM-15-place-fuse-part_51
+  - first:
+      213: 6163879397539655209
+    second: ANIM-15-place-fuse-part_52
+  - first:
+      213: -890990754735787934
+    second: ANIM-15-place-fuse-part_53
+  - first:
+      213: 9062802977102564461
+    second: ANIM-15-place-fuse-part_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 646
+        width: 166
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bca1266b2fdf2cd0800000000000000
+      internalID: -2580598683969934160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 658
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e8c14017f5c10d0800000000000000
+      internalID: -3450778275467719085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 659
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b010e5c0241fbc650800000000000000
+      internalID: 6254357773511688459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_3
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 618
+        width: 134
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e28361f04948bbc0800000000000000
+      internalID: -3767180545018854684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_4
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 695
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd96fdf9d6a4e470800000000000000
+      internalID: 8423040658288582102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_5
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 691
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c98403f20027670800000000000000
+      internalID: 8534884446494039175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 661
+        width: 70
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624e524db169aee60800000000000000
+      internalID: 7992365534989902886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_7
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 49
+        width: 331
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a91b576281fe6790800000000000000
+      internalID: -7534819584162195033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_8
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 707
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63e3fe17b89c3d40800000000000000
+      internalID: 5565491151788827503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_9
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 677
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776da005d85c2cc60800000000000000
+      internalID: 7837043512302032503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_10
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 679
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531458242477683d0800000000000000
+      internalID: -3204742958359953099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_11
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 686
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958fe34b9a93b5300800000000000000
+      internalID: 241850406030735449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_12
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 665
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73efcaa9e3240290800000000000000
+      internalID: -7925169957765127301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_13
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 667
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5f82c65458b1be0800000000000000
+      internalID: -1505463117211437589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_14
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 644
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8910ed6fdd21260800000000000000
+      internalID: 7066954817654069463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_15
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 662
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00918580aac415800800000000000000
+      internalID: 599344518585129216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_16
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 689
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685276cf5d18affd0800000000000000
+      internalID: -2307389103011322490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_17
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 669
+        width: 52
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd1571e63cdc3190800000000000000
+      internalID: -7981262311338467844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_18
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 635
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7fee0988d70eb90800000000000000
+      internalID: -7214628577546930206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_19
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 683
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13394c4eeb83b760800000000000000
+      internalID: 7472470062336127773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_20
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 651
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1feff0c282a8faf0800000000000000
+      internalID: -362361087535878373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_21
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 689
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41338f3b9b72db0e0800000000000000
+      internalID: -2252600560073559276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_22
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 671
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8095a7c2200c76740800000000000000
+      internalID: 5145292214862764296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_23
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 675
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14952df74e7eb3a50800000000000000
+      internalID: 6502045455622494529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_24
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 677
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581425581f4d3a380800000000000000
+      internalID: -8961084699748187771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_25
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 663
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcfd880f86360ad0800000000000000
+      internalID: -2736439735629251342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_26
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 628
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd80598ffc3c0c950800000000000000
+      internalID: 6467384362900195548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_27
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 671
+        width: 86
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e896cfebc43ffeab0800000000000000
+      internalID: -4976491552273831538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_28
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 660
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac4389811e9646c0800000000000000
+      internalID: -4159463407671358292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_29
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 675
+        width: 60
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab5f1a1d61e5e260800000000000000
+      internalID: 7126349844089625514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_30
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 707
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4989652aec02c88f0800000000000000
+      internalID: -537018183704995692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_31
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 612
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec327ac87b471e450800000000000000
+      internalID: 6116298100633445326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_32
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 675
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1e93fb4137187c0800000000000000
+      internalID: -4070846055221435983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_33
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 675
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ad0aa3824b659f0800000000000000
+      internalID: -479998225393067482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_34
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 655
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b41cbbe7cc37e90800000000000000
+      internalID: -7029049748707259525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_35
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 644
+        width: 166
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcee04f9c7535490800000000000000
+      internalID: -7758761208134570825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_36
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 675
+        width: 162
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f13cee75918eb680800000000000000
+      internalID: -8737403747972664839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_37
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 630
+        width: 122
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a91f3b7091754690800000000000000
+      internalID: -7618558329270363738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_38
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 677
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ba30301b881ee60800000000000000
+      internalID: 7989817507773131657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_39
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 628
+        width: 89
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4648661001909560800000000000000
+      internalID: 7318508824039016010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_40
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 683
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0470e08a2b0ea1ae0800000000000000
+      internalID: -1577701661511645376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_41
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 675
+        width: 57
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0489cac81dde5870800000000000000
+      internalID: 8673613030913311756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_42
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 18
+        width: 400
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ee5d8f38c5ac1a0800000000000000
+      internalID: -6788511766422360426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_43
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 616
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7263466f66386c750800000000000000
+      internalID: 6324887204932105767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_44
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 608
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793497724c1a33cf0800000000000000
+      internalID: -273697288491547753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_45
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 351
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13ad7fb1f499c490800000000000000
+      internalID: -7725479919756664033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_46
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 608
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36baf75e563edb8e0800000000000000
+      internalID: -1675933459530405021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_47
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 45
+        width: 327
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b9ceb861a113860800000000000000
+      internalID: 7507810737942469492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_48
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 615
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c8493cfa1d339c0800000000000000
+      internalID: -3948581895443018618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_49
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 15
+        width: 329
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96431660b55457cb0800000000000000
+      internalID: -4866907565052578711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_50
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 21
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad030e4b30724aa0800000000000000
+      internalID: -6178252338784694875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_51
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 16
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb8a8d048e7ded40800000000000000
+      internalID: 5615283416028842940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_52
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 55
+        width: 329
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e23b887af7a8550800000000000000
+      internalID: 6163879397539655209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_53
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 33
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260f0d511a092a3f0800000000000000
+      internalID: -890990754735787934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-15-place-fuse-part_54
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c0d877a4b85cd70800000000000000
+      internalID: 9062802977102564461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-15-place-fuse-part_0: -2580598683969934160
+      ANIM-15-place-fuse-part_1: -3450778275467719085
+      ANIM-15-place-fuse-part_10: -3204742958359953099
+      ANIM-15-place-fuse-part_11: 241850406030735449
+      ANIM-15-place-fuse-part_12: -7925169957765127301
+      ANIM-15-place-fuse-part_13: -1505463117211437589
+      ANIM-15-place-fuse-part_14: 7066954817654069463
+      ANIM-15-place-fuse-part_15: 599344518585129216
+      ANIM-15-place-fuse-part_16: -2307389103011322490
+      ANIM-15-place-fuse-part_17: -7981262311338467844
+      ANIM-15-place-fuse-part_18: -7214628577546930206
+      ANIM-15-place-fuse-part_19: 7472470062336127773
+      ANIM-15-place-fuse-part_2: 6254357773511688459
+      ANIM-15-place-fuse-part_20: -362361087535878373
+      ANIM-15-place-fuse-part_21: -2252600560073559276
+      ANIM-15-place-fuse-part_22: 5145292214862764296
+      ANIM-15-place-fuse-part_23: 6502045455622494529
+      ANIM-15-place-fuse-part_24: -8961084699748187771
+      ANIM-15-place-fuse-part_25: -2736439735629251342
+      ANIM-15-place-fuse-part_26: 6467384362900195548
+      ANIM-15-place-fuse-part_27: -4976491552273831538
+      ANIM-15-place-fuse-part_28: -4159463407671358292
+      ANIM-15-place-fuse-part_29: 7126349844089625514
+      ANIM-15-place-fuse-part_3: -3767180545018854684
+      ANIM-15-place-fuse-part_30: -537018183704995692
+      ANIM-15-place-fuse-part_31: 6116298100633445326
+      ANIM-15-place-fuse-part_32: -4070846055221435983
+      ANIM-15-place-fuse-part_33: -479998225393067482
+      ANIM-15-place-fuse-part_34: -7029049748707259525
+      ANIM-15-place-fuse-part_35: -7758761208134570825
+      ANIM-15-place-fuse-part_36: -8737403747972664839
+      ANIM-15-place-fuse-part_37: -7618558329270363738
+      ANIM-15-place-fuse-part_38: 7989817507773131657
+      ANIM-15-place-fuse-part_39: 7318508824039016010
+      ANIM-15-place-fuse-part_4: 8423040658288582102
+      ANIM-15-place-fuse-part_40: -1577701661511645376
+      ANIM-15-place-fuse-part_41: 8673613030913311756
+      ANIM-15-place-fuse-part_42: -6788511766422360426
+      ANIM-15-place-fuse-part_43: 6324887204932105767
+      ANIM-15-place-fuse-part_44: -273697288491547753
+      ANIM-15-place-fuse-part_45: -7725479919756664033
+      ANIM-15-place-fuse-part_46: -1675933459530405021
+      ANIM-15-place-fuse-part_47: 7507810737942469492
+      ANIM-15-place-fuse-part_48: -3948581895443018618
+      ANIM-15-place-fuse-part_49: -4866907565052578711
+      ANIM-15-place-fuse-part_5: 8534884446494039175
+      ANIM-15-place-fuse-part_50: -6178252338784694875
+      ANIM-15-place-fuse-part_51: 5615283416028842940
+      ANIM-15-place-fuse-part_52: 6163879397539655209
+      ANIM-15-place-fuse-part_53: -890990754735787934
+      ANIM-15-place-fuse-part_54: 9062802977102564461
+      ANIM-15-place-fuse-part_6: 7992365534989902886
+      ANIM-15-place-fuse-part_7: -7534819584162195033
+      ANIM-15-place-fuse-part_8: 5565491151788827503
+      ANIM-15-place-fuse-part_9: 7837043512302032503
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

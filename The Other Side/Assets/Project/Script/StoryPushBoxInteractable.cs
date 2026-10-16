@@ -3,36 +3,49 @@ using UnityEngine;
 
 public class StoryPushBoxInteractable : Interactable
 {
-    private StoryRouteController route;
-    private Transform player;
-    private float targetX;
-    private float startX;
+    [SerializeField] private StoryRouteController route;
+    [SerializeField] private Transform player;
+    [Header("Level Design")]
+    [SerializeField] private Transform placementPoint;
+    [SerializeField] private float playerDistanceFromBox = 1f;
+    [SerializeField] private float placementTolerance = 0.03f;
+
+    private Vector3 startPosition;
     private float playerOffset;
+    private float pushDirection;
     private bool isPushing;
     private bool isPlaced;
 
-    public void Initialize(
+    public void Configure(
         StoryRouteController storyRoute,
         Transform playerTransform,
-        float minimumX,
-        float placementX)
+        Transform targetPoint)
     {
         route = storyRoute;
         player = playerTransform;
-        startX = minimumX;
-        targetX = placementX;
+        placementPoint = targetPoint;
+    }
+
+    private void Awake()
+    {
+        startPosition = transform.position;
     }
 
     public override bool CanInteract =>
         base.CanInteract &&
-        !isPlaced &&
         route != null &&
-        route.CanUsePushBox;
+        (isPlaced ? route.CanClimbPlacedBox : route.CanUsePushBox);
 
     public override IEnumerator ExecuteInteraction()
     {
         if (!CanInteract)
             yield break;
+
+        if (isPlaced)
+        {
+            yield return route.ClimbPlacedBox();
+            yield break;
+        }
 
         if (isPushing)
             StopPushing();
@@ -42,26 +55,47 @@ public class StoryPushBoxInteractable : Interactable
 
     private void Update()
     {
-        if (!isPushing || player == null)
+        if (!isPushing || player == null || placementPoint == null)
             return;
 
         Vector3 position = transform.position;
-        position.x = Mathf.Clamp(player.position.x + playerOffset, startX, targetX);
+        float targetX = placementPoint.position.x;
+        float minimumX = Mathf.Min(startPosition.x, targetX);
+        float maximumX = Mathf.Max(startPosition.x, targetX);
+        position.x = Mathf.Clamp(player.position.x + playerOffset, minimumX, maximumX);
         transform.position = position;
 
-        if (position.x < targetX - 0.03f)
+        bool reachedTarget = pushDirection > 0f
+            ? position.x >= targetX - placementTolerance
+            : position.x <= targetX + placementTolerance;
+
+        if (!reachedTarget)
             return;
 
         isPlaced = true;
         isPushing = false;
-        transform.position = new Vector3(targetX, position.y, position.z);
+        transform.position = new Vector3(
+            placementPoint.position.x,
+            startPosition.y,
+            position.z);
         route.NotifyBoxPlaced();
     }
 
     private void StartPushing()
     {
+        if (placementPoint == null)
+            return;
+
+        pushDirection = Mathf.Sign(placementPoint.position.x - transform.position.x);
+        if (Mathf.Approximately(pushDirection, 0f))
+        {
+            isPlaced = true;
+            route.NotifyBoxPlaced();
+            return;
+        }
+
         Vector3 playerPosition = player.position;
-        playerPosition.x = transform.position.x - 1f;
+        playerPosition.x = transform.position.x - pushDirection * playerDistanceFromBox;
         player.position = playerPosition;
         playerOffset = transform.position.x - player.position.x;
         isPushing = true;

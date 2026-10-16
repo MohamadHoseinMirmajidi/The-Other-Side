@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: c6673d54fb2efa742a57417819c56f6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5498379883775180602
+    second: ANIM-17-auto-run-to-light_0
+  - first:
+      213: -7607183487931688546
+    second: ANIM-17-auto-run-to-light_1
+  - first:
+      213: 2814210335056647303
+    second: ANIM-17-auto-run-to-light_2
+  - first:
+      213: 424771333629579234
+    second: ANIM-17-auto-run-to-light_3
+  - first:
+      213: -2963098147454434881
+    second: ANIM-17-auto-run-to-light_4
+  - first:
+      213: 3456364215926612685
+    second: ANIM-17-auto-run-to-light_5
+  - first:
+      213: -8433380744018071441
+    second: ANIM-17-auto-run-to-light_6
+  - first:
+      213: 1546045648284840949
+    second: ANIM-17-auto-run-to-light_7
+  - first:
+      213: -5450420144468466323
+    second: ANIM-17-auto-run-to-light_8
+  - first:
+      213: -8936932527730130771
+    second: ANIM-17-auto-run-to-light_9
+  - first:
+      213: 5554633915177286704
+    second: ANIM-17-auto-run-to-light_10
+  - first:
+      213: 7756553374092887886
+    second: ANIM-17-auto-run-to-light_11
+  - first:
+      213: -4500020067996695440
+    second: ANIM-17-auto-run-to-light_12
+  - first:
+      213: 1804870862078717708
+    second: ANIM-17-auto-run-to-light_13
+  - first:
+      213: 9018341558297416136
+    second: ANIM-17-auto-run-to-light_14
+  - first:
+      213: -1633680278050815965
+    second: ANIM-17-auto-run-to-light_15
+  - first:
+      213: -4682968642674672801
+    second: ANIM-17-auto-run-to-light_16
+  - first:
+      213: 3030760364363660570
+    second: ANIM-17-auto-run-to-light_17
+  - first:
+      213: 3123272311445651594
+    second: ANIM-17-auto-run-to-light_18
+  - first:
+      213: 4945728312525960328
+    second: ANIM-17-auto-run-to-light_19
+  - first:
+      213: -508450659500431223
+    second: ANIM-17-auto-run-to-light_20
+  - first:
+      213: 4786678944259082373
+    second: ANIM-17-auto-run-to-light_21
+  - first:
+      213: -5183827304362274618
+    second: ANIM-17-auto-run-to-light_22
+  - first:
+      213: 1180656866238417211
+    second: ANIM-17-auto-run-to-light_23
+  - first:
+      213: 2837468105251428335
+    second: ANIM-17-auto-run-to-light_24
+  - first:
+      213: -5642878126700033152
+    second: ANIM-17-auto-run-to-light_25
+  - first:
+      213: 7840509072934450100
+    second: ANIM-17-auto-run-to-light_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_0
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 628
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c04d6b90a4d1b3b0800000000000000
+      internalID: -5498379883775180602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_1
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 659
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e995d9c1ceadd6690800000000000000
+      internalID: -7607183487931688546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 661
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784d840b3651e0720800000000000000
+      internalID: 2814210335056647303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 586
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef82c3074715e500800000000000000
+      internalID: 424771333629579234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 612
+        width: 104
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb14c5e1fe5f0e6d0800000000000000
+      internalID: -2963098147454434881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_5
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 612
+        width: 120
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc26da811f877ff20800000000000000
+      internalID: 3456364215926612685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_6
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 584
+        width: 249
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60fe2135ec96fa80800000000000000
+      internalID: -8433380744018071441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_7
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 634
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f37e886358a47510800000000000000
+      internalID: 1546045648284840949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_8
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 63
+        width: 658
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65e25491c73c54b0800000000000000
+      internalID: -5450420144468466323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_9
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 626
+        width: 141
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da003074733a9f380800000000000000
+      internalID: -8936932527730130771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_10
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 646
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03cba7bbd16061d40800000000000000
+      internalID: 5554633915177286704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_11
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 642
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e470a20a230d4ab60800000000000000
+      internalID: 7756553374092887886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_12
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 644
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0748dec1797bc81c0800000000000000
+      internalID: -4500020067996695440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_13
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 640
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fa7a78c703c0910800000000000000
+      internalID: 1804870862078717708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_14
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 642
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1d575bdd5972d70800000000000000
+      internalID: 9018341558297416136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_15
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 632
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320483651700459e0800000000000000
+      internalID: -1633680278050815965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_16
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 642
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b3517b4d0c20fb0800000000000000
+      internalID: -4682968642674672801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_17
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 37
+        width: 340
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1dba356e7c6f0a20800000000000000
+      internalID: 3030760364363660570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_18
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 628
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8008849e97185b20800000000000000
+      internalID: 3123272311445651594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_19
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 628
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884b3b752b1c2a440800000000000000
+      internalID: 4945728312525960328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_20
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 596
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988e9aea1de91f8f0800000000000000
+      internalID: -508450659500431223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_21
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 39
+        width: 303
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588876e8323bd6240800000000000000
+      internalID: 4786678944259082373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_22
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 65
+        width: 319
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0148228885f08b0800000000000000
+      internalID: -5183827304362274618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_23
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 39
+        width: 326
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3944c91a29826010800000000000000
+      internalID: 1180656866238417211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_24
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 71
+        width: 320
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7130b4536b06720800000000000000
+      internalID: 2837468105251428335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_25
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 49
+        width: 324
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b0933bd3870b1b0800000000000000
+      internalID: -5642878126700033152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-17-auto-run-to-light_26
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 17
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b33c7606751fcc60800000000000000
+      internalID: 7840509072934450100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-17-auto-run-to-light_0: -5498379883775180602
+      ANIM-17-auto-run-to-light_1: -7607183487931688546
+      ANIM-17-auto-run-to-light_10: 5554633915177286704
+      ANIM-17-auto-run-to-light_11: 7756553374092887886
+      ANIM-17-auto-run-to-light_12: -4500020067996695440
+      ANIM-17-auto-run-to-light_13: 1804870862078717708
+      ANIM-17-auto-run-to-light_14: 9018341558297416136
+      ANIM-17-auto-run-to-light_15: -1633680278050815965
+      ANIM-17-auto-run-to-light_16: -4682968642674672801
+      ANIM-17-auto-run-to-light_17: 3030760364363660570
+      ANIM-17-auto-run-to-light_18: 3123272311445651594
+      ANIM-17-auto-run-to-light_19: 4945728312525960328
+      ANIM-17-auto-run-to-light_2: 2814210335056647303
+      ANIM-17-auto-run-to-light_20: -508450659500431223
+      ANIM-17-auto-run-to-light_21: 4786678944259082373
+      ANIM-17-auto-run-to-light_22: -5183827304362274618
+      ANIM-17-auto-run-to-light_23: 1180656866238417211
+      ANIM-17-auto-run-to-light_24: 2837468105251428335
+      ANIM-17-auto-run-to-light_25: -5642878126700033152
+      ANIM-17-auto-run-to-light_26: 7840509072934450100
+      ANIM-17-auto-run-to-light_3: 424771333629579234
+      ANIM-17-auto-run-to-light_4: -2963098147454434881
+      ANIM-17-auto-run-to-light_5: 3456364215926612685
+      ANIM-17-auto-run-to-light_6: -8433380744018071441
+      ANIM-17-auto-run-to-light_7: 1546045648284840949
+      ANIM-17-auto-run-to-light_8: -5450420144468466323
+      ANIM-17-auto-run-to-light_9: -8936932527730130771
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

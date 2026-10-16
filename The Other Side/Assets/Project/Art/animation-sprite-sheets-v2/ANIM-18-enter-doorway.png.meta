@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 7f28c211e38830f439412be6d151af3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8922926356823123787
+    second: ANIM-18-enter-doorway_0
+  - first:
+      213: 4636485098321872327
+    second: ANIM-18-enter-doorway_1
+  - first:
+      213: 4965055367168468693
+    second: ANIM-18-enter-doorway_2
+  - first:
+      213: 8424480504911773915
+    second: ANIM-18-enter-doorway_3
+  - first:
+      213: -6966011612399390331
+    second: ANIM-18-enter-doorway_4
+  - first:
+      213: -6544674209075615612
+    second: ANIM-18-enter-doorway_5
+  - first:
+      213: -1974320399412262630
+    second: ANIM-18-enter-doorway_6
+  - first:
+      213: 6659233363916499418
+    second: ANIM-18-enter-doorway_7
+  - first:
+      213: -4656181755097445060
+    second: ANIM-18-enter-doorway_8
+  - first:
+      213: 3213301120951577622
+    second: ANIM-18-enter-doorway_9
+  - first:
+      213: 4022053885539475087
+    second: ANIM-18-enter-doorway_10
+  - first:
+      213: 7096462810518669368
+    second: ANIM-18-enter-doorway_11
+  - first:
+      213: -1104143669200934657
+    second: ANIM-18-enter-doorway_12
+  - first:
+      213: 8566959491903246741
+    second: ANIM-18-enter-doorway_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_0
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 690
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47a96fee3a94db70800000000000000
+      internalID: 8922926356823123787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_1
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 49
+        width: 362
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c50edbb1aa185040800000000000000
+      internalID: 4636485098321872327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_2
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 676
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6293aec8b67e440800000000000000
+      internalID: 4965055367168468693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_3
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 699
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd048786264c9e470800000000000000
+      internalID: 8424480504911773915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_4
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 51
+        width: 325
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58130b59851c35f90800000000000000
+      internalID: -6966011612399390331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_5
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 46
+        width: 482
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48823656b75ac25a0800000000000000
+      internalID: -6544674209075615612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_6
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 661
+        width: 172
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a198930ae0ec994e0800000000000000
+      internalID: -1974320399412262630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 23
+        width: 383
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad92cac56795a6c50800000000000000
+      internalID: 6659233363916499418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_8
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 642
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d03cdfc5be16fb0800000000000000
+      internalID: -4656181755097445060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_9
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 630
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ceeae3850f79c20800000000000000
+      internalID: 3213301120951577622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_10
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 610
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e5f0bf2b431d730800000000000000
+      internalID: 4022053885539475087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_11
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 610
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8384cb6d353bb7260800000000000000
+      internalID: 7096462810518669368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_12
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 47
+        width: 400
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff82840de2b4da0f0800000000000000
+      internalID: -1104143669200934657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-18-enter-doorway_13
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 45
+        width: 231
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591dd08a444f3e670800000000000000
+      internalID: 8566959491903246741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-18-enter-doorway_0: 8922926356823123787
+      ANIM-18-enter-doorway_1: 4636485098321872327
+      ANIM-18-enter-doorway_10: 4022053885539475087
+      ANIM-18-enter-doorway_11: 7096462810518669368
+      ANIM-18-enter-doorway_12: -1104143669200934657
+      ANIM-18-enter-doorway_13: 8566959491903246741
+      ANIM-18-enter-doorway_2: 4965055367168468693
+      ANIM-18-enter-doorway_3: 8424480504911773915
+      ANIM-18-enter-doorway_4: -6966011612399390331
+      ANIM-18-enter-doorway_5: -6544674209075615612
+      ANIM-18-enter-doorway_6: -1974320399412262630
+      ANIM-18-enter-doorway_7: 6659233363916499418
+      ANIM-18-enter-doorway_8: -4656181755097445060
+      ANIM-18-enter-doorway_9: 3213301120951577622
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

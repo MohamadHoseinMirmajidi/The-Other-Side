@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 8d8a0e61508822a42b8843b4427ef2b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6036984038421624856
+    second: ANIM-06-turn-and-stop_0
+  - first:
+      213: 646405560154821367
+    second: ANIM-06-turn-and-stop_1
+  - first:
+      213: -4304641321125352759
+    second: ANIM-06-turn-and-stop_2
+  - first:
+      213: -4156056030793523033
+    second: ANIM-06-turn-and-stop_3
+  - first:
+      213: -268867844262610905
+    second: ANIM-06-turn-and-stop_4
+  - first:
+      213: -5892482067300893283
+    second: ANIM-06-turn-and-stop_5
+  - first:
+      213: -6429774905508708036
+    second: ANIM-06-turn-and-stop_6
+  - first:
+      213: -8777725928941400554
+    second: ANIM-06-turn-and-stop_7
+  - first:
+      213: 37950119334184312
+    second: ANIM-06-turn-and-stop_8
+  - first:
+      213: -5199047853062247680
+    second: ANIM-06-turn-and-stop_9
+  - first:
+      213: -6723846883016360102
+    second: ANIM-06-turn-and-stop_10
+  - first:
+      213: 7814100196374649062
+    second: ANIM-06-turn-and-stop_11
+  - first:
+      213: 4200621987381783434
+    second: ANIM-06-turn-and-stop_12
+  - first:
+      213: -1462508343602953887
+    second: ANIM-06-turn-and-stop_13
+  - first:
+      213: 6228917321222249871
+    second: ANIM-06-turn-and-stop_14
+  - first:
+      213: -2882321216545577816
+    second: ANIM-06-turn-and-stop_15
+  - first:
+      213: -3534759276071461892
+    second: ANIM-06-turn-and-stop_16
+  - first:
+      213: 6180051465261334503
+    second: ANIM-06-turn-and-stop_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_0
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 679
+        width: 114
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818f2d46ffca7c350800000000000000
+      internalID: 6036984038421624856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_1
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 695
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f29dd1ae6e78f800800000000000000
+      internalID: 646405560154821367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_2
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 725
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9caead08687d244c0800000000000000
+      internalID: -4304641321125352759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_3
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 634
+        width: 154
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0aee94f09b256c0800000000000000
+      internalID: -4156056030793523033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_4
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 722
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728b333ce1ac44cf0800000000000000
+      internalID: -268867844262610905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_5
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 693
+        width: 102
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dbb2d87c2b93ea0800000000000000
+      internalID: -5892482067300893283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_6
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 687
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31ce633ac9d4c6a0800000000000000
+      internalID: -6429774905508708036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_7
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 31
+        width: 351
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e46b526c04f2680800000000000000
+      internalID: -8777725928941400554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_8
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 725
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8750916be63d68000800000000000000
+      internalID: 37950119334184312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_9
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 715
+        width: 71
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ba7fbf58549d7b0800000000000000
+      internalID: -5199047853062247680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_10
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 45
+        width: 376
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f31b562e810b2a0800000000000000
+      internalID: -6723846883016360102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_11
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 626
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8983c4ab2417c60800000000000000
+      internalID: 7814100196374649062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_12
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 695
+        width: 82
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b2691117b9b4a30800000000000000
+      internalID: 4200621987381783434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 44
+        width: 385
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1614082096024bbe0800000000000000
+      internalID: -1462508343602953887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_14
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 642
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ddaba2d4f817650800000000000000
+      internalID: 6228917321222249871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_15
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 32
+        width: 282
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4aa3fef10fff7d0800000000000000
+      internalID: -2882321216545577816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_16
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 31
+        width: 246
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb5e379a2302fec0800000000000000
+      internalID: -3534759276071461892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-06-turn-and-stop_17
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 33
+        width: 332
+        height: 606
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efb8887014f3c550800000000000000
+      internalID: 6180051465261334503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-06-turn-and-stop_0: 6036984038421624856
+      ANIM-06-turn-and-stop_1: 646405560154821367
+      ANIM-06-turn-and-stop_10: -6723846883016360102
+      ANIM-06-turn-and-stop_11: 7814100196374649062
+      ANIM-06-turn-and-stop_12: 4200621987381783434
+      ANIM-06-turn-and-stop_13: -1462508343602953887
+      ANIM-06-turn-and-stop_14: 6228917321222249871
+      ANIM-06-turn-and-stop_15: -2882321216545577816
+      ANIM-06-turn-and-stop_16: -3534759276071461892
+      ANIM-06-turn-and-stop_17: 6180051465261334503
+      ANIM-06-turn-and-stop_2: -4304641321125352759
+      ANIM-06-turn-and-stop_3: -4156056030793523033
+      ANIM-06-turn-and-stop_4: -268867844262610905
+      ANIM-06-turn-and-stop_5: -5892482067300893283
+      ANIM-06-turn-and-stop_6: -6429774905508708036
+      ANIM-06-turn-and-stop_7: -8777725928941400554
+      ANIM-06-turn-and-stop_8: 37950119334184312
+      ANIM-06-turn-and-stop_9: -5199047853062247680
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

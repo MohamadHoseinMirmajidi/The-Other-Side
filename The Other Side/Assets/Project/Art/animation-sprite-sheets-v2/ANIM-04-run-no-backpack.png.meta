@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 1ec6ef51f2bdd5642b5c4ca8ea3c7897
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4420241622360467747
+    second: ANIM-04-run-no-backpack_0
+  - first:
+      213: 373266162310343505
+    second: ANIM-04-run-no-backpack_1
+  - first:
+      213: 7199219972289515152
+    second: ANIM-04-run-no-backpack_2
+  - first:
+      213: 2294027787470727451
+    second: ANIM-04-run-no-backpack_3
+  - first:
+      213: -7908722366070022357
+    second: ANIM-04-run-no-backpack_4
+  - first:
+      213: 2298935158291571171
+    second: ANIM-04-run-no-backpack_5
+  - first:
+      213: -5530793653256246352
+    second: ANIM-04-run-no-backpack_6
+  - first:
+      213: -3644681455180513169
+    second: ANIM-04-run-no-backpack_7
+  - first:
+      213: -5730028770560163710
+    second: ANIM-04-run-no-backpack_8
+  - first:
+      213: -3626996217254104354
+    second: ANIM-04-run-no-backpack_9
+  - first:
+      213: 624392317493854771
+    second: ANIM-04-run-no-backpack_10
+  - first:
+      213: -4590113849046311166
+    second: ANIM-04-run-no-backpack_11
+  - first:
+      213: 1880042421046450333
+    second: ANIM-04-run-no-backpack_12
+  - first:
+      213: 8173649380614479242
+    second: ANIM-04-run-no-backpack_13
+  - first:
+      213: -6591721598201441465
+    second: ANIM-04-run-no-backpack_14
+  - first:
+      213: -5194642911822915585
+    second: ANIM-04-run-no-backpack_15
+  - first:
+      213: 542726535732719847
+    second: ANIM-04-run-no-backpack_16
+  - first:
+      213: -3136632838880995801
+    second: ANIM-04-run-no-backpack_17
+  - first:
+      213: 8862699681498287971
+    second: ANIM-04-run-no-backpack_18
+  - first:
+      213: -7517367609691588629
+    second: ANIM-04-run-no-backpack_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 642
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6dec5f9a528a2c0800000000000000
+      internalID: -4420241622360467747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 610
+        width: 121
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b6e23d89b1e2500800000000000000
+      internalID: 373266162310343505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_2
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 613
+        width: 130
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ec634fb64c8e360800000000000000
+      internalID: 7199219972289515152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_3
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 691
+        width: 64
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1961115e1606df10800000000000000
+      internalID: 2294027787470727451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_4
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 39
+        width: 483
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f953709e29e3290800000000000000
+      internalID: -7908722366070022357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_5
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 694
+        width: 62
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e120af985577ef10800000000000000
+      internalID: 2298935158291571171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 618
+        width: 130
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb2dabc97cae33b0800000000000000
+      internalID: -5530793653256246352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_7
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 610
+        width: 111
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f600380e68d7b6dc0800000000000000
+      internalID: -3644681455180513169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_8
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 677
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2804ef13139da70b0800000000000000
+      internalID: -5730028770560163710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_9
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 677
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed232e438225aadc0800000000000000
+      internalID: -3626996217254104354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_10
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 634
+        width: 168
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33244bc21894aa800800000000000000
+      internalID: 624392317493854771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_11
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 663
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f5ef416c3ac40c0800000000000000
+      internalID: -4590113849046311166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_12
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 659
+        width: 50
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98932dfe90471a10800000000000000
+      internalID: 1880042421046450333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 39
+        width: 324
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d1e1a4ec2ae6170800000000000000
+      internalID: 8173649380614479242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_14
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 91
+        width: 325
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743dee081208584a0800000000000000
+      internalID: -6591721598201441465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_15
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 39
+        width: 291
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff75bc94bcbe8e7b0800000000000000
+      internalID: -5194642911822915585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_16
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 17
+        width: 284
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0f684a8e6288700800000000000000
+      internalID: 542726535732719847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_17
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 91
+        width: 358
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7265ca73d017874d0800000000000000
+      internalID: -3136632838880995801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_18
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 53
+        width: 614
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f4caa5762aefa70800000000000000
+      internalID: 8862699681498287971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-04-run-no-backpack_19
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 59
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be73e4adcf1fca790800000000000000
+      internalID: -7517367609691588629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-04-run-no-backpack_0: -4420241622360467747
+      ANIM-04-run-no-backpack_1: 373266162310343505
+      ANIM-04-run-no-backpack_10: 624392317493854771
+      ANIM-04-run-no-backpack_11: -4590113849046311166
+      ANIM-04-run-no-backpack_12: 1880042421046450333
+      ANIM-04-run-no-backpack_13: 8173649380614479242
+      ANIM-04-run-no-backpack_14: -6591721598201441465
+      ANIM-04-run-no-backpack_15: -5194642911822915585
+      ANIM-04-run-no-backpack_16: 542726535732719847
+      ANIM-04-run-no-backpack_17: -3136632838880995801
+      ANIM-04-run-no-backpack_18: 8862699681498287971
+      ANIM-04-run-no-backpack_19: -7517367609691588629
+      ANIM-04-run-no-backpack_2: 7199219972289515152
+      ANIM-04-run-no-backpack_3: 2294027787470727451
+      ANIM-04-run-no-backpack_4: -7908722366070022357
+      ANIM-04-run-no-backpack_5: 2298935158291571171
+      ANIM-04-run-no-backpack_6: -5530793653256246352
+      ANIM-04-run-no-backpack_7: -3644681455180513169
+      ANIM-04-run-no-backpack_8: -5730028770560163710
+      ANIM-04-run-no-backpack_9: -3626996217254104354
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -20,8 +20,8 @@ public enum StoryInteractionType
 
 public class StoryInteractable : Interactable
 {
-    private StoryRouteController route;
-    private StoryInteractionType interactionType;
+    [SerializeField] private StoryRouteController route;
+    [SerializeField] private StoryInteractionType interactionType;
 
     public void Initialize(
         StoryRouteController storyRoute,

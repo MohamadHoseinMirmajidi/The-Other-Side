@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: ea4b8765668d3a34ba598aa93d025966
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4661642154530549898
+    second: ANIM-09-push-box_0
+  - first:
+      213: 5480779561451918998
+    second: ANIM-09-push-box_1
+  - first:
+      213: 1584964331238143710
+    second: ANIM-09-push-box_2
+  - first:
+      213: 334661780484487990
+    second: ANIM-09-push-box_3
+  - first:
+      213: 2459793329446965
+    second: ANIM-09-push-box_4
+  - first:
+      213: 1729587604753406907
+    second: ANIM-09-push-box_5
+  - first:
+      213: -6402356672674262459
+    second: ANIM-09-push-box_6
+  - first:
+      213: -5842283646743481016
+    second: ANIM-09-push-box_7
+  - first:
+      213: 6064079989022866557
+    second: ANIM-09-push-box_8
+  - first:
+      213: 4427468249669021117
+    second: ANIM-09-push-box_9
+  - first:
+      213: 3032453428800098131
+    second: ANIM-09-push-box_10
+  - first:
+      213: -4482914515964445062
+    second: ANIM-09-push-box_11
+  - first:
+      213: -6904686496765809083
+    second: ANIM-09-push-box_12
+  - first:
+      213: 3675471857606560124
+    second: ANIM-09-push-box_13
+  - first:
+      213: -2847055348708134299
+    second: ANIM-09-push-box_14
+  - first:
+      213: 5563504633999411755
+    second: ANIM-09-push-box_15
+  - first:
+      213: -7824408830445993736
+    second: ANIM-09-push-box_16
+  - first:
+      213: -3646501991770856210
+    second: ANIM-09-push-box_17
+  - first:
+      213: -7998336340335912149
+    second: ANIM-09-push-box_18
+  - first:
+      213: 2813223551962060548
+    second: ANIM-09-push-box_19
+  - first:
+      213: -5778694293765550745
+    second: ANIM-09-push-box_20
+  - first:
+      213: 6316862877180485140
+    second: ANIM-09-push-box_21
+  - first:
+      213: 394911544916427566
+    second: ANIM-09-push-box_22
+  - first:
+      213: -6186338340802038187
+    second: ANIM-09-push-box_23
+  - first:
+      213: -8457128083157734021
+    second: ANIM-09-push-box_24
+  - first:
+      213: 1248679055231293328
+    second: ANIM-09-push-box_25
+  - first:
+      213: 3390561634974124153
+    second: ANIM-09-push-box_26
+  - first:
+      213: -5601566953163697130
+    second: ANIM-09-push-box_27
+  - first:
+      213: 6067549098976538552
+    second: ANIM-09-push-box_28
+  - first:
+      213: 5082106296803120513
+    second: ANIM-09-push-box_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-09-push-box_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 559
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f483da8258e4fb0800000000000000
+      internalID: -4661642154530549898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_1
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 30
+        width: 1640
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696109409f3af0c40800000000000000
+      internalID: 5480779561451918998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_2
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 596
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed63d1969aceef510800000000000000
+      internalID: 1584964331238143710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_3
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 602
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b7da1cd15f4a400800000000000000
+      internalID: 334661780484487990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_4
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 601
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5306f934b2db80000800000000000000
+      internalID: 2459793329446965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_5
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 577
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbde3543cab00810800000000000000
+      internalID: 1729587604753406907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_6
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 545
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54216eff6824627a0800000000000000
+      internalID: -6402356672674262459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 81
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845f7ce1af90ceea0800000000000000
+      internalID: -5842283646743481016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_8
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 85
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c33430f90f72450800000000000000
+      internalID: 6064079989022866557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_9
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 79
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbda7d35ae6817d30800000000000000
+      internalID: 4427468249669021117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_10
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 79
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f8b8da350751a20800000000000000
+      internalID: 3032453428800098131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 65
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e3f7dcffc79c1c0800000000000000
+      internalID: -4482914515964445062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_12
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 63
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e66dab630ad20a0800000000000000
+      internalID: -6904686496765809083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_13
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 63
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7985965e26e10330800000000000000
+      internalID: 3675471857606560124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_14
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 61
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5623064ae3a3d78d0800000000000000
+      internalID: -2847055348708134299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_15
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 65
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a46c7ecf9853d40800000000000000
+      internalID: 5563504633999411755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_16
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 67
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f046dbcf9d1a6390800000000000000
+      internalID: -7824408830445993736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_17
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee46ebb22c5056dc0800000000000000
+      internalID: -3646501991770856210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_18
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 65
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b1e28b973300190800000000000000
+      internalID: -7998336340335912149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_19
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 63
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40716785ae39a0720800000000000000
+      internalID: 2813223551962060548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_20
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 45
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d078a1824fdcfa0800000000000000
+      internalID: -5778694293765550745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_21
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 54
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ed13191510aa750800000000000000
+      internalID: 6316862877180485140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_22
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 47
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23c17035f10b7500800000000000000
+      internalID: 394911544916427566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_23
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 47
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5567d104e06b52aa0800000000000000
+      internalID: -6186338340802038187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_24
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d276fe0de32aa80800000000000000
+      internalID: -8457128083157734021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_25
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 49
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09718852cf2345110800000000000000
+      internalID: 1248679055231293328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_26
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 51
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97843b1d7d1bd0f20800000000000000
+      internalID: 3390561634974124153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_27
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 33
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6145c13d88c3342b0800000000000000
+      internalID: -5601566953163697130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_28
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 39
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfecbd12c3443450800000000000000
+      internalID: 6067549098976538552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-09-push-box_29
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 33
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185d9b330c4478640800000000000000
+      internalID: 5082106296803120513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-09-push-box_0: -4661642154530549898
+      ANIM-09-push-box_1: 5480779561451918998
+      ANIM-09-push-box_10: 3032453428800098131
+      ANIM-09-push-box_11: -4482914515964445062
+      ANIM-09-push-box_12: -6904686496765809083
+      ANIM-09-push-box_13: 3675471857606560124
+      ANIM-09-push-box_14: -2847055348708134299
+      ANIM-09-push-box_15: 5563504633999411755
+      ANIM-09-push-box_16: -7824408830445993736
+      ANIM-09-push-box_17: -3646501991770856210
+      ANIM-09-push-box_18: -7998336340335912149
+      ANIM-09-push-box_19: 2813223551962060548
+      ANIM-09-push-box_2: 1584964331238143710
+      ANIM-09-push-box_20: -5778694293765550745
+      ANIM-09-push-box_21: 6316862877180485140
+      ANIM-09-push-box_22: 394911544916427566
+      ANIM-09-push-box_23: -6186338340802038187
+      ANIM-09-push-box_24: -8457128083157734021
+      ANIM-09-push-box_25: 1248679055231293328
+      ANIM-09-push-box_26: 3390561634974124153
+      ANIM-09-push-box_27: -5601566953163697130
+      ANIM-09-push-box_28: 6067549098976538552
+      ANIM-09-push-box_29: 5082106296803120513
+      ANIM-09-push-box_3: 334661780484487990
+      ANIM-09-push-box_4: 2459793329446965
+      ANIM-09-push-box_5: 1729587604753406907
+      ANIM-09-push-box_6: -6402356672674262459
+      ANIM-09-push-box_7: -5842283646743481016
+      ANIM-09-push-box_8: 6064079989022866557
+      ANIM-09-push-box_9: 4427468249669021117
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

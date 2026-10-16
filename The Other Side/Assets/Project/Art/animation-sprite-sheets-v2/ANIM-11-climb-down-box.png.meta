@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 62c795c8c1113c844b1eecc5112c4d17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5164865191312748537
+    second: ANIM-11-climb-down-box_0
+  - first:
+      213: 2124950141962303973
+    second: ANIM-11-climb-down-box_1
+  - first:
+      213: -2142895220269347325
+    second: ANIM-11-climb-down-box_2
+  - first:
+      213: 6435128634338997186
+    second: ANIM-11-climb-down-box_3
+  - first:
+      213: -7050568113339333646
+    second: ANIM-11-climb-down-box_4
+  - first:
+      213: 2129700477633269171
+    second: ANIM-11-climb-down-box_5
+  - first:
+      213: 2433970420340160202
+    second: ANIM-11-climb-down-box_6
+  - first:
+      213: -2487698586016551422
+    second: ANIM-11-climb-down-box_7
+  - first:
+      213: -2030617764021458998
+    second: ANIM-11-climb-down-box_8
+  - first:
+      213: -3258598686637955055
+    second: ANIM-11-climb-down-box_9
+  - first:
+      213: -1158570069388654716
+    second: ANIM-11-climb-down-box_10
+  - first:
+      213: -8234370645986268861
+    second: ANIM-11-climb-down-box_11
+  - first:
+      213: 2049675413335660649
+    second: ANIM-11-climb-down-box_12
+  - first:
+      213: 8498292944549455700
+    second: ANIM-11-climb-down-box_13
+  - first:
+      213: 2181823412475882019
+    second: ANIM-11-climb-down-box_14
+  - first:
+      213: -3201476880197016721
+    second: ANIM-11-climb-down-box_15
+  - first:
+      213: 6408116682710912149
+    second: ANIM-11-climb-down-box_16
+  - first:
+      213: -6157418238352819600
+    second: ANIM-11-climb-down-box_17
+  - first:
+      213: -6543795552011640270
+    second: ANIM-11-climb-down-box_18
+  - first:
+      213: 2809142694433731292
+    second: ANIM-11-climb-down-box_19
+  - first:
+      213: 1282993022484148494
+    second: ANIM-11-climb-down-box_20
+  - first:
+      213: 6604964244568537482
+    second: ANIM-11-climb-down-box_21
+  - first:
+      213: -4303383950421995898
+    second: ANIM-11-climb-down-box_22
+  - first:
+      213: -4493689317220126080
+    second: ANIM-11-climb-down-box_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 47
+        width: 243
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700160f1976b258b0800000000000000
+      internalID: -5164865191312748537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 594
+        width: 166
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9341945e65d7d10800000000000000
+      internalID: 2124950141962303973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 578
+        width: 119
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e86f49628e242e0800000000000000
+      internalID: -2142895220269347325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_3
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 482
+        width: 356
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c378bde56b2e4950800000000000000
+      internalID: 6435128634338997186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_4
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 435
+        width: 142
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f386bb08a9572e90800000000000000
+      internalID: -7050568113339333646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_5
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 538
+        width: 63
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd8f4ffc473e8d10800000000000000
+      internalID: 2129700477633269171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_6
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 500
+        width: 224
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6fe2a933337c120800000000000000
+      internalID: 2433970420340160202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_7
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 570
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20eed30015be97dd0800000000000000
+      internalID: -2487698586016551422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_8
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 534
+        width: 120
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac727ecf6ebc1d3e0800000000000000
+      internalID: -2030617764021458998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 47
+        width: 242
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118e36162c127c2d0800000000000000
+      internalID: -3258598686637955055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_10
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 534
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48780b609aeebefe0800000000000000
+      internalID: -1158570069388654716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_11
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 548
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349a5196683a9bd80800000000000000
+      internalID: -8234370645986268861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_12
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 546
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96859b4cde8e17c10800000000000000
+      internalID: 2049675413335660649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_13
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 468
+        width: 75
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457241d386000f570800000000000000
+      internalID: 8498292944549455700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_14
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 483
+        width: 187
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a614775d4674e10800000000000000
+      internalID: 2181823412475882019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_15
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 529
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f632b375db11293d0800000000000000
+      internalID: -3201476880197016721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_16
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 522
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c0d38db243ee850800000000000000
+      internalID: 6408116682710912149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_17
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 465
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07af7715cb47c8aa0800000000000000
+      internalID: -6157418238352819600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_18
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 47
+        width: 129
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232a09fad94cf25a0800000000000000
+      internalID: -6543795552011640270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_19
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 50
+        width: 246
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd23b19a5641cf620800000000000000
+      internalID: 2809142694433731292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_20
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 49
+        width: 275
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01f87a3b5b1ec110800000000000000
+      internalID: 1282993022484148494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_21
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 49
+        width: 295
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89f9af5cfb89ab50800000000000000
+      internalID: 6604964244568537482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_22
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 46
+        width: 340
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ecafee81f4744c0800000000000000
+      internalID: -4303383950421995898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM-11-climb-down-box_23
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 48
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0827024ef5533a1c0800000000000000
+      internalID: -4493689317220126080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM-11-climb-down-box_0: -5164865191312748537
+      ANIM-11-climb-down-box_1: 2124950141962303973
+      ANIM-11-climb-down-box_10: -1158570069388654716
+      ANIM-11-climb-down-box_11: -8234370645986268861
+      ANIM-11-climb-down-box_12: 2049675413335660649
+      ANIM-11-climb-down-box_13: 8498292944549455700
+      ANIM-11-climb-down-box_14: 2181823412475882019
+      ANIM-11-climb-down-box_15: -3201476880197016721
+      ANIM-11-climb-down-box_16: 6408116682710912149
+      ANIM-11-climb-down-box_17: -6157418238352819600
+      ANIM-11-climb-down-box_18: -6543795552011640270
+      ANIM-11-climb-down-box_19: 2809142694433731292
+      ANIM-11-climb-down-box_2: -2142895220269347325
+      ANIM-11-climb-down-box_20: 1282993022484148494
+      ANIM-11-climb-down-box_21: 6604964244568537482
+      ANIM-11-climb-down-box_22: -4303383950421995898
+      ANIM-11-climb-down-box_23: -4493689317220126080
+      ANIM-11-climb-down-box_3: 6435128634338997186
+      ANIM-11-climb-down-box_4: -7050568113339333646
+      ANIM-11-climb-down-box_5: 2129700477633269171
+      ANIM-11-climb-down-box_6: 2433970420340160202
+      ANIM-11-climb-down-box_7: -2487698586016551422
+      ANIM-11-climb-down-box_8: -2030617764021458998
+      ANIM-11-climb-down-box_9: -3258598686637955055
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

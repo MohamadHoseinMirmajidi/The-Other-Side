@@ -26,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
+    private InputAction moveAction;
+    private InputAction runAction;
 
     private float moveInput;
     private bool isRunning;
@@ -53,6 +55,27 @@ public class PlayerMovement : MonoBehaviour
 
         // Default = looking right
         ApplyFacing();
+
+        CreateInputActions();
+    }
+
+    private void OnEnable()
+    {
+        moveAction?.Enable();
+        runAction?.Enable();
+    }
+
+    private void OnDisable()
+    {
+        moveAction?.Disable();
+        runAction?.Disable();
+        ResetMotion();
+    }
+
+    private void OnDestroy()
+    {
+        moveAction?.Dispose();
+        runAction?.Dispose();
     }
 
     private void Update()
@@ -62,21 +85,25 @@ public class PlayerMovement : MonoBehaviour
 
     private void ReadInput()
     {
-        moveInput = 0f;
-        isRunning = false;
+        moveInput = moveAction != null
+            ? Mathf.Clamp(moveAction.ReadValue<float>(), -1f, 1f)
+            : 0f;
+        isRunning = runAction != null && runAction.IsPressed();
+    }
 
-        Keyboard keyboard = Keyboard.current;
-        if (keyboard == null)
-            return;
+    private void CreateInputActions()
+    {
+        moveAction = new InputAction("Move", InputActionType.Value);
+        moveAction.AddCompositeBinding("1DAxis")
+            .With("Negative", "<Keyboard>/a")
+            .With("Positive", "<Keyboard>/d");
+        moveAction.AddCompositeBinding("1DAxis")
+            .With("Negative", "<Keyboard>/leftArrow")
+            .With("Positive", "<Keyboard>/rightArrow");
 
-        if (keyboard.aKey.isPressed || keyboard.leftArrowKey.isPressed)
-            moveInput -= 1f;
-
-        if (keyboard.dKey.isPressed || keyboard.rightArrowKey.isPressed)
-            moveInput += 1f;
-
-        isRunning = keyboard.leftShiftKey.isPressed
-                 || keyboard.rightShiftKey.isPressed;
+        runAction = new InputAction("Run", InputActionType.Button);
+        runAction.AddBinding("<Keyboard>/leftShift");
+        runAction.AddBinding("<Keyboard>/rightShift");
     }
 
     private void FixedUpdate()
@@ -115,19 +142,34 @@ public class PlayerMovement : MonoBehaviour
     // Actually flip the character visual
     private void ApplyFacing()
     {
-        if (spriteRenderer != null && flipSprite)
-        {
-            // flipX = true means "draw the sprite mirrored" = looking left
-            spriteRenderer.flipX = (facingDirection < 0);
-        }
-
         if (flipByScale)
         {
-            // Positive scale.x = right, negative = left
+            // Use one flip method at a time. Applying both scale and flipX
+            // mirrors the sprite twice and makes it look permanently right-facing.
+            if (spriteRenderer != null)
+                spriteRenderer.flipX = false;
+
             Vector3 scale = transform.localScale;
             scale.x = Mathf.Abs(scale.x) * facingDirection;
             transform.localScale = scale;
+            return;
         }
+
+        if (spriteRenderer != null && flipSprite)
+            spriteRenderer.flipX = facingDirection < 0;
+    }
+
+    public void FaceDirection(float horizontalDirection)
+    {
+        if (Mathf.Abs(horizontalDirection) < 0.01f)
+            return;
+
+        int newDirection = horizontalDirection < 0f ? -1 : 1;
+        if (newDirection == facingDirection)
+            return;
+
+        facingDirection = newDirection;
+        ApplyFacing();
     }
 
     /// <summary>

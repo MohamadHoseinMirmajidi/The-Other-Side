@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public enum GameProgressEvent
@@ -141,12 +140,4 @@ public class GameProgress : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    private void Update()
-    {
-        if (Keyboard.current != null &&
-            Keyboard.current.rKey.wasPressedThisFrame)
-        {
-            RestartGame();
-        }
-    }
 }

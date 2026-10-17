@@ -91,7 +91,14 @@ public class GameUIController : MonoBehaviour
     private void Start()
     {
         if (!gameStarted)
+        {
             SelectButton(mainMenuFirstButton);
+            GameAudioManager.Instance?.PlayMenuMusic();
+        }
+        else
+        {
+            GameAudioManager.Instance?.PlayGameplayMusic();
+        }
     }
 
     private void Update()
@@ -133,6 +140,8 @@ public class GameUIController : MonoBehaviour
             return;
 
         gameStarted = true;
+        GameAudioManager.Instance?.PlayUIConfirm();
+        GameAudioManager.Instance?.PlayGameplayMusic();
         settingsOpen = false;
         HidePanel(settingsPanel);
         HidePanel(mainMenuPanel);
@@ -149,6 +158,7 @@ public class GameUIController : MonoBehaviour
             return;
 
         isPaused = true;
+        GameAudioManager.Instance?.PlayUIConfirm();
         settingsOpen = false;
         SetGameplayPaused(true);
         ShowPanel(pausePanel, pauseFirstButton);
@@ -161,6 +171,7 @@ public class GameUIController : MonoBehaviour
             return;
 
         isPaused = false;
+        GameAudioManager.Instance?.PlayUIBack();
         settingsOpen = false;
         HidePanel(settingsPanel);
         HidePanel(pausePanel);
@@ -177,6 +188,7 @@ public class GameUIController : MonoBehaviour
             return;
 
         settingsOpen = true;
+        GameAudioManager.Instance?.PlayUIConfirm();
         settingsReturnPanel = isPaused ? pausePanel : mainMenuPanel;
         HidePanel(settingsReturnPanel);
         ShowPanel(settingsPanel, settingsFirstButton);
@@ -189,6 +201,7 @@ public class GameUIController : MonoBehaviour
             return;
 
         settingsOpen = false;
+        GameAudioManager.Instance?.PlayUIBack();
         HidePanel(settingsPanel);
 
         if (settingsReturnPanel == pausePanel)
@@ -201,6 +214,7 @@ public class GameUIController : MonoBehaviour
 
     public void RestartGame()
     {
+        GameAudioManager.Instance?.PlayUIConfirm();
         HideCursorForGameplay();
         Time.timeScale = 1f;
         AudioListener.pause = false;
@@ -209,6 +223,7 @@ public class GameUIController : MonoBehaviour
 
     public void ReturnToMainMenu()
     {
+        GameAudioManager.Instance?.PlayUIBack();
         ShowCursorForUI();
         Time.timeScale = 1f;
         AudioListener.pause = false;
@@ -217,6 +232,7 @@ public class GameUIController : MonoBehaviour
 
     public void QuitGame()
     {
+        GameAudioManager.Instance?.PlayUIConfirm();
         Time.timeScale = 1f;
         AudioListener.pause = false;
 

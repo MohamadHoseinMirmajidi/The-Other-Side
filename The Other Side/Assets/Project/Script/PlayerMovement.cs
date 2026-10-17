@@ -31,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
 
     private float moveInput;
     private bool isRunning;
+    private bool rightOnlyMovement;
 
     // 1 = faces right (default), -1 = faces left
     private int facingDirection = 1;
@@ -88,6 +89,8 @@ public class PlayerMovement : MonoBehaviour
         moveInput = moveAction != null
             ? Mathf.Clamp(moveAction.ReadValue<float>(), -1f, 1f)
             : 0f;
+        if (rightOnlyMovement && moveInput < 0f)
+            moveInput = 0f;
         isRunning = runAction != null && runAction.IsPressed();
     }
 
@@ -170,6 +173,16 @@ public class PlayerMovement : MonoBehaviour
 
         facingDirection = newDirection;
         ApplyFacing();
+    }
+
+    public void SetRightOnlyMovement(bool enabled)
+    {
+        rightOnlyMovement = enabled;
+        if (enabled)
+        {
+            moveInput = Mathf.Max(0f, moveInput);
+            FaceDirection(1f);
+        }
     }
 
     /// <summary>

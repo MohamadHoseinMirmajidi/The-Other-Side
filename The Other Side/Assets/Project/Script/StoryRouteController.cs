@@ -12,6 +12,7 @@ public class StoryRouteController : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private PlayerAnimator playerAnimator;
+    [SerializeField] private GameUIController gameUIController;
     [SerializeField] private DialogueHUD dialogueHUD;
     [SerializeField] private Light2D globalLight;
     [SerializeField] private Camera routeCamera;
@@ -788,6 +789,7 @@ public class StoryRouteController : MonoBehaviour
     private IEnumerator CreditSequence()
     {
         IsCutsceneOpen = true;
+        gameUIController?.ShowCursorForUI();
         if (creditPanel != null)
             creditPanel.SetActive(true);
 
@@ -939,6 +941,8 @@ public class StoryRouteController : MonoBehaviour
             playerMovement = FindAnyObjectByType<PlayerMovement>();
         if (playerAnimator == null)
             playerAnimator = FindAnyObjectByType<PlayerAnimator>();
+        if (gameUIController == null)
+            gameUIController = FindAnyObjectByType<GameUIController>();
         if (player == null && playerMovement != null)
             player = playerMovement.transform;
         if (dialogueHUD == null)

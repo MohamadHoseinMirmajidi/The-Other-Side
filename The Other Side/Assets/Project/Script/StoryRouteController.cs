@@ -76,10 +76,14 @@ public class StoryRouteController : MonoBehaviour
     [SerializeField] private GameObject backstageStairs;
     [SerializeField] private GameObject curtainShadow;
     [SerializeField] private GameObject revealedDecoration;
+    [SerializeField] private GameObject curtainClosedVisual;
+    [SerializeField] private GameObject curtainOpenVisual;
+    [SerializeField] private GameObject lowerWeightedRopeVisual;
 
     [Header("Room 05 - Upper Backstage")]
     [SerializeField] private StoryInteractable curtainRope;
     [SerializeField] private GameObject upperStairs;
+    [SerializeField] private CurtainWeightPullController curtainWeightPull;
 
     [Header("Placeholder cutscene images")]
     [SerializeField] private Sprite tutorialPaperImage;
@@ -540,7 +544,9 @@ public class StoryRouteController : MonoBehaviour
         isBusy = true;
         SetPlayerControl(false);
         Say("باید این وزنه رو به طناب پرده گره بزنم.");
-        yield return new WaitForSeconds(2f);
+
+        if (curtainWeightPull != null)
+            yield return curtainWeightPull.PullDown();
 
         gameProgress.TryComplete(GameProgressEvent.CurtainOpened);
 
@@ -880,6 +886,7 @@ public class StoryRouteController : MonoBehaviour
     {
         bool bagCollected = gameProgress.HasCompleted(GameProgressEvent.BagCollected);
         bool decorationRevealed = gameProgress.HasCompleted(GameProgressEvent.DecorationRevealed);
+        bool curtainOpened = gameProgress.HasCompleted(GameProgressEvent.CurtainOpened);
 
         if (sections != null)
         {
@@ -937,8 +944,16 @@ public class StoryRouteController : MonoBehaviour
             curtainShadow.SetActive(currentRoom == 3 && !decorationRevealed);
         if (revealedDecoration != null)
             revealedDecoration.SetActive(currentRoom == 3 && decorationRevealed);
+        if (curtainClosedVisual != null)
+            curtainClosedVisual.SetActive(currentRoom == 3 && !curtainOpened);
+        if (curtainOpenVisual != null)
+            curtainOpenVisual.SetActive(currentRoom == 3 && curtainOpened);
+        if (lowerWeightedRopeVisual != null)
+            lowerWeightedRopeVisual.SetActive(currentRoom == 3 && curtainOpened);
 
         SetActive(curtainRope, currentRoom == 4);
+        if (curtainWeightPull != null)
+            curtainWeightPull.ApplyState(curtainOpened);
         if (upperStairs != null)
             upperStairs.SetActive(currentRoom == 4 &&
                 gameProgress.HasCompleted(GameProgressEvent.CurtainOpened));

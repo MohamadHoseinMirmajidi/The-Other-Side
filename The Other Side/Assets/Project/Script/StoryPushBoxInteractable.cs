@@ -5,6 +5,7 @@ public class StoryPushBoxInteractable : Interactable
 {
     [SerializeField] private StoryRouteController route;
     [SerializeField] private Transform player;
+    [SerializeField] private PlayerAnimator playerAnimator;
     [Header("Level Design")]
     [SerializeField] private Transform placementPoint;
     [SerializeField] private float playerDistanceFromBox = 1f;
@@ -29,6 +30,8 @@ public class StoryPushBoxInteractable : Interactable
     private void Awake()
     {
         startPosition = transform.position;
+        if (playerAnimator == null && player != null)
+            playerAnimator = player.GetComponentInChildren<PlayerAnimator>(true);
     }
 
     public override bool CanInteract =>
@@ -74,6 +77,7 @@ public class StoryPushBoxInteractable : Interactable
 
         isPlaced = true;
         isPushing = false;
+        playerAnimator?.ClearPersistentState();
         transform.position = new Vector3(
             placementPoint.position.x,
             startPosition.y,
@@ -85,6 +89,9 @@ public class StoryPushBoxInteractable : Interactable
     {
         if (placementPoint == null)
             return;
+
+        if (playerAnimator == null && player != null)
+            playerAnimator = player.GetComponentInChildren<PlayerAnimator>(true);
 
         pushDirection = Mathf.Sign(placementPoint.position.x - transform.position.x);
         if (Mathf.Approximately(pushDirection, 0f))
@@ -99,10 +106,18 @@ public class StoryPushBoxInteractable : Interactable
         player.position = playerPosition;
         playerOffset = transform.position.x - player.position.x;
         isPushing = true;
+        playerAnimator?.SetPersistentState("Pushing Animation");
     }
 
     private void StopPushing()
     {
         isPushing = false;
+        playerAnimator?.ClearPersistentState();
+    }
+
+    private void OnDisable()
+    {
+        if (isPushing)
+            StopPushing();
     }
 }

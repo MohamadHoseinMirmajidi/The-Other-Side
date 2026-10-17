@@ -11,6 +11,7 @@ public class StoryRouteController : MonoBehaviour
     [SerializeField] private GameProgress gameProgress;
     [SerializeField] private Transform player;
     [SerializeField] private PlayerMovement playerMovement;
+    [SerializeField] private PlayerAnimator playerAnimator;
     [SerializeField] private DialogueHUD dialogueHUD;
     [SerializeField] private Light2D globalLight;
     [SerializeField] private Camera routeCamera;
@@ -304,10 +305,16 @@ public class StoryRouteController : MonoBehaviour
                     yield return FuseSequence();
                 break;
             case StoryInteractionType.Weight:
+                isBusy = true;
+                SetPlayerControl(false);
+                yield return PlayPlayerAnimation("Weight Grab Animation");
                 interactedObject.SetActive(false);
                 gameProgress.TryComplete(GameProgressEvent.WeightCollected);
+                playerAnimator?.SetPersistentState("Weight Carry Animation");
                 Say("باید یه راهی پیدا کنم برم بالا، کنار طناب پرده نمایش.");
                 UpdateRouteObjects();
+                SetPlayerControl(true);
+                isBusy = false;
                 break;
             case StoryInteractionType.LockedStageDoor:
                 Say("در قفله، باید یه راه دیگه وجود داشته باشه.");
@@ -322,10 +329,15 @@ public class StoryRouteController : MonoBehaviour
                     break;
                 }
 
+                isBusy = true;
+                SetPlayerControl(false);
+                yield return PlayPlayerAnimation("Backpack Grab Animation");
                 interactedObject.SetActive(false);
                 gameProgress.TryComplete(GameProgressEvent.BagCollected);
                 Say("باید برم سمت حیاط.");
                 UpdateRouteObjects();
+                SetPlayerControl(true);
+                isBusy = false;
                 break;
             case StoryInteractionType.BackstageReturnDoor:
                 if (!gameProgress.HasCompleted(GameProgressEvent.BagCollected))
@@ -415,13 +427,23 @@ public class StoryRouteController : MonoBehaviour
                 yield break;
             }
 
-            yield return ChangeRoom(4, upperEntryFromBackstage);
+            isBusy = true;
+            SetPlayerControl(false);
+            yield return PlayPlayerAnimation("Climb Up Animation");
+            yield return ChangeRoom(4, upperEntryFromBackstage, false);
+            SetPlayerControl(true);
+            isBusy = false;
         }
         else if (type == StoryAreaType.UpperStairsDown &&
                  currentRoom == 4 &&
                  gameProgress.HasCompleted(GameProgressEvent.CurtainOpened))
         {
-            yield return ChangeRoom(3, backstageEntryFromUpper);
+            isBusy = true;
+            SetPlayerControl(false);
+            yield return PlayPlayerAnimation("Climb Down Animation");
+            yield return ChangeRoom(3, backstageEntryFromUpper, false);
+            SetPlayerControl(true);
+            isBusy = false;
         }
     }
 
@@ -437,7 +459,10 @@ public class StoryRouteController : MonoBehaviour
         Coroutine shadowReveal = keyRoomShadow != null
             ? StartCoroutine(keyRoomShadow.Reveal())
             : null;
-        yield return MovePlayerTo(boxClimbTopPoint, climbSpeed);
+        yield return MovePlayerToWithAnimation(
+            boxClimbTopPoint,
+            climbSpeed,
+            "Climb Up Animation");
         if (shadowReveal != null)
             yield return shadowReveal;
 
@@ -449,6 +474,7 @@ public class StoryRouteController : MonoBehaviour
     {
         isBusy = true;
         SetPlayerControl(false);
+        yield return PlayPlayerAnimation("Grab Animation");
         item.SetActive(false);
         yield return ShowStoryImageAnimated(
             tutorialPaperImage,
@@ -472,10 +498,15 @@ public class StoryRouteController : MonoBehaviour
         if (keyPickupPoint != null)
             yield return MovePlayerTo(keyPickupPoint, walkToPointSpeed);
 
+        Coroutine keyGrabAnimation = StartPlayerAnimation("Key Grab Animation");
         yield return ShowStoryImageAnimated(
             firstShadowImage,
             new Color(0.08f, 0.08f, 0.12f, 1f),
             "FIRST SCARY SHADOW PLACEHOLDER");
+        if (keyGrabAnimation != null)
+            yield return keyGrabAnimation;
+        yield return PlayPlayerAnimation("Scared Animation");
+        playerAnimator?.SetPersistentState("Scared Idle Animation");
         Say("این دیگه چیه؟");
         yield return new WaitForSeconds(2.2f);
         Say("باید زودتر از اینجا برم.");
@@ -484,10 +515,14 @@ public class StoryRouteController : MonoBehaviour
         yield return WaitForCutsceneDismiss();
 
         gameProgress.TryComplete(GameProgressEvent.KeyCollected);
+        playerAnimator?.ClearPersistentState();
         SetInteractionVisual(highKey, true);
         yield return HideStoryImageAnimated();
         yield return new WaitForSeconds(0.15f);
-        yield return MovePlayerTo(boxClimbGroundPoint, climbSpeed);
+        yield return MovePlayerToWithAnimation(
+            boxClimbGroundPoint,
+            climbSpeed,
+            "Climb Down Animation");
 
         SetPlayerControl(true);
         isBusy = false;
@@ -500,6 +535,7 @@ public class StoryRouteController : MonoBehaviour
         SetPlayerControl(false);
         Say("ممکنه داخل این جعبه ابزار چیزی که لازمه رو پیدا کنم.");
         yield return new WaitForSeconds(2.2f);
+        yield return PlayPlayerAnimation("Ground Search Animation");
 
         gameProgress.TryComplete(GameProgressEvent.FusePartCollected);
         SetInteractionVisual(toolboxObject, true);
@@ -514,6 +550,7 @@ public class StoryRouteController : MonoBehaviour
     {
         isBusy = true;
         SetPlayerControl(false);
+        yield return PlayPlayerAnimation("Key Grab Animation");
         gameProgress.TryComplete(GameProgressEvent.FuseRepaired);
 
         if (fuseRenderer != null)
@@ -527,11 +564,16 @@ public class StoryRouteController : MonoBehaviour
             ownShadowImage,
             new Color(0.05f, 0.05f, 0.08f, 0.92f),
             "PLAYER SHADOW SCARE PLACEHOLDER");
+        yield return PlayPlayerAnimation("Scared Animation");
+        playerAnimator?.SetPersistentState("Scared Idle Animation");
         Say("اون سایه دوباره پیداش شد!");
         yield return WaitForCutsceneDismiss();
         yield return HideStoryImageAnimated();
 
+        playerAnimator?.ClearPersistentState();
+        playerAnimator?.SetPersistentState("Run Animation");
         yield return AutoRunTo(fuseEscapeTarget);
+        playerAnimator?.ClearPersistentState();
         yield return ChangeRoom(3, backstageEntryFromFuse, false, false);
 
         SetPlayerControl(true);
@@ -544,6 +586,8 @@ public class StoryRouteController : MonoBehaviour
         isBusy = true;
         SetPlayerControl(false);
         Say("باید این وزنه رو به طناب پرده گره بزنم.");
+        playerAnimator?.ClearPersistentState();
+        yield return PlayPlayerAnimation("Backpack Grab Animation");
 
         if (curtainWeightPull != null)
             yield return curtainWeightPull.PullDown();
@@ -601,7 +645,10 @@ public class StoryRouteController : MonoBehaviour
         yield return new WaitForSeconds(2.8f);
 
         yield return MovePlayerTo(boxClimbGroundPoint, walkToPointSpeed);
-        yield return MovePlayerTo(boxClimbTopPoint, climbSpeed);
+        yield return MovePlayerToWithAnimation(
+            boxClimbTopPoint,
+            climbSpeed,
+            "Climb Up Animation");
 
         yield return ShowStoryImageAnimated(
             costumeRevealImage,
@@ -612,7 +659,10 @@ public class StoryRouteController : MonoBehaviour
         yield return HideStoryImageAnimated();
         keyRoomShadow?.Hide();
 
-        yield return MovePlayerTo(boxClimbGroundPoint, climbSpeed);
+        yield return MovePlayerToWithAnimation(
+            boxClimbGroundPoint,
+            climbSpeed,
+            "Climb Down Animation");
         Say("باید برم به سمت حیاط، مادرم منتظرمه.");
         SetPlayerControl(true);
         isBusy = false;
@@ -627,6 +677,7 @@ public class StoryRouteController : MonoBehaviour
         float elapsed = 0f;
         Vector3 startPosition = player.position;
         Vector3 targetPosition = GetPointPosition(endingWalkTarget, startPosition);
+        playerAnimator?.SetPersistentState("Walk Animation");
         while (elapsed < endingWalkDuration)
         {
             elapsed += Time.deltaTime;
@@ -641,6 +692,7 @@ public class StoryRouteController : MonoBehaviour
 
         if (playerBody != null)
             playerBody.linearVelocity = Vector2.zero;
+        playerAnimator?.ClearPersistentState();
 
         fadeCanvas.alpha = 1f;
         gameProgress.TryComplete(GameProgressEvent.GameFinished);
@@ -792,6 +844,30 @@ public class StoryRouteController : MonoBehaviour
         player.position = target;
     }
 
+    private IEnumerator MovePlayerToWithAnimation(
+        Transform targetPoint,
+        float speed,
+        string stateName)
+    {
+        Coroutine animation = StartPlayerAnimation(stateName);
+        yield return MovePlayerTo(targetPoint, speed);
+        if (animation != null)
+            yield return animation;
+    }
+
+    private IEnumerator PlayPlayerAnimation(string stateName)
+    {
+        if (playerAnimator != null)
+            yield return playerAnimator.PlayAction(stateName);
+    }
+
+    private Coroutine StartPlayerAnimation(string stateName)
+    {
+        return playerAnimator != null
+            ? StartCoroutine(playerAnimator.PlayAction(stateName))
+            : null;
+    }
+
     private static Vector3 GetPointPosition(Transform point, Vector3 fallback)
     {
         if (point == null)
@@ -861,6 +937,8 @@ public class StoryRouteController : MonoBehaviour
             gameProgress = FindAnyObjectByType<GameProgress>();
         if (playerMovement == null)
             playerMovement = FindAnyObjectByType<PlayerMovement>();
+        if (playerAnimator == null)
+            playerAnimator = FindAnyObjectByType<PlayerAnimator>();
         if (player == null && playerMovement != null)
             player = playerMovement.transform;
         if (dialogueHUD == null)

@@ -20,6 +20,9 @@ public class PlayerAnimator : MonoBehaviour
     [SerializeField] private string idleState = "Idle Animation";
     [SerializeField] private string walkState = "Walk Animation";
     [SerializeField] private string runState = "Run Animation";
+    [SerializeField] private string idleBackpackState = "Idle BK Animation";
+    [SerializeField] private string walkBackpackState = "Walk BK Animation";
+    [SerializeField] private string runBackpackState = "Run BK Animation";
     [SerializeField] private float runAnimationSpeedThreshold = 4f;
 
     [SerializeField] private Animator animator;
@@ -27,6 +30,8 @@ public class PlayerAnimator : MonoBehaviour
     private int facingHash;
     private int isMovingHash;
     private string persistentState;
+    private bool hasBackpack;
+    private bool isPlayingAction;
 
     private void Awake()
     {
@@ -58,12 +63,17 @@ public class PlayerAnimator : MonoBehaviour
         animator.SetFloat(speedHash, movement.CurrentSpeed);
         animator.SetInteger(facingHash, movement.FacingDirection);
         animator.SetBool(isMovingHash, movement.IsMoving);
+
+        if (hasBackpack && !isPlayingAction && string.IsNullOrEmpty(persistentState))
+            UpdateBackpackLocomotion();
     }
 
     public IEnumerator PlayAction(string stateName)
     {
         if (!TryPlayState(stateName))
             yield break;
+
+        isPlayingAction = true;
 
         yield return null;
 
@@ -79,6 +89,7 @@ public class PlayerAnimator : MonoBehaviour
             yield return null;
         }
 
+        isPlayingAction = false;
         RestorePreferredState();
     }
 
@@ -95,6 +106,16 @@ public class PlayerAnimator : MonoBehaviour
     {
         persistentState = null;
         RestorePreferredState();
+    }
+
+    public void SetBackpackEquipped(bool equipped)
+    {
+        if (hasBackpack == equipped)
+            return;
+
+        hasBackpack = equipped;
+        if (string.IsNullOrEmpty(persistentState))
+            RestorePreferredState();
     }
 
     private bool TryPlayState(string stateName)
@@ -135,15 +156,37 @@ public class PlayerAnimator : MonoBehaviour
             return;
         }
 
-        string locomotionState = idleState;
+        string locomotionState = hasBackpack
+            ? idleBackpackState
+            : idleState;
         if (movement != null && movement.IsMoving)
         {
-            locomotionState = movement.CurrentSpeed >= runAnimationSpeedThreshold
-                ? runState
-                : walkState;
+            bool isRunning = movement.CurrentSpeed >= runAnimationSpeedThreshold;
+            if (hasBackpack)
+                locomotionState = isRunning ? runBackpackState : walkBackpackState;
+            else
+                locomotionState = isRunning ? runState : walkState;
         }
 
         if (HasState(locomotionState))
             PlayState(locomotionState);
+    }
+
+    private void UpdateBackpackLocomotion()
+    {
+        string targetState = idleBackpackState;
+        if (movement.IsMoving)
+        {
+            targetState = movement.CurrentSpeed >= runAnimationSpeedThreshold
+                ? runBackpackState
+                : walkBackpackState;
+        }
+
+        int targetShortHash = Animator.StringToHash(targetState);
+        if (animator.GetCurrentAnimatorStateInfo(0).shortNameHash != targetShortHash &&
+            HasState(targetState))
+        {
+            PlayState(targetState);
+        }
     }
 }

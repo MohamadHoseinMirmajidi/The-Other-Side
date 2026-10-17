@@ -430,7 +430,7 @@ public class StoryRouteController : MonoBehaviour
 
             isBusy = true;
             SetPlayerControl(false);
-            yield return PlayPlayerAnimation("Climb Up Animation");
+            yield return PlayPlayerAnimation(GetClimbState(true));
             yield return ChangeRoom(4, upperEntryFromBackstage, false);
             SetPlayerControl(true);
             isBusy = false;
@@ -441,7 +441,7 @@ public class StoryRouteController : MonoBehaviour
         {
             isBusy = true;
             SetPlayerControl(false);
-            yield return PlayPlayerAnimation("Climb Down Animation");
+            yield return PlayPlayerAnimation(GetClimbState(false));
             yield return ChangeRoom(3, backstageEntryFromUpper, false);
             SetPlayerControl(true);
             isBusy = false;
@@ -463,7 +463,7 @@ public class StoryRouteController : MonoBehaviour
         yield return MovePlayerToWithAnimation(
             boxClimbTopPoint,
             climbSpeed,
-            "Climb Up Animation");
+            GetClimbState(true));
         if (shadowReveal != null)
             yield return shadowReveal;
 
@@ -497,7 +497,7 @@ public class StoryRouteController : MonoBehaviour
         SetPlayerControl(false);
 
         if (keyPickupPoint != null)
-            yield return MovePlayerTo(keyPickupPoint, walkToPointSpeed);
+            yield return MovePlayerTo(keyPickupPoint, walkToPointSpeed, false);
 
         Coroutine keyGrabAnimation = StartPlayerAnimation("Key Grab Animation");
         yield return ShowStoryImageAnimated(
@@ -523,7 +523,7 @@ public class StoryRouteController : MonoBehaviour
         yield return MovePlayerToWithAnimation(
             boxClimbGroundPoint,
             climbSpeed,
-            "Climb Down Animation");
+            GetClimbState(false));
 
         SetPlayerControl(true);
         isBusy = false;
@@ -649,7 +649,7 @@ public class StoryRouteController : MonoBehaviour
         yield return MovePlayerToWithAnimation(
             boxClimbTopPoint,
             climbSpeed,
-            "Climb Up Animation");
+            GetClimbState(true));
 
         yield return ShowStoryImageAnimated(
             costumeRevealImage,
@@ -663,7 +663,7 @@ public class StoryRouteController : MonoBehaviour
         yield return MovePlayerToWithAnimation(
             boxClimbGroundPoint,
             climbSpeed,
-            "Climb Down Animation");
+            GetClimbState(false));
         Say("باید برم به سمت حیاط، مادرم منتظرمه.");
         SetPlayerControl(true);
         isBusy = false;
@@ -678,7 +678,7 @@ public class StoryRouteController : MonoBehaviour
         float elapsed = 0f;
         Vector3 startPosition = player.position;
         Vector3 targetPosition = GetPointPosition(endingWalkTarget, startPosition);
-        playerAnimator?.SetPersistentState("Walk Animation");
+        playerAnimator?.SetPersistentState(GetWalkState());
         while (elapsed < endingWalkDuration)
         {
             elapsed += Time.deltaTime;
@@ -830,10 +830,14 @@ public class StoryRouteController : MonoBehaviour
         playerBody.linearVelocity = Vector2.zero;
     }
 
-    private IEnumerator MovePlayerTo(Transform targetPoint, float speed)
+    private IEnumerator MovePlayerTo(
+        Transform targetPoint,
+        float speed,
+        bool updateFacing = true)
     {
         Vector3 target = GetPointPosition(targetPoint, player.position);
-        playerMovement?.FaceDirection(target.x - player.position.x);
+        if (updateFacing)
+            playerMovement?.FaceDirection(target.x - player.position.x);
         while (Vector3.Distance(player.position, target) > 0.03f)
         {
             player.position = Vector3.MoveTowards(
@@ -852,9 +856,27 @@ public class StoryRouteController : MonoBehaviour
         string stateName)
     {
         Coroutine animation = StartPlayerAnimation(stateName);
-        yield return MovePlayerTo(targetPoint, speed);
+        yield return MovePlayerTo(targetPoint, speed, false);
         if (animation != null)
             yield return animation;
+    }
+
+    private string GetClimbState(bool climbingUp)
+    {
+        bool hasBackpack = gameProgress != null &&
+            gameProgress.HasCompleted(GameProgressEvent.BagCollected);
+        if (hasBackpack)
+            return climbingUp ? "Climb Up BK Animation" : "Climb Down BK Animation";
+
+        return climbingUp ? "Climb Up Animation" : "Climb Down Animation";
+    }
+
+    private string GetWalkState()
+    {
+        return gameProgress != null &&
+               gameProgress.HasCompleted(GameProgressEvent.BagCollected)
+            ? "Walk BK Animation"
+            : "Walk Animation";
     }
 
     private IEnumerator PlayPlayerAnimation(string stateName)
@@ -969,6 +991,8 @@ public class StoryRouteController : MonoBehaviour
         bool bagCollected = gameProgress.HasCompleted(GameProgressEvent.BagCollected);
         bool decorationRevealed = gameProgress.HasCompleted(GameProgressEvent.DecorationRevealed);
         bool curtainOpened = gameProgress.HasCompleted(GameProgressEvent.CurtainOpened);
+
+        playerAnimator?.SetBackpackEquipped(bagCollected);
 
         if (sections != null)
         {

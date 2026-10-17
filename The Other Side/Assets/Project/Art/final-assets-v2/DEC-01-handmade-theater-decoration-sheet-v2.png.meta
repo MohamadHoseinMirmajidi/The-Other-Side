@@ -282,7 +282,7 @@ TextureImporter:
         width: 282
         height: 251
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -304,7 +304,7 @@ TextureImporter:
         width: 485
         height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -326,7 +326,7 @@ TextureImporter:
         width: 673
         height: 195
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -335,6 +335,50 @@ TextureImporter:
       bones: []
       spriteID: 3b91fe7e824793f4db9a29ae1042a37b
       internalID: -920067273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-01-handmade-theater-decoration-sheet-v2_8
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 2013
+        width: 592
+        height: 662
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d7539cbacf33849a304468ad74fe8b
+      internalID: -2110557883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEC-01-handmade-theater-decoration-sheet-v2_9
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 2005
+        width: 382
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049ef161aa3e25d438f7c13f6fee0037
+      internalID: -1625884005
       vertices: []
       indices: 
       edges: []
@@ -361,6 +405,8 @@ TextureImporter:
       DEC-01-handmade-theater-decoration-sheet-v2_5: 371348451
       DEC-01-handmade-theater-decoration-sheet-v2_6: -1913329567
       DEC-01-handmade-theater-decoration-sheet-v2_7: -920067273
+      DEC-01-handmade-theater-decoration-sheet-v2_8: -2110557883
+      DEC-01-handmade-theater-decoration-sheet-v2_9: -1625884005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

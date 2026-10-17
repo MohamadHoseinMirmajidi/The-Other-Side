@@ -188,12 +188,12 @@ TextureImporter:
       name: OBJ-02-curtain-opening_0
       rect:
         serializedVersion: 2
-        x: 344
-        y: 639
-        width: 14
-        height: 11
+        x: 23
+        y: 239
+        width: 248
+        height: 286
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: OBJ-02-curtain-opening_1
       rect:
         serializedVersion: 2
-        x: 451
-        y: 67
-        width: 909
-        height: 618
+        x: 294
+        y: 239
+        width: 249
+        height: 286
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -232,12 +232,12 @@ TextureImporter:
       name: OBJ-02-curtain-opening_2
       rect:
         serializedVersion: 2
-        x: 1371
-        y: 242
-        width: 262
-        height: 462
+        x: 563
+        y: 239
+        width: 250
+        height: 286
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -254,12 +254,12 @@ TextureImporter:
       name: OBJ-02-curtain-opening_3
       rect:
         serializedVersion: 2
-        x: 1867
-        y: 81
-        width: 308
-        height: 589
+        x: 835
+        y: 239
+        width: 250
+        height: 286
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -276,12 +276,12 @@ TextureImporter:
       name: OBJ-02-curtain-opening_4
       rect:
         serializedVersion: 2
-        x: 19
+        x: 1105
         y: 239
-        width: 536
-        height: 363
+        width: 252
+        height: 286
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: OBJ-02-curtain-opening_5
       rect:
         serializedVersion: 2
-        x: 417
-        y: 526
-        width: 16
-        height: 19
+        x: 1376
+        y: 239
+        width: 252
+        height: 286
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -320,12 +320,12 @@ TextureImporter:
       name: OBJ-02-curtain-opening_6
       rect:
         serializedVersion: 2
-        x: 1637
-        y: 245
-        width: 264
-        height: 283
+        x: 1646
+        y: 239
+        width: 254
+        height: 286
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -342,12 +342,12 @@ TextureImporter:
       name: OBJ-02-curtain-opening_7
       rect:
         serializedVersion: 2
-        x: 65
-        y: 71
-        width: 190
-        height: 35
+        x: 1918
+        y: 239
+        width: 256
+        height: 286
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -360,99 +360,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: OBJ-02-curtain-opening_8
-      rect:
-        serializedVersion: 2
-        x: 1463
-        y: 87
-        width: 108
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e7f9f36cb067aec0800000000000000
-      internalID: -3555767018538272796
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OBJ-02-curtain-opening_9
-      rect:
-        serializedVersion: 2
-        x: 1738
-        y: 102
-        width: 76
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a4662b545b75d9aa0800000000000000
-      internalID: -6152665079848212918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OBJ-02-curtain-opening_10
-      rect:
-        serializedVersion: 2
-        x: 1929
-        y: 103
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 59390fc686f9422b0800000000000000
-      internalID: -5610183964943674475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OBJ-02-curtain-opening_11
-      rect:
-        serializedVersion: 2
-        x: 1937
-        y: 96
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c79a6bc5f3fb8420800000000000000
-      internalID: 2633466644133484485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: be5a73b391bb1ae44b81c856dd55fbb1
     internalID: 0
     vertices: []
     indices: 
@@ -460,20 +372,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":274.0,"y":720.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       OBJ-02-curtain-opening_0: -4578133269229871299
       OBJ-02-curtain-opening_1: 1625696222671924746
-      OBJ-02-curtain-opening_10: -5610183964943674475
-      OBJ-02-curtain-opening_11: 2633466644133484485
       OBJ-02-curtain-opening_2: -531269610011435716
       OBJ-02-curtain-opening_3: -3082447175535999777
       OBJ-02-curtain-opening_4: 423206902013134946
       OBJ-02-curtain-opening_5: 8789928091818324796
       OBJ-02-curtain-opening_6: -8083905669329379375
       OBJ-02-curtain-opening_7: -6771428927031939080
-      OBJ-02-curtain-opening_8: -3555767018538272796
-      OBJ-02-curtain-opening_9: -6152665079848212918
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

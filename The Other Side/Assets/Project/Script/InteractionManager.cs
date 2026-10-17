@@ -24,14 +24,14 @@ public class InteractionManager : MonoBehaviour
             enabled = false;
         }
 
-        tutorialPrompt?.Hide();
+        HideTutorialPrompt();
     }
 
     private void Update()
     {
         if (isInteracting || Time.timeScale == 0f)
         {
-            tutorialPrompt?.Hide();
+            HideTutorialPrompt();
             return;
         }
 
@@ -92,7 +92,7 @@ public class InteractionManager : MonoBehaviour
         }
 
         isInteracting = true;
-        tutorialPrompt?.Hide();
+        HideTutorialPrompt();
         yield return StartCoroutine(target.ExecuteInteraction());
         isInteracting = false;
         currentTarget = null;
@@ -103,6 +103,12 @@ public class InteractionManager : MonoBehaviour
         StopAllCoroutines();
         isInteracting = false;
         currentTarget = null;
-        tutorialPrompt?.Hide();
+        HideTutorialPrompt();
+    }
+
+    private void HideTutorialPrompt()
+    {
+        if (tutorialPrompt != null)
+            tutorialPrompt.Hide();
     }
 }

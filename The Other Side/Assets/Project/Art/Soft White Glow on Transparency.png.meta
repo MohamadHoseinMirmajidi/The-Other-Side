@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: ffa2932885a336c40b974a009c8fc008
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9023117808206957256
+    second: Soft White Glow on Transparency_0
+  - first:
+      213: 4937281679389865284
+    second: Soft White Glow on Transparency_1
+  - first:
+      213: 824850842720258352
+    second: Soft White Glow on Transparency_2
+  - first:
+      213: 7601216105383686917
+    second: Soft White Glow on Transparency_3
+  - first:
+      213: 6302057077796532651
+    second: Soft White Glow on Transparency_4
+  - first:
+      213: -8107503397905761011
+    second: Soft White Glow on Transparency_5
+  - first:
+      213: 3672484352470527164
+    second: Soft White Glow on Transparency_6
+  - first:
+      213: 8066895822707959765
+    second: Soft White Glow on Transparency_7
+  - first:
+      213: -6851276301548084222
+    second: Soft White Glow on Transparency_8
+  - first:
+      213: 49346690490205081
+    second: Soft White Glow on Transparency_9
+  - first:
+      213: 2459041939387820494
+    second: Soft White Glow on Transparency_10
+  - first:
+      213: 1050722251623177460
+    second: Soft White Glow on Transparency_11
+  - first:
+      213: 2933966625434945336
+    second: Soft White Glow on Transparency_12
+  - first:
+      213: 6569444956052424985
+    second: Soft White Glow on Transparency_13
+  - first:
+      213: 1910404312990769054
+    second: Soft White Glow on Transparency_14
+  - first:
+      213: 1366165304725560887
+    second: Soft White Glow on Transparency_15
+  - first:
+      213: 7028933813859189132
+    second: Soft White Glow on Transparency_16
+  - first:
+      213: 6137503460710386293
+    second: Soft White Glow on Transparency_17
+  - first:
+      213: -6510362367589238479
+    second: Soft White Glow on Transparency_18
+  - first:
+      213: -2774784047770338142
+    second: Soft White Glow on Transparency_19
+  - first:
+      213: 7307586975566851989
+    second: Soft White Glow on Transparency_20
+  - first:
+      213: 4039712098077460740
+    second: Soft White Glow on Transparency_21
+  - first:
+      213: 2912613342467462371
+    second: Soft White Glow on Transparency_22
+  - first:
+      213: -3674546611601700165
+    second: Soft White Glow on Transparency_23
+  - first:
+      213: 3058704659596037754
+    second: Soft White Glow on Transparency_24
+  - first:
+      213: 8805201790033843724
+    second: Soft White Glow on Transparency_25
+  - first:
+      213: 3851581105401505098
+    second: Soft White Glow on Transparency_26
+  - first:
+      213: -941448272355673577
+    second: Soft White Glow on Transparency_27
+  - first:
+      213: 6590199419076590668
+    second: Soft White Glow on Transparency_28
+  - first:
+      213: -59408048683856154
+    second: Soft White Glow on Transparency_29
+  - first:
+      213: 595709199985891701
+    second: Soft White Glow on Transparency_30
+  - first:
+      213: -6170983298512845607
+    second: Soft White Glow on Transparency_31
+  - first:
+      213: -3745659139177625823
+    second: Soft White Glow on Transparency_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.75, y: 0.23}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1774
+        height: 887
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835b253f82277c280800000000000000
+      internalID: -9023117808206957256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_1
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 762
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445b310578fb48440800000000000000
+      internalID: 4937281679389865284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 709
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039c501a875727b00800000000000000
+      internalID: 824850842720258352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 579
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5037f5e56c1fc7960800000000000000
+      internalID: 7601216105383686917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 566
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba17c44c587657750800000000000000
+      internalID: 6302057077796532651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 547
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0dfd807d9c5c7f80800000000000000
+      internalID: -8107503397905761011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 555
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcaf289f0947f230800000000000000
+      internalID: 3672484352470527164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 554
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d72790b20f53ff60800000000000000
+      internalID: 8066895822707959765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 515
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204ac2cd0806be0a0800000000000000
+      internalID: -6851276301548084222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 517
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9938285bd805fa000800000000000000
+      internalID: 49346690490205081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 511
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9aff48d95402220800000000000000
+      internalID: 2459041939387820494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_11
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 506
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc1995225ae49e00800000000000000
+      internalID: 1050722251623177460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837c6ebd91b87b820800000000000000
+      internalID: 2933966625434945336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 418
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9198cf0916b5b2b50800000000000000
+      internalID: 6569444956052424985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 446
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f5035d99e138a10800000000000000
+      internalID: 1910404312990769054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 451
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e51ac3b1895f210800000000000000
+      internalID: 1366165304725560887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_16
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 320
+        width: 98
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c810fc4101acb8160800000000000000
+      internalID: 7028933813859189132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 440
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a8f5f21eacc2550800000000000000
+      internalID: 6137503460710386293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 402
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139b5c88beb86a5a0800000000000000
+      internalID: -6510362367589238479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_19
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 388
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac7a382c9cfd79d0800000000000000
+      internalID: -2774784047770338142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_20
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 304
+        width: 74
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59feee313a3c96560800000000000000
+      internalID: 7307586975566851989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 368
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40941c8ffb0ff0830800000000000000
+      internalID: 4039712098077460740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_22
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 309
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e416dd376eab6820800000000000000
+      internalID: 2912613342467462371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_23
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 370
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba8dd84353610dc0800000000000000
+      internalID: -3674546611601700165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_24
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 354
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ecd04aea3b27a20800000000000000
+      internalID: 3058704659596037754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_25
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 346
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06d996406c523a70800000000000000
+      internalID: 8805201790033843724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_26
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 303
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45201bdb90937530800000000000000
+      internalID: 3851581105401505098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_27
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 271
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ab5d7c8cd4fe2f0800000000000000
+      internalID: -941448272355673577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_28
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 289
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cbb0d8477157b50800000000000000
+      internalID: 6590199419076590668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_29
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 288
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee4669c1b0fc2ff0800000000000000
+      internalID: -59408048683856154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_30
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 265
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57957967c52644800800000000000000
+      internalID: 595709199985891701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_31
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 167
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d40641a2634c5aa0800000000000000
+      internalID: -6170983298512845607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soft White Glow on Transparency_32
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 37
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1274f97bbdeb40cc0800000000000000
+      internalID: -3745659139177625823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Soft White Glow on Transparency_0: -9023117808206957256
+      Soft White Glow on Transparency_1: 4937281679389865284
+      Soft White Glow on Transparency_10: 2459041939387820494
+      Soft White Glow on Transparency_11: 1050722251623177460
+      Soft White Glow on Transparency_12: 2933966625434945336
+      Soft White Glow on Transparency_13: 6569444956052424985
+      Soft White Glow on Transparency_14: 1910404312990769054
+      Soft White Glow on Transparency_15: 1366165304725560887
+      Soft White Glow on Transparency_16: 7028933813859189132
+      Soft White Glow on Transparency_17: 6137503460710386293
+      Soft White Glow on Transparency_18: -6510362367589238479
+      Soft White Glow on Transparency_19: -2774784047770338142
+      Soft White Glow on Transparency_2: 824850842720258352
+      Soft White Glow on Transparency_20: 7307586975566851989
+      Soft White Glow on Transparency_21: 4039712098077460740
+      Soft White Glow on Transparency_22: 2912613342467462371
+      Soft White Glow on Transparency_23: -3674546611601700165
+      Soft White Glow on Transparency_24: 3058704659596037754
+      Soft White Glow on Transparency_25: 8805201790033843724
+      Soft White Glow on Transparency_26: 3851581105401505098
+      Soft White Glow on Transparency_27: -941448272355673577
+      Soft White Glow on Transparency_28: 6590199419076590668
+      Soft White Glow on Transparency_29: -59408048683856154
+      Soft White Glow on Transparency_3: 7601216105383686917
+      Soft White Glow on Transparency_30: 595709199985891701
+      Soft White Glow on Transparency_31: -6170983298512845607
+      Soft White Glow on Transparency_32: -3745659139177625823
+      Soft White Glow on Transparency_4: 6302057077796532651
+      Soft White Glow on Transparency_5: -8107503397905761011
+      Soft White Glow on Transparency_6: 3672484352470527164
+      Soft White Glow on Transparency_7: 8066895822707959765
+      Soft White Glow on Transparency_8: -6851276301548084222
+      Soft White Glow on Transparency_9: 49346690490205081
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -210,6 +210,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: ui-frames-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 395
+        height: 792
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579b267298e91ef4aad31b64a5ebfd96
+      internalID: -1527415600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui-frames-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 529
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54f7d6ac807d96488dbab26dcedf798
+      internalID: -1015198808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -228,6 +272,8 @@ TextureImporter:
     nameFileIdTable:
       ui-frames-sheet_0: 3511545944319246335
       ui-frames-sheet_1: -1559765975539174727
+      ui-frames-sheet_2: -1527415600
+      ui-frames-sheet_3: -1015198808
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

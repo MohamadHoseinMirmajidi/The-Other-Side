@@ -170,12 +170,12 @@ TextureImporter:
       name: ui-frames-sheet_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 15
-        width: 706
-        height: 857
+        x: 0
+        y: 0
+        width: 887
+        height: 887
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -192,12 +192,12 @@ TextureImporter:
       name: ui-frames-sheet_1
       rect:
         serializedVersion: 2
-        x: 784
-        y: 15
-        width: 975
-        height: 850
+        x: 887
+        y: 0
+        width: 887
+        height: 887
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,94 +206,6 @@ TextureImporter:
       bones: []
       spriteID: 9b23f37fb199a5ae0800000000000000
       internalID: -1559765975539174727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui-frames-sheet_2
-      rect:
-        serializedVersion: 2
-        x: 837
-        y: 663
-        width: 37
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ad560f52fbfa2560800000000000000
-      internalID: 7289915965247479202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui-frames-sheet_3
-      rect:
-        serializedVersion: 2
-        x: 833
-        y: 547
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9ba346ffe7aae2500800000000000000
-      internalID: 373423281545689785
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui-frames-sheet_4
-      rect:
-        serializedVersion: 2
-        x: 837
-        y: 534
-        width: 9
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 545788b03f60346d0800000000000000
-      internalID: -3007552485213047483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui-frames-sheet_5
-      rect:
-        serializedVersion: 2
-        x: 828
-        y: 531
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb53f0a73216dcfa0800000000000000
-      internalID: -5778855941846911557
       vertices: []
       indices: 
       edges: []
@@ -310,14 +222,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":887.0,"y":887.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       ui-frames-sheet_0: 3511545944319246335
       ui-frames-sheet_1: -1559765975539174727
-      ui-frames-sheet_2: 7289915965247479202
-      ui-frames-sheet_3: 373423281545689785
-      ui-frames-sheet_4: -3007552485213047483
-      ui-frames-sheet_5: -5778855941846911557
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

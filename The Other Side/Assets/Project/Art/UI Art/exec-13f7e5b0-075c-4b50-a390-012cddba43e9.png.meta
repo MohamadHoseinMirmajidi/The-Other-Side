@@ -179,12 +179,12 @@ TextureImporter:
       name: exec-13f7e5b0-075c-4b50-a390-012cddba43e9_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 757
-        width: 674
-        height: 221
+        x: 56
+        y: 801
+        width: 664
+        height: 174
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -201,13 +201,13 @@ TextureImporter:
       name: exec-13f7e5b0-075c-4b50-a390-012cddba43e9_1
       rect:
         serializedVersion: 2
-        x: 826
-        y: 787
-        width: 636
-        height: 215
+        x: 863
+        y: 814
+        width: 595
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 159, y: 59, z: 160, w: 56}
       customData: 
       outline: []
       physicsShape: []
@@ -223,13 +223,13 @@ TextureImporter:
       name: exec-13f7e5b0-075c-4b50-a390-012cddba43e9_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 399
-        width: 369
-        height: 326
+        x: 74
+        y: 413
+        width: 312
+        height: 299
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 70, y: 70, z: 70, w: 69}
       customData: 
       outline: []
       physicsShape: []
@@ -242,38 +242,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: exec-13f7e5b0-075c-4b50-a390-012cddba43e9_3
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 633
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf0901923b8660cb0800000000000000
-      internalID: -4898112426021449476
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: exec-13f7e5b0-075c-4b50-a390-012cddba43e9_4
       rect:
         serializedVersion: 2
-        x: 478
-        y: 375
-        width: 614
-        height: 347
+        x: 489
+        y: 416
+        width: 591
+        height: 293
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 76, y: 74, z: 76, w: 73}
       customData: 
       outline: []
       physicsShape: []
@@ -289,13 +267,13 @@ TextureImporter:
       name: exec-13f7e5b0-075c-4b50-a390-012cddba43e9_5
       rect:
         serializedVersion: 2
-        x: 1179
-        y: 381
-        width: 318
-        height: 395
+        x: 1185
+        y: 394
+        width: 283
+        height: 363
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 69, y: 69, z: 70, w: 69}
       customData: 
       outline: []
       physicsShape: []
@@ -311,13 +289,13 @@ TextureImporter:
       name: exec-13f7e5b0-075c-4b50-a390-012cddba43e9_6
       rect:
         serializedVersion: 2
-        x: 46
-        y: 0
-        width: 1445
-        height: 364
+        x: 55
+        y: 55
+        width: 1431
+        height: 282
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 142, y: 140, z: 140, w: 142}
       customData: 
       outline: []
       physicsShape: []
@@ -329,55 +307,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: exec-13f7e5b0-075c-4b50-a390-012cddba43e9_7
-      rect:
-        serializedVersion: 2
-        x: 598
-        y: 17
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db047ad7f94811990800000000000000
-      internalID: -7417001290759716675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: exec-13f7e5b0-075c-4b50-a390-012cddba43e9_8
-      rect:
-        serializedVersion: 2
-        x: 1192
-        y: 31
-        width: 15
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb5dfe6765d574b20800000000000000
-      internalID: 3118563892921357755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1aabe150ca2d03c47beecf83663c50d8
     internalID: 0
     vertices: []
     indices: 

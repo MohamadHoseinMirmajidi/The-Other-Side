@@ -170,12 +170,12 @@ TextureImporter:
       name: panel-background_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1536
-        height: 1024
+        x: 28
+        y: 801
+        width: 700
+        height: 216
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -192,12 +192,12 @@ TextureImporter:
       name: panel-background_1
       rect:
         serializedVersion: 2
-        x: 1530
-        y: 520
-        width: 6
-        height: 9
+        x: 816
+        y: 827
+        width: 683
+        height: 147
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,19 +214,19 @@ TextureImporter:
       name: panel-background_2
       rect:
         serializedVersion: 2
-        x: 1512
-        y: 305
-        width: 15
-        height: 11
+        x: 43
+        y: 306
+        width: 468
+        height: 495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 95adffd441d8f93a0800000000000000
+      spriteID: eddf59ce5f5cb094e9b66e8a0cd60f71
       internalID: -6656446605882828199
       vertices: []
       indices: 
@@ -236,19 +236,19 @@ TextureImporter:
       name: panel-background_3
       rect:
         serializedVersion: 2
-        x: 1524
-        y: 275
-        width: 12
-        height: 14
+        x: 536
+        y: 301
+        width: 436
+        height: 499
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4b7100b6fac00cc30800000000000000
+      spriteID: a5ad562ffdda77e429310a40f44caed8
       internalID: 4377512785358100404
       vertices: []
       indices: 
@@ -258,19 +258,19 @@ TextureImporter:
       name: panel-background_4
       rect:
         serializedVersion: 2
-        x: 1530
-        y: 135
-        width: 6
-        height: 9
+        x: 1018
+        y: 304
+        width: 485
+        height: 495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1b3dbdb09203aa020800000000000000
+      spriteID: 17ec50a4542d69a45a5aa95f6feb6f49
       internalID: 2353746708105253809
       vertices: []
       indices: 
@@ -280,19 +280,19 @@ TextureImporter:
       name: panel-background_5
       rect:
         serializedVersion: 2
-        x: 491
-        y: 0
-        width: 167
-        height: 7
+        x: 39
+        y: 40
+        width: 1458
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 39dcbd1158a7ca4b0800000000000000
+      spriteID: 1f9628867a9750c4b949134e64b2a247
       internalID: -5427828738939433581
       vertices: []
       indices: 
@@ -310,7 +310,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":768.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       panel-background_0: -3523968152027142028
       panel-background_1: -5178887622152517029

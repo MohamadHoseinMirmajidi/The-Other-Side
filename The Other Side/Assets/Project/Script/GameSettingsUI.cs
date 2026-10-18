@@ -91,6 +91,6 @@ public class GameSettingsUI : MonoBehaviour
 
     private void ApplySettingsToAudioSystem()
     {
-        // TODO: When sounds and an AudioMixer exist, apply audioEnabled and volume here.
+        GameAudioManager.Instance?.ApplySettings(audioEnabled, volume);
     }
 }

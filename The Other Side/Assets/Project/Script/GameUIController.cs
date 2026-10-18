@@ -21,6 +21,10 @@ public class GameUIController : MonoBehaviour
     [SerializeField] private Button settingsFirstButton;
     [SerializeField] private Button pauseFirstButton;
 
+    [Header("Mouse Cursor")]
+    [SerializeField] private Texture2D menuCursor;
+    [SerializeField] private Vector2 cursorHotspot = new Vector2(16f, 13f);
+
     [Header("Panel Animation")]
     [SerializeField] private float transitionDuration = 0.2f;
     [SerializeField] private float hiddenScale = 0.94f;
@@ -80,12 +84,21 @@ public class GameUIController : MonoBehaviour
             activePanel = mainMenuPanel;
             activeFirstButton = mainMenuFirstButton;
         }
+
+        SetCursorForUI(!gameStarted);
     }
 
     private void Start()
     {
         if (!gameStarted)
+        {
             SelectButton(mainMenuFirstButton);
+            GameAudioManager.Instance?.PlayMenuMusic();
+        }
+        else
+        {
+            GameAudioManager.Instance?.PlayGameplayMusic();
+        }
     }
 
     private void Update()
@@ -127,6 +140,8 @@ public class GameUIController : MonoBehaviour
             return;
 
         gameStarted = true;
+        GameAudioManager.Instance?.PlayUIConfirm();
+        GameAudioManager.Instance?.PlayGameplayMusic();
         settingsOpen = false;
         HidePanel(settingsPanel);
         HidePanel(mainMenuPanel);
@@ -134,6 +149,7 @@ public class GameUIController : MonoBehaviour
         activePanel = null;
         activeFirstButton = null;
         ClearSelection();
+        HideCursorForGameplay();
     }
 
     public void PauseGame()
@@ -142,9 +158,11 @@ public class GameUIController : MonoBehaviour
             return;
 
         isPaused = true;
+        GameAudioManager.Instance?.PlayUIConfirm();
         settingsOpen = false;
         SetGameplayPaused(true);
         ShowPanel(pausePanel, pauseFirstButton);
+        ShowCursorForUI();
     }
 
     public void ResumeGame()
@@ -153,6 +171,7 @@ public class GameUIController : MonoBehaviour
             return;
 
         isPaused = false;
+        GameAudioManager.Instance?.PlayUIBack();
         settingsOpen = false;
         HidePanel(settingsPanel);
         HidePanel(pausePanel);
@@ -160,6 +179,7 @@ public class GameUIController : MonoBehaviour
         activePanel = null;
         activeFirstButton = null;
         ClearSelection();
+        HideCursorForGameplay();
     }
 
     public void OpenSettings()
@@ -168,9 +188,11 @@ public class GameUIController : MonoBehaviour
             return;
 
         settingsOpen = true;
+        GameAudioManager.Instance?.PlayUIConfirm();
         settingsReturnPanel = isPaused ? pausePanel : mainMenuPanel;
         HidePanel(settingsReturnPanel);
         ShowPanel(settingsPanel, settingsFirstButton);
+        ShowCursorForUI();
     }
 
     public void CloseSettings()
@@ -179,16 +201,21 @@ public class GameUIController : MonoBehaviour
             return;
 
         settingsOpen = false;
+        GameAudioManager.Instance?.PlayUIBack();
         HidePanel(settingsPanel);
 
         if (settingsReturnPanel == pausePanel)
             ShowPanel(pausePanel, pauseFirstButton);
         else
             ShowPanel(mainMenuPanel, mainMenuFirstButton);
+
+        ShowCursorForUI();
     }
 
     public void RestartGame()
     {
+        GameAudioManager.Instance?.PlayUIConfirm();
+        HideCursorForGameplay();
         Time.timeScale = 1f;
         AudioListener.pause = false;
         gameProgress.RestartGame();
@@ -196,6 +223,8 @@ public class GameUIController : MonoBehaviour
 
     public void ReturnToMainMenu()
     {
+        GameAudioManager.Instance?.PlayUIBack();
+        ShowCursorForUI();
         Time.timeScale = 1f;
         AudioListener.pause = false;
         gameProgress.ReturnToMainMenu();
@@ -203,6 +232,7 @@ public class GameUIController : MonoBehaviour
 
     public void QuitGame()
     {
+        GameAudioManager.Instance?.PlayUIConfirm();
         Time.timeScale = 1f;
         AudioListener.pause = false;
 
@@ -211,6 +241,31 @@ public class GameUIController : MonoBehaviour
 #else
         Application.Quit();
 #endif
+    }
+
+    public void ShowCursorForUI()
+    {
+        SetCursorForUI(true);
+    }
+
+    public void HideCursorForGameplay()
+    {
+        SetCursorForUI(false);
+    }
+
+    private void SetCursorForUI(bool visible)
+    {
+        if (menuCursor != null)
+            Cursor.SetCursor(menuCursor, cursorHotspot, CursorMode.ForceSoftware);
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = visible;
+    }
+
+    private void OnApplicationFocus(bool hasFocus)
+    {
+        if (hasFocus)
+            SetCursorForUI(!gameStarted || isPaused || settingsOpen);
     }
 
     private void SetGameplayPaused(bool paused)

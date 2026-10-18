@@ -48,6 +48,31 @@ public class StorySectionLayout : MonoBehaviour
         return Mathf.InverseLerp(minimum, maximum, playerX);
     }
 
+    public float ClampCameraX(float cameraX)
+    {
+        if (cameraLeftLimit == null || cameraRightLimit == null)
+            return cameraX;
+
+        float minimum = Mathf.Min(
+            cameraLeftLimit.position.x,
+            cameraRightLimit.position.x);
+        float maximum = Mathf.Max(
+            cameraLeftLimit.position.x,
+            cameraRightLimit.position.x);
+        return Mathf.Clamp(cameraX, minimum, maximum);
+    }
+
+    public void SetRightLimits(
+        Transform newPlayerRightLimit,
+        Transform newCameraRightLimit)
+    {
+        if (newPlayerRightLimit != null)
+            playerRightLimit = newPlayerRightLimit;
+
+        if (newCameraRightLimit != null)
+            cameraRightLimit = newCameraRightLimit;
+    }
+
     public Vector3 GetCameraPosition(Vector3 currentPosition, Vector3 playerPosition)
     {
         Vector3 result = currentPosition;

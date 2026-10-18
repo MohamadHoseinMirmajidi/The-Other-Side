@@ -155,12 +155,12 @@ TextureImporter:
       name: BG-03-ultrawide-long-corridor-sparse-clutter-v3_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 652
         y: 0
-        width: 7680
+        width: 7028
         height: 2160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -177,7 +177,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 62238956bd3fdfa439673a6a9584e840
     internalID: 0
     vertices: []
     indices: 

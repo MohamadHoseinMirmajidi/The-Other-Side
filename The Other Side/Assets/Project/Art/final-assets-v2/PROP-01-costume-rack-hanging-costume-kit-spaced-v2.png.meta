@@ -213,13 +213,13 @@ TextureImporter:
       name: PROP-01-costume-rack-hanging-costume-kit-spaced-v2_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 471
-        width: 484
-        height: 523
+        x: 132
+        y: 493
+        width: 380
+        height: 500
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 94, y: 145, z: 99, w: 180}
       customData: 
       outline: []
       physicsShape: []

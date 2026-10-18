@@ -32,6 +32,9 @@ public class PlayerAnimator : MonoBehaviour
     private string persistentState;
     private bool hasBackpack;
     private bool isPlayingAction;
+    private bool climbHeightMomentReached;
+
+    public bool ClimbHeightMomentReached => climbHeightMomentReached;
 
     private void Awake()
     {
@@ -91,6 +94,17 @@ public class PlayerAnimator : MonoBehaviour
 
         isPlayingAction = false;
         RestorePreferredState();
+    }
+
+    public void PrepareClimbHeightMoment()
+    {
+        climbHeightMomentReached = false;
+    }
+
+    // Called by an Animation Event on both climb-up clips.
+    public void OnClimbHeightMoment()
+    {
+        climbHeightMomentReached = true;
     }
 
     public void SetPersistentState(string stateName)

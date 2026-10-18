@@ -102,7 +102,6 @@ public class StoryRouteController : MonoBehaviour
     [SerializeField] private float escapeShockDuration = 1.25f;
     [SerializeField] private float autoRunSpeed = 6f;
     [SerializeField] private float walkToPointSpeed = 3.5f;
-    [SerializeField] private float climbSpeed = 2.5f;
     [SerializeField] private float endingWalkDuration = 2.4f;
     [SerializeField] private float shortCutsceneDuration = 1.4f;
     [SerializeField] private float creditMinimumDuration = 10f;
@@ -502,8 +501,8 @@ public class StoryRouteController : MonoBehaviour
             : null;
         yield return MovePlayerToWithAnimation(
             boxClimbTopPoint,
-            climbSpeed,
-            GetClimbState(true));
+            GetClimbState(true),
+            true);
         if (shadowReveal != null)
             yield return shadowReveal;
 
@@ -596,8 +595,8 @@ public class StoryRouteController : MonoBehaviour
         GameAudioManager.Instance?.PlayClimb();
         yield return MovePlayerToWithAnimation(
             boxClimbGroundPoint,
-            climbSpeed,
-            GetClimbState(false));
+            GetClimbState(false),
+            false);
 
         SetPlayerControl(true);
         isBusy = false;
@@ -749,8 +748,8 @@ public class StoryRouteController : MonoBehaviour
         GameAudioManager.Instance?.PlayClimb();
         yield return MovePlayerToWithAnimation(
             boxClimbTopPoint,
-            climbSpeed,
-            GetClimbState(true));
+            GetClimbState(true),
+            true);
 
         yield return ShowStoryImageAnimated(
             costumeRevealImage,
@@ -765,8 +764,8 @@ public class StoryRouteController : MonoBehaviour
         GameAudioManager.Instance?.PlayClimb();
         yield return MovePlayerToWithAnimation(
             boxClimbGroundPoint,
-            climbSpeed,
-            GetClimbState(false));
+            GetClimbState(false),
+            false);
         Say("باید برم به سمت حیاط، مادرم منتظرمه.");
         SetPlayerControl(true);
         isBusy = false;
@@ -958,30 +957,49 @@ public class StoryRouteController : MonoBehaviour
 
     private IEnumerator MovePlayerToWithAnimation(
         Transform targetPoint,
-        float speed,
-        string stateName)
+        string stateName,
+        bool moveAtAnimationEvent)
     {
-        RigidbodyConstraints2D previousConstraints = RigidbodyConstraints2D.None;
-        bool changedConstraints = playerBody != null;
-        if (changedConstraints)
+        Vector3 targetPosition = GetPointPosition(targetPoint, player.position);
+        playerMovement?.FaceDirection(1f);
+        playerAnimator?.PrepareClimbHeightMoment();
+
+        // On descent the root returns to ground immediately. The downward clip
+        // starts with the body visually raised, then brings it down to the root.
+        if (!moveAtAnimationEvent)
+            SetPlayerPosition(targetPosition);
+
+        Coroutine animation = StartPlayerAnimation(stateName);
+
+        if (moveAtAnimationEvent)
         {
-            previousConstraints = playerBody.constraints;
-            playerBody.linearVelocity = Vector2.zero;
-            // Normal gameplay locks Y. Scripted climbs must temporarily unlock it.
-            playerBody.constraints = RigidbodyConstraints2D.FreezeRotation;
+            // The climb-up clips call OnClimbHeightMoment on the exact frame
+            // where the player's root should move onto the chair.
+            float elapsed = 0f;
+            const float missingEventFallback = 0.75f;
+            while (playerAnimator != null &&
+                   !playerAnimator.ClimbHeightMomentReached &&
+                   elapsed < missingEventFallback)
+            {
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+
+            SetPlayerPosition(targetPosition);
         }
 
-        playerMovement?.FaceDirection(1f);
-        Coroutine animation = StartPlayerAnimation(stateName);
-        yield return MovePlayerTo(targetPoint, speed, false);
         if (animation != null)
             yield return animation;
+    }
 
-        if (changedConstraints)
-        {
-            playerBody.linearVelocity = Vector2.zero;
-            playerBody.constraints = previousConstraints;
-        }
+    private void SetPlayerPosition(Vector3 targetPosition)
+    {
+        player.position = targetPosition;
+        if (playerBody == null)
+            return;
+
+        playerBody.position = targetPosition;
+        playerBody.linearVelocity = Vector2.zero;
     }
 
     private string GetClimbState(bool climbingUp)

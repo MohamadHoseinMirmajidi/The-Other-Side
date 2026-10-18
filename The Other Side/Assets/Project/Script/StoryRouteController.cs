@@ -157,7 +157,7 @@ public class StoryRouteController : MonoBehaviour
     {
         "آفرین پسرم، نمایش خیلی خوبی اجرا کردی.",
         "من میرم توی حیاط و منتظرت میمونم.",
-        "تو هم برو کولهپشتیت رو از پشت صحنه بردار و بیا."
+        "تو هم برو کوله پشتیت رو از پشت صحنه بردار و بیا."
     };
 
     public static bool IsCutsceneOpen { get; private set; }
@@ -189,8 +189,8 @@ public class StoryRouteController : MonoBehaviour
                 if (!gameProgress.HasCompleted(GameProgressEvent.TutorialItemRead))
                     return "برگه روی زمین را بردار.";
                 return bagCollected
-                    ? "از در حیاط خارج شو."
-                    : "از در راهرو وارد مسیر پشت صحنه شو.";
+                    ? "از درب حیاط خارج شو."
+                    : "از درب راهرو وارد مسیر پشت صحنه شو.";
 
             case 1:
                 if (bagCollected)
@@ -202,12 +202,12 @@ public class StoryRouteController : MonoBehaviour
                 }
 
                 if (!keyDoorInspected)
-                    return "در انتهای مسیر را بررسی کن.";
+                    return "درب انتهای مسیر را بررسی کن.";
                 if (!gameProgress.HasCompleted(GameProgressEvent.BoxPlaced))
                     return "یک وسیله پیدا کن و آن را زیر محل کلید ببر.";
                 if (!gameProgress.HasCompleted(GameProgressEvent.KeyCollected))
-                    return "روی جعبه برو و کلید را بردار.";
-                return "در قفلشده را با کلید باز کن و مسیر را ادامه بده.";
+                    return "روی صندلی برو و کلید را بردار.";
+                return "درب قفل شده را با کلید باز کن و مسیر را ادامه بده.";
 
             case 2:
                 if (bagCollected)
@@ -230,7 +230,7 @@ public class StoryRouteController : MonoBehaviour
                 if (!gameProgress.HasCompleted(GameProgressEvent.CurtainOpened))
                     return "وسیله سنگین را به طبقه بالا ببر.";
                 if (!gameProgress.HasCompleted(GameProgressEvent.DecorationRevealed))
-                    return "برو ببین سایه روی پرده متعلق به چه چیزی بوده.";
+                    return "ببین سایه روی پرده متعلق به چه چیزی بوده.";
                 return "کوله پشتی را بردار.";
 
             case 4:
@@ -333,7 +333,7 @@ public class StoryRouteController : MonoBehaviour
             Mathf.Abs(player.position.x - highKey.transform.position.x) < 2.25f)
         {
             keyDistanceDialogueShown = true;
-            Say("باید یه چیزی پیدا کنم بزارم زیر پام که قدم برسه.");
+            Say("قدم بهش نمیرسه.");
         }
     }
 
@@ -416,7 +416,7 @@ public class StoryRouteController : MonoBehaviour
                 break;
             case StoryInteractionType.HallwayDoor:
                 if (!gameProgress.HasCompleted(GameProgressEvent.TutorialItemRead))
-                    Say("اول باید اون برگه رو بردارم.");
+                    Say("باید اون برگه رو بردارم.");
                 else
                 {
                     GameAudioManager.Instance?.PlayDoorOpen();
@@ -626,6 +626,7 @@ public class StoryRouteController : MonoBehaviour
         yield return MovePlayerTo(boxClimbGroundPoint, walkToPointSpeed);
         playerMovement?.FaceDirection(1f);
         GameAudioManager.Instance?.PlayClimb();
+        ApplyKeyRoomExpandedLimits();
 
         Coroutine shadowReveal = keyRoomShadow != null
             ? StartCoroutine(keyRoomShadow.Reveal())
@@ -822,7 +823,7 @@ public class StoryRouteController : MonoBehaviour
     {
         isBusy = true;
         SetPlayerControl(false);
-        Say("ممکنه داخل این جعبه ابزار چیزی که لازمه رو پیدا کنم.");
+        Say("ممکنه داخل این جعبه چیزی که لازمه رو پیدا کنم.");
         yield return new WaitForSeconds(2.2f);
         GameAudioManager.Instance?.PlayToolboxSearch();
         yield return PlayPlayerAnimation("Ground Search Animation");
@@ -971,7 +972,9 @@ public class StoryRouteController : MonoBehaviour
         cameraFocusActive = true;
         yield return MoveCameraToFocusPoint(fuseShadowCameraPoint);
 
-        Say("یعنی من از سایه خودم انقدر ترسیدم؟");
+        Say("اینکه سایه خودمه.");
+        yield return new WaitForSeconds(2.4f);
+        Say("یعنی از سایه خودم انقدر ترسیدم؟");
         yield return new WaitForSeconds(2.4f);
         dialogueHUD?.HideDialogue();
         yield return MoveCameraTo(
@@ -1107,7 +1110,7 @@ public class StoryRouteController : MonoBehaviour
         else if (room == 1 && gameProgress.HasCompleted(GameProgressEvent.BagCollected))
         {
             if (gameProgress.TryComplete(GameProgressEvent.ReturnedToKeyRoom))
-                Say("نکنه سایهای که اینجا دیدم هم هیولا نبوده؟");
+                Say("نکنه سایه ای که اینجا دیدم هم هیولا نبوده؟");
         }
         else if (room == 2 && !gameProgress.HasCompleted(GameProgressEvent.EnteredFuseRoom))
         {

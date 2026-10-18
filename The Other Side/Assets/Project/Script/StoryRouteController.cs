@@ -30,6 +30,7 @@ public class StoryRouteController : MonoBehaviour
     [SerializeField] private Transform boxClimbGroundPoint;
     [SerializeField] private Transform boxClimbTopPoint;
     [SerializeField] private Transform keyPickupPoint;
+    [SerializeField] private Transform keyShadowCameraPoint;
 
     [Header("Room 03 Design Points")]
     [SerializeField] private Transform fuseRoomEntryFromKey;
@@ -110,6 +111,8 @@ public class StoryRouteController : MonoBehaviour
     [Header("Cutscene Presentation")]
     [SerializeField] private float cutsceneTransitionDuration = 0.2f;
     [SerializeField] private float cutsceneStartScale = 0.82f;
+    [SerializeField] private float keyShadowCameraMoveDuration = 0.35f;
+    [SerializeField, Range(0.5f, 1f)] private float keyShadowCameraZoom = 0.82f;
     [SerializeField] private AnimationCurve cutsceneEase =
         AnimationCurve.EaseInOut(0f, 0f, 1f, 1f);
 
@@ -123,13 +126,14 @@ public class StoryRouteController : MonoBehaviour
     private bool fuseInspected;
     private bool waitingForKeyPickup;
     private bool introFinished;
+    private bool cameraFocusActive;
     private Vector3 storyImageBaseScale = Vector3.one;
 
     private static readonly string[] IntroLines =
     {
-        "آفرین پسرم، نمایش خیلی خوبی اجرا کردی.",
-        "من می‌رم توی حیاط و منتظرت می‌مونم.",
-        "تو هم برو کوله‌پشتیت رو از پشت صحنه بردار و بیا."
+        "آفرین پسرم، خیلی خوب نمایش اجرا کردی.",
+        "من میرم توی حیاط و منتظرت میمونم.",
+        "تو هم برو کوله پشتیت رو از پشت صحنه بردار و بیا."
     };
 
     public static bool IsCutsceneOpen { get; private set; }
@@ -222,7 +226,8 @@ public class StoryRouteController : MonoBehaviour
 
     private void LateUpdate()
     {
-        UpdateCameraPosition();
+        if (!cameraFocusActive)
+            UpdateCameraPosition();
     }
 
     private void OnDestroy()
@@ -294,7 +299,7 @@ public class StoryRouteController : MonoBehaviour
                 break;
             case StoryInteractionType.HallwayDoor:
                 if (!gameProgress.HasCompleted(GameProgressEvent.TutorialItemRead))
-                    Say("اول باید اون برگه رو بردارم.");
+                    Say("میخوام اول اون برگه رو بردارم.");
                 else
                 {
                     GameAudioManager.Instance?.PlayDoorOpen();
@@ -355,7 +360,7 @@ public class StoryRouteController : MonoBehaviour
             case StoryInteractionType.Backpack:
                 if (!gameProgress.HasCompleted(GameProgressEvent.DecorationRevealed))
                 {
-                    Say("باید اول بفهمم اون سایه چیه؟");
+                    Say("میخوام بفهمم اون سایه چیه؟");
                     break;
                 }
 
@@ -463,7 +468,7 @@ public class StoryRouteController : MonoBehaviour
         {
             if (!gameProgress.HasCompleted(GameProgressEvent.WeightCollected))
             {
-                Say("اول باید وسیله سنگین رو پیدا کنم.");
+                Say("باید وسیله سنگین رو پیدا کنم.");
                 yield break;
             }
 
@@ -569,11 +574,17 @@ public class StoryRouteController : MonoBehaviour
 
         playerMovement?.FaceDirection(1f);
         GameAudioManager.Instance?.PlayKeyPickup();
+        Vector3 cameraReturnPosition = routeCamera != null
+            ? routeCamera.transform.position
+            : Vector3.zero;
+        float cameraReturnSize = routeCamera != null
+            ? routeCamera.orthographicSize
+            : 0f;
+
+        IsCutsceneOpen = true;
+        cameraFocusActive = true;
         Coroutine keyGrabAnimation = StartPlayerAnimation("Key Grab Animation");
-        yield return ShowStoryImageAnimated(
-            firstShadowImage,
-            new Color(0.08f, 0.08f, 0.12f, 1f),
-            "FIRST SCARY SHADOW PLACEHOLDER");
+        yield return MoveCameraToKeyShadow();
         if (keyGrabAnimation != null)
             yield return keyGrabAnimation;
         GameAudioManager.Instance?.PlayScare();
@@ -589,7 +600,13 @@ public class StoryRouteController : MonoBehaviour
         gameProgress.TryComplete(GameProgressEvent.KeyCollected);
         playerAnimator?.ClearPersistentState();
         SetInteractionVisual(highKey, true);
-        yield return HideStoryImageAnimated();
+        dialogueHUD?.HideDialogue();
+        yield return MoveCameraTo(
+            cameraReturnPosition,
+            cameraReturnSize,
+            keyShadowCameraMoveDuration);
+        cameraFocusActive = false;
+        IsCutsceneOpen = false;
         yield return new WaitForSeconds(0.15f);
         playerMovement?.FaceDirection(1f);
         GameAudioManager.Instance?.PlayClimb();
@@ -601,6 +618,54 @@ public class StoryRouteController : MonoBehaviour
         SetPlayerControl(true);
         isBusy = false;
         UpdateRouteObjects();
+    }
+
+    private IEnumerator MoveCameraToKeyShadow()
+    {
+        if (routeCamera == null || keyShadowCameraPoint == null)
+            yield break;
+
+        Vector3 targetPosition = keyShadowCameraPoint.position;
+        targetPosition.z = routeCamera.transform.position.z;
+        float targetSize = routeCamera.orthographicSize * keyShadowCameraZoom;
+        yield return MoveCameraTo(
+            targetPosition,
+            targetSize,
+            keyShadowCameraMoveDuration);
+    }
+
+    private IEnumerator MoveCameraTo(
+        Vector3 targetPosition,
+        float targetSize,
+        float duration)
+    {
+        if (routeCamera == null)
+            yield break;
+
+        Vector3 startPosition = routeCamera.transform.position;
+        float startSize = routeCamera.orthographicSize;
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float progress = duration <= 0f
+                ? 1f
+                : Mathf.Clamp01(elapsed / duration);
+            float eased = cutsceneEase.Evaluate(progress);
+            routeCamera.transform.position = Vector3.Lerp(
+                startPosition,
+                targetPosition,
+                eased);
+            routeCamera.orthographicSize = Mathf.Lerp(
+                startSize,
+                targetSize,
+                eased);
+            yield return null;
+        }
+
+        routeCamera.transform.position = targetPosition;
+        routeCamera.orthographicSize = targetSize;
     }
 
     private IEnumerator ToolboxSequence(GameObject toolboxObject)
@@ -1115,6 +1180,20 @@ public class StoryRouteController : MonoBehaviour
 
         if (routeCamera == null)
             routeCamera = Camera.main;
+        if (keyShadowCameraPoint == null)
+        {
+            Transform[] sceneTransforms = FindObjectsByType<Transform>(
+                FindObjectsInactive.Include,
+                FindObjectsSortMode.None);
+            for (int i = 0; i < sceneTransforms.Length; i++)
+            {
+                if (sceneTransforms[i].name == "CAMERA POINT - CUT SCENE")
+                {
+                    keyShadowCameraPoint = sceneTransforms[i];
+                    break;
+                }
+            }
+        }
         if (routeCamera != null)
         {
             SectionCameraController sectionCamera =

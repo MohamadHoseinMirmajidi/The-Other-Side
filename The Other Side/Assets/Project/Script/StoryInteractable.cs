@@ -15,7 +15,8 @@ public enum StoryInteractionType
     Backpack,
     BackstageReturnDoor,
     FuseReturnDoor,
-    KeyRoomReturnDoor
+    KeyRoomReturnDoor,
+    ReturnCurtain
 }
 
 public class StoryInteractable : Interactable

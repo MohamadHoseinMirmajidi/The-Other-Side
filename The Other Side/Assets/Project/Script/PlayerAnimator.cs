@@ -25,6 +25,10 @@ public class PlayerAnimator : MonoBehaviour
     [SerializeField] private string runBackpackState = "Run BK Animation";
     [SerializeField] private float runAnimationSpeedThreshold = 4f;
 
+    [Header("Movement Audio")]
+    [SerializeField] private float walkFootstepInterval = 0.48f;
+    [SerializeField] private float runFootstepInterval = 0.3f;
+
     [SerializeField] private Animator animator;
     private int speedHash;
     private int facingHash;
@@ -33,6 +37,7 @@ public class PlayerAnimator : MonoBehaviour
     private bool hasBackpack;
     private bool isPlayingAction;
     private bool climbHeightMomentReached;
+    private float footstepTimer;
 
     public bool ClimbHeightMomentReached => climbHeightMomentReached;
 
@@ -69,6 +74,8 @@ public class PlayerAnimator : MonoBehaviour
 
         if (hasBackpack && !isPlayingAction && string.IsNullOrEmpty(persistentState))
             UpdateBackpackLocomotion();
+
+        UpdateMovementAudio();
     }
 
     public IEnumerator PlayAction(string stateName)
@@ -202,5 +209,44 @@ public class PlayerAnimator : MonoBehaviour
         {
             PlayState(targetState);
         }
+    }
+
+    private void UpdateMovementAudio()
+    {
+        if (animator == null)
+            return;
+
+        AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
+        bool isWalkAnimation = IsState(state, walkState) ||
+                               IsState(state, walkBackpackState);
+        bool isRunAnimation = IsState(state, runState) ||
+                              IsState(state, runBackpackState);
+
+        if (!isWalkAnimation && !isRunAnimation)
+        {
+            footstepTimer = 0f;
+            return;
+        }
+
+        footstepTimer -= Time.deltaTime;
+        if (footstepTimer > 0f)
+            return;
+
+        if (isRunAnimation)
+        {
+            GameAudioManager.Instance?.PlayRunFootstep();
+            footstepTimer = runFootstepInterval;
+        }
+        else
+        {
+            GameAudioManager.Instance?.PlayWalkFootstep();
+            footstepTimer = walkFootstepInterval;
+        }
+    }
+
+    private static bool IsState(AnimatorStateInfo state, string stateName)
+    {
+        return !string.IsNullOrWhiteSpace(stateName) &&
+               state.IsName("Base Layer." + stateName);
     }
 }

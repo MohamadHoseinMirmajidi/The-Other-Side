@@ -38,7 +38,9 @@ public enum GameProgressEvent
     EnteredCartRoom,
     CartDoorOpened,
     EnteredBagRoom,
-    StageDoorChecked
+    StageDoorChecked,
+
+    ReturnCurtainRevealed
 }
 
 public class GameProgress : MonoBehaviour
@@ -92,8 +94,10 @@ public class GameProgress : MonoBehaviour
                 return HasCompleted(GameProgressEvent.BagCollected);
             case GameProgressEvent.ReturnedToKeyRoom:
                 return HasCompleted(GameProgressEvent.ReturnedToFuseRoom);
-            case GameProgressEvent.ReturnedToFirstRoom:
+            case GameProgressEvent.ReturnCurtainRevealed:
                 return HasCompleted(GameProgressEvent.ReturnedToKeyRoom);
+            case GameProgressEvent.ReturnedToFirstRoom:
+                return HasCompleted(GameProgressEvent.ReturnCurtainRevealed);
             case GameProgressEvent.EnteredCourtyard:
                 return HasCompleted(GameProgressEvent.ReturnedToFirstRoom);
             case GameProgressEvent.GameFinished:

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -10,11 +11,15 @@ public class GameUIController : MonoBehaviour
     [Header("References")]
     [SerializeField] private GameProgress gameProgress;
     [SerializeField] private PlayerMovement playerMovement;
+    [SerializeField] private StoryRouteController storyRoute;
 
     [Header("Panels")]
     [SerializeField] private GameObject mainMenuPanel;
     [SerializeField] private GameObject settingsPanel;
     [SerializeField] private GameObject pausePanel;
+
+    [Header("Pause Hint")]
+    [SerializeField] private TMP_Text hintText;
 
     [Header("First Selected Buttons")]
     [SerializeField] private Button mainMenuFirstButton;
@@ -57,6 +62,12 @@ public class GameUIController : MonoBehaviour
 
         if (playerMovement == null)
             playerMovement = FindAnyObjectByType<PlayerMovement>();
+
+        if (storyRoute == null)
+            storyRoute = FindAnyObjectByType<StoryRouteController>();
+
+        if (hintText == null)
+            hintText = FindHintText();
 
         PreparePanel(mainMenuPanel);
         PreparePanel(settingsPanel);
@@ -161,6 +172,7 @@ public class GameUIController : MonoBehaviour
         GameAudioManager.Instance?.PlayUIConfirm();
         settingsOpen = false;
         SetGameplayPaused(true);
+        RefreshHintText();
         ShowPanel(pausePanel, pauseFirstButton);
         ShowCursorForUI();
     }
@@ -205,7 +217,10 @@ public class GameUIController : MonoBehaviour
         HidePanel(settingsPanel);
 
         if (settingsReturnPanel == pausePanel)
+        {
+            RefreshHintText();
             ShowPanel(pausePanel, pauseFirstButton);
+        }
         else
             ShowPanel(mainMenuPanel, mainMenuFirstButton);
 
@@ -294,6 +309,31 @@ public class GameUIController : MonoBehaviour
 
         canvasGroups[panel] = canvasGroup;
         panelScales[panel] = panel.transform.localScale;
+    }
+
+    private TMP_Text FindHintText()
+    {
+        if (pausePanel == null)
+            return null;
+
+        Transform[] pauseChildren = pausePanel.GetComponentsInChildren<Transform>(true);
+        foreach (Transform child in pauseChildren)
+        {
+            if (child.name != "Hint Text Box")
+                continue;
+
+            return child.GetComponentInChildren<TMP_Text>(true);
+        }
+
+        return null;
+    }
+
+    private void RefreshHintText()
+    {
+        if (hintText == null || storyRoute == null)
+            return;
+
+        PersianDisplayText.Apply(hintText, storyRoute.GetCurrentHint());
     }
 
     private void ConfigureButtons(GameObject panel)

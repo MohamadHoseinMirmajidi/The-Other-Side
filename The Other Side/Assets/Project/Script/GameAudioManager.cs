@@ -14,6 +14,7 @@ public class GameAudioManager : MonoBehaviour
     [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioSource sfxSource;
     [SerializeField] private AudioSource uiSource;
+    [SerializeField] private AudioSource breathingSource;
 
     [Header("Shared Mixer")]
     [SerializeField] private AudioMixer masterMixer;
@@ -40,11 +41,19 @@ public class GameAudioManager : MonoBehaviour
     [SerializeField] private AudioClip keyPickup;
     [SerializeField] private AudioClip toolboxSearch;
     [SerializeField] private AudioClip fuseRepair;
+    [SerializeField] private AudioClip projectorPowerOn;
     [SerializeField] private AudioClip scare;
     [SerializeField] private AudioClip weightPickup;
     [SerializeField] private AudioClip ropeTie;
     [SerializeField] private AudioClip ropePull;
+    [SerializeField] private AudioClip curtainOpen;
     [SerializeField] private AudioClip backpackPickup;
+
+    [Header("Character SFX")]
+    [SerializeField] private AudioClip walkFootstep;
+    [SerializeField] private AudioClip runFootstep;
+    [SerializeField] private AudioClip panting;
+    [SerializeField] private AudioClip reliefBreath;
 
     [Header("Mix")]
     [SerializeField, Range(0f, 1f)] private float musicLevel = 0.75f;
@@ -92,11 +101,36 @@ public class GameAudioManager : MonoBehaviour
     public void PlayKeyPickup() => PlayOneShot(keyPickup);
     public void PlayToolboxSearch() => PlayOneShot(toolboxSearch);
     public void PlayFuseRepair() => PlayOneShot(fuseRepair);
+    public void PlayProjectorPowerOn() => PlayOneShot(projectorPowerOn);
     public void PlayScare() => PlayOneShot(scare);
     public void PlayWeightPickup() => PlayOneShot(weightPickup);
     public void PlayRopeTie() => PlayOneShot(ropeTie);
     public void PlayRopePull() => PlayOneShot(ropePull);
+    public void PlayCurtainOpen() => PlayOneShot(curtainOpen);
     public void PlayBackpackPickup() => PlayOneShot(backpackPickup);
+    public void PlayWalkFootstep() => PlayOneShot(walkFootstep);
+    public void PlayRunFootstep() => PlayOneShot(runFootstep);
+    public void PlayPanting() => PlayOneShot(panting);
+    public void PlayReliefBreath() => PlayOneShot(reliefBreath);
+
+    public void StartPanting()
+    {
+        if (breathingSource == null || panting == null || !audioEnabled)
+            return;
+
+        breathingSource.clip = panting;
+        breathingSource.loop = true;
+        breathingSource.Play();
+    }
+
+    public void StopPanting()
+    {
+        if (breathingSource == null)
+            return;
+
+        breathingSource.Stop();
+        breathingSource.clip = null;
+    }
 
     public void StartBoxPush()
     {
@@ -127,6 +161,8 @@ public class GameAudioManager : MonoBehaviour
             sfxSource = sources[1];
         if (uiSource == null && sources.Length > 2)
             uiSource = sources[2];
+        if (breathingSource == null && sources.Length > 3)
+            breathingSource = sources[3];
 
         if (musicSource == null)
             musicSource = gameObject.AddComponent<AudioSource>();
@@ -134,6 +170,8 @@ public class GameAudioManager : MonoBehaviour
             sfxSource = gameObject.AddComponent<AudioSource>();
         if (uiSource == null)
             uiSource = gameObject.AddComponent<AudioSource>();
+        if (breathingSource == null)
+            breathingSource = gameObject.AddComponent<AudioSource>();
 
         musicSource.playOnAwake = false;
         musicSource.loop = true;
@@ -152,6 +190,12 @@ public class GameAudioManager : MonoBehaviour
         uiSource.spatialBlend = 0f;
         uiSource.ignoreListenerPause = true;
         uiSource.outputAudioMixerGroup = masterGroup;
+
+        breathingSource.playOnAwake = false;
+        breathingSource.loop = true;
+        breathingSource.spatialBlend = 0f;
+        breathingSource.ignoreListenerPause = false;
+        breathingSource.outputAudioMixerGroup = masterGroup;
     }
 
     private void PlayMusic(AudioClip clip)
@@ -224,6 +268,8 @@ public class GameAudioManager : MonoBehaviour
             sfxSource.volume = fallbackMaster * sfxLevel;
         if (uiSource != null)
             uiSource.volume = fallbackMaster * sfxLevel;
+        if (breathingSource != null)
+            breathingSource.volume = fallbackMaster * sfxLevel;
     }
 
     private float GetMusicVolume()
